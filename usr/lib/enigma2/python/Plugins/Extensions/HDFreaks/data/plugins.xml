@@ -332,30 +332,30 @@
   <!-- ********** EMC ********** -->
   <!-- EMCSelection -->
 <screen name="EMCSelection" position="0,0" size="1280,720" title="Enhanced Movie Center" flags="wfNoBorder" backgroundColor="transparent">
-	<eLabel text="Enhanced Movie Center" position="70,12" size="708,46" font="Regular2;34" foregroundColor="ZeroFont2" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-    <widget name="list" position="50,101" size="755,351" itemHeight="32" BackColorSel="ZeroSelection" CoolFont="Regular;23" CoolSelectFont="Regular;23" CoolDateFont="Regular;23" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="150" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="640" CoolBarHPos="10" CoolBarSize="55,10" CoolBarSizeSa="110,16" DefaultColor="ZeroFont1" UnwatchedColor="ZeroFont1" WatchingColor="green" FinishedColor="ZeroFont1" RecordingColor="red" foregroundColorSelected="ZeroFont1" scrollbarMode="showNever" transparent="1" />
-    <widget name="wait" position="43,375" size="1198,50" zPosition="1" font="Regular; 32" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" />
-    <widget source="Service" render="Label" position="888,138" size="379,40" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1">
-      <convert type="EMCMovieInfo">RecordServiceName</convert>
-    </widget>
-    <widget source="Service" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" position="49,464" size="755,187" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top">
-      <convert type="HDFreaksEventName">ExtendedDescription</convert>
-    </widget>
-    <widget source="Service" render="Label" position="888,101" size="379,30" font="Regular2; 21" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
-      <convert type="EMCServiceTime">StartTime</convert>
-      <convert type="EMCClockToText">Date</convert>
-    </widget>
-    <widget source="Service" render="Label" position="1003,575" size="150,33" font="Regular2; 20" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
-      <convert type="EMCMovieInfo">FileSize</convert>
-    </widget>
-    <widget name="Cover" position="946,197" size="274,361" zPosition="4" backgroundColor="ZeroBackground" alphatest="on" transparent="0" />
-    <widget source="Service" render="Label" position="1003,613" size="150,33" font="Regular2; 20" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
-      <convert type="EMCServiceTime">Duration</convert>
-      <convert type="EMCClockToText">InMinutes</convert>
-    </widget>
-    <panel name="template_emc" />
-    <panel name="template_colorkey_text" />
-  </screen>
+  <eLabel text="Enhanced Movie Center" position="70,12" size="708,46" font="Regular2;34" foregroundColor="ZeroFont2" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget name="list" position="50,101" size="755,351" itemHeight="32" BackColorSel="ZeroSelection" CoolFont="Regular;23" CoolSelectFont="Regular;23" CoolDateFont="Regular;23" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="150" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="640" CoolBarHPos="10" CoolBarSize="55,10" CoolBarSizeSa="110,16" DefaultColor="ZeroFont1" UnwatchedColor="ZeroFont1" WatchingColor="green" FinishedColor="ZeroFont1" RecordingColor="red" foregroundColorSelected="ZeroFont1" scrollbarMode="showNever" transparent="1" />
+  <widget name="wait" position="43,375" size="1198,50" zPosition="1" font="Regular; 32" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" />
+  <widget source="Service" render="Label" position="888,138" size="379,40" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1">
+    <convert type="EMCMovieInfo">RecordServiceName</convert>
+  </widget>
+  <widget source="Service" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" position="49,464" size="755,187" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top" transparent="1">
+    <convert type="HDFreaksEventName">ExtendedDescription</convert>
+  </widget>
+  <widget source="Service" render="Label" position="888,101" size="379,30" font="Regular2; 21" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
+    <convert type="EMCServiceTime">StartTime</convert>
+    <convert type="EMCClockToText">Date</convert>
+  </widget>
+  <widget source="Service" render="Label" position="1003,575" size="150,33" font="Regular2; 20" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
+    <convert type="EMCMovieInfo">FileSize</convert>
+  </widget>
+  <widget name="Cover" position="946,197" size="274,361" zPosition="4" backgroundColor="ZeroBackground" alphatest="on" transparent="0" />
+  <widget source="Service" render="Label" position="1003,613" size="150,33" font="Regular2; 20" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
+    <convert type="EMCServiceTime">Duration</convert>
+    <convert type="EMCClockToText">InMinutes</convert>
+  </widget>
+  <panel name="template_emc" />
+  <panel name="template_colorkey_text" />
+</screen>
   <!-- EMCMediaCenter -->
  <screen backgroundColor="transparent" flags="wfNoBorder" name="EMCMediaCenter" position="0,0" size="1280,720" title="InfoBar">
   <widget source="global.CurrentTime" position="959,682" size="110,35" font="Regular; 20" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
@@ -665,7 +665,7 @@
   <!-- IPTV -->
   <screen name="IPTV" position="0,0" size="1280,720" flags="wfNoBorder" title="IPTV List Updater" backgroundColor="transparent">
     <widget name="text1" position="57,98" size="880,30" font="Regular2; 24" transparent="1" valign="center" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" />
-    <widget name="IPTVList" position="58,147" size="560,420" scrollbarMode="showNever" font="Regular; 18" itemHeight="30" transparent="1" enableWrapAround="1" backgroundColor="ZeroBackground" />
+    <widget name="IPTVList" position="58,147" size="560,420" scrollbarMode="showNever" font="Regular; 22" itemHeight="30" transparent="1" enableWrapAround="1" backgroundColor="ZeroBackground" />
     <widget name="text2" position="56,578" size="880,30" font="Regular2; 20" transparent="1" valign="center" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" />
     <widget name="country" position="638,147" size="300,300" zPosition="2" transparent="1" alphatest="on" backgroundColor="ZeroBackground" />
     <panel name="template_menu_full_button_nologo" />
@@ -723,23 +723,23 @@
   </screen>
   <!-- ********** MediaInfo ********** -->
   <!-- MediaInfo -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfo" position="0,0" size="1280,720" title="MediaInfo">
-    <widget backgroundColor="ZeroBackground" font="Regular;24" halign="center" name="info" position="60,90" size="1160,45" transparent="0" valign="center" zPosition="5" />
-    <widget backgroundColor="ZeroBackground" font="Regular;30" foregroundColor="ZeroFont1" halign="center" name="head" position="60,143" size="1160,45" transparent="0" valign="center" zPosition="5" />
-    <widget backgroundColor="ZeroBackground" name="downloadList" itemHeight="65" position="21,215" scrollbarMode="showNever" size="1240,405" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="0" zPosition="-1" />
-    <panel name="template_menu_full_button_nologo" />
-    <panel name="template_colorkey_text" />
-  </screen>
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfo" position="0,0" size="1280,720" title="MediaInfo">
+  <widget backgroundColor="ZeroBackground" font="Regular;24" halign="center" name="info" position="60,90" size="1160,45" transparent="1" valign="center" zPosition="5" />
+  <widget backgroundColor="ZeroBackground" font="Regular;30" foregroundColor="ZeroFont1" halign="center" name="head" position="60,143" size="1160,45" transparent="1" valign="center" zPosition="5" />
+  <widget backgroundColor="ZeroBackground" name="downloadList" itemHeight="65" position="21,215" scrollbarMode="showNever" size="1240,405" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
+  <panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text" />
+</screen>
   <!-- mediaInfoFolderScreen -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfoFolderScreen" position="0,0" size="1280,720" title="MediaInfo">
-    <widget font="Regular; 26" name="media" position="30,120" size="940,40" transparent="1" valign="top" />
-    <widget name="folderlist" backgroundColor="ZeroBackground" itemHeight="65" position="21,168" scrollbarMode="showNever" size="1240,440" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="0" />
-    <panel name="template_menu_full_button_nologo" />
-    <panel name="template_colorkey_text" />
-  </screen>
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfoFolderScreen" position="0,0" size="1280,720" title="MediaInfo">
+  <widget font="Regular; 26" name="media" position="30,120" size="940,40" transparent="1" valign="top" />
+  <widget name="folderlist" backgroundColor="ZeroBackground" itemHeight="65" position="21,168" scrollbarMode="showNever" size="1240,440" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" />
+  <panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text" />
+</screen>
   <!-- mediaInfoConfigScreen -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfoConfigScreen" position="0,0" size="1280,720" title="MediaInfo">
-  <widget name="config" backgroundColor="ZeroBackground" position="20,70" size="1240,580" itemHeight="25" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="0" />
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfoConfigScreen" position="0,0" size="1280,720" title="MediaInfo">
+  <widget name="config" backgroundColor="ZeroBackground" position="20,70" size="1240,580" itemHeight="25" scrollbarMode="showNever" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
 </screen>
