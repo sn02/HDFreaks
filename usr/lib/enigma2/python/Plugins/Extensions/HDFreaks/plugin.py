@@ -366,6 +366,8 @@ class HDFreaks(ConfigListScreen, Screen):
 
 	def restartGUI(self, answer):
 		if answer is True:
+			config.skin.primary_skin.setValue("HDFreaks/skin.xml")
+			config.skin.save()
 			configfile.save()
 			self.session.open(TryQuitMainloop, 3)
 		else:
