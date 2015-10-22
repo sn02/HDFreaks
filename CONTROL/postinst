@@ -1,6 +1,7 @@
 #!/bin/sh
-cd /usr/share/enigma2/HDFreaks/
-
+if [ -f /tmp/skin.xml ]; then
+mv /tmp/skin.xml /usr/share/enigma2/HDFreaks
+fi
 echo "                                                          "
 echo "             ...Skin successful installed.                "
 echo "                                                          "

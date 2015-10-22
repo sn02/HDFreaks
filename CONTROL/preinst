@@ -1,6 +1,7 @@
 #!/bin/sh
 echo "Checking for previous installations..."
 if [ -f /usr/share/enigma2/HDFreaks/skin.xml ]; then
+    cp /usr/share/enigma2/HDFreaks/skin.xml /tmp
     rm -rf /usr/share/enigma2/HDFreaks
     rm -rf /usr/lib/enigma2/python/Components/Converter/HDFreaks*
     rm -rf /usr/lib/enigma2/python/Components/Renderer/HDFreaks*
