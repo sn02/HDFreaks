@@ -1,0 +1,8 @@
+#!/bin/sh
+rm -rf /usr/share/enigma2/HDFreaks
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/HDFreaks
+rm -rf /usr/lib/enigma2/python/Components/Converter/HDFreaks*
+rm -rf /usr/lib/enigma2/python/Components/Renderer/HDFreaks*
+echo "                                                          "
+echo "              ...Skin successful removed.                 "
+echo "                                                          "

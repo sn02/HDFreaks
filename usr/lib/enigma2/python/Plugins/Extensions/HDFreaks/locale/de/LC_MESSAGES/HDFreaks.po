@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Kraven <kravenhd@web.de>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HDFreaks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-23 18:48+0100\n"
+"PO-Revision-Date: 2015-10-21 17:59+0200\n"
+"Last-Translator: pixbox <pixbox@live.de>\n"
+"Language-Team: Kraven & Team\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "openHDF"
+msgstr "openHDF"
+
+msgid "Amber"
+msgstr "Bernstein"
+
+msgid "Black"
+msgstr "Schwarz"
+
+msgid "Blue"
+msgstr "Blau"
+
+msgid "Brown"
+msgstr "Braun"
+
+msgid "Cobalt"
+msgstr "Cobalt"
+
+msgid "Cyan"
+msgstr "Cyan"
+
+msgid "Grey"
+msgstr "Grau"
+
+msgid "Green"
+msgstr "Grün"
+
+msgid "Medium Blue"
+msgstr "Mittel Blau"
+
+msgid "Orange"
+msgstr "Orange"
+
+msgid "Pink"
+msgstr "Pink"
+
+msgid "Red"
+msgstr "Rot"
+
+msgid "Steel"
+msgstr "Stahl"
+
+msgid "Violet"
+msgstr "Violet"
+
+msgid "Yellow"
+msgstr "Gelb"
+
+msgid "White"
+msgstr "Weiß"
+
+msgid "Listselection"
+msgstr "Auswahlbalken"
+
+msgid "Progress-/Volumebar"
+msgstr "Fortschritts-/Lautstärkebalken"
+
+msgid "Selection Font"
+msgstr "Auswahlbalken Schriftfarbe"
+
+msgid "Font 1"
+msgstr "Hauptschriftfarbe / Sendung Jetzt"
+
+msgid "Font 2"
+msgstr "Sekundäre Schriftfarbe / Sendung Gleich"
+
+msgid "Do you really want to reboot now?"
+msgstr "Wollen Sie jetzt neu starten?"
+
+msgid "Restart GUI"
+msgstr "GUI neu starten"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Error creating Skin!"
+msgstr "Fehler beim Erstellen des Skin!"
+
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+"Zur Übernahme der Oberfläche muss die GUI\n"
+"neu gestartet werden. Jetzt neu starten?"
+
+msgid "Configuration tool for HDFreaks Skin"
+msgstr "Konfigurationstool für HDFreaks Skin"

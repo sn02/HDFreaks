@@ -1,0 +1,28 @@
+#!/bin/sh
+echo "Checking for previous installations..."
+if [ -f /usr/share/enigma2/HDFreaks/skin.xml ]; then
+    rm -rf /usr/share/enigma2/HDFreaks
+    rm -rf /usr/lib/enigma2/python/Components/Converter/HDFreaks*
+    rm -rf /usr/lib/enigma2/python/Components/Renderer/HDFreaks*
+		echo "                                                           "
+		echo "             Previous HDFreaks installation                "
+		echo "                 was found and removed!                    "
+		echo "                                                           "
+fi
+if [ -f /usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/plugin.py ]; then
+    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/HDFreaks
+		echo "                                                           "
+		echo "             HDFreaks configuration plugin                 "
+		echo "                 was found and removed!                    "
+		echo "                                                           "
+fi
+
+
+
+
+echo "                                                           "
+echo "        The Skin HDFreaks is now being installed...        "
+echo "                                                           "
+
+
+
