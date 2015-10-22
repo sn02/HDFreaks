@@ -10,7 +10,7 @@
   <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,233" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="462,291" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
-  <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,42" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
+  <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
   <ePixmap pixmap="HDFreaks/line/line462.png" position="765,220" size="462,2" backgroundColor="ZeroBackground" alphatest="blend" />
