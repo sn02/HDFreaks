@@ -107,6 +107,13 @@
   <widget alphatest="blend" pixmap="HDFreaks/buttons/ico_rec_on.png" position="1241,518" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
     <convert type="ConditionalShowHide">Blink</convert>
   </widget>
+  <ePixmap pixmap="HDFreaks/buttons/ico_update_off.png" position="1256,697" size="20,20" zPosition="0" alphatest="blend" />
+  <widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="HDFreaks/buttons/ico_stable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>
+  <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="HDFreaks/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>     
   <eLabel backgroundColor="ZeroBackground" position="0,720" size="1280,0" transparent="0" zPosition="-5" />
   <widget alphatest="blend" position="22,572" render="HDFreaksXPicon" size="220,132" source="session.CurrentService" transparent="1" zPosition="4">
     <convert type="ServiceName">Reference</convert>
