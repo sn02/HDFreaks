@@ -26,6 +26,7 @@
     <color name="ZeroFont2" value="#00fffff4" />
     <color name="ZeroLine" value="#00fffff5" />
     <color name="ZeroProgress" value="#00fffff6" />
+    <color name="ZeroSelFont" value="#00fffff7" />
     <color name="ZeroSelection" value="#000050ef" />
   </colors>
   <fonts>
@@ -49,11 +50,11 @@
     <color color="ZeroBackground" name="ListboxBackground" />
     <color color="ZeroFont1" name="ListboxForeground" />
     <color color="ZeroSelection" name="ListboxSelectedBackground" />
-    <color color="ZeroFont1" name="ListboxSelectedForeground" />
+    <color color="ZeroSelFont" name="ListboxSelectedForeground" />
     <color color="green" name="ListboxMarkedBackground" />
     <color color="ZeroFont1" name="ListboxMarkedForeground" />
     <color color="green" name="ListboxMarkedAndSelectedBackground" />
-    <color color="ZeroSelection" name="ListboxMarkedAndSelectedForeground" />
+    <color color="ZeroSelFont" name="ListboxMarkedAndSelectedForeground" />
     <color color="ZeroFont1" name="WindowTitleForeground" />
     <color color="ZeroBackground" name="WindowTitleBackground" />
     <borderset name="bsWindow">

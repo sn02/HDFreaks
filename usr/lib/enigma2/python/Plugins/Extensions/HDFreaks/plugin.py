@@ -145,7 +145,26 @@ config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices =
 				("006c0aab", _("Violet")),
 				("00eea00a", _("Yellow")),
 				("00fffff6", _("White"))
-				])	
+				])
+				
+config.plugins.HDFreaks.SelFont = ConfigSelection(default="00fffff7", choices = [
+				("00f0a30a", _("Amber")),
+				("00000000", _("Black")),
+				("001b1775", _("Blue")),
+				("007d5929", _("Brown")),
+                ("000050ef", _("Cobalt")),
+				("001ba1e2", _("Cyan")),
+				("00999999", _("Grey")),
+				("0070ad11", _("Green")),
+				("000047d4", _("Medium Blue")),				
+				("00c3461b", _("Orange")),
+				("00f472d0", _("Pink")),
+				("00e51400", _("Red")),
+				("00647687", _("Steel")),
+				("006c0aab", _("Violet")),
+				("00eea00a", _("Yellow")),
+				("00fffff7", _("White"))
+				])
 				
 config.plugins.HDFreaks.InfobarStyle = ConfigSelection(default="infobar-style-original", choices = [
 				("infobar-style-original", _("Original"))
@@ -201,6 +220,7 @@ class HDFreaks(ConfigListScreen, Screen):
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
 		list.append(getConfigListEntry(_("Font 1"), config.plugins.HDFreaks.Font1))
 		list.append(getConfigListEntry(_("Font 2"), config.plugins.HDFreaks.Font2))
+		list.append(getConfigListEntry(_("Listselection Font"), config.plugins.HDFreaks.SelFont))
 		
 		ConfigListScreen.__init__(self, list)
 		self["actions"] = ActionMap(["OkCancelActions","DirectionActions", "InputActions", "ColorActions"], {"left": self.keyLeft,"down": self.keyDown,"up": self.keyUp,"right": self.keyRight,"red": self.exit,"yellow": self.reboot, "blue": self.showInfo, "green": self.save,"cancel": self.exit}, -1)
@@ -288,6 +308,7 @@ class HDFreaks(ConfigListScreen, Screen):
 			self.skinSearchAndReplace.append(["000050ef", config.plugins.HDFreaks.SelectionBackground.value])
 			self.skinSearchAndReplace.append(["00fffff3", config.plugins.HDFreaks.Font1.value])
 			self.skinSearchAndReplace.append(["00fffff4", config.plugins.HDFreaks.Font2.value])
+			self.skinSearchAndReplace.append(["00fffff7", config.plugins.HDFreaks.SelFont.value])
 			self.skinSearchAndReplace.append(["00fffff6", config.plugins.HDFreaks.Progress.value])
 			
 			### Header
