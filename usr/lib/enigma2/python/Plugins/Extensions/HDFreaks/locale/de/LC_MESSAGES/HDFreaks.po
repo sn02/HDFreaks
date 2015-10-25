@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: HDFreaks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-23 18:48+0100\n"
-"PO-Revision-Date: 2015-10-24 22:48+0200\n"
+"PO-Revision-Date: 2015-10-25 09:09+0100\n"
 "Last-Translator: pixbox <pixbox@live.de>\n"
 "Language-Team: Team Kraven\n"
 "Language: de\n"
@@ -47,6 +47,9 @@ msgstr "Grün"
 
 msgid "Medium Blue"
 msgstr "Mittel Blau"
+
+msgid "Neon Green"
+msgstr "Neongrün"
 
 msgid "Orange"
 msgstr "Orange"

@@ -128,7 +128,7 @@
   <widget position="263,650" render="Progress" size="815,5" source="session.Event_Now" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="7">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="ZeroProgress" position="263,652" size="815,1" zPosition="2" />
+  <eLabel backgroundColor="ZeroLine" position="263,652" size="815,1" zPosition="2" />
   <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>

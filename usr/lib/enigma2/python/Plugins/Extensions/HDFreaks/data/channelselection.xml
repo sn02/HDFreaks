@@ -1,7 +1,7 @@
 
- <!-- /* ChannelSelection Picon-->
+ <!-- /* ChannelSelection -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
-  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroLine" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroFont1" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
+  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroSelFont" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroSelFont" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
   <widget source="ServiceEvent" render="HDFreaksSingleEpgList" position="765,535" size="462,113" noWrap="1" font="Regular2;22" foregroundColor="ZeroFont2" backgroundColor="ZeroBackground" transparent="1">
   </widget>
   <widget alphatest="blend" position="895,78" render="HDFreaksXPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="4">
@@ -18,5 +18,5 @@
   <panel name="template_cs" />
   <panel name="template_colorkey_text" />
 </screen>
-  <!-- /* ChannelSelection XPicon -->
+  <!-- /* ChannelSelection -->
   
