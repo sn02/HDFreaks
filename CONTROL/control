@@ -1,9 +1,9 @@
 Package: enigma2-plugin-skins-hdfreaks
-Version: 1.4
+Version: 1.5
 Section: misc
 Priority: optional
 Architecture: all
 Depends:
 Maintainer: Kraven and pixbox
-Description: Skin for Enigma2 mod@pixbox
+Description: Skin for Enigma2 - mod@pixbox
 Source:

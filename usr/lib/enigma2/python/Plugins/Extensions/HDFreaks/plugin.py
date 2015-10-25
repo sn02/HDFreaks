@@ -190,7 +190,7 @@ class HDFreaks(ConfigListScreen, Screen):
   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#44000000" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
   <widget name="config" position="70,73" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
   <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#44000000" foregroundColor="#00ffffff" name="," />
-<eLabel position="891,12" size="372,46" text="Version: 1.4" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#44000000" foregroundColor="#00ffffff" name="," />
+<eLabel position="891,12" size="372,46" text="Version: 1.5" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#44000000" foregroundColor="#00ffffff" name="," />
   <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="#44000000" alphatest="blend" name="," />
   <eLabel backgroundColor="#44000000" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
   <widget backgroundColor="#44000000" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
