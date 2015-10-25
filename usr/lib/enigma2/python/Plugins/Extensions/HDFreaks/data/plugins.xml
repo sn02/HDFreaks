@@ -888,7 +888,7 @@
   <widget backgroundColor="ZeroBackground" font="Regular2;17" foregroundColor="ZeroFont2" halign="right" position="1128,671" render="Label" size="100, 24" source="Service" transparent="1" zPosition="1">
     <convert type="MovieInfo">FileSize</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="Label" size="377,483" source="Service" transparent="1" valign="top">
+  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="377,483" source="Service" transparent="1" valign="top">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
