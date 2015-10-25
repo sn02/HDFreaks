@@ -1,10 +1,8 @@
 <skin>
-  <!-- HDFreaks by Kraven and örlgrey -->
-  <!-- Icons and buttons by stony272 -->
-  <!-- Infobars.png by Cyberboy41 -->
-  <!--This skin is a Freeware. Everyone can modify and use it in other images.-->
-  <!--BUT DO NOT REMOVE OR CHANGE THIS HEADER !!!-->
-  <!--Do whatever you want with this skin, but don't tell it's yours, or your idea! -->
+  <!-- HDFreaks by Team Kraven -->
+  <!-- This skin is a Freeware. Everyone can modify and use it in other images. -->
+  <!-- BUT DO NOT REMOVE OR CHANGE THIS HEADER !!! -->
+  <!-- Do whatever you want with this skin, but don't tell it's yours, or your idea! -->
   <output id="0">
     <resolution bpp="32" xres="1280" yres="720" />
   </output>
@@ -28,6 +26,7 @@
     <color name="ZeroFont2" value="#00fffff4" />
     <color name="ZeroLine" value="#00fffff5" />
     <color name="ZeroProgress" value="#00c3461b" />
+    <color name="ZeroSelFont" value="#00000000" />
     <color name="ZeroSelection" value="#00c3461b" />
   </colors>
   <fonts>
@@ -51,11 +50,11 @@
     <color color="ZeroBackground" name="ListboxBackground" />
     <color color="ZeroFont1" name="ListboxForeground" />
     <color color="ZeroSelection" name="ListboxSelectedBackground" />
-    <color color="ZeroFont1" name="ListboxSelectedForeground" />
+    <color color="ZeroSelFont" name="ListboxSelectedForeground" />
     <color color="green" name="ListboxMarkedBackground" />
     <color color="ZeroFont1" name="ListboxMarkedForeground" />
     <color color="green" name="ListboxMarkedAndSelectedBackground" />
-    <color color="ZeroSelection" name="ListboxMarkedAndSelectedForeground" />
+    <color color="ZeroSelFont" name="ListboxMarkedAndSelectedForeground" />
     <color color="ZeroFont1" name="WindowTitleForeground" />
     <color color="ZeroBackground" name="WindowTitleBackground" />
     <borderset name="bsWindow">
@@ -225,9 +224,9 @@
   <!-- TEMPLATES */-->
   
   
- <!-- /* ChannelSelection Picon-->
+ <!-- /* ChannelSelection -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
-  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroLine" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroFont1" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
+  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroSelFont" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroSelFont" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
   <widget source="ServiceEvent" render="HDFreaksSingleEpgList" position="765,535" size="462,113" noWrap="1" font="Regular2;22" foregroundColor="ZeroFont2" backgroundColor="ZeroBackground" transparent="1">
   </widget>
   <widget alphatest="blend" position="895,78" render="HDFreaksXPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="4">
@@ -244,8 +243,9 @@
   <panel name="template_cs" />
   <panel name="template_colorkey_text" />
 </screen>
-  <!-- /* ChannelSelection XPicon -->
+  <!-- /* ChannelSelection -->
   
+
 <!-- /* InfoBar Original -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="InfoBar" position="0,0" size="1280,720" title="InfoBar">
   <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" />
@@ -253,46 +253,46 @@
   <widget alphatest="blend" position="22,572" render="HDFreaksXPicon" size="220,132" source="session.CurrentService" transparent="1" zPosition="4">
     <convert type="ServiceName">Reference</convert>
   </widget>
-  <widget font="Regular; 40" halign="center" noWrap="1" position="440,595" size="528,50" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" source="session.Event_Now" backgroundColor="ZeroBackground" transparent="1" zPosition="1" valign="top">
+  <widget font="Regular2; 40" halign="center" noWrap="1" position="440,595" size="528,50" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" source="session.Event_Now" backgroundColor="ZeroBackground" transparent="1" zPosition="1" valign="top">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="right" position="970,605" render="Label" size="107,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" position="970,605" render="Label" size="107,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">Remaining</convert>
     <convert type="HDFreaksRemainingToText">InMinutes</convert>
   </widget>
   <widget position="263,650" render="Progress" size="815,5" source="session.Event_Now" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="7">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="ZeroProgress" position="263,652" size="815,1" zPosition="2" />
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <eLabel backgroundColor="ZeroLine" position="263,652" size="815,1" zPosition="2" />
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <eLabel backgroundColor="ZeroBackground" font="Regular; 20" halign="center" noWrap="1" position="325,605" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="left" noWrap="1" position="368,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <eLabel backgroundColor="ZeroBackground" font="Regular2; 20" halign="center" noWrap="1" position="325,605" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="left" noWrap="1" position="368,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">EndTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <widget font="Regular2; 30" noWrap="1" foregroundColor="ZeroFont2" halign="center" position="440,668" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="528,40" source="session.Event_Next" valign="top" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
+  <widget font="Regular; 30" noWrap="1" foregroundColor="ZeroFont2" halign="center" position="440,668" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="528,40" source="session.Event_Next" valign="top" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" valign="center" halign="right" position="970,669" render="Label" size="107,35" source="session.Event_Next" transparent="1" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" valign="center" halign="right" position="970,669" render="Label" size="107,35" source="session.Event_Next" transparent="1" zPosition="1">
     <convert type="HDFreaksEventTime">Duration</convert>
     <convert type="HDFreaksClockToText">InMinutes</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="right" noWrap="1" position="253,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" halign="right" noWrap="1" position="253,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" noWrap="1" position="368,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" halign="left" noWrap="1" position="368,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">EndTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <eLabel backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" halign="center" noWrap="1" position="325,669" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
-  <widget source="global.CurrentTime" position="1112,669" size="148,35" font="Regular2; 22" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
+  <eLabel backgroundColor="ZeroBackground" font="Regular; 20" foregroundColor="ZeroFont2" halign="center" noWrap="1" position="325,669" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
+  <widget source="global.CurrentTime" position="1112,674" size="148,35" font="Regular; 22" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
     <convert type="HDFreaksClockToText">Format:%d.%m.%Y</convert>
   </widget>
-  <widget source="global.CurrentTime" position="1112,590" size="148,50" font="Regular; 40" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
+  <widget source="global.CurrentTime" position="1112,595" size="148,50" font="Regular2; 40" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
   <widget font="Regular; 40" foregroundColor="ZeroFont1" halign="left" noWrap="1" position="24,512" render="Label" size="1260,45" source="session.CurrentService" transparent="1" valign="top" zPosition="1" alphatest="on">
@@ -307,13 +307,13 @@
   </widget>
   <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="HDFreaks/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
-  </widget>    
+  </widget>  
   </screen>
 <!-- /* InfoBar Original -->
 
 <!--/* SecondInfoBar Original -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="SecondInfoBar" position="0,0" size="1280,720" title="SecondInfoBar">
-  <widget source="session.CurrentService" position="315,450" size="700,30" font="Regular2; 20" render="Label" halign="center" valign="bottom" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
+  <widget source="session.CurrentService" position="38,450" size="1200,30" font="Regular2; 20" render="Label" halign="center" valign="bottom" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
     <convert type="HDFreaksMyCaidDisplay">Default</convert>
   </widget>
   <eLabel text="SysTemp:" position="369,40" size="70,22" font="Regular; 19" halign="left" valign="bottom" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" noWrap="1" transparent="1" zPosition="2" />
@@ -407,10 +407,10 @@
     <convert type="HDFreaksServiceInfo">IsCrypted</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 30" halign="center" noWrap="1" position="37,86" foregroundColor="ZeroFont1" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="1200,38" source="session.Event_Now" transparent="1" zPosition="1" valign="bottom">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 32" halign="center" noWrap="1" position="38,86" foregroundColor="ZeroFont2" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="1200,42" source="session.Event_Now" transparent="1" zPosition="1" valign="bottom">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont1" halign="center" position="37,387" render="Label" size="1200,35" source="session.Event_Now" zPosition="1" transparent="1">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="center" position="38,387" render="Label" size="1200,35" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="HDFreaksEventName">Description</convert>
   </widget>
   <widget alphatest="blend" pixmap="HDFreaks/buttons/ico_rec_on.png" position="1241,518" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
@@ -422,57 +422,57 @@
   </widget>
   <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="HDFreaks/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
-  </widget>     
+  </widget>
   <eLabel backgroundColor="ZeroBackground" position="0,720" size="1280,0" transparent="0" zPosition="-5" />
   <widget alphatest="blend" position="22,572" render="HDFreaksXPicon" size="220,132" source="session.CurrentService" transparent="1" zPosition="4">
     <convert type="ServiceName">Reference</convert>
   </widget>
-  <widget font="Regular; 40" halign="center" noWrap="1" position="440,595" size="528,50" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" source="session.Event_Now" backgroundColor="ZeroBackground" transparent="1" zPosition="1" valign="top">
+  <widget font="Regular2; 40" halign="center" noWrap="1" position="440,595" size="528,50" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" source="session.Event_Now" backgroundColor="ZeroBackground" transparent="1" zPosition="1" valign="top">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="right" position="970,605" render="Label" size="107,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" position="970,605" render="Label" size="107,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">Remaining</convert>
     <convert type="HDFreaksRemainingToText">InMinutes</convert>
   </widget>
   <widget position="263,650" render="Progress" size="815,5" source="session.Event_Now" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="7">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="ZeroProgress" position="263,652" size="815,1" zPosition="2" />
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <eLabel backgroundColor="ZeroLine" position="263,652" size="815,1" zPosition="2" />
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <eLabel backgroundColor="ZeroBackground" font="Regular; 20" halign="center" noWrap="1" position="325,605" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
-  <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="left" noWrap="1" position="368,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
+  <eLabel backgroundColor="ZeroBackground" font="Regular2; 20" halign="center" noWrap="1" position="325,605" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="left" noWrap="1" position="368,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">EndTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <widget font="Regular2; 30" noWrap="1" foregroundColor="ZeroFont2" halign="center" position="440,668" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="528,40" source="session.Event_Next" valign="top" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
+  <widget font="Regular; 30" noWrap="1" foregroundColor="ZeroFont2" halign="center" position="440,668" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="528,40" source="session.Event_Next" valign="top" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" valign="center" halign="right" position="970,669" render="Label" size="107,35" source="session.Event_Next" transparent="1" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" valign="center" halign="right" position="970,669" render="Label" size="107,35" source="session.Event_Next" transparent="1" zPosition="1">
     <convert type="HDFreaksEventTime">Duration</convert>
     <convert type="HDFreaksClockToText">InMinutes</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="right" noWrap="1" position="253,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" halign="right" noWrap="1" position="253,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" noWrap="1" position="368,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 22" foregroundColor="ZeroFont2" halign="left" noWrap="1" position="368,669" render="Label" size="70,35" source="session.Event_Next" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">EndTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
-  <eLabel backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" halign="center" noWrap="1" position="325,669" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
-  <widget source="global.CurrentTime" position="1112,669" size="148,35" font="Regular2; 22" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
+  <eLabel backgroundColor="ZeroBackground" font="Regular; 20" foregroundColor="ZeroFont2" halign="center" noWrap="1" position="325,669" size="40,35" text="bis" transparent="1" valign="center" zPosition="1" />
+  <widget source="global.CurrentTime" position="1112,674" size="148,35" font="Regular; 22" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
     <convert type="HDFreaksClockToText">Format:%d.%m.%Y</convert>
   </widget>
-  <widget source="global.CurrentTime" position="1112,590" size="148,50" font="Regular; 40" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
+  <widget source="global.CurrentTime" position="1112,595" size="148,50" font="Regular2; 40" render="Label" halign="center" zPosition="12" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
     <convert type="HDFreaksClockToText">Default</convert>
   </widget>
   <widget font="Regular; 40" foregroundColor="ZeroFont1" halign="left" noWrap="1" position="24,512" render="Label" size="1260,45" source="session.CurrentService" transparent="1" valign="top" zPosition="1" alphatest="on">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 24" foregroundColor="ZeroFont1" halign="center" position="37,128" render="Label" size="1200,256" source="session.Event_Now" zPosition="1" transparent="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 26" foregroundColor="ZeroFont1" halign="center" position="38,134" render="Label" size="1200,250" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
@@ -635,7 +635,7 @@
   <!-- EPGSelection -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelection" position="0,0" size="1280,720" title="EPG Selection">
     <widget backgroundColor="ZeroBackground" itemHeight="30" foregroundColor="ZeroFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,120" size="708,511" transparent="1" zPosition="3" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" position="897,76" render="Label" size="366,572" source="Event" valign="top" zPosition="-8">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" position="897,76" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="366,572" source="Event" valign="top" zPosition="-8">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <panel name="template_menu_full_button_nologo" />
@@ -659,7 +659,7 @@
     <widget position="22,515" render="Progress" size="1233,4" source="session.Event_Now" transparent="1" zPosition="7" foregroundColor="ZeroProgress" backgroundColor="ZeroBackground">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="Label" size="529,125" source="Event" transparent="1">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="529,125" source="Event" transparent="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget name="list" position="22,525" size="685,125" transparent="1" />
@@ -2078,7 +2078,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
     <eLabel position="891,126" size="362,1" backgroundColor="ZeroFont2" foregroundColor="ZeroFont2" />
-    <widget font="Regular; 22" foregroundColor="ZeroFont1" position="891,139" render="Label" size="362,391" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8">
+    <widget font="Regular; 22" foregroundColor="ZeroFont1" position="891,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="362,391" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="891,78" halign="center" render="Label" size="362,40" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="center">
@@ -3865,7 +3865,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget backgroundColor="ZeroBackground" font="Regular2;17" foregroundColor="ZeroFont2" halign="right" position="1128,671" render="Label" size="100, 24" source="Service" transparent="1" zPosition="1">
     <convert type="MovieInfo">FileSize</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="Label" size="377,483" source="Service" transparent="1" valign="top">
+  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="377,483" source="Service" transparent="1" valign="top">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
