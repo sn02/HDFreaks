@@ -75,7 +75,7 @@ config.plugins.HDFreaks.SelectionBackground = ConfigSelection(default="00c3461b"
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
 				("007d5929", _("Brown")),
-                ("000050ef", _("Cobalt")),
+		                ("000050ef", _("Cobalt")),
 				("001ba1e2", _("Cyan")),
 				("00999999", _("Grey")),
 				("0070ad11", _("Green")),
@@ -94,7 +94,7 @@ config.plugins.HDFreaks.Font1 = ConfigSelection(default="00fffff3", choices = [
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
 				("007d5929", _("Brown")),
-                ("000050ef", _("Cobalt")),
+		                ("000050ef", _("Cobalt")),
 				("001ba1e2", _("Cyan")),
 				("00999999", _("Grey")),
 				("0070ad11", _("Green")),
@@ -113,7 +113,7 @@ config.plugins.HDFreaks.Font2 = ConfigSelection(default="00fffff4", choices = [
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
 				("007d5929", _("Brown")),
-                ("000050ef", _("Cobalt")),
+		                ("000050ef", _("Cobalt")),
 				("001ba1e2", _("Cyan")),
 				("00999999", _("Grey")),
 				("0070ad11", _("Green")),
@@ -136,7 +136,7 @@ config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices =
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
 				("007d5929", _("Brown")),
-                ("000050ef", _("Cobalt")),
+		                ("000050ef", _("Cobalt")),
 				("001ba1e2", _("Cyan")),
 				("00999999", _("Grey")),
 				("0070ad11", _("Green")),
@@ -151,12 +151,12 @@ config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices =
 				("00fffff6", _("White"))
 				])
 				
-config.plugins.HDFreaks.SelFont = ConfigSelection(default="00fffff7", choices = [
+config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = [
 				("00f0a30a", _("Amber")),
 				("00000000", _("Black")),
 				("001b1775", _("Blue")),
 				("007d5929", _("Brown")),
-                ("000050ef", _("Cobalt")),
+		                ("000050ef", _("Cobalt")),
 				("001ba1e2", _("Cyan")),
 				("00999999", _("Grey")),
 				("0070ad11", _("Green")),
