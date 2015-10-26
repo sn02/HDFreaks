@@ -2,6 +2,11 @@
 if [ -f /tmp/skin.xml ]; then
 mv /tmp/skin.xml /usr/share/enigma2/HDFreaks
 fi
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720 ]; then
+mv /tmp/HDFreaks /usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720
+else
+echo "No MediaPortal installed"
+fi
 echo "                                                          "
 echo "             ...Skin successful installed.                "
 echo "                                                          "
