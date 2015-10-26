@@ -163,7 +163,7 @@
   <widget font="Regular; 40" foregroundColor="ZeroFont1" halign="left" noWrap="1" position="24,512" render="Label" size="1260,45" source="session.CurrentService" transparent="1" valign="top" zPosition="1" alphatest="on">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 26" foregroundColor="ZeroFont1" halign="center" position="38,134" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1200,245" source="session.Event_Now" zPosition="1" transparent="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 26" foregroundColor="ZeroFont1" halign="center" position="38,134" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1200,245" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
