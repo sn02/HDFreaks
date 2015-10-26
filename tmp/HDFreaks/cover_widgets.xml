@@ -1,0 +1,2 @@
+﻿<widget name="rating10" position="550,582" size="125,12" pixmap="~/HDFreaks/images/stars-full10.png" zPosition="4" transparent="1" />
+<widget name="rating0" position="550,582" size="125,12" pixmap="~/HDFreaks/images/stars-empty10.png" zPosition="3" transparent="1" alphatest="blend" />
