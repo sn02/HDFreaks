@@ -19,7 +19,7 @@
     <color name="transparent" value="#ff000000" />
     <color name="white" value="#00ffffff" />
     <color name="yellow" value="#00e5b243" />
-    <color name="ZeroBackground" value="#44000000" />
+    <color name="ZeroBackground" value="#33000000" />
     <color name="ZeroBorder" value="#00fffff1" />
     <color name="ZeroButtonText" value="#00fffff2" />
     <color name="ZeroFont1" value="#00fffff3" />
