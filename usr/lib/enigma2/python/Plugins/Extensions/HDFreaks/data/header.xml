@@ -24,9 +24,9 @@
     <color name="ZeroButtonText" value="#00fffff2" />
     <color name="ZeroFont1" value="#00fffff3" />
     <color name="ZeroFont2" value="#00fffff4" />
-    <color name="ZeroLine" value="#00fffff5" />
+    <color name="ZeroLine" value="#00fffff7" />
     <color name="ZeroProgress" value="#00fffff6" />
-    <color name="ZeroSelFont" value="#00fffff7" />
+    <color name="ZeroSelFont" value="#00fffff5" />
     <color name="ZeroSelection" value="#000050ef" />
   </colors>
   <fonts>
