@@ -3,8 +3,8 @@
 	<screen name="pluginSort" position="0,0" size="1280,720" flags="wfNoBorder">
 
 	<!-- Background -->
-	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#33000000"/>
-		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="#33000000"/>
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="ZeroBackground"/>
+		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="ZeroBackground"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
 	
 	<!-- Datum/Uhrzeit -->
@@ -19,7 +19,7 @@
 	<eLabel text="User Plugin Sortierung" position="530,85" size="650,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<eLabel text="Sortierungs Auswahl" position="100,125" size="750,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	
-    <widget name="config2" position="340,166" size="843,305" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+    <widget name="config2" position="340,166" size="843,305" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
 		
 		<eLabel text=" Wichtig: &#xD;&#xA; Bitte im Setup zuerst 'Plugins sortieren nach: User' auswaehlen" position="110,497" size="1073,75" zPosition="1" transparent="1" font="mediaportal; 18" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	

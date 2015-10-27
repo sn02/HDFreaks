@@ -2,8 +2,8 @@
 
 	<screen name="MediaPortal" position="0,0" size="1280,720" flags="wfNoBorder">
 	<!-- Background -->
-	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#33000000"/>
-	<eLabel position="0,135" size="1280,540" zPosition="-4" backgroundColor="#33000000"/>
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="ZeroBackground"/>
+	<eLabel position="0,135" size="1280,540" zPosition="-4" backgroundColor="ZeroBackground"/>
 	<eLabel position="0,137" size="1280,536" zPosition="-3" backgroundColor="#00000000"/>
 
 	<!-- Datum/Uhrzeit -->

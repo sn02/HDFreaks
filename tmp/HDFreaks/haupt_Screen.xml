@@ -2,8 +2,8 @@
 	<screen name="MediaPortal" position="0,0" size="1280,720" flags="wfNoBorder">
 	
 	<!-- Background -->
-	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#33000000"/>
-		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="#33000000"/>
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="ZeroBackground"/>
+		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="ZeroBackground"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
 
 	<!-- Datum/Uhrzeit -->
@@ -20,13 +20,13 @@
 	<widget name="name" position="100,578" size="650,20" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
     
 	<widget name="Mediatheken" position="80,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="mediatheken" position="80,170" size="280,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+	<widget name="mediatheken" position="80,170" size="280,395" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
 	<widget name="Grauzone" position="360,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="grauzone" position="360,170" size="280,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+	<widget name="grauzone" position="360,170" size="280,395" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
 	<widget name="Funsport" position="640,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="funsport" position="640,170" size="280,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+	<widget name="funsport" position="640,170" size="280,395" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
 	<widget name="Porn" position="920,120" size="280,30" backgroundColor="#00000000" font="mediaportal; 20" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="porn" position="920,170" size="280,395" backgroundColor="#00000000" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+	<widget name="porn" position="920,170" size="280,395" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
 
 	<!-- Buttons -->
     <widget name="red" position="120,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />

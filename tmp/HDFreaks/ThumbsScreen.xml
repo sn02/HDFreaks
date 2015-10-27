@@ -3,7 +3,7 @@
 	<screen name="MediaPortal_Thumbs" position="0,0" size="1280,720" flags="wfNoBorder">
 	
 	<!-- Background -->
-	<eLabel position="0,0" size="1280,720" backgroundColor="#33000000"/>
+	<eLabel position="0,0" size="1280,720" backgroundColor="ZeroBackground"/>
 
 	<!-- Datum/Uhrzeit -->
 	<widget source="global.CurrentTime" render="Label" position="1040,52" size="100,30" backgroundColor="#00000000" zPosition="3" font="mediaportal; 24" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >

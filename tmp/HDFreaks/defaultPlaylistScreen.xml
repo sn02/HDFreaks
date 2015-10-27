@@ -3,8 +3,8 @@
 	<screen name="Songs.to" position="0,0" size="1280,720" flags="wfNoBorder">
 	
 	<!-- Background -->
-	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="#33000000"/>
-		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="#33000000"/>
+	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="ZeroBackground"/>
+		<eLabel position="75,85" size="1125,552" zPosition="-4" backgroundColor="ZeroBackground"/>
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
 
 	<!-- Datum/Uhrzeit -->
@@ -19,7 +19,7 @@
 	<widget name="title" position="100,85" size="650,30" zPosition="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 	<eLabel text="Songliste" position="100,125" size="750,20" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
 
-    <widget name="liste"  position="485,166" size="697,390" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="~/HDFreaks/images/sel.png" foregroundColorSelected="#00ffffff" foregroundColor="#00ffffff" />
+    <widget name="liste"  position="485,166" size="697,390" backgroundColor="#00000000" zPosition="1" scrollbarMode="showOnDemand" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
     
 	<eLabel text="Song: " position="112,180" size="340,25" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 20" valign="center" halign="left" foregroundColor="#00ffffff" />
     <widget name="songtitle" position="112,210" size="340,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal; 18" valign="center" halign="left" foregroundColor="#00ffffff" />
