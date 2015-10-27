@@ -156,7 +156,23 @@ config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices =
 				])
 				
 config.plugins.HDFreaks.SelFont = ConfigSelection(default="00fffff5", choices = [
+				("00f0a30a", _("Amber")),
 				("00000000", _("Black")),
+				("001b1775", _("Blue")),
+				("007d5929", _("Brown")),
+				("000050ef", _("Cobalt")),
+				("001ba1e2", _("Cyan")),
+				("00999999", _("Grey")),
+				("0070ad11", _("Green")),
+				("000047d4", _("Medium Blue")),
+				("001dff00", _("Neon Green")),
+				("00ffff00", _("Neon Yellow")),
+				("00c3461b", _("Orange")),
+				("00f472d0", _("Pink")),
+				("00e51400", _("Red")),
+				("00647687", _("Steel")),
+				("006c0aab", _("Violet")),
+				("00eea00a", _("Yellow")),				
 				("00fffff5", _("White"))
 				])
 				
