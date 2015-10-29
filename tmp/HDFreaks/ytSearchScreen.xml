@@ -46,15 +46,15 @@
 	<widget name="Reserve2" position="112,360" size="120,20" backgroundColor="#0000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#005f5f5f" />
     <widget name="reserve2" position="235,360" size="220,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;14" valign="center" halign="left" foregroundColor="#00fffffff" />
 	
-	<widget name="Parameter" position="112,525" size="110,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ff0000" />
-	<widget name="ParameterToEdit" position="200,524" size="80,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ffff00" />
-	<widget name="parametertoedit" position="282,525" size="140,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ffffff" />
+	<!--widget name="Parameter" position="112,385" size="110,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ff0000" />
+	<widget name="ParameterToEdit" position="200,384" size="80,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ffff00" />
+	<widget name="parametertoedit" position="282,385" size="140,20" backgroundColor="#00000000" transparent="1" zPosition="1" font="mediaportal;16" valign="center" halign="left" foregroundColor="#00ffffff" /-->
 	
 	<!-- Buttons -->
     <widget name="F1" position="75,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F2" position="222,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="375,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="530,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <widget name="F2" position="222,672" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="376,672" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="531,672" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 
 	<eLabel text=" " position="735,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
     <eLabel text=" CH+ " position="860,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
