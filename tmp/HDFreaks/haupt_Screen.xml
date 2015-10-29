@@ -41,11 +41,11 @@
 	
 	<ePixmap position="40,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_red.png" alphatest="on" />
 	<ePixmap position="185,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_green.png" alphatest="on" />
-	<ePixmap position="340,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_gelb.png" alphatest="on" />
+	<ePixmap position="340,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_yellow.png" alphatest="on" />
 	<ePixmap position="495,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_blue.png" alphatest="on"/>
 
-	<ePixmap position="700,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
-	<ePixmap position="825,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
-	<ePixmap position="950,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
-	<ePixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="700,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="825,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="950,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grey.png" alphatest="on" />
+	<ePixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grey.png" alphatest="on" />
    </screen>
