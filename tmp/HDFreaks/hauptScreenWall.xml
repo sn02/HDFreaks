@@ -4,42 +4,42 @@
 	<!-- Background -->
 	<eLabel position="0,0" zPosition="-5" size="1280,720" backgroundColor="ZeroBackground"/>
 	<eLabel position="0,135" size="1280,540" zPosition="-4" backgroundColor="ZeroBackground"/>
-	<eLabel position="0,137" size="1280,536" zPosition="-3" backgroundColor="#00000000"/>
-
+	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
+	
 	<!-- Datum/Uhrzeit -->
-	<widget source="global.CurrentTime" render="Label" position="1120,175" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="1120,75" size="100,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="left" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%H:%M:%S</convert>
 	</widget>
-	<widget source="global.CurrentTime" render="Label" position="815,175" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 16" valign="center" halign="right" transparent="1" foregroundColor="#00ffffff" >
+	<widget source="global.CurrentTime" render="Label" position="815,75" size="300,25" backgroundColor="#00000000" zPosition="3" font="mediaportal; 22" valign="center" halign="right" transparent="1" foregroundColor="#00ffffff" >
 		<convert type="ClockToText">Format:%A %d.%B.%Y</convert>
 	</widget>
 	
 	<!-- select screen -->
-	<widget name="name" position="100,173" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
-	<widget name="tipps" position="40,135" size="1200,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
-  <widget name="page" position="140,1120" size="200,25" zPosition="1" transparent="1" font="mediaportal; 20" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00ffffff" />	
+	<widget name="name" position="100,65" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 30" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+	<widget name="tipps" position="40,125" size="1200,30" foregroundColor="#00ffffff" backgroundColor="#00000000" transparent="1" font="mediaportal;20" valign="center" halign="left" zPosition="5" noWrap="1" />
+    <widget name="page" position="40,160" size="200,25" zPosition="1" transparent="1" font="mediaportal; 24" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />	
 	
 	<!-- Buttons -->
-    <eLabel text="SimpleList" position="115,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="green" position="225,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text="Sort" position="337,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="blue" position="446,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <eLabel text="SimpleList" position="75,671" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="green" position="222,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Sort" position="375,672" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="blue" position="530,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 	
-	<eLabel text=" PVR " position="735,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
-	<eLabel text=" CH +/- " position="845,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Menu " position="957,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Help " position="1067,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Exit " position="1175,645" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	<eLabel text=" PVR " position="735,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
+	<eLabel text=" CH +/- " position="845,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Menu " position="957,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Help " position="1067,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1175,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
 	
-	<ePixmap position="80,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_red.png" alphatest="off" />
-	<ePixmap position="190,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_green.png" alphatest="off" />
-	<ePixmap position="300,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_gelb.png" alphatest="off" />
-	<ePixmap position="410,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_blue.png" alphatest="off" />
+	<ePixmap position="40,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_red.png" alphatest="on" />
+	<ePixmap position="185,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_green.png" alphatest="on" />
+	<ePixmap position="340,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_gelb.png" alphatest="on" />
+	<ePixmap position="495,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_blue.png" alphatest="on"/>
 
-	<ePixmap position="700,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="810,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="920,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="1030,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="1140,640" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
+	<ePixmap position="700,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="810,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="920,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="1030,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="1140,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
 
 	

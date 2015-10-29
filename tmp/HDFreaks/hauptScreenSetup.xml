@@ -24,30 +24,28 @@
 	<eLabel text=" Grauzone u. Porno: &#xD;&#xA; Bei aktiviertem Plugin müßen/sollten auch die einzelnen Hoster weiter unten auf 'JA' gestellt werden um sichtbar zu sein! " position="100,500" size="1080,70" zPosition="1" backgroundColor="#00000000" transparent="1" font="mediaportal; 16" halign="left" foregroundColor="#00ffffff" />
 	
 	<!-- Buttons -->
-    <eLabel text=" " position="120,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="230,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="342,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="451,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
+    <eLabel text=" " position="75,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="222,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="375,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" " position="530,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
     
-    <widget name="F1" position="120,611" size="100,25" noWrap="1" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F2" position="230,611" size="100,25" noWrap="1" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F3" position="342,611" size="100,25" noWrap="1" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <widget name="F4" position="451,611" size="100,25" noWrap="1" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-	
-    <eLabel text=" " position="668,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" " position="780,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" CH+ " position="892,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" CH- " position="1002,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
-    <eLabel text=" Exit " position="1110,611" size="100,25" transparent="1" font="mediaportal; 12" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
- 
-	<ePixmap position="85,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_red.png" alphatest="off" />
-	<ePixmap position="195,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_green.png" alphatest="off" />
-	<ePixmap position="307,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_gelb.png" alphatest="off" />
-	<ePixmap position="416,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_blue.png" alphatest="off" />
+    <widget name="F1" position="75,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F2" position="222,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F3" position="375,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <widget name="F4" position="530,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" /> 
 
-	<ePixmap position="628,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />	
-	<ePixmap position="740,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="852,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="962,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" />
-	<ePixmap position="1070,606" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="off" /> 
+	<eLabel text=" " position="735,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />	
+    <eLabel text=" CH+ " position="860,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" CH- " position="985,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+    <eLabel text=" Exit " position="1110,673" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
+	
+	<ePixmap position="40,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_red.png" alphatest="on" />
+	<ePixmap position="185,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_green.png" alphatest="on" />
+	<ePixmap position="340,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_gelb.png" alphatest="on" />
+	<ePixmap position="495,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_blue.png" alphatest="on"/>
+
+	<ePixmap position="700,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="825,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="950,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />
+	<ePixmap position="1075,665" size="32,32" zPosition="4" pixmap="~/HDFreaks/images/nav_grau.png" alphatest="on" />	
 	</screen>
