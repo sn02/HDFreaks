@@ -299,10 +299,10 @@ class HDFreaks(ConfigListScreen, Screen):
 			self.skinSearchAndReplace.append(["00fffff5", config.plugins.HDFreaks.SelFont.value])
 			self.skinSearchAndReplace.append(["00fffff6", config.plugins.HDFreaks.Progress.value])
 			
-			### Header
+			###Header
 			self.appendSkinFile(self.daten + "header.xml")
 			
-            ###Main XML
+	                ###Main XML
 			self.appendSkinFile(self.daten + "main.xml")
 			
 			###Plugins XML
