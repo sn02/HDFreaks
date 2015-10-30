@@ -67,10 +67,6 @@ def translateBlock(block):
 
 config.plugins.HDFreaks = ConfigSubsection()
 
-config.plugins.HDFreaks.Image = ConfigSelection(default="main-custom-openhdf", choices = [
-				("main-custom-openhdf", _("openHDF"))
-				])
-				
 config.plugins.HDFreaks.SelectionBackground = ConfigSelection(default="00c3461b", choices = [
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
@@ -131,10 +127,6 @@ config.plugins.HDFreaks.Font2 = ConfigSelection(default="00fffff4", choices = [
 				("00fffff4", _("White"))
 				])
 				
-config.plugins.HDFreaks.ButtonText = ConfigSelection(default="00fffff2", choices = [
-				("00fffff2", _("White"))
-				])
-				
 config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices = [
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
@@ -155,7 +147,7 @@ config.plugins.HDFreaks.Progress = ConfigSelection(default="00c3461b", choices =
 				("00fffff6", _("White"))
 				])
 				
-config.plugins.HDFreaks.SelFont = ConfigSelection(default="00fffff5", choices = [
+config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = [
 				("00f0a30a", _("Amber")),
 				("00000000", _("Black")),
 				("001b1775", _("Blue")),
@@ -176,15 +168,6 @@ config.plugins.HDFreaks.SelFont = ConfigSelection(default="00fffff5", choices = 
 				("00fffff5", _("White"))
 				])
 				
-config.plugins.HDFreaks.InfobarStyle = ConfigSelection(default="infobar-style-original", choices = [
-				("infobar-style-original", _("Original"))
-				])
-				
-config.plugins.HDFreaks.ChannelSelectionStyle = ConfigSelection(default="channelselection", choices = [
-				("channelselection", _(""))
-				])
-				
-config.plugins.HDFreaks.WeatherStyle = ConfigYesNo(default = False)				
 #######################################################################
 
 class HDFreaks(ConfigListScreen, Screen):
@@ -241,22 +224,17 @@ class HDFreaks(ConfigListScreen, Screen):
 			returnValue = self["config"].getCurrent()[1].value
 			returnValue2 = self["config"].getCurrent()[0]
                         
-                        #debug
-                        #f = open('/tmp/debug', "w+")
-                        #f.write(str(returnValue) + ' ' + str(returnValue2) + '\n')
-                        #f.close()
-                        
-                        if str(returnValue2) == "Weather":
-                           if str(returnValue) == "True":
-                              path = "/usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/images/weather_on.jpg"
+                        if str(returnValue2) == "":
+                           if str(returnValue) == "":
+                              path = ""
                            else:
-                              path = "/usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/images/weather_off.jpg"
+                              path = ""
                         else:
                            path = "/usr/share/enigma2/HDFreaks/logo.png"
 			
                         return path
 		except:
-			return "/usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/images/Zeroweather.jpg"
+			return "/usr/share/enigma2/HDFreaks/logo.png"
 
 	def UpdatePicture(self):
 		self.PicLoad.PictureData.get().append(self.DecodePicture)
@@ -324,36 +302,12 @@ class HDFreaks(ConfigListScreen, Screen):
 			### Header
 			self.appendSkinFile(self.daten + "header.xml")
 			
-			###ChannelSelection
-			self.appendSkinFile(self.daten + config.plugins.HDFreaks.ChannelSelectionStyle.value + ".xml")
-
-			###Infobar_main
-			self.appendSkinFile(self.daten + config.plugins.HDFreaks.InfobarStyle.value + "_main.xml")
-                        
-                        ###weather-style xml
-                        if config.plugins.HDFreaks.WeatherStyle.value == True:
-                           self.appendSkinFile(self.daten + "weather-on.xml")
-                        
-                        ###Infobar_end
-			self.appendSkinFile(self.daten + config.plugins.HDFreaks.InfobarStyle.value + "_end.xml")
-			
-                        ###Main XML
+            ###Main XML
 			self.appendSkinFile(self.daten + "main.xml")
 			
 			###Plugins XML
 			self.appendSkinFile(self.daten + "plugins.xml")
 			
-			###custom-main XML
-			self.appendSkinFile(self.daten + config.plugins.HDFreaks.Image.value + ".xml")
-                           
-			###skin-user
-			try:
-				self.appendSkinFile(self.daten + "skin-user.xml")
-			except:
-				pass
-			###skin-end
-			self.appendSkinFile(self.daten + "skin-end.xml")
-
 			xFile = open(self.dateiTMP, "w")
 			for xx in self.skin_lines:
 				xFile.writelines(xx)
@@ -415,11 +369,7 @@ class HDFreaks(ConfigListScreen, Screen):
 #############################################################
 
 def main(session, **kwargs):
-	session.open(HDFreaks,"/usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/images/Zerocolors.jpg")
+	session.open(HDFreaks,"/usr/share/enigma2/HDFreaks/logo.png")
 
 def Plugins(**kwargs):
-    screenwidth = getDesktop(0).size().width()
-    if screenwidth and screenwidth == 1920:
-		return [PluginDescriptor(name="HDFreaks Skin", description=_("Configuration tool for HDFreaks Skin"), where = PluginDescriptor.WHERE_PLUGINMENU, icon='pluginfhd.png', fnc=main)]
-    else:
-		return [PluginDescriptor(name="HDFreaks Skin", description=_("Configuration tool for HDFreaks Skin"), where = PluginDescriptor.WHERE_PLUGINMENU, icon='plugin.png', fnc=main)]
+	return PluginDescriptor(name="HDFreaks Skin", description=_("Configuration tool for HDFreaks Skin"), where = PluginDescriptor.WHERE_PLUGINMENU, icon="plugin.png", fnc=main)

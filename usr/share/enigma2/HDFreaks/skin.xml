@@ -19,12 +19,12 @@
     <color name="transparent" value="#ff000000" />
     <color name="white" value="#00ffffff" />
     <color name="yellow" value="#00e5b243" />
-    <color name="ZeroBackground" value="#44000000" />
+    <color name="ZeroBackground" value="#33000000" />
     <color name="ZeroBorder" value="#00fffff1" />
     <color name="ZeroButtonText" value="#00fffff2" />
     <color name="ZeroFont1" value="#00fffff3" />
     <color name="ZeroFont2" value="#00fffff4" />
-    <color name="ZeroLine" value="#00fffff5" />
+    <color name="ZeroLine" value="#00fffff7" />
     <color name="ZeroProgress" value="#00c3461b" />
     <color name="ZeroSelFont" value="#00000000" />
     <color name="ZeroSelection" value="#00c3461b" />
@@ -221,31 +221,6 @@
   <screen name="template_player">
     <ePixmap pixmap="HDFreaks/infobar/infobar.png" position="0,546" size="1280,175" backgroundColor="ZeroBackground" alphatest="blend" zPosition="-10" />
   </screen>
-  <!-- TEMPLATES */-->
-  
-  
- <!-- /* ChannelSelection -->
-<screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
-  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroSelFont" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroSelFont" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
-  <widget source="ServiceEvent" render="HDFreaksSingleEpgList" position="765,535" size="462,113" noWrap="1" font="Regular2;22" foregroundColor="ZeroFont2" backgroundColor="ZeroBackground" transparent="1">
-  </widget>
-  <widget alphatest="blend" position="895,78" render="HDFreaksXPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="4">
-    <convert type="HDFreaksRefString">ServicelistRef</convert>
-  </widget>
-  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,233" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="462,291" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
-    <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
-  </widget>
-  <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
-    <convert type="HDFreaksEventName">Name</convert>
-  </widget>
-  <ePixmap pixmap="HDFreaks/line/line462.png" position="765,220" size="462,2" backgroundColor="ZeroBackground" alphatest="blend" />
-  <ePixmap pixmap="HDFreaks/line/line462.png" position="765,530" size="462,2" backgroundColor="ZeroBackground" alphatest="blend" />
-  <panel name="template_cs" />
-  <panel name="template_colorkey_text" />
-</screen>
-  <!-- /* ChannelSelection -->
-  
-
 <!-- /* InfoBar Original -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="InfoBar" position="0,0" size="1280,720" title="InfoBar">
   <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" />
@@ -307,10 +282,9 @@
   </widget>
   <widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="HDFreaks/buttons/ico_unstable.png" position="1256,697" size="20,20" zPosition="1" alphatest="blend">
     <convert type="ConditionalShowHide">Blink</convert>
-  </widget>  
+  </widget>
   </screen>
 <!-- /* InfoBar Original -->
-
 <!--/* SecondInfoBar Original -->
 <screen backgroundColor="transparent" flags="wfNoBorder" name="SecondInfoBar" position="0,0" size="1280,720" title="SecondInfoBar">
   <widget source="session.CurrentService" position="38,450" size="1200,30" font="Regular2; 20" render="Label" halign="center" valign="bottom" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" transparent="1" zPosition="1">
@@ -472,7 +446,7 @@
   <widget font="Regular; 40" foregroundColor="ZeroFont1" halign="left" noWrap="1" position="24,512" render="Label" size="1260,45" source="session.CurrentService" transparent="1" valign="top" zPosition="1" alphatest="on">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular; 26" foregroundColor="ZeroFont1" halign="center" position="38,134" render="Label" size="1200,250" source="session.Event_Now" zPosition="1" transparent="1">
+  <widget backgroundColor="ZeroBackground" font="Regular; 26" foregroundColor="ZeroFont1" halign="center" position="38,134" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1200,245" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
@@ -483,8 +457,30 @@
   <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="HDFreaks/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
 </screen>
 <!-- SecondInfobar Original */-->
-
+  <!-- TEMPLATES */-->
+  
+  
 <!-- /* Main -->
+ <!-- /* ChannelSelection -->
+<screen backgroundColor="transparent" flags="wfNoBorder" name="ChannelSelection" position="0,0" size="1280,720" title="Channel Selection">
+  <widget backgroundColor="ZeroBackground" scrollbarMode="showNever" foregroundColorMarkedSelected="green" foregroundColor="ZeroFont1" colorEventProgressbarBorder="ZeroLine" colorEventProgressbarBorderSelected="ZeroSelFont" colorServiceDescription="ZeroFont2" colorServiceDescriptionSelected="ZeroSelFont" colorServiceRecording="red" foregroundColorServiceNotAvail="yellow" itemHeight="50" name="list" position="20,78" serviceInfoFont="Regular;23" serviceItemHeight="35" serviceNameFont="Regular2;25" serviceNumberFont="Regular;25" size="720,565" transparent="1" />
+  <widget source="ServiceEvent" render="HDFreaksSingleEpgList" position="765,535" size="462,113" noWrap="1" font="Regular2;22" foregroundColor="ZeroFont2" backgroundColor="ZeroBackground" transparent="1">
+  </widget>
+  <widget alphatest="blend" position="895,78" render="HDFreaksXPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="4">
+    <convert type="HDFreaksRefString">ServicelistRef</convert>
+  </widget>
+  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,233" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="462,291" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
+    <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
+  </widget>
+  <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
+    <convert type="HDFreaksEventName">Name</convert>
+  </widget>
+  <ePixmap pixmap="HDFreaks/line/line462.png" position="765,220" size="462,2" backgroundColor="ZeroBackground" alphatest="blend" />
+  <ePixmap pixmap="HDFreaks/line/line462.png" position="765,530" size="462,2" backgroundColor="ZeroBackground" alphatest="blend" />
+  <panel name="template_cs" />
+  <panel name="template_colorkey_text" />
+</screen>
+  <!-- /* ChannelSelection -->
   <!-- ********** Screens ********** -->
   <screen name="AboutReleaseNotes" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
     <widget name="list" font="Regular;20" itemHeight="30" position="70,121" size="708,420" transparent="1" backgroundColor="ZeroBackground" />
@@ -635,7 +631,7 @@
   <!-- EPGSelection -->
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EPGSelection" position="0,0" size="1280,720" title="EPG Selection">
     <widget backgroundColor="ZeroBackground" itemHeight="30" foregroundColor="ZeroFont1" font="Regular; 22" name="list" scrollbarMode="showNever" position="70,120" size="708,511" transparent="1" zPosition="3" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" position="897,76" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="366,572" source="Event" valign="top" zPosition="-8">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" position="897,76" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=4000,wrap=1,always=0,repeat=2,oneshot=1" size="366,572" source="Event" valign="top" zPosition="-8">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <panel name="template_menu_full_button_nologo" />
@@ -659,7 +655,7 @@
     <widget position="22,515" render="Progress" size="1233,4" source="session.Event_Now" transparent="1" zPosition="7" foregroundColor="ZeroProgress" backgroundColor="ZeroBackground">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="529,125" source="Event" transparent="1">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="529,125" source="Event" transparent="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget name="list" position="22,525" size="685,125" transparent="1" />
@@ -726,7 +722,7 @@
   <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="center" name="more_text" position="370,87" size="150,30" text="MORE" transparent="1" zPosition="10" />
   <widget font="Regular; 22" halign="right" name="date" position="960,87" size="250,30" transparent="1" valign="center" />
   <widget backgroundColor="ZeroBackground" itemHeight="30" name="list" position="50,142" size="1180,338" transparent="1" />
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" position="50,492" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1180,153" source="Event" zPosition="-8">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" position="50,492" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1180,153" source="Event" zPosition="-8">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <panel name="template_menu_full_button_nologo" />
@@ -748,7 +744,7 @@
     <widget backgroundColor="ZeroFont1" borderWidth="0" position="146,138" render="Progress" size="990,5" source="Event" transparent="1" zPosition="20" foregroundColor="ZeroProgress">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 19" position="70,163" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1153,139" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 19" position="70,163" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1153,139" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <eLabel backgroundColor="ZeroProgress" position="146,140" size="990,1" />
@@ -780,7 +776,7 @@
     <widget source="Event" render="Progress" position="101,117" size="990,5" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="1">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 21" position="25,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1230,126" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 21" position="25,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1230,126" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
       <convert type="HDFreaksEventName">ExtendedDescription</convert>
     </widget>
     <eLabel backgroundColor="ZeroFont1" position="101,119" size="990,1" />
@@ -807,7 +803,7 @@
   <widget source="Event" render="Progress" position="101,123" size="535,5" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="1">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,112" font="Regular2; 19" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
+  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,112" font="Regular2; 19" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
@@ -2078,7 +2074,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
     <eLabel position="891,126" size="362,1" backgroundColor="ZeroFont2" foregroundColor="ZeroFont2" />
-    <widget font="Regular; 22" foregroundColor="ZeroFont1" position="891,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="362,391" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8">
+    <widget font="Regular; 22" foregroundColor="ZeroFont1" position="891,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=4000,wrap=1,always=0,repeat=2,oneshot=1" size="362,391" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="891,78" halign="center" render="Label" size="362,40" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="center">
@@ -2973,6 +2969,259 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget font="Regular; 20" halign="left" valign="center" source="blue" position="664,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="white" transparent="1" zPosition="1" />
     <panel name="template_menu_full_button" />
 </screen>
+  <!-- /* main-custom-openhdf -->
+  <!-- ********** openHDF ********** -->
+  <!-- About -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="About" position="1,1" size="1280,720" title="About">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,71" render="Label" size="700,40" source="EnigmaVersion" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,111" render="Label" size="700,40" source="ImageVersion" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,151" render="Label" size="700,40" source="FPVersion" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,191" render="Label" size="700,40" source="TunerHeader" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,231" render="Label" size="700,40" source="Tuner0" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,271" render="Label" size="700,40" source="Tuner1" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,311" render="Label" size="700,40" source="Tuner2" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,351" render="Label" size="700,40" source="Tuner3" transparent="1" />
+    <eLabel backgroundColor="ZeroBackground" font="Regular2; 26" position="69,441" size="700,40" text="Support for Image: " transparent="1" />
+    <eLabel backgroundColor="ZeroBackground" font="Regular2; 26" position="69,480" size="700,40" text="www.hdfreaks.cc" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,520" render="Label" size="700,40" source="HDDHeader" transparent="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,560" render="Label" size="700,65" source="hddA" transparent="1" />
+    <panel name="template_menu_full" />
+  </screen>
+  <!-- AboutOE -->
+  <screen name="AboutOE" position="0,0" size="1280,720" title="About" flags="wfNoBorder" backgroundColor="ZeroBackground">
+    <widget source="lab1" render="Label" position="70,123" size="369,35" font="Regular;30" transparent="1" zPosition="2" />
+    <widget source="lab2" render="Label" position="70,173" size="370,25" font="Regular;19" transparent="1" zPosition="2" />
+    <widget source="lab3" render="Label" position="70,213" size="369,25" font="Regular;19" transparent="1" zPosition="1" />
+    <eLabel text="OPEN SOURCE" position="460,123" size="353,28" font="Regular2; 22" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
+    <eLabel text="https://github.com/openhdf" position="460,163" size="352,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
+    <eLabel text="https://github.com/oe-alliance" position="460,203" size="354,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
+	<eLabel text="Designed by Kraven" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
+    <eLabel text="modified by pixbox" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
+	<widget name="AboutScrollLabel" position="70,253" size="650,360" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
+    <panel name="template_menu_full" />
+  </screen>
+  <!-- UpdatePluginMenu -->
+  <screen name="UpdatePluginMenu" flags="wfNoBorder" position="0,0" size="1280,720" title="Update Plugin Menu" backgroundColor="ZeroBackground">
+    <widget name="hdfStatusPic" position="90,500" size="100,118" backgroundColor="ZeroBackground" transparent="1" alphatest="on" />
+    <widget source="menu" render="Listbox" position="44,134" size="370,298" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (2, 2), size = (370, 24), flags = RT_HALIGN_LEFT, text = 1), # index 0 is the MenuText,
+						],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 25
+					}
+				</convert>
+    </widget>
+    <widget source="menu" render="Listbox" position="444,134" size="240,300" scrollbarMode="showNever" selectionDisabled="1">
+      <convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (2, 2), size = (240, 300), flags = RT_HALIGN_CENTER|RT_WRAP, text = 2), # index 2 is the Description,
+						],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 300
+					}
+				</convert>
+    </widget>
+    <eLabel text="Feed-Status" position="43,451" size="191,29" zPosition="1" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1" />
+    <eLabel text="Its recommend to create a Fullbackup before update!" position="239,452" size="446,20" zPosition="1" font="Regular; 16" halign="left" backgroundColor="ZeroBackground" transparent="1" />
+    <eLabel text="Empfohlen wird ein Fullbackup vor dem Update!" position="239,476" size="446,20" zPosition="1" font="Regular; 16" halign="left" backgroundColor="ZeroBackground" transparent="1" />
+    <eLabel text="update recommend / Alles OK!" position="202,585" size="396,25" zPosition="1" font="Regular; 20" halign="left" foregroundColor="black" backgroundColor="green" transparent="0" />
+    <eLabel text="No Update! / nicht updaten!" position="202,509" size="396,25" zPosition="1" font="Regular; 20" halign="left" backgroundColor="red" transparent="0" />
+    <eLabel text="update at your own risk / auf eigene Gefahr!" position="202,546" size="396,25" zPosition="1" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="yellow" transparent="0" />
+    <panel name="template_colorkey_text" />
+    <panel name="template_menu_full_button" />
+  </screen>
+  <!-- Devices -->
+  <screen name="Devices" position="0,0" size="1280,720" title="SystemInfo" flags="wfNoBorder" backgroundColor="ZeroBackground">
+    <widget source="TunerHeader" render="Label" position="70,121" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
+    <widget source="nims" render="Label" position="70,162" size="708,108" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
+    <widget source="HDDHeader" render="Label" position="70,275" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
+    <widget source="hdd" render="Label" position="70,315" size="708,112" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
+    <widget source="MountsHeader" render="Label" position="70,431" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
+    <widget source="mounts" render="Label" position="70,471" size="708,143" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
+    <panel name="template_menu_full" />
+  </screen>
+  <!-- HotkeySetup -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HotkeySetup" position="0,0" size="1280,720" title="Tasteneinstellungen">
+  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
+  <widget name="choosen" position="428,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
+  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
+  <panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- ButtonSetupSelect -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ButtonSetupSelect" position="0,0" size="1280,720" title="Tasteneinstellungen">
+  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
+  <widget name="choosen" position="427,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
+  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
+<panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- HddSetup -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddSetup" position="0,0" size="1280,720" title="Hard Drive Setup">
+  <widget source="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					],
+					"fonts": [gFont("Regular", 20)],
+					"itemHeight": 50
+				}
+			</convert>
+  </widget>
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- HddPartitions -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddPartitions" position="0,0" size="1280,720" title="Hard Drive Partitions">
+  <widget name="label_disk" position="70,80" font="Regular2; 26" size="708,30" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" foregroundColor="ZeroFont2" />
+  <widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					],
+					"fonts": [gFont("Regular", 20)],
+					"itemHeight": 50
+				}
+			</convert>
+  </widget>
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- HddMounts -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddMount" position="0,0" size="1280,720" title="Hard Drive Mount">
+  <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					],
+					"fonts": [gFont("Regular", 20)],
+					"itemHeight": 50
+				}
+			</convert>
+  </widget>
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- HddInfo -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddInfo" position="0,0" size="1280,720" title="Hard Drive Info">
+  <widget name="config" position="95,237" size="585,30" scrollbarMode="showOnDemand" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="model" position="95,320" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="serial" position="95,350" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="firmware" position="95,380" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="cylinders" position="95,410" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="heads" position="95,440" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="sectors" position="95,470" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="readDisk" position="95,500" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="readCache" position="95,530" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget font="Regular;20" halign="left" name="temp" position="95,560" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- HddFastRemove -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddFastRemove" position="0,0" size="1280,720" title="Hard Drive Fast Umount">
+  <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
+					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					],
+					"fonts": [gFont("Regular", 22)],
+					"itemHeight": 50
+				}
+			</convert>
+  </widget>
+ <panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- LED_GigaSetup -->
+  <screen name="LED_GigaSetup" position="0,0" size="1280,720" title="LED Setup" backgroundColor="ZeroBackground">
+  
+  <widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- VFDSkinSelector -->
+  <screen name="VFDSkinSelector" position="0,0" size="1280,720" title="LCD Skin-Selector" backgroundColor="ZeroBackground">
+  <widget name="lab1" position="70,111" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="ZeroFont2" />
+  <widget name="lab2" position="423,201" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="ZeroFont2" />
+  <widget name="SkinList" position="70,158" size="270,371" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="ZeroBackground" transparent="1" />
+  <widget name="Preview" position="422,261" size="280,210" zPosition="2" backgroundColor="ZeroBackground" transparent="0" alphatest="on" />
+  <widget name="lab3" position="70,549" halign="center" size="700,26" zPosition="1" foregroundColor="ZeroFont2" font="Regular2; 22" transparent="1" />
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text" />
+</screen>
+  <!-- HFD Toolbox -->
+  <screen name="Fantastic" position="0,0" size="1280,720" title="HDF Toolbox" backgroundColor="ZeroBackground">
+  <widget name="menu" position="70,100" size="510,469" scrollbarMode="showOnDemand" transparent="1" />
+  <ePixmap position="70,445" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
+  <panel name="template_menu_full" />
+</screen>
+  <!-- LogManager -->
+  <screen name="LogManager" position="0,0" size="1280,720" title="Log Manager" backgroundColor="ZeroBackground">
+  <widget name="list" position="70,80" size="708,540" font="Regular;14" backgroundColor="ZeroBackground" transparent="1" />
+<panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text" />
+</screen>
+  <!-- DownloadMenu -->
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="Hdf_Downloader" position="0,0" size="1280,720" title="Select your Download">
+  <widget name="downloadmenu" position="68,115" size="400,300" scrollbarMode="showOnDemand" />
+  <widget source="introduction" render="Label" position="12,438" size="560,30" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" />
+  <widget source="size" render="Label" position="555,121" size="100,30" zPosition="10" font="Regular;15" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
+  <widget source="size2" render="Label" position="485,116" size="100,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
+  <widget source="description" render="Label" position="485,210" size="330,150" zPosition="10" font="Regular;15" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
+  <widget source="description2" render="Label" position="485,168" size="150,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
+  <ePixmap name="1" position="1058,385" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_1.png" transparent="1" alphatest="on" />
+  <widget name="key_1" position="753,386" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="2" position="1058,410" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_2.png" transparent="1" alphatest="on" />
+  <widget name="key_2" position="753,411" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="3" position="1058,435" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_3.png" transparent="1" alphatest="on" />
+  <widget name="key_3" position="753,435" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="4" position="1058,460" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_4.png" transparent="1" alphatest="on" />
+  <widget name="key_4" position="753,461" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="5" position="1058,485" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_5.png" transparent="1" alphatest="on" />
+  <widget name="key_5" position="753,486" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="6" position="1058,510" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_6.png" transparent="1" alphatest="on" />
+  <widget name="key_6" position="753,511" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <ePixmap name="0" position="1058,535" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_0.png" transparent="1" alphatest="on" />
+  <widget name="key_0" position="753,536" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+  <panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- Softcam Cardserver Manager -->
+  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ScSelection" position="0,0" size="1280,720" title="Softcam Cardserver Manager">
+  <widget name="entries" position="68,160" size="505,310" enableWrapAround="1" backgroundColor="ZeroBackground" transparent="1" />
+  <eLabel font="Regular;18" halign="left" valign="top" position="695,160" size="90,26" text="ECM:" zPosition="2" transparent="1" />
+  <widget source="session.CurrentService" render="Label" position="780,160" size="490,56" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left" noWrap="1">
+    <convert type="CryptoInfo">VerboseInfo</convert>
+  </widget>
+  <eLabel font="Regular;18" halign="left" valign="top" position="695,220" size="90,26" text="Channel:" zPosition="2" transparent="1" />
+  <widget source="session.CurrentService" render="Label" position="780,220" size="480,26" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left">
+    <convert type="ServiceName">All</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="695,300" size="479,26" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left" noWrap="1">
+    <convert type="HDFreaksExtraInfo">CryptoInfo</convert>
+  </widget>
+  <eLabel font="Regular;18" halign="left" valign="top" position="695,260" size="90,26" text="RES:" zPosition="2" transparent="1" />
+  <widget source="session.CurrentService" render="Label" zPosition="2" position="780,260" size="55,24" halign="left" valign="top" font="Regular;18" transparent="1">
+    <convert type="HDFreaksServiceInfo">VideoWidth</convert>
+  </widget>
+  <eLabel text="x" zPosition="2" position="830,260" size="35,24" halign="left" valign="top" font="Regular;18" transparent="1" />
+  <widget source="session.CurrentService" render="Label" zPosition="2" position="850,260" size="55,24" halign="left" valign="top" font="Regular;18" transparent="1">
+    <convert type="HDFreaksServiceInfo">VideoHeight</convert>
+  </widget>
+<panel name="template_menu_full_button_nologo" />
+  <panel name="template_colorkey_text_source" />
+</screen>
+  <!-- main-custom-openhdf */ -->
   <!-- Main */ -->
   
   
@@ -3310,12 +3559,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- EMCSelection -->
 <screen name="EMCSelection" position="0,0" size="1280,720" title="Enhanced Movie Center" flags="wfNoBorder" backgroundColor="transparent">
   <eLabel text="Enhanced Movie Center" position="70,12" size="708,46" font="Regular2;34" foregroundColor="ZeroFont2" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget name="list" position="50,101" size="755,351" itemHeight="32" BackColorSel="ZeroSelection" CoolFont="Regular;23" CoolSelectFont="Regular;23" CoolDateFont="Regular;23" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="150" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="640" CoolBarHPos="10" CoolBarSize="55,10" CoolBarSizeSa="110,16" DefaultColor="ZeroFont1" UnwatchedColor="ZeroFont1" WatchingColor="green" FinishedColor="ZeroFont1" RecordingColor="red" foregroundColorSelected="ZeroFont1" scrollbarMode="showNever" transparent="1" />
+  <widget name="list" position="50,101" size="755,351" itemHeight="32" CoolFont="Regular;20" CoolSelectFont="Regular;20" CoolDateFont="Regular;20" CoolProgressPos="50" CoolBarPos="35" CoolBarHPos="10" CoolBarSize="50,10" CoolBarSizeSa="50,10" CoolMoviePos="90" CoolMovieSize="500" CoolFolderSize="575" CoolDatePos="595" CoolDateWidth="105" CoolPiconPos="90" CoolPiconHPos="2" CoolPiconWidth="45" CoolPiconHeight="26" CoolMoviePiconPos="140" CoolMoviePiconSize="450" CoolTitleColor="1" CoolDateColor="1" CoolHighlightColor="0" DefaultColor="ZeroFont1" UnwatchedColor="ZeroFont1" WatchingColor="ZeroFont2" FinishedColor="green" RecordingColor="red" BackColor="ZeroBackground" BackColorSel="ZeroSelection" FrontColorSel="ZeroSelFont" backgroundColorSelected="ZeroSelection" foregroundColorSelected="ZeroSelFont" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" scrollbarMode="showNever" transparent="1" />
   <widget name="wait" position="43,375" size="1198,50" zPosition="1" font="Regular; 32" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" />
   <widget source="Service" render="Label" position="888,138" size="379,40" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1">
     <convert type="EMCMovieInfo">RecordServiceName</convert>
   </widget>
-  <widget source="Service" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" position="49,464" size="755,187" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top" transparent="1">
+  <widget source="Service" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="50,464" size="755,178" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top" transparent="1">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <widget source="Service" render="Label" position="888,101" size="379,30" font="Regular2; 21" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
@@ -3702,7 +3951,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- MediaInfo -->
 <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="mediaInfo" position="0,0" size="1280,720" title="MediaInfo">
   <widget backgroundColor="ZeroBackground" font="Regular;24" halign="center" name="info" position="60,90" size="1160,45" transparent="1" valign="center" zPosition="5" />
-  <widget backgroundColor="ZeroBackground" font="Regular;30" foregroundColor="ZeroFont1" halign="center" name="head" position="60,143" size="1160,45" transparent="1" valign="center" zPosition="5" />
+  <widget backgroundColor="ZeroBackground" font="Regular;26" foregroundColor="ZeroFont1" halign="center" name="head" position="60,143" size="1160,45" transparent="1" valign="center" zPosition="5" />
   <widget backgroundColor="ZeroBackground" name="downloadList" itemHeight="65" position="21,215" scrollbarMode="showNever" size="1240,405" scrollbarWidth="5" scrollbarSliderForegroundColor="ZeroFont1" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" transparent="1" zPosition="-1" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
@@ -3865,7 +4114,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget backgroundColor="ZeroBackground" font="Regular2;17" foregroundColor="ZeroFont2" halign="right" position="1128,671" render="Label" size="100, 24" source="Service" transparent="1" zPosition="1">
     <convert type="MovieInfo">FileSize</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="377,483" source="Service" transparent="1" valign="top">
+  <widget backgroundColor="ZeroBackground" font="Regular;19" foregroundColor="ZeroFont1" position="850,167" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" size="377,483" source="Service" transparent="1" valign="top">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
@@ -4067,7 +4316,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" name="spicon" position="240,320" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
     <widget backgroundColor="ZeroBackground" name="piconslider" position="340,234" size="180,20" zPosition="2" transparent="1" />
     <widget backgroundColor="ZeroBackground" name="picon" position="798,80" size="400,240" zPosition="4" transparent="1" borderWidth="0" borderColor="black" alphatest="blend" />
-    <widget backgroundColor="ZeroBackground" name="list" position="70,370" size="1130,270" itemHeight="30" zPosition="1" foregroundColor="white" foregroundColorSelected="white" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="grey" scrollbarSliderBorderColor="grey" scrollbarSliderBorderWidth="1" transparent="1" />
+    <widget backgroundColor="ZeroBackground" name="list" position="70,370" size="1130,270" itemHeight="30" zPosition="1" foregroundColor="ZeroFont1" foregroundColorSelected="ZeroSelFont" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="grey" scrollbarSliderBorderColor="grey" scrollbarSliderBorderWidth="1" transparent="1" />
     <panel name="template_colorkey_text" />
     <panel name="template_menu_full_button_nologo" />
   </screen>
@@ -4368,7 +4617,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular;22" foregroundColor="ZeroFont1" halign="center" position="24,418" render="Label" size="416,28" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Description</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="24,458" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1232,176" source="Event" transparent="1" valign="top" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="24,458" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1232,176" source="Event" transparent="1" valign="top" zPosition="1">
       <convert type="HDFreaksEventName">ExtendedDescription</convert>
     </widget>
     <widget CoolBackColor="ZeroBackground" CoolDayColor="white" CoolDayPos="0" CoolDaySize="50" CoolEventColor="white" CoolEventFont="Regular;22" CoolEventPos="150" CoolFont="Regular;22" CoolRecAlarmCol="yellow" CoolRecColor="red" CoolTimeColor="white" CoolTimePos="70" CoolTimeSize="70" backgroundColor="Background1" foregroundColor="Foreground" itemHeight="30" name="list" position="435,80" size="820,330" transparent="1" zPosition="-8" />
@@ -4430,7 +4679,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="220,524" render="Label" size="1055,30" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="40,560" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1200,88" source="Event" transparent="1" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="40,560" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1200,88" source="Event" transparent="1" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="right" name="date" position="1060,670" size="180,30" transparent="1" />
@@ -4450,7 +4699,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="636,66" render="Label" size="600,32" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget backgroundColor="ZeroBackground" foregroundColor="white" name="timeline_text" position="5,285" size="1230,30" transparent="1" />
@@ -4482,7 +4731,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="636,66" render="Label" size="600,32" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget CoolBackColor="ZeroBackground" CoolDateColor="white" CoolDateHPos="2" CoolDatePos="70" CoolDateSize="70" CoolDayColor="white" CoolDayHPos="2" CoolDayPos="0" CoolDaySize="50" CoolEventColor="white" CoolEventFont="Regular;24" CoolEventHPos="2" CoolEventPos="500" CoolEventSize="700" CoolFont="Regular;24" CoolRecAlarmCol="yellow" CoolRecColor="red" CoolRecEventBackColor="ZeroBackground" CoolServiceColor="white" CoolServiceFont="Regular;24" CoolServiceHPos="2" CoolServicePos="230" CoolServiceSize="280" CoolTimeColor="white" CoolTimeHPos="2" CoolTimePos="150" CoolTimeSize="70" backgroundColor="ZeroBackground" itemHeight="30" name="list" position="45,300" size="1190,330" transparent="1" zPosition="3" />
@@ -4505,7 +4754,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="636,66" render="Label" size="600,32" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget CoolCurrentCol="white" CoolBarColor="white" CoolBarHPos="7" CoolBarHigh="17" CoolBarPos="270" CoolBarSize="150" CoolDurationPos="1085" CoolDurationColor="white" CoolDurationSize="105" CoolEventColor="white" CoolEventFont="Regular;24" CoolEventHPos="0" CoolEventPos="440" CoolEventSize="625" CoolFont="Regular;24" CoolRecAlarmCol="yellow" CoolRecColor="red" CoolServiceColor="white" CoolServiceFont="Regular;24" CoolServiceHPos="0" CoolServicePos="5" CoolServiceSize="235" CoolTimeHPos="0" CoolTimePos="265" CoolTimeSize="150" backgroundColor="ZeroBackground" foregroundColor="white" itemHeight="30" name="list" position="40,300" size="1200,330" transparent="1" zPosition="25" />
@@ -4529,7 +4778,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="636,66" render="Label" size="600,32" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="450,98" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="790,176" source="Event" transparent="0" valign="top" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget backgroundColor="ZeroBackground" name="timeline_text" position="5,282" size="1230,30" transparent="1" />
@@ -4570,7 +4819,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="left" position="202,524" render="Label" size="1055,30" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="20,564" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="1240,92" source="Event" transparent="1" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;24" foregroundColor="ZeroFont1" position="20,564" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1240,92" source="Event" transparent="1" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="right" name="date" position="1060,670" size="180,30" transparent="1" />
@@ -4593,7 +4842,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <widget backgroundColor="ZeroBackground" font="Regular2;24" foregroundColor="ZeroFont2" halign="center" position="50,309" render="Label" size="434,30" source="Event" transparent="1">
       <convert type="HDFreaksEventName">Name</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular;20" foregroundColor="ZeroFont1" halign="center" position="50,342" size="434,170" source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" transparent="1" zPosition="1">
+    <widget backgroundColor="ZeroBackground" font="Regular;20" foregroundColor="ZeroFont1" halign="center" position="50,342" size="434,170" source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" transparent="1" zPosition="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget CoolBar="0" CoolBarColor="white" CoolCurrentCol="white" CoolDurationColor="white" CoolDurationPos="666" CoolDurationSize="70" CoolEventColor="white" CoolEventFont="Regular;22" CoolEventHPos="3" CoolEventPos="240" CoolEventSize="350" CoolFont="Regular;25" CoolMarkerHPos="1" CoolMarkerPicHPos="2" CoolMarkerPicPos="2" CoolMarkerPos="140" CoolPico="28" CoolPicoHPos="1" CoolRecAlarmCol="yellow" CoolRecColor="red" CoolServiceColor="white" CoolServiceFont="Regular;24" CoolServiceHPos="0" CoolServicePos="2" CoolServiceSize="210" CoolTime="1" CoolTimeHPos="3" CoolTimePos="580" CoolTimeSize="130" CoolTunerCol="white" backgroundColor="Background" foregroundColor="Foreground" itemHeight="32" selectionPixmap="HDFreaks/selpic/1240x32.png" name="list" position="515,70" size="750,580" transparent="1" zPosition="25" />
@@ -4844,262 +5093,5 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 </screen>
 
 <!-- plugins -->
-
-
-  <!-- /* main-custom-openhdf -->
-  <!-- ********** openHDF ********** -->
-  <!-- About -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="About" position="1,1" size="1280,720" title="About">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,71" render="Label" size="700,40" source="EnigmaVersion" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,111" render="Label" size="700,40" source="ImageVersion" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,151" render="Label" size="700,40" source="FPVersion" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,191" render="Label" size="700,40" source="TunerHeader" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,231" render="Label" size="700,40" source="Tuner0" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,271" render="Label" size="700,40" source="Tuner1" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,311" render="Label" size="700,40" source="Tuner2" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,351" render="Label" size="700,40" source="Tuner3" transparent="1" />
-    <eLabel backgroundColor="ZeroBackground" font="Regular2; 26" position="69,441" size="700,40" text="Support for Image: " transparent="1" />
-    <eLabel backgroundColor="ZeroBackground" font="Regular2; 26" position="69,480" size="700,40" text="www.hdfreaks.cc" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 26" position="70,520" render="Label" size="700,40" source="HDDHeader" transparent="1" />
-    <widget backgroundColor="ZeroBackground" font="Regular2; 24" position="70,560" render="Label" size="700,65" source="hddA" transparent="1" />
-    <panel name="template_menu_full" />
-  </screen>
-  <!-- AboutOE -->
-  <screen name="AboutOE" position="0,0" size="1280,720" title="About" flags="wfNoBorder" backgroundColor="ZeroBackground">
-    <widget source="lab1" render="Label" position="70,123" size="369,35" font="Regular;30" transparent="1" zPosition="2" />
-    <widget source="lab2" render="Label" position="70,173" size="370,25" font="Regular;19" transparent="1" zPosition="2" />
-    <widget source="lab3" render="Label" position="70,213" size="369,25" font="Regular;19" transparent="1" zPosition="1" />
-    <eLabel text="OPEN SOURCE" position="460,123" size="353,28" font="Regular2; 22" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
-    <eLabel text="https://github.com/openhdf" position="460,163" size="352,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
-    <eLabel text="https://github.com/oe-alliance" position="460,203" size="354,28" font="Regular2; 19" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
-	<eLabel text="Designed by Kraven" position="880,520" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
-    <eLabel text="modified by pixbox" position="880,565" size="355,35" font="Regular2; 24" transparent="1" zPosition="1" halign="center" />
-	<widget name="AboutScrollLabel" position="70,253" size="650,360" scrollbarMode="showOnDemand" font="Regular;20" transparent="1" zPosition="1" />
-    <panel name="template_menu_full" />
-  </screen>
-  <!-- UpdatePluginMenu -->
-  <screen name="UpdatePluginMenu" flags="wfNoBorder" position="0,0" size="1280,720" title="Update Plugin Menu" backgroundColor="ZeroBackground">
-    <widget name="hdfStatusPic" position="90,500" size="100,118" backgroundColor="ZeroBackground" transparent="1" alphatest="on" />
-    <widget source="menu" render="Listbox" position="44,134" size="370,298" scrollbarMode="showOnDemand">
-      <convert type="TemplatedMultiContent">
-					{"template": [
-							MultiContentEntryText(pos = (2, 2), size = (370, 24), flags = RT_HALIGN_LEFT, text = 1), # index 0 is the MenuText,
-						],
-					"fonts": [gFont("Regular", 22)],
-					"itemHeight": 25
-					}
-				</convert>
-    </widget>
-    <widget source="menu" render="Listbox" position="444,134" size="240,300" scrollbarMode="showNever" selectionDisabled="1">
-      <convert type="TemplatedMultiContent">
-					{"template": [
-							MultiContentEntryText(pos = (2, 2), size = (240, 300), flags = RT_HALIGN_CENTER|RT_WRAP, text = 2), # index 2 is the Description,
-						],
-					"fonts": [gFont("Regular", 22)],
-					"itemHeight": 300
-					}
-				</convert>
-    </widget>
-    <eLabel text="Feed-Status" position="43,451" size="191,29" zPosition="1" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1" />
-    <eLabel text="Its recommend to create a Fullbackup before update!" position="239,452" size="446,20" zPosition="1" font="Regular; 16" halign="left" backgroundColor="ZeroBackground" transparent="1" />
-    <eLabel text="Empfohlen wird ein Fullbackup vor dem Update!" position="239,476" size="446,20" zPosition="1" font="Regular; 16" halign="left" backgroundColor="ZeroBackground" transparent="1" />
-    <eLabel text="update recommend / Alles OK!" position="202,585" size="396,25" zPosition="1" font="Regular; 20" halign="left" foregroundColor="black" backgroundColor="green" transparent="0" />
-    <eLabel text="No Update! / nicht updaten!" position="202,509" size="396,25" zPosition="1" font="Regular; 20" halign="left" backgroundColor="red" transparent="0" />
-    <eLabel text="update at your own risk / auf eigene Gefahr!" position="202,546" size="396,25" zPosition="1" font="Regular; 18" halign="left" foregroundColor="black" backgroundColor="yellow" transparent="0" />
-    <panel name="template_colorkey_text" />
-    <panel name="template_menu_full_button" />
-  </screen>
-  <!-- Devices -->
-  <screen name="Devices" position="0,0" size="1280,720" title="SystemInfo" flags="wfNoBorder" backgroundColor="ZeroBackground">
-    <widget source="TunerHeader" render="Label" position="70,121" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
-    <widget source="nims" render="Label" position="70,162" size="708,108" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
-    <widget source="HDDHeader" render="Label" position="70,275" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
-    <widget source="hdd" render="Label" position="70,315" size="708,112" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
-    <widget source="MountsHeader" render="Label" position="70,431" size="708,36" font="Regular;20" transparent="1" zPosition="1" />
-    <widget source="mounts" render="Label" position="70,471" size="708,143" font="Regular;18" transparent="1" zPosition="1" enableWrapAround="0" />
-    <panel name="template_menu_full" />
-  </screen>
-  <!-- HotkeySetup -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HotkeySetup" position="0,0" size="1280,720" title="Tasteneinstellungen">
-  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
-  <widget name="choosen" position="428,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
-  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
-  <panel name="template_menu_full_button_nologo" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- ButtonSetupSelect -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ButtonSetupSelect" position="0,0" size="1280,720" title="Tasteneinstellungen">
-  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
-  <widget name="choosen" position="427,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
-  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
-<panel name="template_menu_full_button_nologo" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- HddSetup -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddSetup" position="0,0" size="1280,720" title="Hard Drive Setup">
-  <widget source="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
-    <convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
-					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
-					],
-					"fonts": [gFont("Regular", 20)],
-					"itemHeight": 50
-				}
-			</convert>
-  </widget>
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- HddPartitions -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddPartitions" position="0,0" size="1280,720" title="Hard Drive Partitions">
-  <widget name="label_disk" position="70,80" font="Regular2; 26" size="708,30" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" foregroundColor="ZeroFont2" />
-  <widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
-    <convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
-					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
-					],
-					"fonts": [gFont("Regular", 20)],
-					"itemHeight": 50
-				}
-			</convert>
-  </widget>
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- HddMounts -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddMount" position="0,0" size="1280,720" title="Hard Drive Mount">
-  <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
-    <convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
-					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
-					],
-					"fonts": [gFont("Regular", 20)],
-					"itemHeight": 50
-				}
-			</convert>
-  </widget>
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- HddInfo -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddInfo" position="0,0" size="1280,720" title="Hard Drive Info">
-  <widget name="config" position="95,237" size="585,30" scrollbarMode="showOnDemand" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="model" position="95,320" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="serial" position="95,350" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="firmware" position="95,380" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="cylinders" position="95,410" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="heads" position="95,440" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="sectors" position="95,470" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="readDisk" position="95,500" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="readCache" position="95,530" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget font="Regular;20" halign="left" name="temp" position="95,560" size="580,25" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- HddFastRemove -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddFastRemove" position="0,0" size="1280,720" title="Hard Drive Fast Umount">
-  <widget name="menu" render="Listbox" position="70,80" size="708,540" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
-    <convert type="TemplatedMultiContent">
-				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
-					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
-					],
-					"fonts": [gFont("Regular", 22)],
-					"itemHeight": 50
-				}
-			</convert>
-  </widget>
- <panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- LED_GigaSetup -->
-  <screen name="LED_GigaSetup" position="0,0" size="1280,720" title="LED Setup" backgroundColor="ZeroBackground">
-  
-  <widget name="config" position="70,80" size="708,540" scrollbarMode="showOnDemand" transparent="1" />
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- VFDSkinSelector -->
-  <screen name="VFDSkinSelector" position="0,0" size="1280,720" title="LCD Skin-Selector" backgroundColor="ZeroBackground">
-  <widget name="lab1" position="70,111" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="ZeroFont2" />
-  <widget name="lab2" position="423,201" size="250,26" zPosition="1" font="Regular2; 22" halign="left" transparent="1" foregroundColor="ZeroFont2" />
-  <widget name="SkinList" position="70,158" size="270,371" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="ZeroBackground" transparent="1" />
-  <widget name="Preview" position="422,261" size="280,210" zPosition="2" backgroundColor="ZeroBackground" transparent="0" alphatest="on" />
-  <widget name="lab3" position="70,549" halign="center" size="700,26" zPosition="1" foregroundColor="ZeroFont2" font="Regular2; 22" transparent="1" />
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text" />
-</screen>
-  <!-- HFD Toolbox -->
-  <screen name="Fantastic" position="0,0" size="1280,720" title="HDF Toolbox" backgroundColor="ZeroBackground">
-  <widget name="menu" position="70,100" size="510,469" scrollbarMode="showOnDemand" transparent="1" />
-  <ePixmap position="70,445" size="380,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HDF-Toolbox/banner.png" zPosition="2" alphatest="on" />
-  <panel name="template_menu_full" />
-</screen>
-  <!-- LogManager -->
-  <screen name="LogManager" position="0,0" size="1280,720" title="Log Manager" backgroundColor="ZeroBackground">
-  <widget name="list" position="70,80" size="708,540" font="Regular;14" backgroundColor="ZeroBackground" transparent="1" />
-<panel name="template_menu_full_button" />
-  <panel name="template_colorkey_text" />
-</screen>
-  <!-- DownloadMenu -->
-<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="Hdf_Downloader" position="0,0" size="1280,720" title="Select your Download">
-  <widget name="downloadmenu" position="68,115" size="400,300" scrollbarMode="showOnDemand" />
-  <widget source="introduction" render="Label" position="12,438" size="560,30" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" />
-  <widget source="size" render="Label" position="555,121" size="100,30" zPosition="10" font="Regular;15" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
-  <widget source="size2" render="Label" position="485,116" size="100,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
-  <widget source="description" render="Label" position="485,210" size="330,150" zPosition="10" font="Regular;15" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
-  <widget source="description2" render="Label" position="485,168" size="150,30" zPosition="10" font="Regular;21" halign="left" valign="top" backgroundColor="ZeroBackground" transparent="1" />
-  <ePixmap name="1" position="1058,385" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_1.png" transparent="1" alphatest="on" />
-  <widget name="key_1" position="753,386" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="2" position="1058,410" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_2.png" transparent="1" alphatest="on" />
-  <widget name="key_2" position="753,411" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="3" position="1058,435" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_3.png" transparent="1" alphatest="on" />
-  <widget name="key_3" position="753,435" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="4" position="1058,460" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_4.png" transparent="1" alphatest="on" />
-  <widget name="key_4" position="753,461" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="5" position="1058,485" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_5.png" transparent="1" alphatest="on" />
-  <widget name="key_5" position="753,486" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="6" position="1058,510" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_6.png" transparent="1" alphatest="on" />
-  <widget name="key_6" position="753,511" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <ePixmap name="0" position="1058,535" zPosition="1" size="40,40" pixmap="skin_default/buttons/key_0.png" transparent="1" alphatest="on" />
-  <widget name="key_0" position="753,536" zPosition="2" size="300,30" valign="right" halign="right" font="Regular;15" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
-  <panel name="template_menu_full_button_nologo" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- Softcam Cardserver Manager -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ScSelection" position="0,0" size="1280,720" title="Softcam Cardserver Manager">
-  <widget name="entries" position="68,160" size="505,310" enableWrapAround="1" backgroundColor="ZeroBackground" transparent="1" />
-  <eLabel font="Regular;18" halign="left" valign="top" position="695,160" size="90,26" text="ECM:" zPosition="2" transparent="1" />
-  <widget source="session.CurrentService" render="Label" position="780,160" size="490,56" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left" noWrap="1">
-    <convert type="CryptoInfo">VerboseInfo</convert>
-  </widget>
-  <eLabel font="Regular;18" halign="left" valign="top" position="695,220" size="90,26" text="Channel:" zPosition="2" transparent="1" />
-  <widget source="session.CurrentService" render="Label" position="780,220" size="480,26" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left">
-    <convert type="ServiceName">All</convert>
-  </widget>
-  <widget source="session.CurrentService" render="Label" position="695,300" size="479,26" transparent="1" zPosition="2" font="Regular;18" valign="top" halign="left" noWrap="1">
-    <convert type="HDFreaksExtraInfo">CryptoInfo</convert>
-  </widget>
-  <eLabel font="Regular;18" halign="left" valign="top" position="695,260" size="90,26" text="RES:" zPosition="2" transparent="1" />
-  <widget source="session.CurrentService" render="Label" zPosition="2" position="780,260" size="55,24" halign="left" valign="top" font="Regular;18" transparent="1">
-    <convert type="HDFreaksServiceInfo">VideoWidth</convert>
-  </widget>
-  <eLabel text="x" zPosition="2" position="830,260" size="35,24" halign="left" valign="top" font="Regular;18" transparent="1" />
-  <widget source="session.CurrentService" render="Label" zPosition="2" position="850,260" size="55,24" halign="left" valign="top" font="Regular;18" transparent="1">
-    <convert type="HDFreaksServiceInfo">VideoHeight</convert>
-  </widget>
-<panel name="template_menu_full_button_nologo" />
-  <panel name="template_colorkey_text_source" />
-</screen>
-  <!-- main-custom-openhdf */ -->
-  
-  
 <!-- skin-end -->
 </skin>
