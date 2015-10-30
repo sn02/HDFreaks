@@ -67,6 +67,15 @@ def translateBlock(block):
 
 config.plugins.HDFreaks = ConfigSubsection()
 
+config.plugins.HDFreaks.BackgroundColorTrans = ConfigSelection(default="22000000", choices = [
+				("00000000", _("nothing")),
+				("22000000", _("lower")),
+				("44000000", _("low")),
+				("66000000", _("middle")),
+				("88000000", _("medium")),
+				("AA000000", _("high"))
+				])
+
 config.plugins.HDFreaks.SelectionBackground = ConfigSelection(default="00c3461b", choices = [
 				("00f0a30a", _("Amber")),
 				("001b1775", _("Blue")),
@@ -173,27 +182,27 @@ config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = 
 class HDFreaks(ConfigListScreen, Screen):
 	skin = """
 <screen name="HDFreaks-Setup" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
-   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#44000000" halign="left" valign="center" position="64,662" size="148,48" text="Cancel" transparent="1" />
-  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#44000000" halign="left" valign="center" position="264,662" size="148,48" text="Save" transparent="1" />
-  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#44000000" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
+   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="64,662" size="148,48" text="Cancel" transparent="1" />
+  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="264,662" size="148,48" text="Save" transparent="1" />
+  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
   <widget name="config" position="70,73" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
-  <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#44000000" foregroundColor="#00ffffff" name="," />
-<eLabel position="891,12" size="372,46" text="Version: 1.6" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#44000000" foregroundColor="#00ffffff" name="," />
-  <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="#44000000" alphatest="blend" name="," />
-  <eLabel backgroundColor="#44000000" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
-  <widget backgroundColor="#44000000" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
-    <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="#44000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="#44000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="#44000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="#44000000" alphatest="blend" />
- <widget source="global.CurrentTime" render="Label" position="1154,666" size="100,28" font="Regular;26" halign="right" backgroundColor="#44000000" transparent="1" valign="center" foregroundColor="#00ffffff">
+  <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#22000000" foregroundColor="#00ffffff" name="," />
+<eLabel position="891,12" size="372,46" text="Version: 1.6" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#22000000" foregroundColor="#00ffffff" name="," />
+  <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="#22000000" alphatest="blend" name="," />
+  <eLabel backgroundColor="#22000000" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
+  <widget backgroundColor="#22000000" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
+    <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
+ <widget source="global.CurrentTime" render="Label" position="1154,666" size="100,28" font="Regular;26" halign="right" backgroundColor="#22000000" transparent="1" valign="center" foregroundColor="#00ffffff">
       <convert type="ClockToText">Default</convert>
     </widget>
-   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,63" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" /> 
-   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,653" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
+   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,63" size="1280,2" backgroundColor="#22000000" alphatest="blend" /> 
+   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,653" size="1280,2" backgroundColor="#22000000" alphatest="blend" />
    <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" alphatest="blend" />
    <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="HDFreaks/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
-</screen>
+</screen> 
 """
 
 	def __init__(self, session, args = None, picPath = None):
@@ -209,6 +218,7 @@ class HDFreaks(ConfigListScreen, Screen):
 		self.PicLoad = ePicLoad()
 		self["helperimage"] = Pixmap()
 		list = []
+		list.append(getConfigListEntry(_("Background Transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
 		list.append(getConfigListEntry(_("Listselection"), config.plugins.HDFreaks.SelectionBackground))
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
 		list.append(getConfigListEntry(_("Font 1"), config.plugins.HDFreaks.Font1))
@@ -293,7 +303,8 @@ class HDFreaks(ConfigListScreen, Screen):
 		try:
 		    #global tag search and replace in all skin elements
 			self.skinSearchAndReplace = []
-			self.skinSearchAndReplace.append(["000050ef", config.plugins.HDFreaks.SelectionBackground.value])
+			self.skinSearchAndReplace.append(["22000000", config.plugins.HDFreaks.BackgroundColorTrans.value])
+			self.skinSearchAndReplace.append(["00c3461b", config.plugins.HDFreaks.SelectionBackground.value])
 			self.skinSearchAndReplace.append(["00fffff3", config.plugins.HDFreaks.Font1.value])
 			self.skinSearchAndReplace.append(["00fffff4", config.plugins.HDFreaks.Font2.value])
 			self.skinSearchAndReplace.append(["00fffff5", config.plugins.HDFreaks.SelFont.value])

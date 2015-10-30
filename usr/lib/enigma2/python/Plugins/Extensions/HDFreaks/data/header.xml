@@ -19,7 +19,7 @@
     <color name="transparent" value="#ff000000" />
     <color name="white" value="#00ffffff" />
     <color name="yellow" value="#00e5b243" />
-    <color name="ZeroBackground" value="#33000000" />
+    <color name="ZeroBackground" value="#22000000" />
     <color name="ZeroBorder" value="#00fffff1" />
     <color name="ZeroButtonText" value="#00fffff2" />
     <color name="ZeroFont1" value="#00fffff3" />
@@ -27,7 +27,7 @@
     <color name="ZeroLine" value="#00fffff7" />
     <color name="ZeroProgress" value="#00fffff6" />
     <color name="ZeroSelFont" value="#00fffff5" />
-    <color name="ZeroSelection" value="#000050ef" />
+    <color name="ZeroSelection" value="#00c3461b" />
   </colors>
   <fonts>
     <font filename="lcd.ttf" name="LCD" scale="100" />
