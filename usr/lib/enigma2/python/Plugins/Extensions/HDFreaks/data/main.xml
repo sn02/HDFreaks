@@ -8,7 +8,7 @@
   <widget alphatest="blend" position="895,78" render="HDFreaksXPicon" size="220,132" source="ServiceEvent" transparent="1" zPosition="4">
     <convert type="HDFreaksRefString">ServicelistRef</convert>
   </widget>
-  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,233" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=2000,wrap=1,always=0,repeat=2,oneshot=1" size="462,291" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
+  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,233" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="462,291" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
@@ -194,7 +194,7 @@
     <widget position="22,515" render="Progress" size="1233,4" source="session.Event_Now" transparent="1" zPosition="7" foregroundColor="ZeroProgress" backgroundColor="ZeroBackground">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="529,125" source="Event" transparent="1">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 20" foregroundColor="ZeroFont2" position="725,525" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" size="529,125" source="Event" transparent="1">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <widget name="list" position="22,525" size="685,125" transparent="1" />
@@ -261,7 +261,7 @@
   <widget backgroundColor="ZeroBackground" font="Regular; 22" halign="center" name="more_text" position="370,87" size="150,30" text="MORE" transparent="1" zPosition="10" />
   <widget font="Regular; 22" halign="right" name="date" position="960,87" size="250,30" transparent="1" valign="center" />
   <widget backgroundColor="ZeroBackground" itemHeight="30" name="list" position="50,142" size="1180,338" transparent="1" />
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" position="50,492" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1180,153" source="Event" zPosition="-8">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="left" position="50,492" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" size="1180,153" source="Event" zPosition="-8">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <panel name="template_menu_full_button_nologo" />
@@ -283,7 +283,7 @@
     <widget backgroundColor="ZeroFont1" borderWidth="0" position="146,138" render="Progress" size="990,5" source="Event" transparent="1" zPosition="20" foregroundColor="ZeroProgress">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 19" position="70,163" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1153,139" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 19" position="70,163" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" size="1153,139" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
       <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
     </widget>
     <eLabel backgroundColor="ZeroProgress" position="146,140" size="990,1" />
@@ -315,7 +315,7 @@
     <widget source="Event" render="Progress" position="101,117" size="990,5" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="1">
       <convert type="HDFreaksEventTime">Progress</convert>
     </widget>
-    <widget backgroundColor="ZeroBackground" font="Regular2; 21" position="25,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="1230,126" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
+    <widget backgroundColor="ZeroBackground" font="Regular2; 21" position="25,139" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" size="1230,126" source="Event" valign="top" zPosition="-8" foregroundColor="ZeroFont2">
       <convert type="HDFreaksEventName">ExtendedDescription</convert>
     </widget>
     <eLabel backgroundColor="ZeroFont1" position="101,119" size="990,1" />
@@ -342,7 +342,7 @@
   <widget source="Event" render="Progress" position="101,123" size="535,5" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="1">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,112" font="Regular2; 19" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
+  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,112" font="Regular2; 19" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
