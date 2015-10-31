@@ -384,7 +384,7 @@
   <widget backgroundColor="ZeroBackground" font="Regular2; 32" halign="center" noWrap="1" position="38,86" foregroundColor="ZeroFont2" render="HDFreaksRunningText" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="1200,42" source="session.Event_Now" transparent="1" zPosition="1" valign="bottom">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
-  <widget backgroundColor="ZeroBackground" font="Regular2; 22" foregroundColor="ZeroFont2" halign="center" position="38,387" render="Label" size="1200,35" source="session.Event_Now" zPosition="1" transparent="1">
+  <widget backgroundColor="ZeroBackground" font="Regular2; 26" foregroundColor="ZeroFont2" halign="center" position="38,387" render="Label" size="1200,35" source="session.Event_Now" zPosition="1" transparent="1">
     <convert type="HDFreaksEventName">Description</convert>
   </widget>
   <widget alphatest="blend" pixmap="HDFreaks/buttons/ico_rec_on.png" position="1241,518" render="Pixmap" size="32,32" source="session.RecordState" zPosition="5">
