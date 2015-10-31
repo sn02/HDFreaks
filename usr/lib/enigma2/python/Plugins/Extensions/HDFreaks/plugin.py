@@ -182,24 +182,24 @@ config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = 
 class HDFreaks(ConfigListScreen, Screen):
 	skin = """
 <screen name="HDFreaks-Setup" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
-   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="64,662" size="148,48" text="Cancel" transparent="1" />
-  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="264,662" size="148,48" text="Save" transparent="1" />
-  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="#22000000" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
+   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="64,662" size="148,48" text="Cancel" transparent="1" />
+  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="264,662" size="148,48" text="Save" transparent="1" />
+  <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
   <widget name="config" position="70,73" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
-  <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#22000000" foregroundColor="#00ffffff" name="," />
-<eLabel position="891,12" size="372,46" text="Version: 1.6" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="#22000000" foregroundColor="#00ffffff" name="," />
-  <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="#22000000" alphatest="blend" name="," />
-  <eLabel backgroundColor="#22000000" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
-  <widget backgroundColor="#22000000" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
-    <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
-    <ePixmap pixmap="HDFreaks/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="#22000000" alphatest="blend" />
- <widget source="global.CurrentTime" render="Label" position="1154,666" size="100,28" font="Regular;26" halign="right" backgroundColor="#22000000" transparent="1" valign="center" foregroundColor="#00ffffff">
+  <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
+<eLabel position="891,12" size="372,46" text="Version: 1.6" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
+  <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="ZeroBackground" alphatest="blend" name="," />
+  <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
+  <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
+    <ePixmap pixmap="HDFreaks/buttons/key_red1.png" position="22,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_green1.png" position="222,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_yellow1.png" position="422,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
+    <ePixmap pixmap="HDFreaks/buttons/key_blue1.png" position="622,670" size="32,32" backgroundColor="ZeroBackground" alphatest="blend" />
+ <widget source="global.CurrentTime" render="Label" position="1154,666" size="100,28" font="Regular;26" halign="right" backgroundColor="ZeroBackground" transparent="1" valign="center" foregroundColor="#00ffffff">
       <convert type="ClockToText">Default</convert>
     </widget>
-   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,63" size="1280,2" backgroundColor="#22000000" alphatest="blend" /> 
-   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,653" size="1280,2" backgroundColor="#22000000" alphatest="blend" />
+   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,63" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" /> 
+   <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,653" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
    <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" alphatest="blend" />
    <ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="HDFreaks/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
 </screen> 
