@@ -1,28 +1,29 @@
-<screen position="40,50" size="1200,630" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="#ZeroBackground" >
-			<widget name="searchinfo" position="10,10" size="930,30" font="mediaportal;24" foregroundColor="#00fff000" transparent="1"/>
-			<widget name="subtitle" position="10,50" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="#00fff000"/>
-			<widget name="fulldescription" position="10,80" size="620,470" font="mediaportal;22" transparent="1"/>
-			<widget name="coverArt" position="950,10" size="225,315" alphatest="blend"/>
-			<ePixmap position="705,60" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
-			<widget name="rating" position="680,90" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
-			<widget name="fsk" position="780,190" size="150,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-		    <widget name="fsk_txt" position="650,190" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
-			<widget name="year_txt" position="650,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="year" position="780,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="country_txt" position="650,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="country" position="780,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="runtime_txt" position="650,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="runtime" position="780,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="votes_txt" position="650,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="votes" position="780,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="director_txt" position="650,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="director" position="780,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="author_txt" position="650,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="author" position="780,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="genre_txt" position="650,400" size="100,30" font="mediaportal; 22" transparent="1"/>
-			<widget name="genre" position="780,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
-			<widget name="studio_txt" position="650,430" size="100,30" font="mediaportal; 22" transparent="1"/>
-			<widget name="studio" position="780,430" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+<screen position="0,0" size="1280,720" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="ZeroBackground" >
+	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
+			<widget name="searchinfo" position="30,40" size="930,30" font="mediaportal;28" foregroundColor="#00fff000" transparent="1"/>
+			<widget name="subtitle" position="30,80" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="#00fff000"/>
+			<widget name="fulldescription" position="30,80" size="620,550" font="mediaportal;24" transparent="1"/>
+			<widget name="coverArt" position="1020,80" size="225,315" alphatest="blend"/>
+			<ePixmap position="725,90" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
+			<widget name="rating" position="700,120" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
+			<widget name="fsk" position="800,220" size="150,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+		        <widget name="fsk_txt" position="670,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
+			<widget name="year_txt" position="670,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="year" position="800,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="country_txt" position="670,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="country" position="800,280" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="runtime_txt" position="670,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="runtime" position="800,310" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="votes_txt" position="670,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="votes" position="800,340" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="director_txt" position="670,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="director" position="800,370" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="author_txt" position="670,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="author" position="800,400" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="genre_txt" position="670,430" size="100,30" font="mediaportal; 22" transparent="1"/>
+			<widget name="genre" position="800,430" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
+			<widget name="studio_txt" position="670,460" size="100,30" font="mediaportal; 22" transparent="1"/>
+			<widget name="studio" position="800,460" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
 <!-- Buttons -->
     <widget name="F1" position="75,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
     <widget name="F2" position="222,670" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
