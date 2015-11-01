@@ -2582,19 +2582,19 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <panel name="template_menu_full" />
   </screen>
   <!-- HotkeySetup -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HotkeySetup" position="0,0" size="1280,720" title="Tasteneinstellungen">
-  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
-  <widget name="choosen" position="428,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
-  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
-  <panel name="template_menu_full_button_nologo" />
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HotkeySetup" position="0,0" size="1280,720" title="Tasteneinstellungen">
+  <widget name="list" position="40,100" size="540,390" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
+  <widget name="choosen" position="580,100" size="385,100" scrollbarMode="showOnDemand" font="Regular2; 26" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
+  <widget name="description" position="80,500" size="460,150" font="Regular2; 24" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
+  <panel name="template_menu_full_button" />
   <panel name="template_colorkey_text_source" />
 </screen>
   <!-- ButtonSetupSelect -->
-  <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ButtonSetupSelect" position="0,0" size="1280,720" title="Tasteneinstellungen">
-  <widget name="list" position="40,99" size="385,529" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
-  <widget name="choosen" position="427,99" size="385,530" scrollbarMode="showOnDemand" font="Regular2; 22" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
-  <widget name="description" position="935,228" size="302,250" font="Regular2; 16" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
-<panel name="template_menu_full_button_nologo" />
+<screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ButtonSetupSelect" position="0,0" size="1280,720" title="Tasteneinstellungen">
+  <widget name="list" position="40,100" size="540,390" scrollbarMode="showOnDemand" font="Regular;22" itemHeight="28" transparent="1" foregroundColor="white" enableWrapAround="1" backgroundColor="ZeroBackground" zPosition="-8" />
+  <widget name="choosen" position="580,100" size="385,100" scrollbarMode="showOnDemand" font="Regular2; 26" itemHeight="28" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="-8" transparent="1" />
+  <widget name="description" position="80,500" size="460,150" font="Regular2; 24" foregroundColor="ZeroFont2" valign="center" halign="center" backgroundColor="ZeroBackground" zPosition="-8" />
+  <panel name="template_menu_full_button" />
   <panel name="template_colorkey_text_source" />
 </screen>
   <!-- HddSetup -->
