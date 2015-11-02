@@ -1866,6 +1866,76 @@
     <panel name="template_menu_full" />
 </screen>
 
+  <!-- ****** SerienRecorder ****** -->
+<!--SerienRecorder-->
+  <screen name="SerienRecorder3.0" position="0,0" size="1280,720" title="Serien Recorder" flags="wfNoBorder" backgroundColor="ZeroBackground">
+	<ePixmap position="0,0" size="1280,334" zPosition="-9" pixmap="HDFreaks/infobar/infobar_oben.png" transparent="1" alphatest="blend" />
+    <widget name="title" position="20,50" size="880,55" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" font="Regular;26" valign="center" halign="center" />
+    <widget name="headline" position="20,50" size="860,55" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" font="Regular;26" valign="center" halign="center" />
+    <widget backgroundColor="ZeroBackground" name="headline" position="20,20" size="880,40" transparent="1" font="Regular;26" valign="center" halign="center" />
+    <widget backgroundColor="ZeroBackground" name="version" position="860,20" size="400,40" foregroundColor="ZeroFont2" transparent="1" font="Regular;26" valign="center" halign="right" />
+    <widget backgroundColor="ZeroBackground" source="global.CurrentTime" position="860,50" size="400,55" render="Label" font="Regular;26" valign="center" halign="right"  foregroundColor="ZeroFont2" transparent="1">
+        <convert type="HDFreaksClockToText">Format:%A, %d.%m.%Y  %H:%M</convert>
+    </widget>
+    <widget name="video" position="938,120" size="322,182" zPosition="5" backgroundColor="transparent" />
+	<!-- Channelzuordnung -->
+    <widget name="list" position="20,150" size="880,470" zPosition="5" backgroundColor="ZeroBackground" foregroundColor="ZeroSelFont" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+	<!-- Marker-/Planer-Listen -->
+    <widget name="config" position="20,120" size="870,500" zPosition="5" backgroundColor="black" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+    <widget name="menu_list" position="20,120" size="870,500" zPosition="5" backgroundColor="black" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+	<!-- Log-Listen -->
+    <widget name="log" position="20,120" size="1240,500" zPosition="5" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+	<!-- PopUp-Listen -->
+    <widget name="popup_bg" position="170,160" size="600,390" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1" zPosition="6" />
+    <widget name="popup_list" position="190,180" size="560,350" zPosition="7" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+	<!-- Alternative Channelliste -->
+    <widget name="popup_list2" position="190,180" size="560,350" zPosition="8" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+	<!-- Channel-List -->
+    <widget name="Web_Channel" position="55,115" size="200,30" halign="left" font="Regular; 25" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1" />
+    <widget name="STB_Channel" position="370,115" size="200,30" halign="left" font="Regular; 25" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1" />
+    <widget name="alt_STB_Channel" position="610,115" size="200,30" halign="left" font="Regular; 25" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1" />
+    <!--widget name="separator" position="20,145" size="880,2" backgroundColor="ZeroLine" zPosition="6" /-->
+	<!-- Setup-Beschreibungen -->
+    <widget name="config_information" position="938,320" zPosition="3" size="322,300" backgroundColor="transparent" />
+    <widget name="config_information_text" position="948,325" size="302,290" backgroundColor="ZeroBackground" transparent="1" halign="left" zPosition="5" font="Regular;14"/>
+	<!-- Serienbeschreibung -->
+    <widget name="info" position="20,120" size="870,500" font="Regular;24" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" scrollbarWidth="5" transparent="1" zPosition="1" />
+	<!-- Info's Log-File -->
+    <widget name="path" position="50,50" size="820,55" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1" font="Regular;19" valign="center" halign="left" />
+	<!-- Colour Buttons -->
+    <widget name="bt_red" pixmap="HDFreaks/buttons/key_red1.png" position="20,651" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_red" position="60,654" size="200,26" zPosition="1" font="Regular; 19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_green" pixmap="HDFreaks/buttons/key_green1.png" position="268,651" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_green" position="308,654" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_ok" pixmap="HDFreaks/buttons/key_ok.png" position="516,651" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_ok" position="556,654" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_yellow" pixmap="HDFreaks/buttons/key_yellow1.png" position="764,651" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_yellow" position="804,654" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_blue" pixmap="HDFreaks/buttons/key_blue1.png" position="1012,651" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_blue" position="1052,654" size="230,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_0" pixmap="HDFreaks/buttons/keys_0.png" position="20,685" zPosition="3" size="32,32" alphatest="blend" />
+    <widget name="bt_5" pixmap="HDFreaks/buttons/keys_5.png" position="20,685" zPosition="2" size="32,32" alphatest="blend" />
+    <widget name="bt_exit" pixmap="HDFreaks/buttons/key_exit.png" position="20,685" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_0" position="60,688" size="200,26" zPosition="1" font="Regular; 19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_1" pixmap="HDFreaks/buttons/keys_1.png" position="268,685" zPosition="3" size="32,32" alphatest="blend" />
+    <widget name="bt_6" pixmap="HDFreaks/buttons/keys_6.png" position="268,685" zPosition="2" size="32,32" alphatest="blend" />
+    <widget name="bt_text" pixmap="HDFreaks/buttons/key_text.png" position="268,685" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_1" position="308,688" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_2" pixmap="HDFreaks/buttons/keys_2.png" position="516,685" zPosition="3" size="32,32" alphatest="blend" />
+    <widget name="bt_7" pixmap="HDFreaks/buttons/keys_7.png" position="516,685" zPosition="2" size="32,32" alphatest="blend" />
+    <widget name="bt_epg" pixmap="HDFreaks/buttons/key_epg.png" position="516,685" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_2" position="556,688" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_3" pixmap="HDFreaks/buttons/keys_3.png" position="764,685" zPosition="3" size="32,32" alphatest="blend" />
+    <widget name="bt_8" pixmap="HDFreaks/buttons/keys_8.png" position="764,685" zPosition="2" size="32,32" alphatest="blend" />
+    <widget name="bt_info" pixmap="HDFreaks/buttons/key_help.png" position="764,685" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_3" position="804,688" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <widget name="bt_4" pixmap="HDFreaks/buttons/keys_4.png" position="1012,685" zPosition="3" size="32,32" alphatest="blend" />
+    <widget name="bt_9" pixmap="HDFreaks/buttons/keys_9.png" position="1012,685" zPosition="2" size="32,32" alphatest="blend" />
+    <widget name="bt_menu" pixmap="HDFreaks/buttons/key_menu.png" position="1012,685" zPosition="1" size="32,32" alphatest="blend" />
+    <widget name="text_4" position="1052,688" size="200,26" zPosition="1" font="Regular;19" halign="left" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1" />
+    <!--eLabel backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" position="0,0" size="1280,720" transparent="1" zPosition="-10" /-->
+    <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" alphatest="blend" />
+  </screen> 
 <!-- plugins -->
 <!-- skin-end -->
 </skin>
