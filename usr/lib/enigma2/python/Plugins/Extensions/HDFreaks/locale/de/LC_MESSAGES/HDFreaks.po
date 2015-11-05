@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: HDFreaks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-23 18:48+0100\n"
-"PO-Revision-Date: 2015-11-05 11:22+0100\n"
+"PO-Revision-Date: 2015-11-05 16:19+0100\n"
 "Last-Translator: pixbox <pixbox@live.de>\n"
 "Language-Team: Team Kraven\n"
 "Language: de\n"
@@ -17,24 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "nothing"
-msgstr "Nichts"
-
-msgid "lower"
-msgstr "15%"
-
-msgid "low"
-msgstr "30%"
-
-msgid "middle"
-msgstr "45%"
-
-msgid "medium"
-msgstr "60%"
-
-msgid "high"
-msgstr "75%"
 
 msgid "Amber"
 msgstr "Bernstein"
@@ -90,11 +72,47 @@ msgstr "Gelb"
 msgid "White"
 msgstr "Weiß"
 
+msgid "<<< Weather - ID on weather.open-store.net >>>"
+msgstr "<<< Wetter - ID auf weather.open-store.net >>>"
+
+msgid "Weather"
+msgstr "Wetter"
+
+msgid "Weather ID"
+msgstr "Wetter ID"
+
+msgid ", feels "
+msgstr ", gefühlt "
+
+msgid "<<< System Settings >>>"
+msgstr "<<< Systemeinstellungen >>>"
+
 msgid "Running Text"
 msgstr "Laufschrift - Running Text"
 
 msgid "Background Transparency"
 msgstr "Hintergrund Transparenz"
+
+msgid "nothing"
+msgstr "Nichts"
+
+msgid "lower"
+msgstr "15%"
+
+msgid "low"
+msgstr "30%"
+
+msgid "middle"
+msgstr "45%"
+
+msgid "medium"
+msgstr "60%"
+
+msgid "high"
+msgstr "75%"
+
+msgid "<<< Color Settings >>>"
+msgstr "<<< Farbeinstellungen >>>"
 
 msgid "Listselection"
 msgstr "Auswahlbalken"

@@ -67,6 +67,8 @@ def translateBlock(block):
 #############################################################
 
 config.plugins.HDFreaks = ConfigSubsection()
+config.plugins.HDFreaks.weather_city = ConfigNumber(default="679420")
+config.plugins.HDFreaks.refreshInterval = ConfigNumber(default="60")
 
 config.plugins.HDFreaks.BackgroundColorTrans = ConfigSelection(default="22000000", choices = [
 				("00000000", _("nothing")),
@@ -183,6 +185,11 @@ config.plugins.HDFreaks.RunningText = ConfigSelection(default="movetype=none", c
 				("movetype=none", _("off"))
 				])
 				
+config.plugins.HDFreaks.WeatherStyle = ConfigSelection(default="weather-off", choices = [
+				("weather-off", _("off")),
+				("weather-on", _("on"))
+				])	
+				
 #######################################################################
 
 class HDFreaks(ConfigListScreen, Screen):
@@ -224,8 +231,14 @@ class HDFreaks(ConfigListScreen, Screen):
 		self.PicLoad = ePicLoad()
 		self["helperimage"] = Pixmap()
 		list = []
+
+		list.append(getConfigListEntry(_("<<< Weather - ID on weather.open-store.net >>>"), ))
+		list.append(getConfigListEntry(_("Weather"), config.plugins.HDFreaks.WeatherStyle))
+		list.append(getConfigListEntry(_("Weather ID"), config.plugins.HDFreaks.weather_city))
+		list.append(getConfigListEntry(_("<<< System Settings >>>"), ))
 		list.append(getConfigListEntry(_("Running Text"), config.plugins.HDFreaks.RunningText))
 		list.append(getConfigListEntry(_("Background Transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
+		list.append(getConfigListEntry(_("<<< Color Settings >>>"), ))
 		list.append(getConfigListEntry(_("Listselection"), config.plugins.HDFreaks.SelectionBackground))
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
 		list.append(getConfigListEntry(_("Font 1"), config.plugins.HDFreaks.Font1))
@@ -318,12 +331,15 @@ class HDFreaks(ConfigListScreen, Screen):
 			self.skinSearchAndReplace.append(["00fffff6", config.plugins.HDFreaks.Progress.value])
 			self.skinSearchAndReplace.append(["movetype=running", config.plugins.HDFreaks.RunningText.value])
 			
-			###Header
+			###Header XML
 			self.appendSkinFile(self.daten + "header.xml")
 			
-	                ###Main XML
+	        ###Main XML
 			self.appendSkinFile(self.daten + "main.xml")
-			
+
+			###Weather XML
+			self.appendSkinFile(self.daten + config.plugins.HDFreaks.WeatherStyle.value + ".xml")			
+
 			###Plugins XML
 			self.appendSkinFile(self.daten + "plugins.xml")
 			
