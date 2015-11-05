@@ -20,13 +20,13 @@
 	<widget name="name" position="45,600" size="650,30" zPosition="1" noWrap="1" transparent="1" font="mediaportal; 26" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
     
 	<widget name="Mediatheken" position="40,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="mediatheken" position="40,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
+	<widget name="mediatheken" position="40,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" itemHeight="40" foregroundColor="#00ffffff" />
 	<widget name="Grauzone" position="340,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="grauzone" position="340,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
+	<widget name="grauzone" position="340,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" itemHeight="40" foregroundColor="#00ffffff" />
 	<widget name="Funsport" position="640,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="funsport" position="640,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
+	<widget name="funsport" position="640,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" itemHeight="40" foregroundColor="#00ffffff" />
 	<widget name="Porn" position="940,70" size="300,30" backgroundColor="#00000000" font="mediaportal; 26" valign="center" halign="center" transparent="1" foregroundColor="#00ffffff" />
-	<widget name="porn" position="940,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" foregroundColor="#00ffffff" />
+	<widget name="porn" position="940,110" size="300,480" backgroundColor="#00000000" transparent="1" foregroundColorSelected="ZeroSelFont" itemHeight="40" foregroundColor="#00ffffff" />
 
 	<!-- Buttons -->
     <widget name="red" position="75,671" size="120,20" transparent="1" font="mediaportal; 18" backgroundColor="#00000000" foregroundColor="#00ffffff" valign="center" halign="left" zPosition="6" />
