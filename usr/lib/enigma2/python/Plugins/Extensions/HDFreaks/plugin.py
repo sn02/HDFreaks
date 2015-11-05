@@ -31,6 +31,7 @@ from Components.ActionMap import ActionMap
 from Components.AVSwitch import AVSwitch
 from Components.config import config, configfile, ConfigYesNo, ConfigSubsection, getConfigListEntry, ConfigSelection, ConfigNumber, ConfigText, ConfigInteger
 from Components.ConfigList import ConfigListScreen
+from Components.Sources.StaticText import StaticText
 from Components.Label import Label
 from Components.Language import language
 from os import environ, listdir, remove, rename, system
@@ -176,6 +177,11 @@ config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = 
 				("00eea00a", _("Yellow")),				
 				("00fffff5", _("White"))
 				])
+
+config.plugins.HDFreaks.RunningText = ConfigSelection(default="movetype=none", choices = [
+				("movetype=running", _("on")),
+				("movetype=none", _("off"))
+				])
 				
 #######################################################################
 
@@ -187,7 +193,7 @@ class HDFreaks(ConfigListScreen, Screen):
   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
   <widget name="config" position="70,73" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
   <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
-<eLabel position="891,12" size="372,46" text="Version: 1.7" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
+<eLabel position="891,12" size="372,46" text="Version: 1.8" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
   <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="ZeroBackground" alphatest="blend" name="," />
   <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
   <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="#00ffffff" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="center" valign="center" noWrap="1" />
@@ -218,6 +224,7 @@ class HDFreaks(ConfigListScreen, Screen):
 		self.PicLoad = ePicLoad()
 		self["helperimage"] = Pixmap()
 		list = []
+		list.append(getConfigListEntry(_("Running Text"), config.plugins.HDFreaks.RunningText))
 		list.append(getConfigListEntry(_("Background Transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
 		list.append(getConfigListEntry(_("Listselection"), config.plugins.HDFreaks.SelectionBackground))
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
@@ -309,6 +316,7 @@ class HDFreaks(ConfigListScreen, Screen):
 			self.skinSearchAndReplace.append(["00fffff4", config.plugins.HDFreaks.Font2.value])
 			self.skinSearchAndReplace.append(["00fffff5", config.plugins.HDFreaks.SelFont.value])
 			self.skinSearchAndReplace.append(["00fffff6", config.plugins.HDFreaks.Progress.value])
+			self.skinSearchAndReplace.append(["movetype=running", config.plugins.HDFreaks.RunningText.value])
 			
 			###Header
 			self.appendSkinFile(self.daten + "header.xml")
