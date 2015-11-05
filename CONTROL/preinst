@@ -17,13 +17,16 @@ if [ -f /usr/lib/enigma2/python/Plugins/Extensions/HDFreaks/plugin.py ]; then
 		echo "                 was found and removed!                    "
 		echo "                                                           "
 fi
-
-
-
-
-echo "                                                           "
-echo "        The Skin HDFreaks is now being installed...        "
-echo "                                                           "
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/HDFreaks ]; then
+    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/skins_720/HDFreaks
+		echo "                                                           "
+		echo "               HDFreaks MediaPortal Skin                   "
+		echo "                 was found and removed!                    "
+		echo "                                                           "
+fi    
+    echo "                                                           "
+    echo "        The Skin HDFreaks is now being installed...        "
+    echo "                                                           "
 
 
 
