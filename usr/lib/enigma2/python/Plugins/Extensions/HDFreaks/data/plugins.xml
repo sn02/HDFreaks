@@ -1070,30 +1070,30 @@
   </screen>
   <!-- ********** PiconManager ********** -->
   <!-- PiconManagerScreen -->
-  <screen name="PiconManagerScreen" backgroundColor="transparent" flags="wfNoBorder" title="PiconManager" position="0,0" size="1280,720">
-    <widget backgroundColor="ZeroBackground" name="piconpath" position="80,80" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconpath2" position="260,80" size="500,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconspace" position="80,110" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconcount" position="80,140" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="picondownload" position="80,170" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconerror" position="80,200" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconslidername" position="80,230" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="selectedname" position="80,260" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="selected" position="240,260" size="200,26" noWrap="1" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="creatorname" position="80,290" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="creator" position="240,290" size="200,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="sizename" position="450,260" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="size" position="580,260" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="bitname" position="450,290" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="bit" position="580,290" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="spiconname" position="80,320" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="spicon" position="240,320" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
-    <widget backgroundColor="ZeroBackground" name="piconslider" position="340,234" size="180,20" zPosition="2" transparent="1" />
-    <widget backgroundColor="ZeroBackground" name="picon" position="798,80" size="400,240" zPosition="4" transparent="1" borderWidth="0" borderColor="black" alphatest="blend" />
-    <widget backgroundColor="ZeroBackground" name="list" position="70,370" size="1130,270" itemHeight="30" zPosition="1" foregroundColor="ZeroFont1" foregroundColorSelected="ZeroSelFont" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="grey" scrollbarSliderBorderColor="grey" scrollbarSliderBorderWidth="1" transparent="1" />
-    <panel name="template_colorkey_text" />
-    <panel name="template_menu_full_button_nologo" />
-  </screen>
+<screen name="PiconManagerScreen" backgroundColor="transparent" flags="wfNoBorder" title="PiconManager" position="0,0" size="1280,720">
+  <widget backgroundColor="ZeroBackground" name="piconpath" position="80,80" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconpath2" position="260,80" size="500,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconspace" position="80,110" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconcount" position="80,140" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="picondownload" position="80,170" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconerror" position="80,200" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconslidername" position="80,230" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="selectedname" position="80,260" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="selected" position="240,260" size="270,26" noWrap="1" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="creatorname" position="80,290" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="creator" position="240,290" size="270,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="sizename" position="510,260" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="size" position="620,260" size="150,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="bitname" position="510,290" size="160,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="bit" position="620,290" size="150,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="spiconname" position="80,320" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="spicon" position="240,320" size="690,26" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" halign="left" />
+  <widget backgroundColor="ZeroBackground" name="piconslider" position="340,234" size="180,20" zPosition="2" transparent="1" />
+  <widget backgroundColor="ZeroBackground" name="picon" position="798,80" size="400,240" zPosition="4" transparent="1" borderWidth="0" borderColor="black" alphatest="blend" />
+  <widget backgroundColor="ZeroBackground" name="list" position="70,370" size="1130,270" itemHeight="30" zPosition="1" foregroundColor="ZeroFont1" foregroundColorSelected="ZeroSelFont" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="grey" scrollbarSliderBorderColor="grey" scrollbarSliderBorderWidth="1" transparent="1" />
+  <panel name="template_colorkey_text" />
+  <panel name="template_menu_full_button_nologo" />
+</screen>
   <!-- PiconManagerFolderScreen -->
   <screen name="PiconManagerFolderScreen" position="0,0" size="1280,720" title="" backgroundColor="transparent" flags="wfNoBorder">
     <widget name="media" position="70,80" size="540,30" valign="top" font="Regular;22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" transparent="1" />
