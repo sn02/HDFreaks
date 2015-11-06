@@ -158,9 +158,9 @@
     <panel name="template_colorkey_text" />
   </screen>
   <screen name="SystemMemoryInfo" position="0,0" size="1280,720" title="SystemInfo" flags="wfNoBorder" backgroundColor="transparent">
-    <widget source="lab1" render="Label" position="70,120" size="708,35" font="Regular2; 30" transparent="1" zPosition="2" foregroundColor="ZeroFont2" />
-    <widget source="lab2" render="Label" position="70,165" size="708,25" font="Regular2; 19" transparent="1" zPosition="2" foregroundColor="ZeroFont2" />
-    <widget name="AboutScrollLabel" scrollbarMode="showOnDemand" position="70,210" size="708,390" font="Regular;20" transparent="1" zPosition="1" foregroundColor="ZeroFont1" />
+    <widget source="lab1" render="Label" position="70,120" size="708,35" font="Regular2; 30" backgroundColor="ZeroBackground" transparent="1" zPosition="2" foregroundColor="ZeroFont2" />
+    <widget source="lab2" render="Label" position="70,165" size="708,25" font="Regular2; 19" backgroundColor="ZeroBackground" transparent="1" zPosition="2" foregroundColor="ZeroFont2" />
+    <widget name="AboutScrollLabel" scrollbarMode="showOnDemand" position="70,210" size="708,390" font="Regular;20" backgroundColor="ZeroBackground" transparent="1" zPosition="1" foregroundColor="ZeroFont1" />
     <panel name="template_menu_full" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="UnhandledKey" position="49,40" size="70,70" title="UnhandledKey" zPosition="100">
@@ -1088,7 +1088,7 @@
   </screen>
   <!-- SystemNetworkInfo -->
 <screen name="SystemNetworkInfo" position="0,0" size="1280,720" title="SystemInfo" flags="wfNoBorder" backgroundColor="ZeroBackground">
-  <widget name="AboutScrollLabel" position="70,80" size="708,200" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" />
+  <widget name="AboutScrollLabel" position="70,80" size="708,381" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" zPosition="1" />
   <widget source="LabelBSSID" render="Label" position="70,294" size="200,25" valign="left" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" />
   <widget source="LabelESSID" render="Label" position="70,329" size="200,25" valign="center" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" />
   <widget source="LabelQuality" render="Label" position="70,364" size="200,25" valign="center" font="Regular;20" foregroundColor="ZeroFont1" transparent="1" />
