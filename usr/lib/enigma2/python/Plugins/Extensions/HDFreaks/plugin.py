@@ -333,12 +333,12 @@ class HDFreaks(ConfigListScreen, Screen):
 			
 			###Header XML
 			self.appendSkinFile(self.daten + "header.xml")
-			
-	        ###Main XML
-			self.appendSkinFile(self.daten + "main.xml")
 
 			###Weather XML
 			self.appendSkinFile(self.daten + config.plugins.HDFreaks.WeatherStyle.value + ".xml")			
+			
+	        ###Main XML
+			self.appendSkinFile(self.daten + "main.xml")
 
 			###Plugins XML
 			self.appendSkinFile(self.daten + "plugins.xml")

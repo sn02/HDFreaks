@@ -96,7 +96,7 @@
     <widget font="Regular; 20" halign="left" valign="center" source="key_red" position="64,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" source="key_green" position="264,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" source="key_yellow" position="464,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
-    <widget font="Regular; 20" halign="left" valign="center" source="key_blue" position="664,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="white" transparent="1" zPosition="1" />
+    <widget font="Regular; 20" halign="left" valign="center" source="key_blue" position="664,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
   </screen>
   <screen name="template_colorkey_text_button">
     <widget font="Regular; 20" halign="left" valign="center" name="buttonred" position="64,662" size="148,48" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
@@ -104,8 +104,14 @@
     <widget font="Regular; 20" halign="left" valign="center" name="buttonyellow" position="464,662" size="148,48" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
     <widget font="Regular; 20" halign="left" valign="center" name="buttonblue" position="664,662" size="148,48" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
   </screen>
+  <screen name="template_colorkey_text_old">
+    <widget font="Regular; 20" halign="left" valign="center" source="red" position="64,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
+    <widget font="Regular; 20" halign="left" valign="center" source="green" position="264,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
+    <widget font="Regular; 20" halign="left" valign="center" source="yellow" position="464,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
+    <widget font="Regular; 20" halign="left" valign="center" source="blue" position="664,662" size="148,48" render="Label" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
+  </screen>   
   <screen name="template_menu_full_button">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,64" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
@@ -121,7 +127,7 @@
     </widget>
   </screen>
   <screen name="template_menu_full">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,64" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
@@ -133,7 +139,7 @@
     </widget>
   </screen>
   <screen name="template_menu_full_nologo">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,64" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
@@ -144,7 +150,7 @@
     </widget>
   </screen>
   <screen name="template_menu_full_button_nologo">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" foregroundColor="ZeroFont2" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,64" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
@@ -173,7 +179,7 @@
     </widget>
   </screen>
   <screen name="template_cs">
-    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="708,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
+    <widget backgroundColor="ZeroBackground" font="Regular2; 34" foregroundColor="ZeroFont2" position="70,12" render="Label" size="900,46" source="Title" transparent="1" halign="left" valign="center" noWrap="1" />
     <eLabel backgroundColor="ZeroBackground" position="0,0" size="1280,720" transparent="0" zPosition="-9" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,64" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
