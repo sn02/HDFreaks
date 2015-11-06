@@ -198,7 +198,7 @@ class HDFreaks(ConfigListScreen, Screen):
    <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="64,662" size="148,48" text="Cancel" transparent="1" />
   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="264,662" size="148,48" text="Save" transparent="1" />
   <eLabel font="Regular; 20" foregroundColor="#00ffffff" backgroundColor="ZeroBackground" halign="left" valign="center" position="464,662" size="148,48" text="Reboot" transparent="1" />
-  <widget name="config" position="70,73" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
+  <widget name="config" position="70,73" itemHeight="28" font="Regular;24" scrollbarMode="showOnDemand" size="708,574" transparent="1" />
   <eLabel position="70,12" size="708,46" text="HDFreaks - Konfigurationstool" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
 <eLabel position="891,12" size="372,46" text="Version: 1.9" font="Regular; 35" valign="center" halign="center" transparent="1" backgroundColor="ZeroBackground" foregroundColor="#00ffffff" name="," />
   <ePixmap pixmap="HDFreaks/logo.png" position="913,210" size="300,300" backgroundColor="ZeroBackground" alphatest="blend" name="," />
@@ -232,13 +232,13 @@ class HDFreaks(ConfigListScreen, Screen):
 		self["helperimage"] = Pixmap()
 		list = []
 
-		list.append(getConfigListEntry(_("<<< Weather - ID on weather.open-store.net >>>"), ))
+		list.append(getConfigListEntry(_(" >>>>>>>>> Weather - ID on weather.open-store.net <<<<<<<<"), ))
 		list.append(getConfigListEntry(_("Weather"), config.plugins.HDFreaks.WeatherStyle))
 		list.append(getConfigListEntry(_("Weather ID"), config.plugins.HDFreaks.weather_city))
-		list.append(getConfigListEntry(_("<<< System Settings >>>"), ))
+		list.append(getConfigListEntry(_(" >>>>>>>>>>>>>>>>>> System Settings <<<<<<<<<<<<<<<<<"), ))
 		list.append(getConfigListEntry(_("Running Text"), config.plugins.HDFreaks.RunningText))
 		list.append(getConfigListEntry(_("Background Transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
-		list.append(getConfigListEntry(_("<<< Color Settings >>>"), ))
+		list.append(getConfigListEntry(_(" >>>>>>>>>>>>>>>>>>> Color Settings <<<<<<<<<<<<<<<<<<"), ))
 		list.append(getConfigListEntry(_("Listselection"), config.plugins.HDFreaks.SelectionBackground))
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
 		list.append(getConfigListEntry(_("Font 1"), config.plugins.HDFreaks.Font1))
