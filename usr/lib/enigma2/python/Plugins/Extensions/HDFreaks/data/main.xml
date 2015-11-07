@@ -339,7 +339,7 @@
   </screen>
   <!-- GraphicalEPGPIG -->
 <screen name="GraphicalEPGPIG" position="0,0" size="1280,720" title="Electronic Program Guide" flags="wfNoBorder" backgroundColor="ZeroBackground" transparent="0">
-  <widget source="Event" render="Label" position="25,70" size="700,39" font="Regular; 24" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
+  <widget source="Event" render="Label" position="25,70" size="700,33" font="Regular; 26" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
     <convert type="HDFreaksEventName">Name</convert>
   </widget>
   <widget source="Event" render="Label" position="25,110" size=" 65, 26" font="Regular2; 24" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" transparent="1">
