@@ -2000,7 +2000,7 @@
 	<widget name="stars" position="870,610" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/img/starsbar_filled_10.png" zPosition="4" transparent="1" />
 	<widget name="setup" position="64,662" size="148,48" font="Regular;20" halign="left" valign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText"  transparent="1" zPosition="1" />
 	<widget name="save" position="264,662" size="148,48" font="Regular;20" halign="left" valign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroButtonText"  transparent="1" zPosition="1" />
-	<panel name="template_menu_full_button" />
+	<panel name="template_menu_full_button_nologo" />
 </screen> 
 <!-- TMDb - The Movie Database */-->  
 <!-- plugins -->
