@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: HDFreaks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-23 18:48+0100\n"
-"PO-Revision-Date: 2015-11-06 14:28+0100\n"
+"PO-Revision-Date: 2015-11-10 17:53+0100\n"
 "Last-Translator: pixbox <pixbox@live.de>\n"
 "Language-Team: Team Kraven\n"
 "Language: de\n"
@@ -72,6 +72,18 @@ msgstr "Gelb"
 msgid "White"
 msgstr "Weiß"
 
+msgid "On"
+msgstr "An"
+
+msgid "Off"
+msgstr "Aus"
+
+msgid "Weather second infobar"
+msgstr "Wetter Zweite Infobar"
+
+msgid "Weather infobar"
+msgstr "Wetter Infobar"
+
 msgid " >>>>>>>>> Weather - ID on weather.open-store.net <<<<<<<<"
 msgstr " >>>>>>>>> Wetter - ID auf weather.open-store.net <<<<<<<<<"
 
@@ -87,28 +99,28 @@ msgstr ", gefühlt "
 msgid " >>>>>>>>>>>>>>>>>> System Settings <<<<<<<<<<<<<<<<<"
 msgstr " >>>>>>>>>>>>>>>> Systemeinstellungen <<<<<<<<<<<<<<<<"
 
-msgid "Running Text"
+msgid "Running text"
 msgstr "Laufschrift - Running Text"
 
-msgid "Background Transparency"
+msgid "Background transparency"
 msgstr "Hintergrund Transparenz"
 
-msgid "nothing"
+msgid "Nothing"
 msgstr "Nichts"
 
-msgid "lower"
+msgid "Lower"
 msgstr "15%"
 
-msgid "low"
+msgid "Low"
 msgstr "30%"
 
-msgid "middle"
+msgid "Middle"
 msgstr "45%"
 
-msgid "medium"
+msgid "Medium"
 msgstr "60%"
 
-msgid "high"
+msgid "High"
 msgstr "75%"
 
 msgid " >>>>>>>>>>>>>>>>>>> Color Settings <<<<<<<<<<<<<<<<<<"
@@ -120,13 +132,13 @@ msgstr "Auswahlbalken"
 msgid "Progress-/Volumebar"
 msgstr "Fortschritts-/Lautstärkebalken"
 
-msgid "Font 1"
+msgid "Primary font"
 msgstr "Hauptschriftfarbe / Sendung Jetzt"
 
-msgid "Font 2"
+msgid "Secondary font"
 msgstr "Sekundäre Schriftfarbe / Sendung Gleich"
 
-msgid "Listselection Font"
+msgid "Listselection font"
 msgstr "Auswahlbalken Schriftfarbe"
 
 msgid "Do you really want to reboot now?"

@@ -71,12 +71,12 @@ config.plugins.HDFreaks.weather_city = ConfigNumber(default="679420")
 config.plugins.HDFreaks.refreshInterval = ConfigNumber(default="60")
 
 config.plugins.HDFreaks.BackgroundColorTrans = ConfigSelection(default="22000000", choices = [
-				("00000000", _("nothing")),
-				("22000000", _("lower")),
-				("44000000", _("low")),
-				("66000000", _("middle")),
-				("88000000", _("medium")),
-				("AA000000", _("high"))
+				("00000000", _("Nothing")),
+				("22000000", _("Lower")),
+				("44000000", _("Low")),
+				("66000000", _("Middle")),
+				("88000000", _("Medium")),
+				("AA000000", _("High"))
 				])
 
 config.plugins.HDFreaks.SelectionBackground = ConfigSelection(default="00c3461b", choices = [
@@ -181,13 +181,14 @@ config.plugins.HDFreaks.SelFont = ConfigSelection(default="00000000", choices = 
 				])
 
 config.plugins.HDFreaks.RunningText = ConfigSelection(default="movetype=none", choices = [
-				("movetype=running", _("on")),
-				("movetype=none", _("off"))
+				("movetype=running", _("On")),
+				("movetype=none", _("Off"))
 				])
 				
 config.plugins.HDFreaks.WeatherStyle = ConfigSelection(default="weather-off", choices = [
-				("weather-off", _("off")),
-				("weather-on", _("on"))
+				("weather-off", _("Off")),
+				("weather-on", _("Weather infobar")),
+				("weather-info", _("Weather second infobar"))
 				])	
 				
 #######################################################################
@@ -236,14 +237,14 @@ class HDFreaks(ConfigListScreen, Screen):
 		list.append(getConfigListEntry(_("Weather"), config.plugins.HDFreaks.WeatherStyle))
 		list.append(getConfigListEntry(_("Weather ID"), config.plugins.HDFreaks.weather_city))
 		list.append(getConfigListEntry(_(" >>>>>>>>>>>>>>>>>> System Settings <<<<<<<<<<<<<<<<<"), ))
-		list.append(getConfigListEntry(_("Running Text"), config.plugins.HDFreaks.RunningText))
-		list.append(getConfigListEntry(_("Background Transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
+		list.append(getConfigListEntry(_("Running text"), config.plugins.HDFreaks.RunningText))
+		list.append(getConfigListEntry(_("Background transparency"), config.plugins.HDFreaks.BackgroundColorTrans))
 		list.append(getConfigListEntry(_(" >>>>>>>>>>>>>>>>>>> Color Settings <<<<<<<<<<<<<<<<<<"), ))
 		list.append(getConfigListEntry(_("Listselection"), config.plugins.HDFreaks.SelectionBackground))
 		list.append(getConfigListEntry(_("Progress-/Volumebar"), config.plugins.HDFreaks.Progress))
-		list.append(getConfigListEntry(_("Font 1"), config.plugins.HDFreaks.Font1))
-		list.append(getConfigListEntry(_("Font 2"), config.plugins.HDFreaks.Font2))
-		list.append(getConfigListEntry(_("Listselection Font"), config.plugins.HDFreaks.SelFont))
+		list.append(getConfigListEntry(_("Primary font"), config.plugins.HDFreaks.Font1))
+		list.append(getConfigListEntry(_("Secondary font"), config.plugins.HDFreaks.Font2))
+		list.append(getConfigListEntry(_("Listselection font"), config.plugins.HDFreaks.SelFont))
 		
 		ConfigListScreen.__init__(self, list)
 		self["actions"] = ActionMap(["OkCancelActions","DirectionActions", "InputActions", "ColorActions"], {"left": self.keyLeft,"down": self.keyDown,"up": self.keyUp,"right": self.keyRight,"red": self.exit,"yellow": self.reboot, "blue": self.showInfo, "green": self.save,"cancel": self.exit}, -1)
