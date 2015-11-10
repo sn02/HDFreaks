@@ -2714,7 +2714,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <widget font="Regular2;23" name="model" position="70,150" size="700,25" transparent="1" />
   <widget font="Regular2;23" name="capacity" position="70,200" size="700,25" transparent="1" />
   <widget font="Regular2;23" name="bus" position="70,250" size="700,25" transparent="1" />
-<widget backgroundColor="ZeroBackground" font="Regular2;20" name="initializetext" position="18,618" size="816,24" transparent="1" zPosition="1" foregroundColor="ZeroFont2" />
+  <widget backgroundColor="ZeroBackground" halign="left" valign="center" font="Regular2;20" name="initializetext" position="64,662" size="148,48" foregroundColor="ZeroButtonText" transparent="1" zPosition="1" />
 <panel name="template_colorkey_text" />
     <panel name="template_menu_full_button" />
 </screen>
