@@ -2455,7 +2455,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <ePixmap position="4,5" size="64,64" zPosition="1" pixmap="HDFreaks/buttons/volume.png" transparent="0" alphatest="blend" />
     <widget font="Regular;40" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" render="HDFreaksVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
     <eLabel position="72,36" size="170,1" backgroundColor="ZeroFont1" foregroundColor="ZeroFont1" />
-    <eLabel position="0,0" size="333,74" backgroundColor="ZeroBackground" zPosition="-2" transparent="0" />
+    <eLabel position="0,0" size="324,74" backgroundColor="ZeroBackground" zPosition="-2" transparent="0" />
   </screen>
   <!-- Volume */-->
      <!-- TempFanControl -->
@@ -2629,18 +2629,18 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <!-- HddPartitions -->
   <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="HddPartitions" position="0,0" size="1280,720" title="Hard Drive Partitions">
   <widget name="label_disk" position="70,80" font="Regular2; 26" size="708,30" halign="center" valign="center" backgroundColor="ZeroBackground" transparent="1" foregroundColor="ZeroFont2" />
-  <widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand">
-			<convert type="TemplatedMultiContent">
+  <widget source="menu" render="Listbox" position="70,136" size="708,488" scrollbarMode="showOnDemand" itemHeight="50" transparent="1">
+    <convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
+					MultiContentEntryPixmapAlphaTest(pos = (2, 0), size = (48, 48), png = 0),
 					MultiContentEntryText(pos = (65, 10), size = (330, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (405, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					MultiContentEntryText(pos = (475, 10), size = (125, 38), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 					],
-					"fonts": [gFont("Regular", 18)],
+					"fonts": [gFont("Regular", 20)],
 					"itemHeight": 50
 				}
 			</convert>
-		</widget>
+  </widget>
   <panel name="template_menu_full_button" />
   <panel name="template_colorkey_text_source" />
 </screen>
