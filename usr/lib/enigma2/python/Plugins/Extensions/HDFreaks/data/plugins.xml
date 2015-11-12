@@ -341,7 +341,7 @@
   <widget source="Service" render="Label" position="888,138" size="379,40" font="Regular; 22" halign="center" backgroundColor="ZeroBackground" transparent="1">
     <convert type="EMCMovieInfo">RecordServiceName</convert>
   </widget>
-  <widget source="Service" render="HDFreaksRunningText" options="movetype=none,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="50,464" size="755,178" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top" transparent="1">
+  <widget source="Service" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="50,464" size="755,178" font="Regular; 22" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" zPosition="2" halign="left" valign="top" transparent="1">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <widget source="Service" render="Label" position="888,101" size="379,30" font="Regular2; 21" halign="center" backgroundColor="ZeroBackground" foregroundColor="ZeroFont2" transparent="1">
