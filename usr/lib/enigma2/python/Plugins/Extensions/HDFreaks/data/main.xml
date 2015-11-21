@@ -26,7 +26,7 @@
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
   <eLabel position="840,230" size="312,3" backgroundColor="ZeroLine" />
-  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,240" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="462,278" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
+  <widget font="Regular; 22" foregroundColor="ZeroFont1" position="765,240" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" size="462,277" source="ServiceEvent" valign="top" backgroundColor="ZeroBackground" zPosition="-8" transparent="1">
     <convert type="HDFreaksEventName">BothDescriptionsFiltered</convert>
   </widget>
   <widget font="Regular2; 30" foregroundColor="ZeroFont2" position="536,20" halign="right" render="Label" size="696,35" source="ServiceEvent" backgroundColor="ZeroBackground" zPosition="-8" valign="left" transparent="1">
@@ -375,14 +375,14 @@
   <widget source="Event" render="Progress" position="101,123" size="535,5" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="1">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,112" font="Regular2; 19" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
+  <widget source="Event" render="HDFreaksRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="25,143" size="880,114" font="Regular; 20" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" valign="top" zPosition="-8">
     <convert type="HDFreaksEventName">ExtendedDescription</convert>
   </widget>
   <widget name="timeline_text" position="25,273" size="1230,25" selectionDisabled="1" transparent="1" />
   <widget name="list" position="25,304" size="1230,345" EntryBorderColor="white" EntryBackgroundColor="black" EntryBackgroundColorSelected="grey" scrollbarMode="showNever" transparent="1" />
   <widget name="timeline_now" position="80,292" zPosition="2" size="13,355" pixmap="HDFreaks/epg/timeline-now.png" alphatest="blend" />
   <widget source="session.VideoPicture" render="Pig" position="927,77" size="330,187" zPosition="3" backgroundColor="transparent" />
-  <eLabel position="101,125" size="535,1" backgroundColor="ZeroProgress" foregroundColor="ZeroProgress" />
+  <eLabel position="101,123" size="535,5" backgroundColor="ZeroLine" />
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
 </screen>
