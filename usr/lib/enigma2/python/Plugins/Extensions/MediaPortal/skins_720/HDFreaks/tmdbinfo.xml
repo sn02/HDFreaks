@@ -2,10 +2,10 @@
 	<ePixmap position="0,0" size="1280,720" zPosition="-3" pixmap="~/HDFreaks/images/mp_bg_detail.png" alphatest="blend" />
 			<widget name="searchinfo" position="30,40" size="930,30" font="mediaportal;28" foregroundColor="#00fff000" transparent="1"/>
 			<widget name="subtitle" position="30,80" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="#00fff000"/>
-			<widget name="fulldescription" position="30,80" size="620,550" font="mediaportal;24" transparent="1"/>
-			<widget name="coverArt" position="1020,80" size="225,315" alphatest="blend"/>
-			<ePixmap position="725,90" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
-			<widget name="rating" position="700,120" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
+			<widget name="fulldescription" position="30,110" size="620,520" font="mediaportal;24" transparent="1"/>
+			<widget name="coverArt" position="1020,110" size="215,285" alphatest="blend"/>
+			<ePixmap position="725,110" size="100,75" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaPortal/images/star.png" transparent="1" alphatest="blend"/>
+			<widget name="rating" position="700,140" size="150,25" zPosition="2" transparent="1" font="mediaportal;22" foregroundColor="black" halign="center"/>
 			<widget name="fsk" position="800,220" size="150,25" zPosition="2" transparent="1" font="mediaportal;22"/>
 		        <widget name="fsk_txt" position="670,220" size="400,25" zPosition="2" transparent="1" font="mediaportal;22" backgroundColor="#26181d20" foregroundColor="#00ffffff" />
 			<widget name="year_txt" position="670,250" size="400,25" zPosition="2" transparent="1" font="mediaportal;22"/>
