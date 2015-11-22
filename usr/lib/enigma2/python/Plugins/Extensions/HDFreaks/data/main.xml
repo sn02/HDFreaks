@@ -2472,12 +2472,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     <panel name="template_menu_full" />
   </screen>
   <!--/* Volume -->
-  <screen name="Volume" position="47,38" size="324,74" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="99">
-    <widget name="Volume" position="72,34" size="170,5" zPosition="3" transparent="1" foregroundColor="ZeroProgress" />
-    <ePixmap position="4,5" size="64,64" zPosition="1" pixmap="HDFreaks/buttons/volume.png" transparent="0" alphatest="blend" />
-    <widget font="Regular;40" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" render="HDFreaksVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
-    <eLabel position="72,36" size="170,1" backgroundColor="ZeroFont1" foregroundColor="ZeroFont1" />
-    <eLabel position="0,0" size="333,74" backgroundColor="ZeroBackground" zPosition="-2" transparent="0" />
+  <screen name="Volume" position="47,38" size="340,74" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="99">
+	<widget name="Volume" position="72,34" size="170,5" zPosition="3" transparent="1" foregroundColor="ZeroProgress" />
+	<ePixmap position="4,5" size="64,64" zPosition="1" pixmap="HDFreaks/buttons/volume.png" transparent="0" alphatest="blend" />
+	<widget font="Regular;40" foregroundColor="ZeroFont1" backgroundColor="ZeroBackground" halign="center" valign="center" render="HDFreaksVVolumeText" source="global.CurrentTime" position="246,4" size="85,60" zPosition="20" transparent="1" />
+	<eLabel position="72,35" size="170,3" backgroundColor="ZeroLine" />
+	<eLabel position="0,0" size="340,74" backgroundColor="ZeroBackground" zPosition="-2" transparent="0" />
   </screen>
   <!-- Volume */-->
      <!-- TempFanControl -->
