@@ -249,7 +249,7 @@
   <widget position="263,650" render="Progress" size="815,5" source="session.Event_Now" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="7">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="ZeroLine" position="263,652" size="815,1" zPosition="2" />
+  <eLabel backgroundColor="ZeroLine" position="263,650" size="815,5" zPosition="2" />
   <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
@@ -422,7 +422,7 @@
   <widget position="263,650" render="Progress" size="815,5" source="session.Event_Now" borderWidth="0" backgroundColor="ZeroBackground" foregroundColor="ZeroProgress" transparent="1" zPosition="7">
     <convert type="HDFreaksEventTime">Progress</convert>
   </widget>
-  <eLabel backgroundColor="ZeroLine" position="263,652" size="815,1" zPosition="2" />
+  <eLabel backgroundColor="ZeroLine" position="263,650" size="815,5" zPosition="2" />
   <widget backgroundColor="ZeroBackground" font="Regular2; 22" halign="right" noWrap="1" position="253,605" render="Label" size="70,35" source="session.Event_Now" transparent="1" valign="center" zPosition="1">
     <convert type="HDFreaksEventTime">StartTime</convert>
     <convert type="HDFreaksClockToText">Default</convert>
@@ -728,6 +728,7 @@
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text" />
 </screen>
+  <!-- EventViewMenu -->
   <screen name="EventViewContextMenu" position="0,0" size="1280,720" title="Eventview Menu" flags="wfNoBorder" backgroundColor="transparent">
     <widget name="menu" font="Regular;20" itemHeight="30" position="70,121" size="708,420" transparent="1" backgroundColor="ZeroBackground" />
     <panel name="template_menu_full" />
@@ -3265,6 +3266,24 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
   <panel name="template_menu_full_button_nologo" />
   <panel name="template_colorkey_text_source" />
 </screen>
+  <!-- Backup Software Restore Manager -->
+  <!-- RestorePlugins -->
+<screen backgroundColor="transparent" flags="wfNoBorder" name="RestorePlugins" position="0,0" size="1280,720" title="Restore Plugins">
+  <widget itemHeight="30" name="list" position="70,80" size="708,540" transparent="1" />
+  <widget source="menu" render="Listbox" position="40,80" size="740,540" scrollbarMode="showOnDemand" transparent="1">
+    <convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (50, 3), size = (650, 23), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 0),
+					MultiContentEntryPixmapAlphaTest(pos = (5, 1), size = (24, 24), png = 1),
+					],
+					"fonts": [gFont("Regular", 19), gFont("Regular", 16)],
+					"itemHeight": 30
+				}
+		</convert>
+  </widget>
+  <panel name="template_menu_full_button" />
+  <panel name="template_colorkey_text_source" />
+</screen>
   <!-- Softcam Cardserver Manager -->
   <screen backgroundColor="ZeroBackground" flags="wfNoBorder" name="ScSelection" position="0,0" size="1280,720" title="Softcam Cardserver Manager">
   <widget name="entries" position="68,160" size="505,310" enableWrapAround="1" backgroundColor="ZeroBackground" transparent="1" />
@@ -5183,10 +5202,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
     </widget>
     <!--widget name="video" position="938,120" size="322,182" zPosition="5" backgroundColor="transparent" /-->
 	<!-- Channelzuordnung -->
-    <widget name="list" position="20,150" size="880,470" zPosition="5" backgroundColor="ZeroBackground" foregroundColor="ZeroSelFont" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+    <widget name="list" position="20,150" size="880,470" zPosition="5" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
 	<!-- Marker-/Planer-Listen -->
     <widget name="config" position="20,120" size="870,500" zPosition="5" backgroundColor="black" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
-    <widget name="menu_list" position="20,120" size="870,500" zPosition="5" backgroundColor="black" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
+    <widget name="menu_list" position="20,120" size="870,500" zPosition="5" backgroundColor="black" foregroundColor="ZeroFont1" foregroundColorSelected="ZeroSelFont" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
 	<!-- Log-Listen -->
     <widget name="log" position="20,120" size="1240,500" zPosition="5" backgroundColor="ZeroBackground" foregroundColor="ZeroFont1" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="5" transparent="1" />
 	<!-- PopUp-Listen -->
