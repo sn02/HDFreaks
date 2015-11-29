@@ -1937,7 +1937,7 @@
     <ePixmap position="0,488" size="1280,234" zPosition="-9" pixmap="HDFreaks/infobar/infobar.png" transparent="1" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,101" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
     <ePixmap pixmap="HDFreaks/line/line1280.png" position="0,656" size="1280,2" backgroundColor="ZeroBackground" alphatest="blend" />
-	</screen> 
+  </screen> 
   <!-- ****** TMDb - The Movie Database ****** -->
 <!-- TMDb -->
   <screen name="tmdbScreen" position="0,0" size="1280,720" title="TMDb - The Movie Database" flags="wfNoBorder" backgroundColor="transparent">
