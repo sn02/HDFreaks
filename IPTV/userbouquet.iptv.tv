@@ -1,5 +1,5 @@
 #NAME IPTV
-#SERVICE 1:64:4:0:0:0:0:0:0:0::Austria
+#SERVICE 1:64:4:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.20/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
 #DESCRIPTION ORF eins HD (720p)
@@ -13,7 +13,7 @@
 #DESCRIPTION SERVUS TV HD AT (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
-#SERVICE 1:64:5:0:0:0:0:0:0:0::Germany
+#SERVICE 1:64:5:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8:ARD HD (720p)
 #DESCRIPTION ARD HD (720p)
@@ -51,11 +51,13 @@
 #DESCRIPTION Kika HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8:Tagesschau 24 HD (720p)
 #DESCRIPTION Tagesschau 24 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//93.189.144.154%3a8085/media/hls_154/n_tv/n_tv_1200_.m3u8:N-TV (576p)
+#DESCRIPTION N-TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//n24-live.hls.adaptive.level3.net/hls-live/n24-pssimn24live/_definst_/live.m3u8:N24 HD (360p)
 #DESCRIPTION N24 HD (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/index_2528_av-p.m3u8?sd=10&rebase=on&time=1451946826672:JOIZ (720p)
 #DESCRIPTION JOIZ (720p)
-#SERVICE 1:64:6:0:0:0:0:0:0:0::Sports
+#SERVICE 1:64:6:0:0:0:0:0:0:0:
 #DESCRIPTION Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sacapunta.eltelon.com/channels/redbulltv/playlist.m3u8:RedBull (720p)
 #DESCRIPTION RedBull (720p)
@@ -65,7 +67,7 @@
 #DESCRIPTION Sportime (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streamer.a1.net/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4%3achannel1_1200:Sports Music (480p)
 #DESCRIPTION Sports Music (480p)
-#SERVICE 1:64:7:0:0:0:0:0:0:0::Music
+#SERVICE 1:64:7:0:0:0:0:0:0:0:
 #DESCRIPTION Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//api.iptv.ink/pl.m3u8?ch=69882953:XITE.TV (480p)
 #DESCRIPTION XITE.TV (480p)
@@ -111,7 +113,7 @@
 #DESCRIPTION UTV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
-#SERVICE 1:64:8:0:0:0:0:0:0:0::Erotic
+#SERVICE 1:64:8:0:0:0:0:0:0:0:
 #DESCRIPTION Erotic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
