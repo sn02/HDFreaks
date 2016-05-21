@@ -1,0 +1,59 @@
+#NAME IPTV Webcams
+#SERVICE 1:64:C:0:0:0:0:0:0:0::Webcams
+#DESCRIPTION Webcams
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam: Ö3 Live (Geduld - dauert etwas)
+#DESCRIPTION Webcam: Ö3 Live (Geduld - dauert etwas)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam: Linz, Donaulände
+#DESCRIPTION Webcam: Linz, Donaulände
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv121_720p.stream:Webcam: Hahnenkamm - Kitzbühel
+#DESCRIPTION Webcam: Hahnenkamm - Kitzbühel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv59_720p.stream:Webcam: Dresden
+#DESCRIPTION Webcam: Dresden
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv100_720p.stream:Webcam: Frankfurt
+#DESCRIPTION Webcam: Frankfurt
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv34_720p.stream:Webcam: Hamburg
+#DESCRIPTION Webcam: Hamburg
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv75_720p.stream:Webcam: Heidelberg
+#DESCRIPTION Webcam: Heidelberg
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv55_450p.stream:Webcam: München
+#DESCRIPTION Webcam: München
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam: Köln
+#DESCRIPTION Webcam: Köln
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Webcam: Zoo in Zürich
+#DESCRIPTION Webcam: Zoo in Zürich
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/hotelvictoria2.flv/HasBahCa.m3u8:Webcam: Budapest (Ungarn)
+#DESCRIPTION Webcam: Budapest (Ungarn)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8:Webcam: Eiffelturm - Paris (Frankreich)
+#DESCRIPTION Webcam: Eiffelturm - Paris (Frankreich)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8:Webcam: Pub in Dublin (Irland)
+#DESCRIPTION Webcam: Pub in Dublin (Irland)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam: Klagemauer (Israel)
+#DESCRIPTION Webcam: Klagemauer (Israel)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam: Daytona Beach (USA)
+#DESCRIPTION Webcam: Daytona Beach (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/eclasvegas.flv/HasBahCa.m3u8:Webcam: Las Vegas (USA)
+#DESCRIPTION Webcam: Las Vegas (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4280.flv/hasbahca.m3u8:Webcam: New Orleans (USA)
+#DESCRIPTION Webcam: New Orleans (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/statueoflibertyHD.flv/playlist.m3u8:Webcam: NY Liberty Island (USA)
+#DESCRIPTION Webcam: NY Liberty Island (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4017timessquare.flv/HasBahCa.m3u8:Webcam: NY Time Square (USA)
+#DESCRIPTION Webcam: NY Time Square (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/chargingbull.flv/hasbahca.m3u8:Webcam: Wall Street (USA)
+#DESCRIPTION Webcam: Wall Street (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4559.flv/hasbahca.m3u8:Webcam: Niagara Fälle (Kanada)
+#DESCRIPTION Webcam: Niagara Fälle (Kanada)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s7.ipcamlive.com/streams/0756d3c0ee76c44ef/stream.m3u8:Webcam: Lax Airport (USA)
+#DESCRIPTION Webcam: Lax Airport (USA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam: Copacabana - Rio de Janeiro
+#DESCRIPTION Webcam: Copacabana - Rio de Janeiro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam: St. Petersburg (RUS)
+#DESCRIPTION Webcam: St. Petersburg (RUS)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4338.flv/HasBahCa.m3u8:Webcam: Elefanten Pool - Bali, Indonesien
+#DESCRIPTION Webcam: Elefanten Pool - Bali, Indonesien
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam: Palme-Skyline - Dubai, VAE
+#DESCRIPTION Webcam: Palme-Skyline - Dubai, VAE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/tokyo1.flv/hasbahca.m3u:Webcam: Tokyo (Japan)
+#DESCRIPTION Webcam: Tokyo (Japan)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/5299.flv/HasBahCa.m3u8:Webcam: Island (Polarlichter)
+#DESCRIPTION Webcam: Island (Polarlichter)
