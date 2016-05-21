@@ -1,5 +1,5 @@
 #NAME IPTV
-#SERVICE 1:64:4:0:0:0:0:0:0:0::Austria
+#SERVICE 1:64:1:0:0:0:0:0:0:0::Austria
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.20/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
 #DESCRIPTION ORF eins HD (720p)
@@ -31,19 +31,19 @@
 #DESCRIPTION OKTO (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.237.191.228%3a1935/live/_definst_/Melodie/chunklist_w1575760825.m3u8:Melodie Express (468p)
 #DESCRIPTION Melodie Express (468p)
-#SERVICE 1:64:5:0:0:0:0:0:0:0::Germany
+#SERVICE 1:64:2:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (576p)
-#DESCRIPTION Das Erste (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_2256_av-b.m3u8?sd=10&rebase=on:ZDF (576p)
-#DESCRIPTION ZDF (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (540p)
+#DESCRIPTION Das Erste (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF (720p)
+#DESCRIPTION ZDF (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs-lh.akamaihd.net/i/wdrfs_weltweit@112033/index_3776_av-b.m3u8:WDR HD (720p) 
 #DESCRIPTION WDR HD (720p) 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8:ARTE (360p)
 #DESCRIPTION ARTE (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1056_av-p.m3u8?sd=10&rebase=on:3sat (480p)
 #DESCRIPTION 3sat (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3056_av-b.m3u8?sd=10&rebase=on:ZDF Neo (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Neo (720p)
 #DESCRIPTION ZDF Neo (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Info (720p)
 #DESCRIPTION ZDF Info (720p)
@@ -87,17 +87,17 @@
 #DESCRIPTION N24 HD (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge-h.daf.tmt.de/ios-live/daf-ios-live-livetv.stream/chunklist_w1422058425.m3u8:DAF (288p)
 #DESCRIPTION DAF (288p)
-#SERVICE 1:64:6:0:0:0:0:0:0:0::Cartoon
+#SERVICE 1:64:3:0:0:0:0:0:0:0::Cartoon
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
 #DESCRIPTION Tom Jerry (360p)
-#SERVICE 1:64:7:0:0:0:0:0:0:0::Sports
+#SERVICE 1:64:4:0:0:0:0:0:0:0::Sports
 #DESCRIPTION Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on:Real Madrid TV (404p)
 #DESCRIPTION Real Madrid TV (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel2/smil%3aswitch2.smil/chunklist_b3174400.m3u8:Sportime (720p)
 #DESCRIPTION Sportime (720p)
-#SERVICE 1:64:8:0:0:0:0:0:0:0::Music
+#SERVICE 1:64:5:0:0:0:0:0:0:0::Music
 #DESCRIPTION Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
@@ -163,7 +163,7 @@
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
-#SERVICE 1:64:9:0:0:0:0:0:0:0::Erotic
+#SERVICE 1:64:6:0:0:0:0:0:0:0::Erotic
 #DESCRIPTION Erotic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
@@ -177,7 +177,7 @@
 #DESCRIPTION Sexysat (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.242.187.53%3a4022/udp/239.239.13.1%3a5239:Olala (576p)
 #DESCRIPTION Olala (576p)
-#SERVICE 1:64:10:0:0:0:0:0:0:0::Turkish
+#SERVICE 1:64:7:0:0:0:0:0:0:0::Turkish
 #DESCRIPTION Turkish
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
 #DESCRIPTION TRT 1 (720p)
@@ -221,7 +221,7 @@
 #DESCRIPTION Tek Rumeli TV (200p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mecliscanlitv-lh.akamaihd.net/i/MECLISTV_1@127503/index_1200_av-b.m3u8?sd=10&rebase=on:TBMM TV (360p)
 #DESCRIPTION TBMM TV (360p)
-#SERVICE 1:64:11:0:0:0:0:0:0:0::Swiss
+#SERVICE 1:64:8:0:0:0:0:0:0:0::Swiss
 #DESCRIPTION Swiss
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kalseglive-a.akamaihd.net/dc-1/m/ny-live-publish3/kLive/smil%3a1_hoislpiz_all.smil/32/chunklist.m3u8:TeleZüri (720p)
 #DESCRIPTION TeleZüri (720p)
@@ -233,7 +233,7 @@
 #DESCRIPTION TeleBärn (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/tvo/chunklist_w472046963.m3u8:TVO (404p)
 #DESCRIPTION TVO (404p)
-#SERVICE 1:64:12:0:0:0:0:0:0:0::Italy
+#SERVICE 1:64:9:0:0:0:0:0:0:0::Italy
 #DESCRIPTION Italy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream12.rai.it/live/rai5.smil/chunklist_b750000.m3u8:Rai 5 (270p)
 #DESCRIPTION Rai 5 (270p)
