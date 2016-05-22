@@ -1,6 +1,4 @@
 #NAME IPTV Music
-#SERVICE 1:64:0:0:0:0:0:0:0:0:
-#DESCRIPTION Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume02.streampartner.nl%3a1935/vleugels2/livestream/chunklist_w1492662952.m3u8:XITE (576p)

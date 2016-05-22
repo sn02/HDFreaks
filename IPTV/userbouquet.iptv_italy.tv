@@ -1,6 +1,4 @@
 #NAME IPTV Italy
-#SERVICE 1:64:0:0:0:0:0:0:0:0:
-#DESCRIPTION Italy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rai1_1@398068/index_1200_av-p.m3u8:Rai 1 (352p)
 #DESCRIPTION Rai 1 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rai2_1@66477/index_1200_av-p.m3u8:Rai 2 (352p)
