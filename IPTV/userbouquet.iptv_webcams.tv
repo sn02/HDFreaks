@@ -124,11 +124,11 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv146_720p.stream:Juister Hof - Juist
 #DESCRIPTION Webcam: Juister Hof - Juist
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv28.stream/master.m3u8:Webcam%3a Kiel, Ostufer
-#DESCRIPTION Webcam: Kiel, Ostufer
+#DESCRIPTION Webcam: Kiel - Ostufer
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv77.stream/master.m3u8:Webcam%3a Kiel, Port of Kiel
-#DESCRIPTION Webcam: Kiel, Port of Kiel
+#DESCRIPTION Webcam: Kiel - Port of Kiel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv38.stream/master.m3u8:Webcam%3a Kiel, Schleuse
-#DESCRIPTION Webcam: Kiel, Schleuse
+#DESCRIPTION Webcam: Kiel - Schleuse
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam%3a Köln
 #DESCRIPTION Webcam: Köln
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv69_720p.stream:Köln - Kölnturm
@@ -148,15 +148,15 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv113_720p.stream:Lindau - Lindauer Hof
 #DESCRIPTION Webcam: Lindau - Lindauer Hof
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Webcam%3a Luebecker Bucht
-#DESCRIPTION Webcam: Luebecker Bucht
+#DESCRIPTION Webcam: Luebeck - Bucht
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv64.stream/master.m3u8:Webcam%3a Luebeck, Radisson Blu
-#DESCRIPTION Webcam: Luebeck, Radisson Blu
+#DESCRIPTION Webcam: Luebeck - Radisson Blu
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv135_720p.stream:Lüneburg - Hotel Bergström
 #DESCRIPTION Webcam: Lüneburg - Hotel Bergström
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv94_720p.stream:Meißen - Fa. Hübner
-#DESCRIPTION Webcam: Meißen - Fa. Hübner
+#DESCRIPTION Webcam: Meißen 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv118_720p.stream:Mönchengladbach - Best Western Crown
-#DESCRIPTION Webcam: Mönchengladbach - Best Western Crown
+#DESCRIPTION Webcam: Mönchengladbach 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv55_450p.stream:Webcam%3a München
 #DESCRIPTION Webcam: München
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv72_720p.stream:München - Deutsche Eiche
@@ -192,11 +192,11 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv89_720p.stream:Rostock - Apartment LIVING HOTEL
 #DESCRIPTION Webcam: Rostock - Apartment LIVING HOTEL
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv119.stream/master.m3u8:Webcam%3a Rostock, Hotel Sportforum
-#DESCRIPTION Webcam: Rostock, Hotel Sportforum
+#DESCRIPTION Webcam: Rostock - Hotel Sportforum
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv87_720p.stream:Rust - Apollon Hotel
 #DESCRIPTION Webcam: Rust - Apollon Hotel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Wiek Rügen
-#DESCRIPTION Webcam: Wiek Rügen
+#DESCRIPTION Webcam: Rügen - Wiek
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv129_720p.stream:Sankt Peter-Ording - Beach Motel
 #DESCRIPTION Webcam: Sankt Peter-Ording - Beach Motel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv41_720p.stream:Scharbeutz - Lübecker Bucht
@@ -206,11 +206,9 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv97.stream/master.m3u8:Webcam%3a Schwerin
 #DESCRIPTION Webcam: Schwerin
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv132.stream/master.m3u8:Webcam%3a Stralsund, Hotel Hafenresidenz
-#DESCRIPTION Webcam: Stralsund, Hotel Hafenresidenz
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv132_720p.stream:Stralsund - Hotel Hafenresidenz
 #DESCRIPTION Webcam: Stralsund - Hotel Hafenresidenz
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv142.stream/master.m3u8:Webcam%3a Stralsund, Schweriner Hof
-#DESCRIPTION Webcam: Stralsund, Schweriner Hof
+#DESCRIPTION Webcam: Stralsund - Schweriner Hof
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv7_720p.stream:Hörnum - Sylt
 #DESCRIPTION Webcam: Sylt - Hörnum
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv43_720p.stream:Westerland - Sylt
@@ -290,7 +288,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam%3a Portugal - Praia Santa Cruz
 #DESCRIPTION Webcam: Portugal - Praia Santa Cruz
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam%3a RUS - St. Petersburg
-#DESCRIPTION Webcam: RUS - St. Petersburg
+#DESCRIPTION Webcam: Russia - St. Petersburg
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/moscowHD1.flv/playlist.m3u8:Russia - Moscow Skyline Cam
 #DESCRIPTION Webcam: Russia - Moscow Skyline Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp.infomaniak.ch/livecast/webcam05luganoch:
@@ -298,7 +296,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv65_720p.stream:
 #DESCRIPTION Webcam: Schweiz - Zürich - Uetliberg
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8:Webcam%3a UK London - Abbey Road
-#DESCRIPTION Webcam: UK London - Abbey Road
+#DESCRIPTION Webcam: UK - London - Abbey Road
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hotelvictoria2.flv/playlist.m3u8:Hungary - Budapest Cam
 #DESCRIPTION Webcam: Ungarn - Budapest
 #SERVICE 1:64:F:0:0:0:0:0:0:0::USA
@@ -322,7 +320,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5460.flv/playlist.m3u8:Webcam%3a USA - CA - Gerald Desmond Bridge
 #DESCRIPTION Webcam: USA - CA - Gerald Desmond Bridge
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a USA - Daytona Beach
-#DESCRIPTION Webcam: USA - Daytona Beach
+#DESCRIPTION Webcam: USA - FL - Daytona Beach
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5719.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Myers
 #DESCRIPTION Webcam: USA - FL - Fort Myers
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd5.flv/playlist.m3u8:Webcam%3a USA - FL - Downtown Miami
@@ -357,10 +355,10 @@
 #DESCRIPTION Webcam: USA - Nevada - Las Vegas
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5359.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas - Wedding chapel
 #DESCRIPTION Webcam: USA - Nevada - Las Vegas - Wedding chapel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/13415669/streams/live/iphone/playlist.m3u8:Webcam%3a USA - ND - INFORUM FARGO
-#DESCRIPTION Webcam: USA - ND - INFORUM FARGO
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5465.flv/playlist.m3u8:Webcam%3a USA - Las Vegas - Plaza Park
-#DESCRIPTION Webcam: USA - Las Vegas - Plaza Park
+#DESCRIPTION Webcam: USA - Necada - Las Vegas - Plaza Park
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/13415669/streams/live/iphone/playlist.m3u8:Webcam%3a USA - ND - INFORUM FARGO
+#DESCRIPTION Webcam: USA - ND - FARGO
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a1935/fecnetwork swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf pageUrl=http%3a//www.earthcam.com/usa/missouri/stlouis/?cam=arch_riverview playpath=meprd_garch.flv:Webcam%3a USA - Missouri - St. Louis Arch
 #DESCRIPTION Webcam: USA - Missouri - St. Louis Arch
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4017timessquare.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, South View
@@ -485,3 +483,4 @@
 #DESCRIPTION Webcam: Zürich - Zoo Cam 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Zürich - Zoo Cam 3
 #DESCRIPTION Webcam: Zürich - Zoo Cam 3
+
