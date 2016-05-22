@@ -1,191 +1,487 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam%3a Ö3 Live (Geduld - dauert etwas)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam%3a Ö3 Live (Geduld - dauert etwas)
 #DESCRIPTION Webcam: Ö3 Live (Geduld - dauert etwas)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam%3a Linz, Donaulände
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam%3a Linz, Donaulände
 #DESCRIPTION Webcam: Linz, Donaulände
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv121_720p.stream/playlist.m3u8:Webcam%3a Hahnenkamm - Kitzbühel
-#DESCRIPTION Webcam: Hahnenkamm - Kitzbühel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv157_720p.stream:Ischgl - Pardatschgrat Seilbahn
+#DESCRIPTION Webcam: Ischgl - Pardatschgrat Seilbahn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv121_720p.stream/playlist.m3u8:Webcam%3a Hahnenkamm - Kitzbühel
+#DESCRIPTION Webcam: Kitzbühel - Hahnenkamm Bergstation
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv143_720p.stream:Kitzbühel - Hotel Rasmushof
+#DESCRIPTION Webcam: Kitzbühel - Hotel Rasmushof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv22_720p.stream:Lech am Arlberg
+#DESCRIPTION Webcam: Lech am Arlberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv120_720p.stream:Lermoos - Zugspitze
+#DESCRIPTION Webcam: Lermoos - Zugspitze
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv96_720p.stream:Sölden - Freizeit Arena
+#DESCRIPTION Webcam: Sölden - Freizeit Arena
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv21_720p.stream:St. Anton am Arlberg
+#DESCRIPTION Webcam: St. Anton am Arlberg
 #SERVICE 1:64:D:0:0:0:0:0:0:0::Deutschland
 #DESCRIPTION Deutschland
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv155.stream/master.m3u8:Webcam%3a Ahlbeck
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv102_720p.stream:Aachen - Drehturm Belvedere Lousberg
+#DESCRIPTION Webcam: Aachen - Drehturm Belvedere Lousberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv148_720p.stream:Achensee - Christlum
+#DESCRIPTION Webcam: Achensee - Christlum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv155.stream/master.m3u8:Webcam%3a Ahlbeck
 #DESCRIPTION Webcam: Ahlbeck
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv52.stream/master.m3u8:Webcam%3a Brocken Torfhaus
-#DESCRIPTION Webcam: Brocken Torfhaus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv93.stream/master.m3u8:Webcam%3a Chemnitz - HeiBe
-#DESCRIPTION Webcam: Chemnitz - HeiBe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv59.stream/master.m3u8:Webcam%3a Dresden Randgebiet
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv73_720p.stream:Augsburg - Hotel Augusta
+#DESCRIPTION Webcam: Augsburg - Hotel Augusta
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv39_450p.stream:Augsburg - Königsplatz
+#DESCRIPTION Webcam: Augsburg - Königsplatz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv140_720p.stream:Bad Brückenau - Kurverwaltung Bad Brückenau
+#DESCRIPTION Webcam: Bad Brückenau - Kurverwaltung
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv124_720p.stream:Baden-Baden - Hotel Magnetberg
+#DESCRIPTION Webcam: Baden-Baden - Hotel Magnetberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv79_720p.stream:Bamberg - Klein Venedig
+#DESCRIPTION Webcam: Bamberg - Klein Venedig
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv107_720p.stream:Bayreuth - Neues Rathaus
+#DESCRIPTION Webcam: Bayreuth - Neues Rathaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv131_720p.stream:Berlin - 40 Seconds
+#DESCRIPTION Webcam: Berlin - 40 Seconds
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv133_720p.stream:Berlin - Restaurant Hugos/Hotel InterContinental
+#DESCRIPTION Webcam: Berlin - Hotel InterContinental
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv86_720p.stream:Bielefeld - Stadthalle
+#DESCRIPTION Webcam: Bielefeld - Stadthalle
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv103_720p.stream:Binz - HOTEL AM MEER &amp; SPA
+#DESCRIPTION Webcam: Binz - HOTEL AM MEER
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv114_720p.stream:Bonn - Hausverwaltung Uwe Brodesser
+#DESCRIPTION Webcam: Bonn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv134_720p.stream:Bremen - Kontorhaus
+#DESCRIPTION Webcam: Bremen - Kontorhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv106_720p.stream:Bremerhaven - Hotel Atlantic Sail City
+#DESCRIPTION Webcam: Bremerhaven - Hotel Atlantic Sail City
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv37_720p.stream:Brunsbüttel - Schleuse
+#DESCRIPTION Webcam: Brunsbüttel - Schleuse
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv33_720p.stream:Büsum - Museumshafen
+#DESCRIPTION Webcam: Büsum - Museumshafen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv32_720p.stream:Büsum - Hauptstrand
+#DESCRIPTION Webcam: Büsum - Hauptstrand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv42_720p.stream:Büsum - Familienlagune
+#DESCRIPTION Webcam: Büsum - Familienlagune
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv93.stream/master.m3u8:Webcam%3a Chemnitz - HeiBe
+#DESCRIPTION Webcam: Chemnitz 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv95_720p.stream:Dortmund - Neues Stadthaus
+#DESCRIPTION Webcam: Dortmund - Neues Stadthaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv59.stream/master.m3u8:Webcam%3a Dresden Randgebiet
 #DESCRIPTION Webcam: Dresden Randgebiet
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100.stream/master.m3u8:Webcam%3a Dresden Zentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100.stream/master.m3u8:Webcam%3a Dresden Zentrum
 #DESCRIPTION Webcam: Dresden Zentrum
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv17.stream/master.m3u8:Webcam%3a Flensburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv59_720p.stream:Dresden - Dresdner Aussicht
+#DESCRIPTION Webcam: Dresden - Dresdner Aussicht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv61_720p.stream:Duisburg - Sportschule Wedau
+#DESCRIPTION Webcam: Duisburg - Sportschule Wedau
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv46_720p.stream:Eckernförde - Hafen
+#DESCRIPTION Webcam: Eckernförde - Hafen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv45_720p.stream:Eckernförde - Strand
+#DESCRIPTION Webcam: Eckernförde - Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv101_720p.stream:Erfurt - KoWo
+#DESCRIPTION Webcam: Erfurt - KoWo
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv60_720p.stream:Essen - Ruhrturm
+#DESCRIPTION Webcam: Essen - Ruhrturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv17.stream/master.m3u8:Webcam%3a Flensburg
 #DESCRIPTION Webcam: Flensburg
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100_720p.stream/playlist.m3u8:Webcam%3a Frankfurt
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv17_720p.stream:Flensburg - Fjord Tourismus
+#DESCRIPTION Webcam: Flensburg - Fjord Tourismus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100_720p.stream/playlist.m3u8:Webcam%3a Frankfurt
 #DESCRIPTION Webcam: Frankfurt
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv34_720p.stream:Webcam%3a Hamburg
-#DESCRIPTION Webcam: Hamburg
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv75_720p.stream:Webcam%3a Heidelberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv112_720p.stream:Freiburg - Volksbank
+#DESCRIPTION Webcam: Freiburg - Volksbank
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv62_720p.stream:Fulda - Schlossstraße
+#DESCRIPTION Webcam: Fulda - Schlossstraße
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv105_720p.stream:Gaienhofen - Hotel Gasthaus Hirschen
+#DESCRIPTION Webcam: Gaienhofen - Hotel Gasthaus Hirschen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv111_720p.stream:Garmisch-Partenkirchen - Hotel Vier Jahreszeiten
+#DESCRIPTION Webcam: Garmisch-Partenkirchen - Hotel Vier Jahreszeiten
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv123_720p.stream:Gehlberg - Michael Gebser
+#DESCRIPTION Webcam: Gehlberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv40_720p.stream:Haffkrug - Lübecker Bucht
+#DESCRIPTION Webcam: Haffkrug - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv115_720p.stream:Halle - Mitteldeutsches Multimediazentrum
+#DESCRIPTION Webcam: Halle - Mitteldeutsches Multimediazentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv74_720p.stream:Hamburg - Unileverhaus
+#DESCRIPTION Webcam: Hamburg - Unileverhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv34_720p.stream:Hamburg - Empire Riverside
+#DESCRIPTION Webcam: Hamburg - Empire Riverside
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv47_720p.stream:Hamburg - Emporio
+#DESCRIPTION Webcam: Hamburg - Emporio
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/LS_b5586_720p.stream:Hamburg - Michel
+#DESCRIPTION Webcam: Hamburg - Michel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv71_720p.stream:Hannover - Congress Hotel
+#DESCRIPTION Webcam: Hannover - Congress Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv52.stream/master.m3u8:Webcam%3a Brocken Torfhaus
+#DESCRIPTION Webcam: Harz - Brocken Torfhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv122_720p.stream:Heidelberg - PundM
+#DESCRIPTION Webcam: Heidelberg - PundM
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv75_720p.stream:Webcam%3a Heidelberg
 #DESCRIPTION Webcam: Heidelberg
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv24.stream/master.m3u8:Webcam%3a Helgoland - Am Falm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv24.stream/master.m3u8:Webcam%3a Helgoland - Am Falm
 #DESCRIPTION Webcam: Helgoland - Am Falm
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv28.stream/master.m3u8:Webcam%3a Kiel, Ostufer
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv51_720p.stream:Juist - Inselgemeinde Juist
+#DESCRIPTION Webcam: Juist - Inselgemeinde Juist
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv146_720p.stream:Juister Hof - Juist
+#DESCRIPTION Webcam: Juister Hof - Juist
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv28.stream/master.m3u8:Webcam%3a Kiel, Ostufer
 #DESCRIPTION Webcam: Kiel, Ostufer
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv77.stream/master.m3u8:Webcam%3a Kiel, Port of Kiel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv77.stream/master.m3u8:Webcam%3a Kiel, Port of Kiel
 #DESCRIPTION Webcam: Kiel, Port of Kiel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv38.stream/master.m3u8:Webcam%3a Kiel, Schleuse
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv38.stream/master.m3u8:Webcam%3a Kiel, Schleuse
 #DESCRIPTION Webcam: Kiel, Schleuse
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam%3a Köln
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam%3a Köln
 #DESCRIPTION Webcam: Köln
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Webcam%3a Luebecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv69_720p.stream:Köln - Kölnturm
+#DESCRIPTION Webcam: Köln - Kölnturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv99_720p.stream:Köln - Pullman Cologne
+#DESCRIPTION Webcam: Köln - Pullman Cologne
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv67_720p.stream:Krefeld - Garden Hotel
+#DESCRIPTION Webcam: Krefeld - Garden Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv35_450p.stream:Kühlungsborn - Strand
+#DESCRIPTION Webcam: Kühlungsborn - Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv82_720p.stream:Laboe - Ehrenmal
+#DESCRIPTION Webcam: Laboe - Ehrenmal
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv136_720p.stream:Langeness - TU Harburg
+#DESCRIPTION Webcam: Langeness - TU Harburg
+#SERVICE 4097:0:1:211:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv50_720p.stream:Lindau - Bodensee
+#DESCRIPTION Webcam: Lindau - Bodensee
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv113_720p.stream:Lindau - Lindauer Hof
+#DESCRIPTION Webcam: Lindau - Lindauer Hof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Webcam%3a Luebecker Bucht
 #DESCRIPTION Webcam: Luebecker Bucht
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv64.stream/master.m3u8:Webcam%3a Luebeck, Radisson Blu
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv64.stream/master.m3u8:Webcam%3a Luebeck, Radisson Blu
 #DESCRIPTION Webcam: Luebeck, Radisson Blu
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv55_450p.stream:Webcam%3a München
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv135_720p.stream:Lüneburg - Hotel Bergström
+#DESCRIPTION Webcam: Lüneburg - Hotel Bergström
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv94_720p.stream:Meißen - Fa. Hübner
+#DESCRIPTION Webcam: Meißen - Fa. Hübner
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv118_720p.stream:Mönchengladbach - Best Western Crown
+#DESCRIPTION Webcam: Mönchengladbach - Best Western Crown
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv55_450p.stream:Webcam%3a München
 #DESCRIPTION Webcam: München
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv30.stream/master.m3u8:Webcam%3a Oberwiesenthal
-#DESCRIPTION Webcam: Oberwiesenthal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv119.stream/master.m3u8:Webcam%3a Rostock, Hotel Sportforum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv72_720p.stream:München - Deutsche Eiche
+#DESCRIPTION Webcam: München - Deutsche Eiche
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv116_720p.stream:Münster - Raphaelsklinik
+#DESCRIPTION Webcam: Münster - Raphaelsklinik
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv63_720p.stream:Münster - Stadthaus
+#DESCRIPTION Webcam: Münster - Stadthaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv12_450p.stream:Neuharlingersiel - Hafen Ost
+#DESCRIPTION Webcam: Neuharlingersiel - Hafen Ost
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv13_450p.stream:Neuharlingersiel - Hafen West
+#DESCRIPTION Webcam: Neuharlingersiel - Hafen West
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv14_450p.stream:Neuharlingersiel - Panorama
+#DESCRIPTION Webcam: Neuharlingersiel - Panorama
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv81_720p.stream:Niendorf - Meerwasserhallenbad
+#DESCRIPTION Webcam: Niendorf - Meerwasserhallenbad
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv147_720p.stream:Norderney - Zimmerservice - Norderney
+#DESCRIPTION Webcam: Norderney - Zimmerservice - Norderney
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv137_720p.stream:Oberstdorf - Hotel Exquisit
+#DESCRIPTION Webcam: Oberstdorf - Hotel Exquisit
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv30_720p.stream:Oberwiesenthal - Hotel Fichtelberghaus
+#DESCRIPTION Webcam: Oberwiesenthal - Hotel Fichtelberghaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv91_720p.stream:Oldenburg - Nordwest-Zeitung
+#DESCRIPTION Webcam: Oldenburg - Nordwest-Zeitung
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv98_720p.stream:Passau - Hotel König
+#DESCRIPTION Webcam: Passau - Hotel König
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv8_450p.stream:Pelzerhaken - Lübecker Bucht
+#DESCRIPTION Webcam: Pelzerhaken - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv126_720p.stream:Pertisau am Achensee - Bergstation
+#DESCRIPTION Webcam: Pertisau am Achensee - Bergstation
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv110_720p.stream:Potsdam - Hotel Am Luisenplatz
+#DESCRIPTION Webcam: Potsdam - Hotel Am Luisenplatz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv89_720p.stream:Rostock - Apartment LIVING HOTEL
+#DESCRIPTION Webcam: Rostock - Apartment LIVING HOTEL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv119.stream/master.m3u8:Webcam%3a Rostock, Hotel Sportforum
 #DESCRIPTION Webcam: Rostock, Hotel Sportforum
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv97.stream/master.m3u8:Webcam%3a Schwerin
-#DESCRIPTION Webcam: Schwerin
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv132.stream/master.m3u8:Webcam%3a Stralsund, Hotel Hafenresidenz
-#DESCRIPTION Webcam: Stralsund, Hotel Hafenresidenz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv142.stream/master.m3u8:Webcam%3a Stralsund, Schweriner Hof
-#DESCRIPTION Webcam: Stralsund, Schweriner Hof
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv81.stream/master.m3u8:Webcam%3a Timmendorfer Strand
-#DESCRIPTION Webcam: Timmendorfer Strand
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv54.stream/master.m3u8:Webcam%3a Travemünde 
-#DESCRIPTION Webcam: Travemünde 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv16.stream/master.m3u8:Webcam%3a Warnemuende
-#DESCRIPTION Webcam: Warnemuende
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Wiek Rügen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv87_720p.stream:Rust - Apollon Hotel
+#DESCRIPTION Webcam: Rust - Apollon Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Wiek Rügen
 #DESCRIPTION Webcam: Wiek Rügen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv129_720p.stream:Sankt Peter-Ording - Beach Motel
+#DESCRIPTION Webcam: Sankt Peter-Ording - Beach Motel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv41_720p.stream:Scharbeutz - Lübecker Bucht
+#DESCRIPTION Webcam: Scharbeutz - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv108_720p.stream:Schwangau - Schloss Neuschwanstein
+#DESCRIPTION Webcam: Schwangau - Schloss Neuschwanstein
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv97.stream/master.m3u8:Webcam%3a Schwerin
+#DESCRIPTION Webcam: Schwerin
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv132.stream/master.m3u8:Webcam%3a Stralsund, Hotel Hafenresidenz
+#DESCRIPTION Webcam: Stralsund, Hotel Hafenresidenz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv132_720p.stream:Stralsund - Hotel Hafenresidenz
+#DESCRIPTION Webcam: Stralsund - Hotel Hafenresidenz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv142.stream/master.m3u8:Webcam%3a Stralsund, Schweriner Hof
+#DESCRIPTION Webcam: Stralsund, Schweriner Hof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv7_720p.stream:Hörnum - Sylt
+#DESCRIPTION Webcam: Sylt - Hörnum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv43_720p.stream:Westerland - Sylt
+#DESCRIPTION Webcam: Sylt - Westerland
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv49_720p.stream:Kampen - Sylt
+#DESCRIPTION Webcam: Sylt - Kampen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv81.stream/master.m3u8:Webcam%3a Timmendorfer Strand
+#DESCRIPTION Webcam: Timmendorfer Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv54.stream/master.m3u8:Webcam%3a Travemünde 
+#DESCRIPTION Webcam: Travemünde 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv104_720p.stream:Tübingen - Heindl Internet AG
+#DESCRIPTION Webcam: Tübingen - Heindl Internet AG
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv66_720p.stream:Ulm - Hotel Blaubeurer Tor
+#DESCRIPTION Webcam: Ulm - Hotel Blaubeurer Tor
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv16.stream/master.m3u8:Webcam%3a Warnemuende
+#DESCRIPTION Webcam: Warnemuende
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv20_450p.stream:Warnemünde - Best Western Hotel
+#DESCRIPTION Webcam: Warnemünde - Best Western Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv92_720p.stream:Weimar - HotelPension am Goethehaus
+#DESCRIPTION Webcam: Weimar - HotelPension am Goethehaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv88_720p.stream:Wolfsburg - Stadt Wolfsburg
+#DESCRIPTION Webcam: Wolfsburg - Stadt Wolfsburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv117_720p.stream:Wuppertal - Barmenia
+#DESCRIPTION Webcam: Wuppertal - Barmenia
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv70_720p.stream:Würzburg - Hotel Alter Kranen
+#DESCRIPTION Webcam: Würzburg - Hotel Alter Kranen
 #SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
 #DESCRIPTION Europa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Czechrepublic - Cieszyn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Czechrepublic - Cieszyn
 #DESCRIPTION Webcam: Czechrepublic - Cieszyn
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Webcam%3a Czechrepublic - Jablunkov
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Webcam%3a Czechrepublic - Jablunkov
 #DESCRIPTION Webcam: Czechrepublic - Jablunkov
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4162.flv/playlist.m3u8:Webcam%3a Czechrepublic - Prague
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4162.flv/playlist.m3u8:Webcam%3a Czechrepublic - Prague
 #DESCRIPTION Webcam: Czechrepublic - Prague
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8:Webcam%3a Frankreich - Eiffelturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8:Webcam%3a Frankreich - Eiffelturm
 #DESCRIPTION Webcam: Frankreich - Eiffelturm
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8:Webcam%3a Irland - Pub in Dublin
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3792.flv/playlist.m3u8:Greece - Thassos
+#DESCRIPTION Webcam: Greece - Thassos
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8:Webcam%3a Irland - Pub in Dublin
 #DESCRIPTION Webcam: Irland - Pub in Dublin
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/5299.flv/playlist.m3u8:Webcam%3a Island (Polarlichter)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5299.flv/playlist.m3u8:Webcam%3a Island (Polarlichter)
 #DESCRIPTION Webcam: Island (Polarlichter)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8:Webcam%3a UK London - Abbey Road
-#DESCRIPTION Webcam: UK London - Abbey Road
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carcavelos.stream/livestream.m3u8:Webcam%3a Portugal - Praia Carcavelos
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4098.flv/playlist.m3u8:Netherlands - Amsterdam Cam
+#DESCRIPTION Webcam: Netherlands - Amsterdam Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carcavelos.stream/livestream.m3u8:Webcam%3a Portugal - Praia Carcavelos
 #DESCRIPTION Webcam: Portugal - Praia Carcavelos
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/costa.stream/livestream.m3u8:Webcam%3a Portugal - Praia costa da Caparica
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/costa.stream/livestream.m3u8:Webcam%3a Portugal - Praia costa da Caparica
 #DESCRIPTION Webcam: Portugal - Praia costa da Caparica
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ericeira.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Ericeira
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ericeira.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Ericeira
 #DESCRIPTION Webcam: Portugal - Praia da Ericeira
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/luz.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Luz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/luz.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Luz
 #DESCRIPTION Webcam: Portugal - Praia da Luz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/espinho.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Espinho
-#DESCRIPTION Webcam: Portugal - Praia de Espinho
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saopedro.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Sao Pedro
-#DESCRIPTION Webcam: Portugal - Praia de Sao Pedro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saotorpes.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Sao Torpes
-#DESCRIPTION Webcam: Portugal - Praia de Sao Torpes
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/guincho.stream/livestream.m3u8:Webcam%3a Portugal - Praia do Guincho
-#DESCRIPTION Webcam: Portugal - Praia do Guincho
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/grande.stream/livestream.m3u8:Webcam%3a Portugal - Praia Grande
-#DESCRIPTION Webcam: Portugal - Praia Grande
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/leca.stream/livestream.m3u8:Webcam%3a Portugal - Praia Leca da Palmeria
-#DESCRIPTION Webcam: Portugal - Praia Leca da Palmeria
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/jardim.stream/livestream.m3u8:Webcam%3a Portugal - Praia Madeira Jardim do Mar
-#DESCRIPTION Webcam: Portugal - Praia Madeira Jardim do Mar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/matosinhos.stream/livestream.m3u8:Webcam%3a Portugal - Praia Matosinhos
-#DESCRIPTION Webcam: Portugal - Praia Matosinhos
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ribeira.stream/livestream.m3u8:Webcam%3a Portugal - Praia Ribeira
-#DESCRIPTION Webcam: Portugal - Praia Ribeira
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam%3a Portugal - Praia Santa Cruz
-#DESCRIPTION Webcam: Portugal - Praia Santa Cruz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/vagueira.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Vagueira
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/vagueira.stream/livestream.m3u8:Webcam%3a Portugal - Praia da Vagueira
 #DESCRIPTION Webcam: Portugal - Praia da Vagueira
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/meiapraia.stream/livestream.m3u8:Webcam%3a Portugal - Praia Duna Beach
-#DESCRIPTION Webcam: Portugal - Praia Duna Beach
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carvalhal.stream/livestream.m3u8:Webcam%3a Portugal - Praia do Carvalhal
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/espinho.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Espinho
+#DESCRIPTION Webcam: Portugal - Praia de Espinho
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saopedro.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Sao Pedro
+#DESCRIPTION Webcam: Portugal - Praia de Sao Pedro
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saotorpes.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Sao Torpes
+#DESCRIPTION Webcam: Portugal - Praia de Sao Torpes
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carvalhal.stream/livestream.m3u8:Webcam%3a Portugal - Praia do Carvalhal
 #DESCRIPTION Webcam: Portugal - Praia do Carvalhal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam%3a RUS - St. Petersburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/guincho.stream/livestream.m3u8:Webcam%3a Portugal - Praia do Guincho
+#DESCRIPTION Webcam: Portugal - Praia do Guincho
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/meiapraia.stream/livestream.m3u8:Webcam%3a Portugal - Praia Duna Beach
+#DESCRIPTION Webcam: Portugal - Praia Duna Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/grande.stream/livestream.m3u8:Webcam%3a Portugal - Praia Grande
+#DESCRIPTION Webcam: Portugal - Praia Grande
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/leca.stream/livestream.m3u8:Webcam%3a Portugal - Praia Leca da Palmeria
+#DESCRIPTION Webcam: Portugal - Praia Leca da Palmeria
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/jardim.stream/livestream.m3u8:Webcam%3a Portugal - Praia Madeira Jardim do Mar
+#DESCRIPTION Webcam: Portugal - Praia Madeira Jardim do Mar
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/matosinhos.stream/livestream.m3u8:Webcam%3a Portugal - Praia Matosinhos
+#DESCRIPTION Webcam: Portugal - Praia Matosinhos
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ribeira.stream/livestream.m3u8:Webcam%3a Portugal - Praia Ribeira
+#DESCRIPTION Webcam: Portugal - Praia Ribeira
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam%3a Portugal - Praia Santa Cruz
+#DESCRIPTION Webcam: Portugal - Praia Santa Cruz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam%3a RUS - St. Petersburg
 #DESCRIPTION Webcam: RUS - St. Petersburg
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/hotelvictoria2.flv/playlist.m3u8:Webcam%3a Ungarn - Budapest
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/moscowHD1.flv/playlist.m3u8:Russia - Moscow Skyline Cam
+#DESCRIPTION Webcam: Russia - Moscow Skyline Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp.infomaniak.ch/livecast/webcam05luganoch:
+#DESCRIPTION Webcam: Schweiz - Lugano - Lido
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv65_720p.stream:
+#DESCRIPTION Webcam: Schweiz - Zürich - Uetliberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8:Webcam%3a UK London - Abbey Road
+#DESCRIPTION Webcam: UK London - Abbey Road
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hotelvictoria2.flv/playlist.m3u8:Hungary - Budapest Cam
 #DESCRIPTION Webcam: Ungarn - Budapest
 #SERVICE 1:64:F:0:0:0:0:0:0:0::USA
 #DESCRIPTION USA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a Daytona Beach (USA)
-#DESCRIPTION Webcam: Daytona Beach (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/eclasvegas.flv/HasBahCa.m3u8:Webcam%3a Las Vegas (USA)
-#DESCRIPTION Webcam: Las Vegas (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4280.flv/hasbahca.m3u8:Webcam%3a New Orleans (USA)
-#DESCRIPTION Webcam: New Orleans (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/statueoflibertyHD.flv/playlist.m3u8:Webcam%3a NY Liberty Island (USA)
-#DESCRIPTION Webcam: NY Liberty Island (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4017timessquare.flv/HasBahCa.m3u8:Webcam%3a NY Time Square (USA)
-#DESCRIPTION Webcam: NY Time Square (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/chargingbull.flv/hasbahca.m3u8:Webcam%3a Wall Street (USA)
-#DESCRIPTION Webcam: Wall Street (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s7.ipcamlive.com/streams/0756d3c0ee76c44ef/stream.m3u8:Webcam%3a Lax Airport (USA)
-#DESCRIPTION Webcam: Lax Airport (USA)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video2.earthcam.com/fecnetwork/sedonawebcam.flv/playlist.m3u8:Webcam%3a USA - Arizona - Sedona, Red Rock Cam 
+#DESCRIPTION Webcam: USA - Arizona - Sedona, Red Rock Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video2.earthcam.com/fecnetwork/5805.flv/playlist.m3u8:Webcam%3a USA - Arizona - Sedona, Seven Arches
+#DESCRIPTION Webcam: USA - Arizona - Sedona, Seven Arches
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4049sonesta.flv/playlist.m3u8:Webcam%3a USA - Cambridge Boston
+#DESCRIPTION Webcam: USA - Cambridge Boston
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5023.flv/playlist.m3u8:Webcam%3a USA - CA - Aliso Beach
+#DESCRIPTION Webcam: USA - CA - Aliso Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/lacitytours1.flv/playlist.m3u8:Webcam%3a USA - CA - LA, Hollywood Blvd
+#DESCRIPTION Webcam: USA - CA - LA, Hollywood Blvd
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6603.flv/playlist.m3u8:Webcam%3a USA - CA - San Francisco
+#DESCRIPTION Webcam: USA - CA - San Francisco
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6253.flv/playlist.m3u8:Webcam%3a USA - CA - Santa Monica
+#DESCRIPTION Webcam: USA - CA - Santa Monica
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6175.flv/playlist.m3u8:Webcam%3a USA - CA - Venice Beach
+#DESCRIPTION Webcam: USA - CA - Venice Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5460.flv/playlist.m3u8:Webcam%3a USA - CA - Gerald Desmond Bridge
+#DESCRIPTION Webcam: USA - CA - Gerald Desmond Bridge
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a USA - Daytona Beach
+#DESCRIPTION Webcam: USA - Daytona Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5719.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Myers
+#DESCRIPTION Webcam: USA - FL - Fort Myers
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd5.flv/playlist.m3u8:Webcam%3a USA - FL - Downtown Miami
+#DESCRIPTION Webcam: USA - FL - Downtown Miami
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd1.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Beach
+#DESCRIPTION Webcam: USA - FL - Miami Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd4.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Biscayne Bay
+#DESCRIPTION Webcam: USA - FL - Miami Biscayne Bay
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3644newscafe.flv/playlist.m3u8:Webcam%3a USA - FL - Miami News Cafe
+#DESCRIPTION Webcam: USA - FL - Miami News Cafe
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd7.flv/playlist.m3u8:Webcam%3a USA - FL - Miami South Beach 
+#DESCRIPTION Webcam: USA - FL - Miami South Beach 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevins/irishkevins.stream/chunklist_w38238460.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins
+#DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevinsbar/irishkevinsbar.stream/chunklist_w984927033.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins bar
+#DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins bar
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevinsstreet/irishkevinsstreet.stream/chunklist_w187144479.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins Street
+#DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins Street
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//wowza2.floridakeysmedia.com%3a1935/liveduvalstreet/liveduvalstreet.stream:Webcam%3a USA - FL - Key West - Sloppy Joe's - Duval Street Cam
+#DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Duval Street Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//wowza.floridakeysmedia.com%3a1935/sloppyjoes/sloppyjoes.stream:Webcam%3a USA - FL - Key West - Sloppy Joe's - Stage Cam
+#DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Stage Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//wowza.floridakeysmedia.com%3a1935/sloppyjoesbar/sloppyjoesbar.stream:Webcam%3a USA - FL - Key West - Sloppy Joe's - Bar Cam
+#DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Bar Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//wowza2.floridakeysmedia.com%3a1935/crowdcam/crowdcam.stream:Webcam%3a USA - FL - Key West - Sloppy Joe's - Crowd Cam
+#DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Crowd Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/interactoneHDCam1.flv/playlist.m3u8:Webcam%3a USA - FL - Sanibel Island Beach
+#DESCRIPTION Webcam: USA - FL - Sanibel Island Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/4465.flv/playlist.m3u8:Webcam%3a USA - Lake Michigan
+#DESCRIPTION Webcam: USA - Lake Michigan
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eclasvegas.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas
+#DESCRIPTION Webcam: USA - Nevada - Las Vegas
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5359.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas - Wedding chapel
+#DESCRIPTION Webcam: USA - Nevada - Las Vegas - Wedding chapel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/13415669/streams/live/iphone/playlist.m3u8:Webcam%3a USA - ND - INFORUM FARGO
+#DESCRIPTION Webcam: USA - ND - INFORUM FARGO
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5465.flv/playlist.m3u8:Webcam%3a USA - Las Vegas - Plaza Park
+#DESCRIPTION Webcam: USA - Las Vegas - Plaza Park
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a1935/fecnetwork swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf pageUrl=http%3a//www.earthcam.com/usa/missouri/stlouis/?cam=arch_riverview playpath=meprd_garch.flv:Webcam%3a USA - Missouri - St. Louis Arch
+#DESCRIPTION Webcam: USA - Missouri - St. Louis Arch
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4017timessquare.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, South View
+#DESCRIPTION Webcam: USA - New York - Times Square, South View
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hdtimes10.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, 47th and Broadway
+#DESCRIPTION Webcam: USA - New York - Times Square, 47th and Broadway
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/fridays_5th.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square 5th Ave
+#DESCRIPTION Webcam: USA - New York - Times Square 5th Ave
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/chargingbull.flv/playlist.m3u8:Webcam%3a USA - New York - Charging Bull, Wall Street
+#DESCRIPTION Webcam: USA - New York - Charging Bull, Wall Street
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7384.flv/playlist.m3u8:Webcam%3a USA - New York - High Line
+#DESCRIPTION Webcam: USA - New York - High Line
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3983.flv/playlist.m3u8:Webcam%3a USA - New York - Hudson River
+#DESCRIPTION Webcam: USA - New York - Hudson River
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6427.flv/playlist.m3u8:Webcam%3a USA - New York - Columbus Circle
+#DESCRIPTION Webcam: USA - New York - Columbus Circle
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/statueoflibertyHD.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty Island 
+#DESCRIPTION Webcam: USA - New York - Liberty Island 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty
+#DESCRIPTION Webcam: USA - New York - Liberty
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hampton-beach-cam.flv/playlist.m3u8:Webcam%3a USA - New Hampshire - Hampton Beach
+#DESCRIPTION Webcam: USA - New Hampshire - Hampton Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4831.flv/playlist.m3u8:Webcam%3a USA - New Mexico - Santa Fe
+#DESCRIPTION Webcam: USA - New Mexico - Santa Fe
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/16983765/streams/live/iphone/playlist.m3u8:Webcam%3a USA - NEW ORLEANS
+#DESCRIPTION Webcam: USA - NEW ORLEANS
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4280.flv/playlist.m3u8:Webcam%3a USA - New Orleans, Bourbon Street
+#DESCRIPTION Webcam: USA - New Orleans, Bourbon Street
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4282.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Balcony
+#DESCRIPTION Webcam: USA - New Orleans - Bourbon St., Cats Meow Balcony
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4281.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Karaokebar
+#DESCRIPTION Webcam: USA - New Orleans - Bourbon St., Cats Meow Karaokebar
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:mmsh%3a//live.camstreams.com/csZappers?MSWMExt=.asf:Webcam%3a USA - Portland - Oregon - Columbia River
+#DESCRIPTION Webcam: USA - Portland - Oregon - Columbia River
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3635.flv/playlist.m3u8:Webcam%3a USA - SC - Myrtle Beach, BeachCam
+#DESCRIPTION Webcam: USA - SC - Myrtle Beach, BeachCam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/5966.flv/playlist.m3u8:Webcam%3a USA - St. Lucie County - River View
+#DESCRIPTION Webcam: USA - St. Lucie County - River View
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/paradiseon6.flv/playlist.m3u8:Webcam%3a USA - TX - Austin Old School Bar and Grill
+#DESCRIPTION Webcam: USA - TX - Austin Old School Bar and Grill
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/7524.flv/playlist.m3u8:Webcam%3a USA - Texas - Dallas - Reunion Tower
+#DESCRIPTION Webcam: USA - Texas - Dallas - Reunion Tower
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4356.flv/playlist.m3u8:Washington D.C. - Cherry Blossom cam
+#DESCRIPTION Webcam: USA - Washington D.C. - Cherry Blossom cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7132.flv/playlist.m3u8:Webcam%3a USA - D.C. - Wamo cam
+#DESCRIPTION Webcam: USA - Washington D.C. - Wamo cam
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Sonstige
 #DESCRIPTION Sonstige
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//201.219.100.30%3a1935/camara-bunge/camara-bunge.stream/live.m3u8:Webcam%3a Argentinien - BUNGE Y EL MAR
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8:Webcam%3a NASA TV
+#DESCRIPTION Webcam: NASA TV
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/ustreamVideo/9408562/streams/live/playlist.m3u8:Webcam%3a NASA ISS1
+#DESCRIPTION Webcam: NASA ISS1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/ustreamVideo/17074538/streams/live/playlist.m3u8:Webcam%3a NASA ISS 2
+#DESCRIPTION Webcam: NASA ISS 2
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//201.219.100.30%3a1935/camara-bunge/camara-bunge.stream/live.m3u8:Webcam%3a Argentinien - BUNGE Y EL MAR
 #DESCRIPTION Webcam: Argentinien - BUNGE Y EL MAR
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam%3a Brasilien - Copacabana - Rio de Janeiro
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam%3a Brasilien - Copacabana - Rio de Janeiro
 #DESCRIPTION Webcam: Brasilien - Copacabana - Rio de Janeiro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal5.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal5.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
 #DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal6.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal6.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
 #DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam%3a Israel - Klagemauer
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7393.flv/playlist.m3u8:Anguilla Cam - Aleta Pool
+#DESCRIPTION Webcam: Anguilla Cam - Aleta Pool
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4644.flv/playlist.m3u8:Webcam%3a Karibik - Aruba Tara Suites
+#DESCRIPTION Webcam: Karibik - Aruba Tara Suites
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam%3a Israel - Klagemauer
 #DESCRIPTION Webcam: Israel - Klagemauer
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4559.flv/hasbahca.m3u8:Webcam%3a Kanada - Niagara Fälle
-#DESCRIPTION Webcam: Kanada - Niagara Fälle
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/tokyo1.flv/hasbahca.m3u:Webcam%3a Japan - Tokyo
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/tokyo1.flv/playlist.m3u8:Japan - Tokyo
 #DESCRIPTION Webcam: Japan - Tokyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4518.flv/playlist.m3u8:Jordan - Amman City
+#DESCRIPTION Webcam: Jordanien - Amman City
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//cam.nsprozor.com/kamere/live//TrgSlobode.stream:NoviSad - Trg Slobode
+#DESCRIPTION Webcam: Serbien - NoviSad - Trg Slobode
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//cdn-01.whatsupcams.com/live/si_golte2:Skijalište Golte - Uspinjača
+#DESCRIPTION Webcam: Slovenien - Skijalište Golte - Uspinjača
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//cdn-01.whatsupcams.com/live//si_hse1_2:HE Krsko
+#DESCRIPTION Webcam: Slovenien - HE Krsko
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//cdn-01.whatsupcams.com/live/si_mostnasoci:Most na Soči - Pogled na jezero
+#DESCRIPTION Webcam: Slowenien - Most na Soči - Pogled na jezero
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
 #DESCRIPTION Webcam: VAE - Dubai Palme-Skyline
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Tiere - Natur
 #DESCRIPTION Tiere - Natur
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/merikotkas/playlist.m3u8:Webcam%3a Merikotkas
-#DESCRIPTION Webcam: Merikotkas
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/hiireviu/playlist.m3u8:Webcam%3a Hiireviu
-#DESCRIPTION Webcam: Hiireviu
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas/playlist.m3u8:Webcam%3a Kalakotkas
-#DESCRIPTION Webcam: Kalakotkas
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas2/playlist.m3u8:Webcam%3a Kalakotkas2
-#DESCRIPTION Webcam: Kalakotkas2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kakk/playlist.m3u8:Webcam%3a Kakk
-#DESCRIPTION Webcam: Kakk
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/must-toonekurg/playlist.m3u8:Webcam%3a Must-Toonekurg
-#DESCRIPTION Webcam: Must-Toonekurg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/hiireviu/playlist.m3u8:Webcam%3a Vogelcam - Hiireviu
+#DESCRIPTION Webcam: Vogelcam - Hiireviu
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kakk/playlist.m3u8:Webcam%3a Vogelcam - Kakk
+#DESCRIPTION Webcam: Vogelcam - Kakk
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas/playlist.m3u8:Webcam%3a Vogelcam - Kalakotkas
+#DESCRIPTION Webcam: Vogelcam - Kalakotkas
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas2/playlist.m3u8:Webcam%3a Vogelcam - Kalakotkas2
+#DESCRIPTION Webcam: Vogelcam - Kalakotkas2
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/merikotkas/playlist.m3u8:Webcam%3a Vogelcam - Merikotkas
+#DESCRIPTION Webcam: Vogelcam - Merikotkas
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/must-toonekurg/playlist.m3u8:Webcam%3a Vogelcam - Must-Toonekurg
+#DESCRIPTION Webcam: Vogelcam - Must-Toonekurg
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/hyljes/playlist.m3u8:Webcam%3a Hyljes
 #DESCRIPTION Webcam: Hyljes
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kasmu/playlist.m3u8:Webcam%3a Kasmu
 #DESCRIPTION Webcam: Kasmu
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/mager/playlist.m3u8:Webcam%3a Mager
 #DESCRIPTION Webcam: Mager
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3awil-safari-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3awil-safari-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 1
 #DESCRIPTION Webcam: Afrika - SAFARI TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//209.95.38.34%3a1935/rtsp-distribution/mp4%3aart-cam-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 2
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//209.95.38.34%3a1935/rtsp-distribution/mp4%3aart-cam-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 2
 #DESCRIPTION Webcam: Afrika - SAFARI TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/id/id.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 3
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/id/id.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 3
 #DESCRIPTION Webcam: Afrika - SAFARI TV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/nk/nk.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 4
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/nk/nk.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 4
 #DESCRIPTION Webcam: Afrika - SAFARI TV 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/tm/tm.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 5
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/tm/tm.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 5
 #DESCRIPTION Webcam: Afrika - SAFARI TV 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/na/na.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 6
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/na/na.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 6
 #DESCRIPTION Webcam: Afrika - SAFARI TV 6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/rc/rc.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 7
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/rc/rc.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 7
 #DESCRIPTION Webcam: Afrika - SAFARI TV 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3atau-lodge-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 8
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3atau-lodge-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 8
 #DESCRIPTION Webcam: Afrika - SAFARI TV 8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4338.flv/playlist.m3u8:Webcam%3a Indonesien - Bali - Elefanten Pool
-#DESCRIPTION Webcam: Indonesien - Bali - Elefanten Pool
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Webcam%3a Zoo in Zürich
-#DESCRIPTION Webcam: Zoo in Zürich
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv78_720p.stream:Zürich - Zoo Cam 1
+#DESCRIPTION Webcam: Zürich - Zoo Cam 1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv78b_720p.stream:Zürich - Zoo Cam 2
+#DESCRIPTION Webcam: Zürich - Zoo Cam 2
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Zürich - Zoo Cam 3
+#DESCRIPTION Webcam: Zürich - Zoo Cam 3
