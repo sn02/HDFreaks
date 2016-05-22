@@ -1,12 +1,14 @@
 #NAME IPTV Webcams
-#SERVICE 1:64:C:0:0:0:0:0:0:0::Webcams
-#DESCRIPTION Webcams
+#SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
+#DESCRIPTION Österreich
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam: Ö3 Live (Geduld - dauert etwas)
 #DESCRIPTION Webcam: Ö3 Live (Geduld - dauert etwas)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam: Linz, Donaulände
 #DESCRIPTION Webcam: Linz, Donaulände
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv121_720p.stream:Webcam: Hahnenkamm - Kitzbühel
 #DESCRIPTION Webcam: Hahnenkamm - Kitzbühel
+#SERVICE 1:64:D:0:0:0:0:0:0:0::Deutschland
+#DESCRIPTION Deutschland
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv59_720p.stream:Webcam: Dresden
 #DESCRIPTION Webcam: Dresden
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv100_720p.stream:Webcam: Frankfurt
@@ -19,16 +21,64 @@
 #DESCRIPTION Webcam: München
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam: Köln
 #DESCRIPTION Webcam: Köln
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Webcam: Zoo in Zürich
-#DESCRIPTION Webcam: Zoo in Zürich
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/hotelvictoria2.flv/HasBahCa.m3u8:Webcam: Budapest (Ungarn)
-#DESCRIPTION Webcam: Budapest (Ungarn)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8:Webcam: Eiffelturm - Paris (Frankreich)
-#DESCRIPTION Webcam: Eiffelturm - Paris (Frankreich)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8:Webcam: Pub in Dublin (Irland)
-#DESCRIPTION Webcam: Pub in Dublin (Irland)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam: Klagemauer (Israel)
-#DESCRIPTION Webcam: Klagemauer (Israel)
+#SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
+#DESCRIPTION Europa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Webcam: Czechrepublic - Jablunkov
+#DESCRIPTION Webcam: Czechrepublic - Jablunkov
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam: Czechrepublic - Cieszyn
+#DESCRIPTION Webcam: Czechrepublic - Cieszyn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4162.flv/playlist.m3u8:Webcam: Czechrepublic - Prague
+#DESCRIPTION Webcam: Czechrepublic - Prague
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8:Webcam: Frankreich - Eiffelturm
+#DESCRIPTION Webcam: Frankreich - Eiffelturm
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8:Webcam: Irland - Pub in Dublin
+#DESCRIPTION Webcam: Irland - Pub in Dublin
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/5299.flv/HasBahCa.m3u8:Webcam: Island (Polarlichter)
+#DESCRIPTION Webcam: Island (Polarlichter)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8:Webcam: UK London - Abbey Road
+#DESCRIPTION Webcam: UK London - Abbey Road
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carcavelos.stream/livestream.m3u8:Webcam: Portugal - Praia Carcavelos
+#DESCRIPTION Webcam: Portugal - Praia Carcavelos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/costa.stream/livestream.m3u8:Webcam: Portugal - Praia costa da Caparica
+#DESCRIPTION Webcam: Portugal - Praia costa da Caparica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ericeira.stream/livestream.m3u8:Webcam: Portugal - Praia da Ericeira
+#DESCRIPTION Webcam: Portugal - Praia da Ericeira
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/luz.stream/livestream.m3u8:Webcam: Portugal - Praia da Luz
+#DESCRIPTION Webcam: Portugal - Praia da Luz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/espinho.stream/livestream.m3u8:Webcam: Portugal - Praia de Espinho
+#DESCRIPTION Webcam: Portugal - Praia de Espinho
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saopedro.stream/livestream.m3u8:Webcam: Portugal - Praia de Sao Pedro
+#DESCRIPTION Webcam: Portugal - Praia de Sao Pedro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saotorpes.stream/livestream.m3u8:Webcam: Portugal - Praia de Sao Torpes
+#DESCRIPTION Webcam: Portugal - Praia de Sao Torpes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/guincho.stream/livestream.m3u8:Webcam: Portugal - Praia do Guincho
+#DESCRIPTION Webcam: Portugal - Praia do Guincho
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/grande.stream/livestream.m3u8:Webcam: Portugal - Praia Grande
+#DESCRIPTION Webcam: Portugal - Praia Grande
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/leca.stream/livestream.m3u8:Webcam: Portugal - Praia Leca da Palmeria
+#DESCRIPTION Webcam: Portugal - Praia Leca da Palmeria
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/jardim.stream/livestream.m3u8:Webcam: Portugal - Praia Madeira Jardim do Mar
+#DESCRIPTION Webcam: Portugal - Praia Madeira Jardim do Mar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/matosinhos.stream/livestream.m3u8:Webcam: Portugal - Praia Matosinhos
+#DESCRIPTION Webcam: Portugal - Praia Matosinhos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/ribeira.stream/livestream.m3u8:Webcam: Portugal - Praia Ribeira
+#DESCRIPTION Webcam: Portugal - Praia Ribeira
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam: Portugal - Praia Santa Cruz
+#DESCRIPTION Webcam: Portugal - Praia Santa Cruz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/vagueira.stream/livestream.m3u8:Webcam: Portugal - Praia da Vagueira
+#DESCRIPTION Webcam: Portugal - Praia da Vagueira
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/meiapraia.stream/livestream.m3u8:Webcam: Portugal - Praia Duna Beach
+#DESCRIPTION Webcam: Portugal - Praia Duna Beach
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/carvalhal.stream/livestream.m3u8:Webcam: Portugal - Praia do Carvalhal
+#DESCRIPTION Webcam: Portugal - Praia do Carvalhal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam: RUS - St. Petersburg
+#DESCRIPTION Webcam: RUS - St. Petersburg
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/hotelvictoria2.flv/HasBahCa.m3u8:Webcam: Ungarn - Budapest
+#DESCRIPTION Webcam: Ungarn - Budapest
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Webcam: Schweiz - Zoo in Zürich
+#DESCRIPTION Webcam: Schweiz - Zoo in Zürich
+#SERVICE 1:64:F:0:0:0:0:0:0:0::USA
+#DESCRIPTION USA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam: Daytona Beach (USA)
 #DESCRIPTION Webcam: Daytona Beach (USA)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/eclasvegas.flv/HasBahCa.m3u8:Webcam: Las Vegas (USA)
@@ -41,19 +91,41 @@
 #DESCRIPTION Webcam: NY Time Square (USA)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/chargingbull.flv/hasbahca.m3u8:Webcam: Wall Street (USA)
 #DESCRIPTION Webcam: Wall Street (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4559.flv/hasbahca.m3u8:Webcam: Niagara Fälle (Kanada)
-#DESCRIPTION Webcam: Niagara Fälle (Kanada)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s7.ipcamlive.com/streams/0756d3c0ee76c44ef/stream.m3u8:Webcam: Lax Airport (USA)
 #DESCRIPTION Webcam: Lax Airport (USA)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam: Copacabana - Rio de Janeiro
-#DESCRIPTION Webcam: Copacabana - Rio de Janeiro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vpiter.tv%3a8083/camera1/h264:Webcam: St. Petersburg (RUS)
-#DESCRIPTION Webcam: St. Petersburg (RUS)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4338.flv/HasBahCa.m3u8:Webcam: Elefanten Pool - Bali, Indonesien
-#DESCRIPTION Webcam: Elefanten Pool - Bali, Indonesien
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam: Palme-Skyline - Dubai, VAE
-#DESCRIPTION Webcam: Palme-Skyline - Dubai, VAE
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/tokyo1.flv/hasbahca.m3u:Webcam: Tokyo (Japan)
-#DESCRIPTION Webcam: Tokyo (Japan)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/5299.flv/HasBahCa.m3u8:Webcam: Island (Polarlichter)
-#DESCRIPTION Webcam: Island (Polarlichter)
+#SERVICE 1:64:10:0:0:0:0:0:0:0::Sonstige
+#DESCRIPTION Sonstige
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3awil-safari-01.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 1
+#DESCRIPTION Webcam: Afrika - SAFARI TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//209.95.38.34%3a1935/rtsp-distribution/mp4%3aart-cam-01.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 2
+#DESCRIPTION Webcam: Afrika - SAFARI TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/id/id.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 3
+#DESCRIPTION Webcam: Afrika - SAFARI TV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/nk/nk.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 4
+#DESCRIPTION Webcam: Afrika - SAFARI TV 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/tm/tm.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 5
+#DESCRIPTION Webcam: Afrika - SAFARI TV 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/na/na.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 6
+#DESCRIPTION Webcam: Afrika - SAFARI TV 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.africam.com/rc/rc.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 7
+#DESCRIPTION Webcam: Afrika - SAFARI TV 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3atau-lodge-01.stream/playlist.m3u8:Webcam: Afrika - SAFARI TV 8
+#DESCRIPTION Webcam: Afrika - SAFARI TV 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//201.219.100.30%3a1935/camara-bunge/camara-bunge.stream/live.m3u8:Webcam: Argentinien - BUNGE Y EL MAR
+#DESCRIPTION Webcam: Argentinien - BUNGE Y EL MAR
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam: Brasilien - Copacabana - Rio de Janeiro
+#DESCRIPTION Webcam: Brasilien - Copacabana - Rio de Janeiro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal5.stream/live.m3u8:Webcam: Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
+#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal6.stream/live.m3u8:Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
+#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4338.flv/HasBahCa.m3u8:Webcam: Indonesien - Bali - Elefanten Pool
+#DESCRIPTION Webcam: Indonesien - Bali - Elefanten Pool
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam: Israel - Klagemauer
+#DESCRIPTION Webcam: Israel - Klagemauer
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/4559.flv/hasbahca.m3u8:Webcam: Kanada - Niagara Fälle
+#DESCRIPTION Webcam: Kanada - Niagara Fälle
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video1.earthcam.com/fecnetwork/tokyo1.flv/hasbahca.m3u:Webcam: Japan - Tokyo
+#DESCRIPTION Webcam: Japan - Tokyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam: VAE - Dubai -Palme-Skyline
+#DESCRIPTION Webcam: VAE - Dubai -Palme-Skyline
