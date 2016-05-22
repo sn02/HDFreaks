@@ -1,0 +1,19 @@
+#NAME IPTV Various
+#SERVICE 1:64:0:0:0:0:0:0:0:0:
+#DESCRIPTION Cartoon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
+#DESCRIPTION Tom Jerry (360p)
+#SERVICE 1:64:1:0:0:0:0:0:0:0:
+#DESCRIPTION Sports
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on:Real Madrid TV (404p)
+#DESCRIPTION Real Madrid TV (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel2/smil%3aswitch2.smil/chunklist_b3174400.m3u8:Sportime (720p)
+#DESCRIPTION Sportime (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Spor HD (576p)
+#DESCRIPTION TRT Spor HD (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
+#DESCRIPTION Sports Canli TV (488p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.yayindayiz.biz/Bursaspor/bursaspor/chunklist.m3u8:Bursa Spor (480p)
+#DESCRIPTION Bursa Spor (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//meridelive02-lh.akamaihd.net/i/idmantv_1@319873/index_1_av-b.m3u8?sd=10&rebase=on:Idman TV (576p)
+#DESCRIPTION Idman TV (576p)
