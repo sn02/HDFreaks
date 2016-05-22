@@ -197,6 +197,8 @@
 #DESCRIPTION Webcam: Rust - Apollon Hotel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Wiek Rügen
 #DESCRIPTION Webcam: Rügen - Wiek
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv2/goehren.stream/master.m3u8
+#DESCRIPTION Webcam: Rügen - Goeren
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv129_720p.stream:Sankt Peter-Ording - Beach Motel
 #DESCRIPTION Webcam: Sankt Peter-Ording - Beach Motel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv41_720p.stream:Scharbeutz - Lübecker Bucht
@@ -235,6 +237,8 @@
 #DESCRIPTION Webcam: Wuppertal - Barmenia
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv70_720p.stream:Würzburg - Hotel Alter Kranen
 #DESCRIPTION Webcam: Würzburg - Hotel Alter Kranen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv3/zinnowitz.stream/master.m3u8
+#DESCRIPTION Webcam: Zinnowitz
 #SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
 #DESCRIPTION Europa
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Czechrepublic - Cieszyn
@@ -483,4 +487,3 @@
 #DESCRIPTION Webcam: Zürich - Zoo Cam 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Zürich - Zoo Cam 3
 #DESCRIPTION Webcam: Zürich - Zoo Cam 3
-
