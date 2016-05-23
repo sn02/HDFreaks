@@ -93,10 +93,6 @@
 #DESCRIPTION Melodie Express (468p)
 #SERVICE 1:64:2:0:0:0:0:0:0:0:
 #DESCRIPTION Swiss
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.162.68.38:1935/live/af8fe5a4-4bb6-4794-15ba-004c0311ddd7/chunklist_w130911575.m3u8:SRF 1 (720p)
-#DESCRIPTION SRF 1 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.192.180.66:1935/tv-channels/e4be1d01-282f-9d02-d7f6-ead3341f79c4/chunklist.m3u8?wowzasessionid=1875509475:SRF 2 (720p)
-#DESCRIPTION SRF 2 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/livesd2/chunklist_w798831857.m3u8:Kanal9 (720p)
 #DESCRIPTION Kanal9 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kalseglive-a.akamaihd.net/dc-1/m/ny-live-publish3/kLive/smil%3a1_hoislpiz_all.smil/32/chunklist.m3u8:TeleZüri (720p)
