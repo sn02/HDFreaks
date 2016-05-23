@@ -143,7 +143,7 @@
 #DESCRIPTION Webcam: Laboe - Ehrenmal
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv136_720p.stream:Langeness - TU Harburg
 #DESCRIPTION Webcam: Langeness - TU Harburg
-#SERVICE 4097:0:1:211:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv50_720p.stream:Lindau - Bodensee
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv50_720p.stream:Lindau - Bodensee
 #DESCRIPTION Webcam: Lindau - Bodensee
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv113_720p.stream:Lindau - Lindauer Hof
 #DESCRIPTION Webcam: Lindau - Lindauer Hof
@@ -339,7 +339,7 @@
 #DESCRIPTION Webcam: USA - FL - Miami South Beach 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevins/irishkevins.stream/chunklist_w38238460.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins
 #DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevinsbar/irishkevinsbar.stream/chunklist_w984927033.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins bar
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevinsbar/irishkevinsbar.stream/chunklist_w984927033.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins bar
 #DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins bar
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevinsstreet/irishkevinsstreet.stream/chunklist_w187144479.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins Street
 #DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins Street
