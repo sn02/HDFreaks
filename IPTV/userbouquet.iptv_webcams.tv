@@ -197,7 +197,7 @@
 #DESCRIPTION Webcam: Rust - Apollon Hotel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Wiek Rügen
 #DESCRIPTION Webcam: Rügen - Wiek
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv2/goehren.stream/master.m3u8
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv2/goehren.stream/master.m3u8
 #DESCRIPTION Webcam: Rügen - Goeren
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv129_720p.stream:Sankt Peter-Ording - Beach Motel
 #DESCRIPTION Webcam: Sankt Peter-Ording - Beach Motel
