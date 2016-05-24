@@ -29,5 +29,7 @@
 #DESCRIPTION Canale 7 (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mi1.wz.tv2000.it/mirror/High/chunklist.m3u8:TV2000 (404p)
 #DESCRIPTION TV2000 (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.streamcaster.net%3a1935/live/fanotv/chunklist_w1294613329.m3u8:Fano TV (576p)
+#DESCRIPTION Fano TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/Rete55/R55.stream_source/chunklist_w1589253402.m3u8:Rete 55 (576p)
 #DESCRIPTION Rete 55 (576p)
