@@ -17,3 +17,9 @@
 #DESCRIPTION Bursa Spor (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//meridelive02-lh.akamaihd.net/i/idmantv_1@319873/index_1_av-b.m3u8?sd=10&rebase=on:Idman TV (576p)
 #DESCRIPTION Idman TV (576p)
+#SERVICE 1:64:2:0:0:0:0:0:0:0:
+#DESCRIPTION World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB7/wfhdeu/playlist.m3u8:Worldfashion Europa (720p)
+#DESCRIPTION Worldfashion Europa (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8:Worldfashion Russland (720p)
+#DESCRIPTION Worldfashion Russland (720p)

@@ -59,6 +59,8 @@
 #DESCRIPTION Deutsche Welle (400p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge-h.daf.tmt.de/ios-live/daf-ios-live-livetv.stream/chunklist_w1422058425.m3u8:DAF (288p)
 #DESCRIPTION DAF (288p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
+#DESCRIPTION RIC (396p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.20/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
