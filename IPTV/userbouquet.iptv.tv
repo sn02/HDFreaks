@@ -295,6 +295,8 @@
 #DESCRIPTION Haber61 (506p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-l.mncdn.com/karamel/karamel/chunklist_w1231735705.m3u8:Karamel (360p)
 #DESCRIPTION Karamel (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.taksimbilisim.com%3a1935/kanalz/bant1/playlist.m3u8:Kanal Z (270p)
+#DESCRIPTION Kanal Z (270p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//semerkandglb.mediatriple.net%3a1935/semerkandliveedge/semerkand1/HasBahCa.m3u8:Semerkand (360p)
 #DESCRIPTION Semerkand (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetr.gostream.nl/medine/medine/hasbahca.m3u8:Medine TV (576p)
