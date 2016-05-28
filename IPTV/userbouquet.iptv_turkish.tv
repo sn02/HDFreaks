@@ -31,6 +31,8 @@
 #DESCRIPTION Idman TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//live.fanatik.cubecdn.net/fanatiktv/stream_720:Fanatik TV (720p)
 #DESCRIPTION Fanatik TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s69362.cdn.ngenix.net/live/_definst_/Stream1/master.m3u8:CBC Sport (480p)
+#DESCRIPTION CBC Sport (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.gostream.nl/kanal7int/kanal7int.m3u8:Kanal 7 Avrupa (576p)
 #DESCRIPTION Kanal 7 Avrupa (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-i.mncdn.com/showtv_ios/smil%3ashowtv.smil/chunklist_w828869431_b848000.m3u8:Show TV (360p)
