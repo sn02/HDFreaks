@@ -439,4 +439,4 @@
 #DESCRIPTION KRAL LATIN
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kgym.stream/playlist.m3u8
 #DESCRIPTION KRAL GYM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/krelax.stream/playlist.m3u8  
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/krelax.stream/playlist.m3u8
