@@ -249,8 +249,8 @@
 #DESCRIPTION Kanal 78 (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/live/kanallikya/chunklist_w131793978.m3u8:Kanal Likya (240p)
 #DESCRIPTION Kanal Likya (240p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.taksimbilisim.com/kanalurfa//bant1:Kanal Urfa(320p)
-#DESCRIPTION Kanal Urfa(320p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.taksimbilisim.com/kanalurfa//bant1:Kanal Urfa (320p)
+#DESCRIPTION Kanal Urfa (320p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream2.taksimbilisim.com%3a1935/kanalvip/smil%3akanalvip.smil/chunklist_w45810846_b500000.m3u8:Kanal Vip (280p)
 #DESCRIPTION Kanal Vip (280p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.taksimbilisim.com%3a1935/koroglutv/smil%3akoroglutv.smil/chunklist_w292408608_b490000.m3u8:Koroglu TV (480p)
@@ -367,3 +367,76 @@
 #DESCRIPTION TATAR                  
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//webtv.tatar-inform.ru%3a1935/live/nk/index.m3u8:TVN (376p)
 #DESCRIPTION TVN (376p)
+#SERVICE 1:64:14:0:0:0:0:0:0:0::RADIO                  
+#DESCRIPTION RADIO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/arabeskstar.stream/playlist.m3u8
+#DESCRIPTION KRAL ARABESK STAR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralpopstar.stream/playlist.m3u8
+#DESCRIPTION KRAL POP STAR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kturku.stream/playlist.m3u8
+#DESCRIPTION KRAL TURKU
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kraltsm.stream/playlist.m3u8
+#DESCRIPTION KRAL TSM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kral45lik.stream/playlist.m3u8
+#DESCRIPTION KRAL 45`LIK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/k90s.stream/playlist.m3u8
+#DESCRIPTION KRAL 90`LAR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kenstrumantal.stream/playlist.m3u8
+#DESCRIPTION KRAL ENSTRUMANTAL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kakustik.stream/playlist.m3u8
+#DESCRIPTION KRAL AKUSTIK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com/dyg/kraldans.stream/playlist.m3u8
+#DESCRIPTION KRAL DANCE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralask.stream/playlist.m3u8
+#DESCRIPTION KRAL ASK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralrock2.stream/playlist.m3u8
+#DESCRIPTION KRAL ROCK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kkralrap.stream/playlist.m3u8
+#DESCRIPTION KRAL RAP
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralnoname.stream/playlist.m3u8
+#DESCRIPTION KRAL NO NAME
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kraloyunhavalari.stream/playlist.m3u8
+#DESCRIPTION KRAL OYUN HAVALARI
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kmesk.stream/playlist.m3u8
+#DESCRIPTION KRAL MESK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralsaklisarkilar.stream/playlist.m3u8
+#DESCRIPTION KRAL SAKLI SARKILAR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/ksiir.stream/playlist.m3u8
+#DESCRIPTION KRAL SIIR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kralbebek.stream/playlist.m3u8
+#DESCRIPTION KRAL BEBEK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kflashback.stream/playlist.m3u8
+#DESCRIPTION KRAL FLASHBACK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/khomemade.stream/playlist.m3u8
+#DESCRIPTION KRAL HOME MADE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kdance.stream/playlist.m3u8
+#DESCRIPTION KRAL DANCE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/klove.stream/playlist.m3u8
+#DESCRIPTION KRAL LOVE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/krock.stream/playlist.m3u8
+#DESCRIPTION KRAL ROCK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/krap.stream/playlist.m3u8
+#DESCRIPTION KRAL RAP
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kstar.stream/playlist.m3u8
+#DESCRIPTION KRAL STAR
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/knostalgie.stream/playlist.m3u8
+#DESCRIPTION KRAL NOSTALGIE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kjazz.stream/playlist.m3u8
+#DESCRIPTION KRAL JAZZ
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/klounge.stream/playlist.m3u8
+#DESCRIPTION KRAL LOUNGE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/ksoundtrack.stream/playlist.m3u8
+#DESCRIPTION KRAL SOUNDTRACK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/starradio.stream/playlist.m3u8
+#DESCRIPTION KRAL STAR RADIO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/ketnik.stream/playlist.m3u8
+#DESCRIPTION KRAL ETHNIC
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kclassic.stream/playlist.m3u8
+#DESCRIPTION KRAL CLASSIC
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kgreece.stream/playlist.m3u8
+#DESCRIPTION KRAL GREECE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/klatin.stream/playlist.m3u8
+#DESCRIPTION KRAL LATIN
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/kgym.stream/playlist.m3u8
+#DESCRIPTION KRAL GYM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dygwebradios.radyotvonline.com%3a80/dyg/krelax.stream/playlist.m3u8  
