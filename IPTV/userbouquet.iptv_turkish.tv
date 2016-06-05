@@ -7,6 +7,8 @@
 #DESCRIPTION KANAL D (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-i.mncdn.com/showtv_ios/smil%3ashowtv.smil/chunklist_w828869431_b848000.m3u8:Show HD TV (360p)
 #DESCRIPTION Show HD TV (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live-ciner.mncdn.net/showmax/showmax2/playlist.m3u8:ShowMax (576p)
+#DESCRIPTION ShowMax (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-l.mncdn.com/showturktv/showturktv1/chunklist_w34252817.m3u8:Show Turk TV (360p)
 #DESCRIPTION Show Turk TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//31.210.157.109/360tv/360tvlive2/playlist.m3u8:360 (420p)

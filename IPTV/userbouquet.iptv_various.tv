@@ -35,3 +35,5 @@
 #DESCRIPTION Worldfashion Europa (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8:Worldfashion Russland (720p)
 #DESCRIPTION Worldfashion Russland (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza02.newmedia.lu/channel1/smil%3achannel1/playlist.m3u8:RTL Tele Letzebourg (576p)
+#DESCRIPTION RTL Tele Letzebourg (576p)
