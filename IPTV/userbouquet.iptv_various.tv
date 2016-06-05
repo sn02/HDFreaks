@@ -37,3 +37,12 @@
 #DESCRIPTION Worldfashion Russland (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza02.newmedia.lu/channel1/smil%3achannel1/playlist.m3u8:RTL Tele Letzebourg (576p)
 #DESCRIPTION RTL Tele Letzebourg (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//abclive.abcnews.com/i/abc_live4@136330/index_2500_av-b.m3u8?sd=10&rebase=on:abc NEWS (720p)
+#DESCRIPTION abc NEWS (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-b.m3u8?sd=10&rebase=on&hdntl=:Deutsche Welle (400p)
+#DESCRIPTION Deutsche Welle (400p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_05@325609/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia (720p)
+#DESCRIPTION RT Russia (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_01@325605/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia Docu (720p)
+#DESCRIPTION RT Russia Docu (720p)
+
