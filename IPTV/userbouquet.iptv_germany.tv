@@ -5,7 +5,7 @@
 #DESCRIPTION Das Erste (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF (720p)
 #DESCRIPTION ZDF (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs-lh.akamaihd.net/i/wdrfs_weltweit@112033/index_3776_av-b.m3u8:WDR HD (720p) 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR HD (720p) 
 #DESCRIPTION WDR HD (720p) 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8:ARTE (360p)
 #DESCRIPTION ARTE (360p)
