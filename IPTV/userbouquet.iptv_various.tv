@@ -43,6 +43,5 @@
 #DESCRIPTION Deutsche Welle (400p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_05@325609/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia (720p)
 #DESCRIPTION RT Russia (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_01@325605/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia Docu (720p)
-#DESCRIPTION RT Russia Docu (720p)
-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_01@325605/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia Documentary (720p)
+#DESCRIPTION RT Russia Documentary (720p)
