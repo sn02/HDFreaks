@@ -1,9 +1,9 @@
 #NAME IPTV Italy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rai1_1@398068/index_1200_av-p.m3u8:Rai 1 (352p)
 #DESCRIPTION Rai 1 (352p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rai2_1@66477/index_1200_av-p.m3u8:Rai 2 (352p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream13.rai.it%3a1935/italy/rai2.smil/chunklist_b1200000.m3u8:Rai 2 (352p)
 #DESCRIPTION Rai 2 (352p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rai3_1@91501/index_1200_av-p.m3u8:Rai 3 (352p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream14.rai.it/italy/rai3_1200/chunklist.m3u8:Rai 3 (352p)
 #DESCRIPTION Rai 3 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream12.rai.it/italy/rai4.smil/chunklist_b1200000.m3u8:Rai 4 (352p)
 #DESCRIPTION Rai 4 (352p)
