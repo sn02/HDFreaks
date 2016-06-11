@@ -69,13 +69,13 @@
 #DESCRIPTION DAF (288p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
 #DESCRIPTION ORF eins HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf2/q8c.sdp/chunklist.m3u8:ORF 2 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf2/q8c.sdp/chunklist.m3u8:ORF 2 HD (720p)
 #DESCRIPTION ORF 2 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf3/q8c.sdp/chunklist.m3u8:ORF 3 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf3/q8c.sdp/chunklist.m3u8:ORF 3 HD (720p)
 #DESCRIPTION ORF 3 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orfs/q8c.sdp/chunklist.m3u8:ORF Sport+ HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orfs/q8c.sdp/chunklist.m3u8:ORF Sport+ HD (720p)
 #DESCRIPTION ORF Sport+ HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD AT (720p)
 #DESCRIPTION SERVUS TV HD AT (720p)
