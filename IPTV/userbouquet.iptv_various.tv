@@ -49,6 +49,10 @@
 #DESCRIPTION RT Russia (720p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//android.cdn.bonus-tv.ru%3a8080/russiahd/index.m3u8:Russia 1 HD (720p)
+#DESCRIPTION Russia 1 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru%3a8080/russia24/index.m3u8:Russia 24 (576p)
+#DESCRIPTION Russia 24 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.76.26.81%3a8081/hdmedia/hdmedia_3d/playlist.m3u8:HD Media 3D (720p)
 #DESCRIPTION HD Media 3D (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamer1.cdn.3dsmart.tv/hls/mutetv.tv.3d/stream.m3u8:Mute TV 3D (1080p)
