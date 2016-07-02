@@ -47,7 +47,7 @@
 #DESCRIPTION RT Russia Documentary (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_01@325605/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia (720p)
 #DESCRIPTION RT Russia (720p)
-#SERVICE 1:64:9:0:0:0:0:0:0:0:
+#SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.76.26.81%3a8081/hdmedia/hdmedia_3d/playlist.m3u8:HD Media 3D (720p)
 #DESCRIPTION HD Media 3D (720p)
