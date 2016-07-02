@@ -1,7 +1,7 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//apasfiisl.apa.at/ipad/orf1_q4a/orf.sdp/playlist.m3u8?wowzasessionid=4:ORF eins HD (720p)
 #DESCRIPTION ORF eins HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf2/q8c.sdp/chunklist.m3u8:ORF 2 HD (720p)
 #DESCRIPTION ORF 2 HD (720p)
