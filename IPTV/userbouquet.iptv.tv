@@ -103,8 +103,6 @@
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
 #DESCRIPTION Tom Jerry (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8:Cartoon Network (480p)
-#DESCRIPTION Cartoon Network (480p)
 #SERVICE 1:64:4:0:0:0:0:0:0:0:
 #DESCRIPTION Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on:Real Madrid TV (404p)
@@ -297,10 +295,10 @@
 #DESCRIPTION TRT 1 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.224.108.84/S2/HLS_LIVE/kanald/1000/prog_index.m3u8?%2A%2A%2A=34bebe49310a20cee606216f65f3575b:Kanal D (480p)
 #DESCRIPTION KANAL D (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live-ciner.mncdn.net/showtv/showtv2/playlist.m3u8:Show HD TV (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-l.mncdn.com/showtv/showtv2/chunklist_w555123943.m3u8:Show HD TV (540p)
 #DESCRIPTION Show HD TV (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live-ciner.mncdn.net/showmax/showmax2/playlist.m3u8:ShowMax (576p)
-#DESCRIPTION ShowMax (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-l.mncdn.com/showturktv/showturktv1/chunklist_w198368409.m3u8:Show Turk TV (360p)
+#DESCRIPTION Show Turk TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//31.210.157.109/360tv/360tvlive2/playlist.m3u8:360 (420p)
 #DESCRIPTION 360 (420p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.gostream.nl/kanal7hq/kanal7hq.m3u8:Kanal 7 HD (400p)
