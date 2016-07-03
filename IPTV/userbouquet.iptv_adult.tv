@@ -1,13 +1,11 @@
 #NAME IPTV Adult
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.242.187.53%3a4022/udp/239.239.13.2%3a5239:Playboy TV (576p)
-#DESCRIPTION Playboy TV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.242.187.53%3a4022/udp/239.239.13.0%3a5239:Russian Night (576p)
-#DESCRIPTION Russian Night (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.242.187.53%3a4022/udp/239.239.13.65%3a5239:Frenchlover (576p)
-#DESCRIPTION Frenchlover (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat (540p)
 #DESCRIPTION Sexysat (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.242.187.53%3a4022/udp/239.239.13.1%3a5239:Olala (576p)
-#DESCRIPTION Olala (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru/TVB7/candy/track_0_3000/playlist.m3u8
+#DESCRIPTION Candy 1080p
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//http://cdn-01.bonus-tv.ru/TVB7/candyman/track_0_2500/playlist.m3u8
+#DESCRIPTION Candyman 720P
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//publish.thewebstream.co%3a1935/leved/foxxxbabes/playlist.m3u
+#DESCRIPTION FOXXBabes 480p
