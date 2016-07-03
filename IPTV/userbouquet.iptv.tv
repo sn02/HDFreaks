@@ -411,6 +411,7 @@
 #DESCRIPTION Canale 21 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/Rete55/R55.stream_source/chunklist_w1589253402.m3u8:Rete 55 (576p)
 #DESCRIPTION Rete 55 (576p)
+#SERVICE 1:64:9:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//android.cdn.bonus-tv.ru%3a8080/russiahd/index.m3u8:Russia 1 HD (720p)
 #DESCRIPTION Russia 1 HD (720p)
