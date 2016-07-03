@@ -123,6 +123,8 @@
 #DESCRIPTION Idman TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s69362.cdn.ngenix.net/live/_definst_/Stream1/master.m3u8:CBC Sport (480p)
 #DESCRIPTION CBC Sport (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master_fb3360.m3u8:Red Bull TV (720p)
+#DESCRIPTION Red Bull TV (720p)
 #SERVICE 1:64:5:0:0:0:0:0:0:0:
 #DESCRIPTION Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
