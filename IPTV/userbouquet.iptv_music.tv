@@ -29,10 +29,6 @@
 #DESCRIPTION Djing Underground HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//us.djing.com/tv/d-04.m3u8:Djing Ibiza HD (540p)
 #DESCRIPTION Djing Ibiza HD (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls2.slamfm.nl/content/slamtv/slamtv_0.m3u8:Slam!TV (720p)
-#DESCRIPTION Slam!TV (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume03.streampartner.nl/vleugels_hd4/livestream/playlist.m3u8:XITE NL (1080p)
-#DESCRIPTION XITE NL (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.wowza.kpnstreaming.nl/omropfryslanlive/OFstream01.smil/playlist.m3u8:Klipklar TV Music (540p)
 #DESCRIPTION Klipklar TV Music (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.electrosound.tv%3a1935/public/stream/chunklist.m3u8:Electrosound HD (720p)
@@ -61,6 +57,12 @@
 #DESCRIPTION Eska HipHop TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.smcloud.net/tv/eskatv/eskatv_360p:Eska TV (360p)
 #DESCRIPTION Eska TV (360p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wse.planeta-online.tv%3a1935/live/channel_4/index.m3u8
+#DESCRIPTION FreshTV Music (360p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//http://rtmp.one.by%3a2300
+#DESCRIPTION HD ONE RU Music (1080p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.rmg.cdnvideo.ru/rmg/rmg1.sdp/playlist.m3u8
+#DESCRIPTION HITV Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smcloud.net/tv/polo_party/polo_party_720p/playlist.m3u8:Polo Party TV (720p)
 #DESCRIPTION Polo Party TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s4w.deb1.scdn.smcloud.net/live/_definst_/polotv/chunklist_w2003069189.m3u8:Polo TV (360p)
@@ -87,6 +89,10 @@
 #DESCRIPTION MTV Rocks (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.23.58.156%3a4025/udp/234.1.20.48%3a1234:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//musicbox.cdnvideo.ru/musicbox/musicboxtv.sdp/playlist.m3u8
+#DESCRIPTION MusicBox (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//212.26.132.86/hls/mb_ua.m3u8
+#DESCRIPTION MusicBox UA (360P)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.rbm.tv/rightbrainmedia-live-109/_definst_/smil%3aspirit_all.smil/master.m3u8:Spirit Music (720p)
 #DESCRIPTION Spirit Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/chunklist.m3u8:O2 TV (480p)
@@ -151,7 +157,11 @@
 #DESCRIPTION Heart TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mediawork.cz/retrotv/retrotvHQ1/chunklist_w669357231.m3u8:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls2.slamfm.nl/content/slamtv/slamtv_0.m3u8:Slam!TV (720p)
+#DESCRIPTION Slam!TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8:Stars.TV (720p)
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume03.streampartner.nl/vleugels_hd4/livestream/playlist.m3u8:XITE NL (1080p)
+#DESCRIPTION XITE NL (1080p)
