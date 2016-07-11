@@ -325,17 +325,17 @@
 #DESCRIPTION Webcam: USA - CA - Gerald Desmond Bridge
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a USA - FL - Daytona Beach
 #DESCRIPTION Webcam: USA - FL - Daytona Beach
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5424.flv/playlist.m3u8:Webcam%3a USA - FL - Destin 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5424.flv/playlist.m3u8:Webcam%3a USA - FL - Destin 
 #DESCRIPTION Webcam: USA - FL - Destin 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5663.flv/playlist.m3u8:Webcam%3a USA - FL - Destin Sandestin Beach 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5663.flv/playlist.m3u8:Webcam%3a USA - FL - Destin Sandestin Beach 
 #DESCRIPTION Webcam: USA - FL - Destin Sandestin Beach 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/windjammerHD2.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Lauderdale USA HD
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/windjammerHD2.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Lauderdale USA HD
 #DESCRIPTION Webcam: USA - FL - Fort Lauderdale USA HD
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5719.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Myers
 #DESCRIPTION Webcam: USA - FL - Fort Myers
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath1.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Bar Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath1.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Bar Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Bar Cam 
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath2.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Raw Bar Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath2.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Raw Bar Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Raw Bar Cam 
 #SERVICE 4097:0:1:5:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath3.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Stage Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Stage Cam 
@@ -363,11 +363,11 @@
 #DESCRIPTION Webcam: USA - FL - Miami News Cafe
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd7.flv/playlist.m3u8:Webcam%3a USA - FL - Miami South Beach 
 #DESCRIPTION Webcam: USA - FL - Miami South Beach 
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd2.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Sunny Isles 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd2.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Sunny Isles 
 #DESCRIPTION Webcam: USA - FL - Miami Sunny Isles 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/interactoneHDCam1.flv/playlist.m3u8:Webcam%3a USA - FL - Sanibel Island Beach
 #DESCRIPTION Webcam: USA - FL - Sanibel Island Beach
-#SERVICE 4097:0:1:7:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/6076.flv/playlist.m3u8:Webcam%3a USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/6076.flv/playlist.m3u8:Webcam%3a USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
 #DESCRIPTION Webcam: USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/4465.flv/playlist.m3u8:Webcam%3a USA - Lake Michigan
 #DESCRIPTION Webcam: USA - Lake Michigan
@@ -381,9 +381,9 @@
 #DESCRIPTION Webcam: USA - Nevada - Las Vegas - Plaza Park
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hampton-beach-cam.flv/playlist.m3u8:Webcam%3a USA - New Hampshire - Hampton Beach
 #DESCRIPTION Webcam: USA - New Hampshire - Hampton Beach
-#SERVICE 4097:0:1:23:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a/fecnetwork playpath=5173.flv swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf?20140827 live=1 pageUrl=http%3a//www.earthcam.com/usa/newjersey/seasideheights/?cam=seasideheights:Webcam%3a USA - New Jersey - Seaside Heights
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a/fecnetwork playpath=5173.flv swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf?20140827 live=1 pageUrl=http%3a//www.earthcam.com/usa/newjersey/seasideheights/?cam=seasideheights:Webcam%3a USA - New Jersey - Seaside Heights
 #DESCRIPTION Webcam: USA - New Jersey - Seaside Heights
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5732.flv/playlist.m3u8:Webcam%3a USA - New Jersey - Wildwood 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5732.flv/playlist.m3u8:Webcam%3a USA - New Jersey - Wildwood 
 #DESCRIPTION Webcam: USA - New Jersey - Wildwood 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4831.flv/playlist.m3u8:Webcam%3a USA - New Mexico - Santa Fe
 #DESCRIPTION Webcam: USA - New Mexico - Santa Fe
@@ -407,7 +407,7 @@
 #DESCRIPTION Webcam: USA - New York - Liberty Island 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty
 #DESCRIPTION Webcam: USA - New York - Liberty
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5321.flv/playlist.m3u8:Webcam%3a USA - New York Midtown East
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5321.flv/playlist.m3u8:Webcam%3a USA - New York Midtown East
 #DESCRIPTION Webcam: USA - New York Midtown East
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4017timessquare.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, South View
 #DESCRIPTION Webcam: USA - New York - Times Square, South View
