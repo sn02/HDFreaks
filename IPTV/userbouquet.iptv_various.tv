@@ -51,6 +51,14 @@
 #DESCRIPTION RT Russia Documentary (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rt-lh.akamaihd.net/i/ch_01@325605/index_720p_av-p.m3u8?sd=10&rebase=on:RT Russia (720p)
 #DESCRIPTION RT Russia (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nhkwglobal-i.akamaihd.net/hls/live/222714/nhkwglobal/index.m3u8:NHK News engl. (360p)
+#DESCRIPTION NHK News engl. (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn3.videos.bloomberg.com/btv/eu/master.m3u8:Bloomberg (540p)
+#DESCRIPTION Bloomberg (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8:Antena3 Espania (720p)
+#DESCRIPTION Antena3 Espania (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlslive.rtve.es/24H_LV3_IPH/master.m3u8:RTVE 24 (360p)
+#DESCRIPTION RTVE 24 (360p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//android.cdn.bonus-tv.ru%3a8080/russiahd/index.m3u8:Russia 1 HD (720p)
