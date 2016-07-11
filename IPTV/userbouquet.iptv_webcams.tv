@@ -337,7 +337,7 @@
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Bar Cam 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath2.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Raw Bar Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Raw Bar Cam 
-#SERVICE 4097:0:1:5:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath3.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Stage Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath3.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Stage Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Stage Cam 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevins/irishkevins.stream/chunklist_w38238460.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins
 #DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins
