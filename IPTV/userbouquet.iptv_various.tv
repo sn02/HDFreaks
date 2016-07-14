@@ -19,7 +19,7 @@
 #DESCRIPTION Pac12 Bay Area (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pac12hd2-lh.akamaihd.net/i/p12losa_delivery@132838/index_2328_av-p.m3u8:Pac12 Los Angeles (720p)
 #DESCRIPTION Pac12 Los Angeles (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pac12hd2-lh.akamaihd.net/i/p12losa_delivery@132839/index_2328_av-p.m3u8:Pac12 Mountain (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pac12hd2-lh.akamaihd.net/i/p12moun_delivery@132839/index_2328_av-p.m3u8:Pac12 Mountain (720p)
 #DESCRIPTION Pac12 Mountain (72​0p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//208.92.36.158/ipad/live/nba_ipad_1240.m3u8:NHL US (360p)
 #DESCRIPTION NHL US (360p)
