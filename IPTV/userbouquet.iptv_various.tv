@@ -33,6 +33,8 @@
 #DESCRIPTION DiGiSport3 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel028_p4.stream/DVR.m3u8:NOVASport1 (360p)
 #DESCRIPTION NOVASport1 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.100.31.242%3a8183/hls/xz3125/index.m3u8:Super Tennis Italia (540p)
+#DESCRIPTION Super Tennis Italia (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Spor HD (576p)
 #DESCRIPTION TRT Spor HD (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
