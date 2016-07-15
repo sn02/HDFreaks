@@ -435,10 +435,10 @@
 #DESCRIPTION Sonstige
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8:Webcam%3a NASA TV
 #DESCRIPTION Webcam: NASA TV
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/ustreamVideo/9408562/streams/live/playlist.m3u8:Webcam%3a NASA ISS1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/9408562/streams/live/playlist.m3u8:Webcam%3a NASA ISS1
 #DESCRIPTION Webcam: NASA ISS1
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/ustreamVideo/17074538/streams/live/playlist.m3u8:Webcam%3a NASA ISS 2
-#DESCRIPTION Webcam: NASA ISS 2
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/17074538/streams/live/playlist.m3u8:Webcam%3a NASA ISS 2
+#DESCRIPTION Webcam: NASA ISS2 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//201.219.100.30%3a1935/camara-bunge/camara-bunge.stream/live.m3u8:Webcam%3a Argentinien - BUNGE Y EL MAR
 #DESCRIPTION Webcam: Argentinien - BUNGE Y EL MAR
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8:Webcam%3a Brasilien - Copacabana - Rio de Janeiro
@@ -449,6 +449,8 @@
 #DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7393.flv/playlist.m3u8:Webcam%3a Anguilla Cam - Aleta Pool
 #DESCRIPTION Webcam: Anguilla Cam - Aleta Pool
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4559.flv/playlist.m3u8:Canada - Niagara Falls Cam
+#DESCRIPTION Webcam: Canada - Niagara Falls
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4644.flv/playlist.m3u8:Webcam%3a Karibik - Aruba Tara Suites
 #DESCRIPTION Webcam: Karibik - Aruba Tara Suites
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam%3a Israel - Klagemauer
