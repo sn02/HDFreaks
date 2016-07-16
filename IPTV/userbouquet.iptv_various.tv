@@ -3,7 +3,7 @@
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
 #DESCRIPTION Tom Jerry (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158:9000/play/a00b:Cartoon Network (570p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (570p)
 #DESCRIPTION Cartoon Network (570p)
 #SERVICE 1:64:22:0:0:0:0:0:0:0:
 #DESCRIPTION Sports
@@ -79,7 +79,7 @@
 #DESCRIPTION RTVE 24 (360p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.112.96.17:8000/play/a001:Kanal 1 (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.112.96.17%3a8000/play/a001:Kanal 1 (1080p)
 #DESCRIPTION Kanal 1 (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//android.cdn.bonus-tv.ru%3a8080/russiahd/index.m3u8:Russia 1 HD (720p)
 #DESCRIPTION Russia 1 HD (720p)
