@@ -3,8 +3,6 @@
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//apasfiisl.apa.at/ipad/orf1_q4a/orf.sdp/playlist.m3u8?wowzasessionid=4:ORF eins HD (360p)
 #DESCRIPTION ORF eins HD (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
-#DESCRIPTION ORF eins HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf2/q8c.sdp/chunklist.m3u8:ORF 2 HD (720p)
 #DESCRIPTION ORF 2 HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.29.19/orf3/q8c.sdp/chunklist.m3u8:ORF 3 HD (720p)
@@ -15,6 +13,8 @@
 #DESCRIPTION SERVUS TV HD AT (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.9.11.81/live/stream_720p/master.m3u8:Austria24 TV (720p)
 #DESCRIPTION Austria24 TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streaming.austria24.tv/live/stream_360p:Austria24 TV (360p)
+#DESCRIPTION Austria24 TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.hd-livestream.de%3a1935/live/TirolTV/chunklist_w1178744335.m3u8:Tirol TV (406p)
 #DESCRIPTION Tirol TV (406p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//ms01.w24.at%3a1935/livepkgr/livestream2:W 24 (360p)
