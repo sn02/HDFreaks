@@ -35,6 +35,8 @@
 #DESCRIPTION XITE NL (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//538hls.lswcdn.triple-it.nl/content/538tv/538tv_0.m3u8:538 (720p)
 #DESCRIPTION 538 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.wowza.kpnstreaming.nl/omropfryslanlive/OFstream01.smil/playlist.m3u8:Klipklar TV Music (540p)
+#DESCRIPTION Klipklar TV Music (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cdn15.streampartner.nl%3a80/streektv/livestream:STREEK Radio TV Music (720p)
 #DESCRIPTION STREEK Radio TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//kippingmultimediaal.nl%3a1935/live/ZFM1:ZMF1 Music Holland (1080p)
