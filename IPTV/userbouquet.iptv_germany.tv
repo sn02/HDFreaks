@@ -99,10 +99,6 @@
 #DESCRIPTION Melodie Express (468p)
 #SERVICE 1:64:2:0:0:0:0:0:0:0:
 #DESCRIPTION Swiss
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/947.ts:SRF 1
-#DESCRIPTION SRF 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/948.ts:SRF 2
-#DESCRIPTION SRF 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/livesd2/chunklist_w798831857.m3u8:Kanal9 (720p)
 #DESCRIPTION Kanal9 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kalseglive-a.akamaihd.net/dc-1/m/ny-live-publish3/kLive/smil%3a1_hoislpiz_all.smil/32/chunklist.m3u8:TeleZüri (720p)
@@ -115,51 +111,3 @@
 #DESCRIPTION TeleBärn (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/tvo/chunklist_w1834948505.m3u8:TVO (404p)
 #DESCRIPTION TVO (404p)
-#SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Sky
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/249.ts:Sky Sport HD
-#DESCRIPTION Sky Sport HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/277.ts:Sky Sports 2 HD
-#DESCRIPTION Sky Sports 2 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/278.ts:Sky Bundesliga HD
-#DESCRIPTION Sky Bundesliga HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/946.ts:Sportdigital HD
-#DESCRIPTION Sportdigital HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/787.ts:Sky Action
-#DESCRIPTION Sky Action
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/786.ts:Sky Atlantic HD
-#DESCRIPTION Sky Atlantic HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/785.ts:Sky Comedy
-#DESCRIPTION Sky Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/784.ts:Sky Emotion
-#DESCRIPTION Sky Emotion
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/783.ts:Sky Krimi
-#DESCRIPTION Sky Krimi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/955.ts:Sky Hits
-#DESCRIPTION Sky Hits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/945.ts:Sky Disney XD HD
-#DESCRIPTION Sky Disney XD HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/944.ts:Sky Disney Cinemagic HD
-#DESCRIPTION Sky Disney Cinemagic HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/247.ts:NatGeo Wild HD
-#DESCRIPTION NatGeo Wild HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/935.ts:National Geographic HD
-#DESCRIPTION National Geographic HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/246.ts:Discovery HD
-#DESCRIPTION Discovery HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/960.ts:Animax
-#DESCRIPTION Animax
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/934.ts:FOX HD
-#DESCRIPTION FOX HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/959.ts:Romance TV
-#DESCRIPTION Romance TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/940.ts:RTL
-#DESCRIPTION RTL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/961.ts:Vox HD
-#DESCRIPTION Vox HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/939.ts:PRO 7
-#DESCRIPTION PRO 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/938.ts:ProSieben Max
-#DESCRIPTION ProSieben Max
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvx.starynos.com%3a8000/live/tvstarcccam.com/lOPuMApVt2/937.ts:ProSieben HD
-#DESCRIPTION ProSieben HD
