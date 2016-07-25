@@ -1,6 +1,4 @@
 #NAME IPTV Russia
-#SERVICE 1:64:0:0:0:0:0:0:0:0:
-#DESCRIPTION Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.112.96.17%3a8000/play/a001:Kanal1 Ru (1080p)
 #DESCRIPTION Kanal1 Ru (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//android.cdn.bonus-tv.ru%3a8080/russiahd/index.m3u8:Russia 1 HD (720p)
