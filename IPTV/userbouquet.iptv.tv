@@ -319,6 +319,8 @@
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//arteevent01-lh.akamaihd.net/i/arte_event01@395110/index_1_av-p.m3u8?sd=10&rebase=on:Wacken 2016 (720p)
+#DESCRIPTION Wacken 2016 (720p)
 #SERVICE 1:64:6:0:0:0:0:0:0:0:
 #DESCRIPTION Turkish
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
