@@ -103,6 +103,10 @@
 #DESCRIPTION Antena3 Espania (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlslive.rtve.es/24H_LV3_IPH/master.m3u8:RTVE 24 (360p)
 #DESCRIPTION RTVE 24 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ec.playmedia.fr%3a1935/enorme-tv/live/master.m3u8:Enorme-tv (480p)
+#DESCRIPTION Enorme-tv (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ec.playmedia.fr%3a1935/om5-tv/live/master.m3u8:Om5-tv (480p)
+#DESCRIPTION Om5-tv (480p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Chech
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel031_p4.stream/DVR.m3u8:O 1 (360p)
