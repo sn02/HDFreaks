@@ -1,8 +1,6 @@
 #NAME IPTV Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume02.streampartner.nl%3a1935/vleugels2/livestream/chunklist_w1492662952.m3u8:XITE DE (576p)
-#DESCRIPTION XITE DE (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
 #DESCRIPTION GoTV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bitcdn-kronehit-live.bitmovin.com/hls/1500k/bitcodin.m3u8:Kronehit (720p)
@@ -185,3 +183,5 @@
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume02.streampartner.nl%3a1935/vleugels2/livestream/chunklist_w1492662952.m3u8:XITE DE (576p)
+#DESCRIPTION XITE DE (576p)
