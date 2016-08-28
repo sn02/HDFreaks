@@ -109,7 +109,7 @@
 #DESCRIPTION DotDance TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.1music.hu/stream/1music.m3u8:Music 1HU (720p)
 #DESCRIPTION Music 1HU (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/master.m3u8:Capital TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_1500_av-p.m3u8:Capital TV (720p)
 #DESCRIPTION Capital TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.224.109.101/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8:DreamTV (576p)
 #DESCRIPTION DreamTV (576p)
