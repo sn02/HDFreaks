@@ -21,10 +21,6 @@
 #DESCRIPTION Webcam: St. Anton am Arlberg
 #SERVICE 1:64:D:0:0:0:0:0:0:0::Deutschland
 #DESCRIPTION Deutschland
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//atvstream.mooo.com%3a8125/live.nsv:ATV-Stream1
-#DESCRIPTION Webcam: ATV-Stream1
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//atvstream.mooo.com%3a8130/live.nsv:ATV-Stream2
-#DESCRIPTION Webcam: ATV-Stream2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv102_720p.stream:Webcam%3a Aachen - Drehturm Belvedere Lousberg
 #DESCRIPTION Webcam: Aachen - Drehturm Belvedere Lousberg
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv148_720p.stream:Webcam%3a Achensee - Christlum
