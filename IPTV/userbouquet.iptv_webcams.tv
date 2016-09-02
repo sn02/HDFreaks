@@ -1,243 +1,239 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam%3a Ö3 Live (Geduld - dauert etwas)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live: Ö3 Live (Geduld - dauert etwas)
 #DESCRIPTION Webcam: Ö3 Live (Geduld - dauert etwas)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam%3a Linz, Donaulände
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Linz, Donaulände
 #DESCRIPTION Webcam: Linz, Donaulände
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv157_720p.stream:Webcam%3a Ischgl - Pardatschgrat Seilbahn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv157.stream/master.m3u8:Ischgl - Pardatschgrat Seilbahn
 #DESCRIPTION Webcam: Ischgl - Pardatschgrat Seilbahn
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv121_720p.stream/playlist.m3u8:Webcam%3a Kitzbühel - Hahnenkamm Bergstation
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv121.stream/master.m3u8:Kitzbühel - Hahnenkamm Bergstation
 #DESCRIPTION Webcam: Kitzbühel - Hahnenkamm Bergstation
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv143_720p.stream:Webcam%3a Kitzbühel - Hotel Rasmushof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv143.stream/master.m3u8:Kitzbühel - Hotel Rasmushof
 #DESCRIPTION Webcam: Kitzbühel - Hotel Rasmushof
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv22_720p.stream:Webcam%3a Lech am Arlberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv22.stream/master.m3u8:Lech am Arlberg
 #DESCRIPTION Webcam: Lech am Arlberg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv120_720p.stream:Webcam%3a Lermoos - Zugspitze
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv120.stream/master.m3u8:Lermoos - Zugspitze
 #DESCRIPTION Webcam: Lermoos - Zugspitze
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv96_720p.stream:Webcam%3a Sölden - Freizeit Arena
-#DESCRIPTION Webcam: Sölden - Freizeit Arena
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv21_720p.stream:Webcam%3a St. Anton am Arlberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv21.stream/master.m3u8:St. Anton am Arlberg
 #DESCRIPTION Webcam: St. Anton am Arlberg
 #SERVICE 1:64:D:0:0:0:0:0:0:0::Deutschland
 #DESCRIPTION Deutschland
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv102_720p.stream:Webcam%3a Aachen - Drehturm Belvedere Lousberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv102.stream/master.m3u8:Aachen - Drehturm Belvedere Lousberg
 #DESCRIPTION Webcam: Aachen - Drehturm Belvedere Lousberg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv148_720p.stream:Webcam%3a Achensee - Christlum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv148.stream/master.m3u8:Achensee - Christlum
 #DESCRIPTION Webcam: Achensee - Christlum
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv155.stream/master.m3u8:Webcam%3a Ahlbeck
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv155.stream/master.m3u8:Ahlbeck
 #DESCRIPTION Webcam: Ahlbeck
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv73_720p.stream:Webcam%3a Augsburg - Hotel Augusta
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv73.stream/master.m3u8:Augsburg - Hotel Augusta
 #DESCRIPTION Webcam: Augsburg - Hotel Augusta
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv39_450p.stream:Webcam%3a Augsburg - Königsplatz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv39.stream/master.m3u8:Augsburg - Königsplatz
 #DESCRIPTION Webcam: Augsburg - Königsplatz
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv140_720p.stream:Webcam%3a Bad Brückenau - Kurverwaltung
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv140.stream/master.m3u8:Bad Brückenau - Kurverwaltung
 #DESCRIPTION Webcam: Bad Brückenau - Kurverwaltung
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv124_720p.stream:Webcam%3a Baden-Baden - Hotel Magnetberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv124_720p.stream:Baden-Baden - Hotel Magnetberg
 #DESCRIPTION Webcam: Baden-Baden - Hotel Magnetberg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv79_720p.stream:Webcam%3a Bamberg - Klein Venedig
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv79.stream/master.m3u8:Bamberg - Klein Venedig
 #DESCRIPTION Webcam: Bamberg - Klein Venedig
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv107_720p.stream:Webcam%3a Bayreuth - Neues Rathaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv107.stream/master.m3u8:Bayreuth - Neues Rathaus
 #DESCRIPTION Webcam: Bayreuth - Neues Rathaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv131_720p.stream:Webcam%3a Berlin - 40 Seconds
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv131.stream/master.m3u8:Berlin - 40 Seconds
 #DESCRIPTION Webcam: Berlin - 40 Seconds
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv133_720p.stream:Webcam%3a Berlin - Hotel InterContinental
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv133_720p.stream:Berlin - Hotel InterContinental
 #DESCRIPTION Webcam: Berlin - Hotel InterContinental
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv86_720p.stream:Webcam%3a Bielefeld - Stadthalle
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv86_720p.stream:Bielefeld - Stadthalle
 #DESCRIPTION Webcam: Bielefeld - Stadthalle
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv103_720p.stream:Webcam%3a Binz - HOTEL AM MEER
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv103.stream/master.m3u8:Webcam%3a Binz - HOTEL AM MEER
 #DESCRIPTION Webcam: Binz - HOTEL AM MEER
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv114_720p.stream:Webcam%3a Bonn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv114.stream/master.m3u8:Bonn
 #DESCRIPTION Webcam: Bonn
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv134_720p.stream:Webcam%3a Bremen - Kontorhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv134.stream/master.m3u8:Bremen - Kontorhaus
 #DESCRIPTION Webcam: Bremen - Kontorhaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv106_720p.stream:Webcam%3a Bremerhaven - Hotel Atlantic Sail City
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv106.stream/master.m3u8:Bremerhaven - Hotel Atlantic Sail City
 #DESCRIPTION Webcam: Bremerhaven - Hotel Atlantic Sail City
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv37_720p.stream:Webcam%3a Brunsbüttel - Schleuse
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv37.stream/master.m3u8:Brunsbüttel - Schleuse
 #DESCRIPTION Webcam: Brunsbüttel - Schleuse
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv33_720p.stream:Webcam%3a Büsum - Museumshafen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv33.stream/master.m3u8:Büsum - Museumshafen
 #DESCRIPTION Webcam: Büsum - Museumshafen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv32_720p.stream:Webcam%3a Büsum - Hauptstrand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv32.stream/master.m3u8:Büsum - Hauptstrand
 #DESCRIPTION Webcam: Büsum - Hauptstrand
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv42_720p.stream:Webcam%3a Büsum - Familienlagune
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv42.stream/master.m3u8:Büsum - Familienlagune
 #DESCRIPTION Webcam: Büsum - Familienlagune
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv93.stream/master.m3u8:Webcam%3a Chemnitz 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv93.stream/master.m3u8:Chemnitz 
 #DESCRIPTION Webcam: Chemnitz 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv95_720p.stream:Webcam%3a Dortmund - Neues Stadthaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv95.stream/master.m3u8:Dortmund - Neues Stadthaus
 #DESCRIPTION Webcam: Dortmund - Neues Stadthaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv59.stream/master.m3u8:Webcam%3a Dresden Randgebiet
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv59.stream/master.m3u8:Dresden Randgebiet
 #DESCRIPTION Webcam: Dresden Randgebiet
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100.stream/master.m3u8:Webcam%3a Dresden Zentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100.stream/master.m3u8:Dresden Zentrum
 #DESCRIPTION Webcam: Dresden Zentrum
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv59_720p.stream:Webcam%3a Dresden - Dresdner Aussicht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv59.stream/master.m3u8:Dresden - Dresdner Aussicht
 #DESCRIPTION Webcam: Dresden - Dresdner Aussicht
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv61_720p.stream:Webcam%3a Duisburg - Sportschule Wedau
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv61.stream/master.m3u8:Duisburg - Sportschule Wedau
 #DESCRIPTION Webcam: Duisburg - Sportschule Wedau
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv46_720p.stream:Webcam%3a Eckernförde - Hafen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv46.stream/master.m3u8:Eckernförde - Hafen
 #DESCRIPTION Webcam: Eckernförde - Hafen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv45_720p.stream:Webcam%3a Eckernförde - Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv45.stream/master.m3u8:Eckernförde - Strand
 #DESCRIPTION Webcam: Eckernförde - Strand
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv101_720p.stream:Webcam%3a Erfurt - KoWo
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv101.stream/master.m3u8:Erfurt - KoWo
 #DESCRIPTION Webcam: Erfurt - KoWo
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv60_720p.stream:Webcam%3a Essen - Ruhrturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv60.stream/master.m3u8:Essen - Ruhrturm
 #DESCRIPTION Webcam: Essen - Ruhrturm
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv17.stream/master.m3u8:Webcam%3a Flensburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv17.stream/master.m3u8:Flensburg
 #DESCRIPTION Webcam: Flensburg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv17_720p.stream:Webcam%3a Flensburg - Fjord Tourismus
-#DESCRIPTION Webcam: Flensburg - Fjord Tourismus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100_720p.stream/playlist.m3u8:Webcam%3a Frankfurt
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv100.stream/master.m3u8:Frankfurt
 #DESCRIPTION Webcam: Frankfurt
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv112_720p.stream:Webcam%3a Freiburg - Volksbank
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv112.stream/master.m3u8:Freiburg - Volksbank
 #DESCRIPTION Webcam: Freiburg - Volksbank
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv62_720p.stream:Webcam%3a Fulda - Schlossstraße
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv62_720p.stream:Fulda - Schlossstraße
 #DESCRIPTION Webcam: Fulda - Schlossstraße
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv105_720p.stream:Webcam%3a Gaienhofen - Hotel Gasthaus Hirschen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv105.stream/master.m3u8:Gaienhofen - Hotel Gasthaus Hirschen
 #DESCRIPTION Webcam: Gaienhofen - Hotel Gasthaus Hirschen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv111_720p.stream:Webcam%3a Garmisch-Partenkirchen - Hotel Vier Jahreszeiten
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv111.stream/master.m3u8:Garmisch-Partenkirchen - Hotel Vier Jahreszeiten
 #DESCRIPTION Webcam: Garmisch-Partenkirchen - Hotel Vier Jahreszeiten
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv123_720p.stream:Webcam%3a Gehlberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv123_720p.stream:Gehlberg
 #DESCRIPTION Webcam: Gehlberg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv40_720p.stream:Webcam%3a Haffkrug - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv40.stream/master.m3u8:Haffkrug - Lübecker Bucht
 #DESCRIPTION Webcam: Haffkrug - Lübecker Bucht
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv115_720p.stream:Webcam%3a Halle - Mitteldeutsches Multimediazentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv115.stream/master.m3u8:Halle - Mitteldeutsches Multimediazentrum
 #DESCRIPTION Webcam: Halle - Mitteldeutsches Multimediazentrum
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv74_720p.stream:Webcam%3a Hamburg - Unileverhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv74.stream/master.m3u8:Hamburg - Unileverhaus
 #DESCRIPTION Webcam: Hamburg - Unileverhaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv34_720p.stream:Webcam%3a Hamburg - Empire Riverside
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv34.stream/master.m3u8:Hamburg - Empire Riverside
 #DESCRIPTION Webcam: Hamburg - Empire Riverside
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv47_720p.stream:Webcam%3a Hamburg - Emporio
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv47.stream/master.m3u8:Hamburg - Emporio
 #DESCRIPTION Webcam: Hamburg - Emporio
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/LS_b5586_720p.stream:Webcam%3a Hamburg - Michel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/LS_b5586.stream/master.m3u8:Hamburg - Michel
 #DESCRIPTION Webcam: Hamburg - Michel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv71_720p.stream:Webcam%3a Hannover - Congress Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv71.stream/master.m3u8:Hannover - Congress Hotel
 #DESCRIPTION Webcam: Hannover - Congress Hotel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv52.stream/master.m3u8:Webcam%3a Harz - Brocken Torfhaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv52.stream/master.m3u8:Harz - Brocken Torfhaus
 #DESCRIPTION Webcam: Harz - Brocken Torfhaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv122_720p.stream:Webcam%3a Heidelberg - PundM
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv122.stream/master.m3u8:Heidelberg - PundM
 #DESCRIPTION Webcam: Heidelberg - PundM
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv75_720p.stream:Webcam%3a Heidelberg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv75.stream/master.m3u8:Heidelberg
 #DESCRIPTION Webcam: Heidelberg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv24.stream/master.m3u8:Webcam%3a Helgoland - Am Falm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv24.stream/master.m3u8:Helgoland - Am Falm
 #DESCRIPTION Webcam: Helgoland - Am Falm
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv51_720p.stream:Webcam%3a Juist - Inselgemeinde Juist
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv51.stream/master.m3u8:Juist - Inselgemeinde Juist
 #DESCRIPTION Webcam: Juist - Inselgemeinde Juist
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv146_720p.stream:Webcam%3a Juister Hof - Juist
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv146.stream/master.m3u8:Juister Hof - Juist
 #DESCRIPTION Webcam: Juister Hof - Juist
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv28.stream/master.m3u8:Webcam%3a Kiel - Ostufer
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv28.stream/master.m3u8:Kiel - Ostufer
 #DESCRIPTION Webcam: Kiel - Ostufer
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv77.stream/master.m3u8:Webcam%3a Kiel - Port of Kiel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv77.stream/master.m3u8:Kiel - Port of Kiel
 #DESCRIPTION Webcam: Kiel - Port of Kiel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv38.stream/master.m3u8:Webcam%3a Kiel - Schleuse
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv38.stream/master.m3u8:Kiel - Schleuse
 #DESCRIPTION Webcam: Kiel - Schleuse
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream:Webcam%3a Köln
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//62.113.221.6/neueDorint-rtp/KoelnHeumarkt.stream/master.m3u8:Köln
 #DESCRIPTION Webcam: Köln
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv69_720p.stream:Webcam%3a Köln - Kölnturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv69.stream/master.m3u8:Köln - Kölnturm
 #DESCRIPTION Webcam: Köln - Kölnturm
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv99_720p.stream:Webcam%3a Köln - Pullman Cologne
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv99.stream/master.m3u8:Köln - Pullman Cologne
 #DESCRIPTION Webcam: Köln - Pullman Cologne
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv67_720p.stream:Webcam%3a Krefeld - Garden Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv67.stream/master.m3u8:Krefeld - Garden Hotel
 #DESCRIPTION Webcam: Krefeld - Garden Hotel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv35_450p.stream:Webcam%3a Kühlungsborn - Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv35.stream/master.m3u8:Kühlungsborn - Strand
 #DESCRIPTION Webcam: Kühlungsborn - Strand
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv82_720p.stream:Webcam%3a Laboe - Ehrenmal
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv82.stream/master.m3u8:Laboe - Ehrenmal
 #DESCRIPTION Webcam: Laboe - Ehrenmal
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv136_720p.stream:Webcam%3a Langeness - TU Harburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv136.stream/master.m3u8:Langeness - TU Harburg
 #DESCRIPTION Webcam: Langeness - TU Harburg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv50_720p.stream:Webcam%3a Lindau - Bodensee
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv50.stream/master.m3u8:Lindau - Bodensee
 #DESCRIPTION Webcam: Lindau - Bodensee
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv113_720p.stream:Webcam%3a Lindau - Lindauer Hof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv113.stream/master.m3u8:Lindau - Lindauer Hof
 #DESCRIPTION Webcam: Lindau - Lindauer Hof
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Webcam%3a Luebeck - Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Luebeck - Bucht
 #DESCRIPTION Webcam: Luebeck - Bucht
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv64.stream/master.m3u8:Webcam%3a Luebeck - Radisson Blu
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv64.stream/master.m3u8:Luebeck - Radisson Blu
 #DESCRIPTION Webcam: Luebeck - Radisson Blu
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv135_720p.stream:Webcam%3a Lüneburg - Hotel Bergström
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv135.stream/master.m3u8:Lüneburg - Hotel Bergström
 #DESCRIPTION Webcam: Lüneburg - Hotel Bergström
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv94_720p.stream:Webcam%3a Meißen 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv94.stream/master.m3u8:Meißen
 #DESCRIPTION Webcam: Meißen 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv118_720p.stream:Webcam%3a Mönchengladbach 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv118.stream/master.m3u8:Mönchengladbach
 #DESCRIPTION Webcam: Mönchengladbach 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//lb-sn1.livespotting.tv%3a1935/windit-edge?sa=wetter.com?sa=wetter.com/vv55_450p.stream:Webcam%3a München
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lb-sn1.livespotting.tv/windit-edge/vv55.stream/master.m3u8:München
 #DESCRIPTION Webcam: München
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv72_720p.stream:Webcam%3a München - Deutsche Eiche
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv72.stream/master.m3u8:ünchen - Deutsche Eiche
 #DESCRIPTION Webcam: München - Deutsche Eiche
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv116_720p.stream:Webcam%3a Münster - Raphaelsklinik
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv116.stream/master.m3u8:Münster - Raphaelsklinik
 #DESCRIPTION Webcam: Münster - Raphaelsklinik
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv63_720p.stream:Webcam%3a Münster - Stadthaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv63.stream/master.m3u8:Münster - Stadthaus
 #DESCRIPTION Webcam: Münster - Stadthaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv12_450p.stream:Webcam%3a Neuharlingersiel - Hafen Ost
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv12.stream/master.m3u8:Neuharlingersiel - Hafen Ost
 #DESCRIPTION Webcam: Neuharlingersiel - Hafen Ost
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv13_450p.stream:Webcam%3a Neuharlingersiel - Hafen West
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv13.stream/master.m3u8:Neuharlingersiel - Hafen West
 #DESCRIPTION Webcam: Neuharlingersiel - Hafen West
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv14_450p.stream:Webcam%3a Neuharlingersiel - Panorama
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv14.stream/master.m3u8:Neuharlingersiel - Panorama
 #DESCRIPTION Webcam: Neuharlingersiel - Panorama
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv81_720p.stream:Webcam%3a Niendorf - Meerwasserhallenbad
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv81.stream/master.m3u8:Niendorf - Meerwasserhallenbad
 #DESCRIPTION Webcam: Niendorf - Meerwasserhallenbad
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv147_720p.stream:Webcam%3a Norderney - Zimmerservice - Norderney
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv147.stream/master.m3u8:Norderney - Zimmerservice - Norderney
 #DESCRIPTION Webcam: Norderney - Zimmerservice - Norderney
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv137_720p.stream:Webcam%3a Oberstdorf - Hotel Exquisit
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv137.stream/master.m3u8:Oberstdorf - Hotel Exquisit
 #DESCRIPTION Webcam: Oberstdorf - Hotel Exquisit
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv30_720p.stream:Webcam%3a Oberwiesenthal - Hotel Fichtelberghaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv30.stream/master.m3u8:Oberwiesenthal - Hotel Fichtelberghaus
 #DESCRIPTION Webcam: Oberwiesenthal - Hotel Fichtelberghaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv91_720p.stream:Webcam%3a Oldenburg - Nordwest-Zeitung
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv91.stream/master.m3u8:Oldenburg - Nordwest-Zeitung
 #DESCRIPTION Webcam: Oldenburg - Nordwest-Zeitung
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv98_720p.stream:Webcam%3a Passau - Hotel König
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv98.stream/master.m3u8:Passau - Hotel König
 #DESCRIPTION Webcam: Passau - Hotel König
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv8_450p.stream:Webcam%3a Pelzerhaken - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv8.stream/master.m3u8:Pelzerhaken - Lübecker Bucht
 #DESCRIPTION Webcam: Pelzerhaken - Lübecker Bucht
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv126_720p.stream:Webcam%3a Pertisau am Achensee - Bergstation
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv126.stream/master.m3u8:Pertisau am Achensee - Bergstation
 #DESCRIPTION Webcam: Pertisau am Achensee - Bergstation
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv110_720p.stream:Webcam%3a Potsdam - Hotel Am Luisenplatz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv110.stream/master.m3u8:Potsdam - Hotel Am Luisenplatz
 #DESCRIPTION Webcam: Potsdam - Hotel Am Luisenplatz
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv89_720p.stream:Webcam%3a Rostock - Apartment LIVING HOTEL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv89.stream/master.m3u8:Rostock - Apartment LIVING HOTEL
 #DESCRIPTION Webcam: Rostock - Apartment LIVING HOTEL
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv119.stream/master.m3u8:Webcam%3a Rostock - Hotel Sportforum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv119.stream/master.m3u8:Rostock - Hotel Sportforum
 #DESCRIPTION Webcam: Rostock - Hotel Sportforum
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv87_720p.stream:Webcam%3a Rust - Apollon Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv87.stream/master.m3u8:Rust - Apollon Hotel
 #DESCRIPTION Webcam: Rust - Apollon Hotel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Webcam%3a Rügen - Wiek
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv25.stream/master.m3u8:Rügen - Wiek
 #DESCRIPTION Webcam: Rügen - Wiek
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv2/goehren.stream/master.m3u8:Webcam%3a Rügen - Goeren
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv2/goehren.stream/master.m3u8:Rügen - Goeren
 #DESCRIPTION Webcam: Rügen - Goeren
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv129_720p.stream:Webcam%3a Sankt Peter-Ording - Beach Motel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv129.stream/master.m3u8:Sankt Peter-Ording - Beach Motel
 #DESCRIPTION Webcam: Sankt Peter-Ording - Beach Motel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv41_720p.stream:Webcam%3a Scharbeutz - Lübecker Bucht
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv41.stream/master.m3u8:Scharbeutz - Lübecker Bucht
 #DESCRIPTION Webcam: Scharbeutz - Lübecker Bucht
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv108_720p.stream:Webcam%3a Schwangau - Schloss Neuschwanstein
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv108.stream/master.m3u8:Schwangau - Schloss Neuschwanstein
 #DESCRIPTION Webcam: Schwangau - Schloss Neuschwanstein
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv97.stream/master.m3u8:Webcam%3a Schwerin
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv97.stream/master.m3u8:Schwerin
 #DESCRIPTION Webcam: Schwerin
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv132.stream/master.m3u8:Webcam%3a Stralsund - Hotel Hafenresidenz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv132.stream/master.m3u8:Stralsund - Hotel Hafenresidenz
 #DESCRIPTION Webcam: Stralsund - Hotel Hafenresidenz
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv142.stream/master.m3u8:Webcam%3a Stralsund - Schweriner Hof
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv142.stream/master.m3u8:Stralsund - Schweriner Hof
 #DESCRIPTION Webcam: Stralsund - Schweriner Hof
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv7_720p.stream:Webcam%3a Sylt - Hörnum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv7.stream/master.m3u8:Sylt - Hörnum
 #DESCRIPTION Webcam: Sylt - Hörnum
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv43_720p.stream:Webcam%3a Sylt - Westerland
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv43.stream/master.m3u8:Sylt - Westerland
 #DESCRIPTION Webcam: Sylt - Westerland
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv49_720p.stream:Webcam%3a Sylt - Kampen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv49.stream/master.m3u8:Sylt - Kampen
 #DESCRIPTION Webcam: Sylt - Kampen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv81.stream/master.m3u8:Webcam%3a Timmendorfer Strand
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv81.stream/master.m3u8:Timmendorfer Strand
 #DESCRIPTION Webcam: Timmendorfer Strand
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv54.stream/master.m3u8:Webcam%3a Travemünde 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv54.stream/master.m3u8:Travemünde 
 #DESCRIPTION Webcam: Travemünde 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv104_720p.stream:Webcam%3a Tübingen - Heindl Internet AG
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv104.stream/master.m3u8:Tübingen - Heindl Internet AG
 #DESCRIPTION Webcam: Tübingen - Heindl Internet AG
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv66_720p.stream:Webcam%3a Ulm - Hotel Blaubeurer Tor
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv66.stream/master.m3u8:Ulm - Hotel Blaubeurer Tor
 #DESCRIPTION Webcam: Ulm - Hotel Blaubeurer Tor
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv16.stream/master.m3u8:Webcam%3a Warnemuende
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv16.stream/master.m3u8:Warnemuende
 #DESCRIPTION Webcam: Warnemuende
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv20_450p.stream:Webcam%3a Warnemünde - Best Western Hotel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv20.stream/master.m3u8:Warnemünde - Best Western Hotel
 #DESCRIPTION Webcam: Warnemünde - Best Western Hotel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv92_720p.stream:Webcam%3a Weimar - HotelPension am Goethehaus
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv92.stream/master.m3u8:Weimar - HotelPension am Goethehaus
 #DESCRIPTION Webcam: Weimar - HotelPension am Goethehaus
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv88_720p.stream:Webcam%3a Wolfsburg - Stadt Wolfsburg
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv88.stream/master.m3u8:Wolfsburg - Stadt Wolfsburg
 #DESCRIPTION Webcam: Wolfsburg - Stadt Wolfsburg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv117_720p.stream:Webcam%3a Wuppertal - Barmenia
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv117.stream/master.m3u8:Wuppertal - Barmenia
 #DESCRIPTION Webcam: Wuppertal - Barmenia
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv70_720p.stream:Webcam%3a Würzburg - Hotel Alter Kranen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv70.stream/master.m3u8:Würzburg - Hotel Alter Kranen
 #DESCRIPTION Webcam: Würzburg - Hotel Alter Kranen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv3/zinnowitz.stream/master.m3u8:Webcam%3a Zinnowitz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv3/zinnowitz.stream/master.m3u8:Zinnowitz
 #DESCRIPTION Webcam: Zinnowitz
 #SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
 #DESCRIPTION Europa
