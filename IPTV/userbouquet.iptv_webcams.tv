@@ -301,39 +301,49 @@
 #DESCRIPTION Webcam: Ungarn - Budapest
 #SERVICE 1:64:F:0:0:0:0:0:0:0::USA
 #DESCRIPTION USA
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8620.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/arizona/sedona/gateway/:Webcam%3a USA - Sedona Gateway Cam
+#DESCRIPTION Webcam: USA - Arizona - Sedona Gateway Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video2.earthcam.com/fecnetwork/sedonawebcam.flv/playlist.m3u8:Webcam%3a USA - Arizona - Sedona, Red Rock Cam 
 #DESCRIPTION Webcam: USA - Arizona - Sedona, Red Rock Cam 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video2.earthcam.com/fecnetwork/5805.flv/playlist.m3u8:Webcam%3a USA - Arizona - Sedona, Seven Arches
 #DESCRIPTION Webcam: USA - Arizona - Sedona, Seven Arches
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4049sonesta.flv/playlist.m3u8:Webcam%3a USA - Cambridge Boston
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4049sonesta.flv/playlist.m3u8:Webcam%3a USA - Cambridge Boston
 #DESCRIPTION Webcam: USA - Cambridge Boston
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5023.flv/playlist.m3u8:Webcam%3a USA - CA - Aliso Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5023.flv/playlist.m3u8:Webcam%3a USA - CA - Aliso Beach
 #DESCRIPTION Webcam: USA - CA - Aliso Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/lacitytours1.flv/playlist.m3u8:Webcam%3a USA - CA - LA, Hollywood Blvd
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/lacitytours1.flv/playlist.m3u8:Webcam%3a USA - CA - LA, Hollywood Blvd
 #DESCRIPTION Webcam: USA - CA - LA, Hollywood Blvd
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6603.flv/playlist.m3u8:Webcam%3a USA - CA - San Francisco
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/6603.flv/playlist.m3u8:Webcam%3a USA - CA - San Francisco
 #DESCRIPTION Webcam: USA - CA - San Francisco
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6253.flv/playlist.m3u8:Webcam%3a USA - CA - Santa Monica
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/6253.flv/playlist.m3u8:Webcam%3a USA - CA - Santa Monica
 #DESCRIPTION Webcam: USA - CA - Santa Monica
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6175.flv/playlist.m3u8:Webcam%3a USA - CA - Venice Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/6175.flv/playlist.m3u8:Webcam%3a USA - CA - Venice Beach
 #DESCRIPTION Webcam: USA - CA - Venice Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5460.flv/playlist.m3u8:Webcam%3a USA - CA - Gerald Desmond Bridge
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5460.flv/playlist.m3u8:Webcam%3a USA - CA - Gerald Desmond Bridge
 #DESCRIPTION Webcam: USA - CA - Gerald Desmond Bridge
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a USA - FL - Daytona Beach
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=5187.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/illinois/chicago/field/:Webcam%3a USA -Chicago Cam
+#DESCRIPTION Webcam: USA - Illinois - Chicago Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=3186.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/illinois/chicago/wrigleyfield/?cam=wrigleyfield_hd:Webcam%3a USA - Chigago Wrigley Field Cam
+#DESCRIPTION Webcam: USA - Illinois - Chigago Wrigley Field Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5718.flv/playlist.m3u8:Webcam%3a USA - FL - Daytona Beach
 #DESCRIPTION Webcam: USA - FL - Daytona Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5424.flv/playlist.m3u8:Webcam%3a USA - FL - Destin 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5424.flv/playlist.m3u8:Webcam%3a USA - FL - Destin 
 #DESCRIPTION Webcam: USA - FL - Destin 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5663.flv/playlist.m3u8:Webcam%3a USA - FL - Destin Sandestin Beach 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5663.flv/playlist.m3u8:Webcam%3a USA - FL - Destin Sandestin Beach 
 #DESCRIPTION Webcam: USA - FL - Destin Sandestin Beach 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/windjammerHD2.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Lauderdale USA HD
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/windjammerHD2.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Lauderdale USA HD
 #DESCRIPTION Webcam: USA - FL - Fort Lauderdale USA HD
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5719.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Myers
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5719.flv/playlist.m3u8:Webcam%3a USA - FL - Fort Myers
 #DESCRIPTION Webcam: USA - FL - Fort Myers
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath1.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Bar Cam 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=diamondhead.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/fortmyers/?cam=fort_myers_hd:Webcam%3a USA - FL - Fort Myers Beach, The Palms
+#DESCRIPTION Webcam: USA - FL - Fort Myers Beach, The Palms
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7571.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/stpetersburg/?cam=stpeteair:Webcam%3a USA - FL - Flight Cam
+#DESCRIPTION Webcam: USA - FL - Flight Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath1.stream_aac/chunklist.m3u8:Webcam%3a USA - FL - Key West - Hogs Breath Saloon Bar Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Bar Cam 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath2.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Raw Bar Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath2.stream_aac/chunklist.m3u8:Webcam%3a USA - FL - Key West - Hogs Breath Saloon Raw Bar Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Raw Bar Cam 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath3.stream_aac/chunklist.m3u8:Webcam%3a USA - FL -Key West - Hogs Breath Saloon Stage Cam 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live-audio/hogsbreath3.stream_aac/chunklist.m3u8:Webcam%3a USA - FL - Key West - Hogs Breath Saloon Stage Cam 
 #DESCRIPTION Webcam: USA - FL - Key West - Hogs Breath Saloon Stage Cam 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//52.2.51.240%3a1935/irishkevins/irishkevins.stream/chunklist_w38238460.m3u8:Webcam%3a USA - FL - Key West - Irish Kevins
 #DESCRIPTION Webcam: USA - FL - Key West - Irish Kevins
@@ -349,84 +359,116 @@
 #DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Bar Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//wowza2.floridakeysmedia.com%3a1935/crowdcam/crowdcam.stream:Webcam%3a USA - FL - Key West - Sloppy Joe's - Crowd Cam
 #DESCRIPTION Webcam: USA - FL - Key West - Sloppy Joe's - Crowd Cam
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd5.flv/playlist.m3u8:Webcam%3a USA - FL - Downtown Miami
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/miamivishd5.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Downtown
 #DESCRIPTION Webcam: USA - FL - Miami Downtown
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd1.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Beach
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7342.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/rivierabeach/manatee/:Webcam%3a USA - FL -  Manatee Cam
+#DESCRIPTION Webcam: USA - FL -  Manatee Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/miamivishd1.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Beach
 #DESCRIPTION Webcam: USA - FL - Miami Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd4.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Biscayne Bay
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/miamivishd4.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Biscayne Bay
 #DESCRIPTION Webcam: USA - FL - Miami Biscayne Bay
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3644newscafe.flv/playlist.m3u8:Webcam%3a USA - FL - Miami News Cafe
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/3644newscafe.flv/playlist.m3u8:Webcam%3a USA - FL - Miami News Cafe
 #DESCRIPTION Webcam: USA - FL - Miami News Cafe
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd7.flv/playlist.m3u8:Webcam%3a USA - FL - Miami South Beach 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/miamivishd7.flv/playlist.m3u8:Webcam%3a USA - FL - Miami South Beach 
 #DESCRIPTION Webcam: USA - FL - Miami South Beach 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/miamivishd2.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Sunny Isles 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/miamivishd2.flv/playlist.m3u8:Webcam%3a USA - FL - Miami Sunny Isles 
 #DESCRIPTION Webcam: USA - FL - Miami Sunny Isles 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/interactoneHDCam1.flv/playlist.m3u8:Webcam%3a USA - FL - Sanibel Island Beach
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8763.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/naples/?cam=naplespier:Webcam%3a USA - FL - Naples Panorama - Pier Cam
+#DESCRIPTION Webcam: USA - FL - Naples Panorama - Pier Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=6391.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/manalapan/palmbeach/:Webcam%3a USA - FL - Naples Panorama Cam
+#DESCRIPTION Webcam: USA - FL - Naples Panorama Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/interactoneHDCam1.flv/playlist.m3u8:Webcam%3a USA - FL - Sanibel Island Beach
 #DESCRIPTION Webcam: USA - FL - Sanibel Island Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/6076.flv/playlist.m3u8:Webcam%3a USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com%3a1935/fecnetwork/6076.flv/playlist.m3u8:Webcam%3a USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
 #DESCRIPTION Webcam: USA - FL - St Lucia County Cams ֠Fort Pierce Inlet
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/4465.flv/playlist.m3u8:Webcam%3a USA - Lake Michigan
-#DESCRIPTION Webcam: USA - Lake Michigan
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a1935/fecnetwork swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf pageUrl=http%3a//www.earthcam.com/usa/missouri/stlouis/?cam=arch_riverview playpath=meprd_garch.flv:Webcam%3a USA - Missouri - St. Louis Arch
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=5663.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/florida/destin/sandestinbeach/?cam=sandestin:Webcam%3a USA - FL - Palm Beach Cam
+#DESCRIPTION Webcam: USA - FL - Palm Beach Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7962.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/indiana/notredame/:Notre Dame Cam
+#DESCRIPTION Webcam: USA - Maryland - Notre Dame Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8584.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/michigan/brighton/:Webcam%3a USA - Michigan Mill Pond Cam
+#DESCRIPTION Webcam: USA - Michigan - Mill Pond Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com%3a1935/fecnetwork/4465.flv/playlist.m3u8:Webcam%3a USA - Lake Michigan
+#DESCRIPTION Webcam: USA - Michgan - Lake Michigan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7928.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/michigan/mears/silverlake/:Webcam%3a USA - Silver Lake Sand Dunes Cam
+#DESCRIPTION Webcam: USA - Michigan -Silver Lake Sand Dunes Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf pageUrl=http%3a//www.earthcam.com/usa/missouri/stlouis/?cam=arch_riverview playpath=meprd_garch.flv:Webcam%3a USA - Missouri - St. Louis Arch
 #DESCRIPTION Webcam: USA - Missouri - St. Louis Arch
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/eclasvegas.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7945.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/minnesota/saintpaul/:Saint Paul Cam
+#DESCRIPTION Webcam: USA - Minesota - Saint Paul Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/eclasvegas.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas
 #DESCRIPTION Webcam: USA - Nevada - Las Vegas
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5359.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas - Wedding chapel
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5359.flv/playlist.m3u8:Webcam%3a USA - Nevada - Las Vegas - Wedding chapel
 #DESCRIPTION Webcam: USA - Nevada - Las Vegas - Wedding chapel
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5465.flv/playlist.m3u8:Webcam%3a USA - Necada - Las Vegas - Plaza Park
-#DESCRIPTION Webcam: USA - Nevada - Las Vegas - Plaza Park
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hampton-beach-cam.flv/playlist.m3u8:Webcam%3a USA - New Hampshire - Hampton Beach
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/hampton-beach-cam.flv/playlist.m3u8:Webcam%3a USA - New Hampshire - Hampton Beach
 #DESCRIPTION Webcam: USA - New Hampshire - Hampton Beach
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video4.earthcam.com%3a/fecnetwork playpath=5173.flv swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf?20140827 live=1 pageUrl=http%3a//www.earthcam.com/usa/newjersey/seasideheights/?cam=seasideheights:Webcam%3a USA - New Jersey - Seaside Heights
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a/fecnetwork playpath=5173.flv swfUrl=http%3a//www.earthcam.com/swf/streaming/stream_viewer_v3.swf?20140827 live=1 pageUrl=http%3a//www.earthcam.com/usa/newjersey/seasideheights/?cam=seasideheights:Webcam%3a USA - New Jersey - Seaside Heights
 #DESCRIPTION Webcam: USA - New Jersey - Seaside Heights
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5732.flv/playlist.m3u8:Webcam%3a USA - New Jersey - Wildwood 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5732.flv/playlist.m3u8:Webcam%3a USA - New Jersey - Wildwood 
 #DESCRIPTION Webcam: USA - New Jersey - Wildwood 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4831.flv/playlist.m3u8:Webcam%3a USA - New Mexico - Santa Fe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=5465.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/newmexico/lasvegas/:Webcam%3a USA - New Mexico - Las Vegas Cam
+#DESCRIPTION Webcam: USA - New Mexico - Las Vegas Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4831.flv/playlist.m3u8:Webcam%3a USA - New Mexico - Santa Fe
 #DESCRIPTION Webcam: USA - New Mexico - Santa Fe
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/16983765/streams/live/iphone/playlist.m3u8:Webcam%3a USA - NEW ORLEANS
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/16983765/streams/live/iphone/playlist.m3u8:Webcam%3a USA - New Orleans
 #DESCRIPTION Webcam: USA - New Orleans
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4280.flv/playlist.m3u8:Webcam%3a USA - New Orleans, Bourbon Street
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4280.flv/playlist.m3u8:Webcam%3a USA - New Orleans, Bourbon Street
 #DESCRIPTION Webcam: USA - New Orleans, Bourbon Street
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4282.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Balcony
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4282.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Balcony
 #DESCRIPTION Webcam: USA - New Orleans - Bourbon St., Cats Meow Balcony
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4281.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Karaokebar
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4281.flv/playlist.m3u8:Webcam%3a USA - New Orleans - Bourbon St., Cats Meow Karaokebar
 #DESCRIPTION Webcam: USA - New Orleans - Bourbon St., Cats Meow Karaokebar
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/chargingbull.flv/playlist.m3u8:Webcam%3a USA - New York - Charging Bull, Wall Street
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=4544.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/newyork/skyline/?cam=hyatthd:Webcam%3a USA - New York - Skyline Cam HD
+#DESCRIPTION Webcam: USA - New York - Skyline Cam HD
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/chargingbull.flv/playlist.m3u8:Webcam%3a USA - New York - Charging Bull, Wall Street
 #DESCRIPTION Webcam: USA - New York - Charging Bull, Wall Street
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/6427.flv/playlist.m3u8:Webcam%3a USA - New York - Columbus Circle
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/6427.flv/playlist.m3u8:Webcam%3a USA - New York - Columbus Circle
 #DESCRIPTION Webcam: USA - New York - Columbus Circle
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7384.flv/playlist.m3u8:Webcam%3a USA - New York - High Line
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/7384.flv/playlist.m3u8:Webcam%3a USA - New York - High Line
 #DESCRIPTION Webcam: USA - New York - High Line
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3983.flv/playlist.m3u8:Webcam%3a USA - New York - Hudson River
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/3983.flv/playlist.m3u8:Webcam%3a USA - New York - Hudson River
 #DESCRIPTION Webcam: USA - New York - Hudson River
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/statueoflibertyHD.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty Island 
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/statueoflibertyHD.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty Island 
 #DESCRIPTION Webcam: USA - New York - Liberty Island 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/libertyHD1.flv/playlist.m3u8:Webcam%3a USA - New York - Liberty
 #DESCRIPTION Webcam: USA - New York - Liberty
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5321.flv/playlist.m3u8:Webcam%3a USA - New York Midtown East
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/5321.flv/playlist.m3u8:Webcam%3a USA - New York Midtown East
 #DESCRIPTION Webcam: USA - New York Midtown East
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4017timessquare.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, South View
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a80/fecnetwork playpath=5775.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/newyork/littleitaly/?cam=littleitaly:Webcam%3a USA - New York - Mulberry Street Cam
+#DESCRIPTION Webcam: USA - New York - Mulberry Street Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4017timessquare.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, South View
 #DESCRIPTION Webcam: USA - New York - Times Square, South View
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/hdtimes10.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, 47th and Broadway
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/hdtimes10.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square, 47th and Broadway
 #DESCRIPTION Webcam: USA - New York - Times Square, 47th and Broadway
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/fridays_5th.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square 5th Ave
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/fridays_5th.flv/playlist.m3u8:Webcam%3a USA - New York - Times Square 5th Ave
 #DESCRIPTION Webcam: USA - New York - Times Square 5th Ave
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/13415669/streams/live/iphone/playlist.m3u8:Webcam%3a USA - ND - FARGO
-#DESCRIPTION Webcam: USA - ND - Fargo
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/13415669/streams/live/iphone/playlist.m3u8:Webcam%3a USA - North Dakota - Fargo
+#DESCRIPTION Webcam: USA - North Dakota - Fargo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=6698.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/northdakota/cavalier/:City of Cavalier Cam
+#DESCRIPTION Webcam: USA - North Dakota - City of Cavalier Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a80/fecnetwork playpath=8471.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/oklahoma/vinita/?cam=route66east:Route 66 Cam - East View
+#DESCRIPTION Webcam: USA - Oklahoma - Route 66 Cam - East View
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8470.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/oklahoma/vinita/?cam=route66west:Route 66 Cam - WestView
+#DESCRIPTION Webcam: USA - Oklahoma - Route 66 Cam - WestView
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:mmsh%3a//live.camstreams.com/csZappers?MSWMExt=.asf:Webcam%3a USA - Portland - Oregon - Columbia River
 #DESCRIPTION Webcam: USA - Portland - Oregon - Columbia River
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/3635.flv/playlist.m3u8:Webcam%3a USA - SC - Myrtle Beach, BeachCam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/3635.flv/playlist.m3u8:Webcam%3a USA - SC - Myrtle Beach, BeachCam
 #DESCRIPTION Webcam: USA - SC - Myrtle Beach, BeachCam
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/5966.flv/playlist.m3u8:Webcam%3a USA - St. Lucie County - River View
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com%3a1935/fecnetwork/5966.flv/playlist.m3u8:Webcam%3a USA - St. Lucie County - River View
 #DESCRIPTION Webcam: USA - St. Lucie County - River View
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/paradiseon6.flv/playlist.m3u8:Webcam%3a USA - TX - Austin Old School Bar and Grill
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/paradiseon6.flv/playlist.m3u8:Webcam%3a USA - TX - Austin Old School Bar and Grill
 #DESCRIPTION Webcam: USA - TX - Austin Old School Bar and Grill
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com%3a1935/fecnetwork/7524.flv/playlist.m3u8:Webcam%3a USA - Texas - Dallas - Reunion Tower
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7461.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/texas/mcallen/?cam=mcallen:City of McAllen Cam
+#DESCRIPTION Webcam: USA - TX - City of McAllen Cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com%3a1935/fecnetwork/7524.flv/playlist.m3u8:Webcam%3a USA - TX - Dallas - Reunion Tower
 #DESCRIPTION Webcam: USA - TX - Dallas - Reunion Tower
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4356.flv/playlist.m3u8:Webcam%3a USA - Washington D.C. - Cherry Blossom cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/4356.flv/playlist.m3u8:Webcam%3a USA - Washington D.C. - Cherry Blossom cam
 #DESCRIPTION Webcam: USA - Washington D.C. - Cherry Blossom cam
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/7132.flv/playlist.m3u8:Webcam%3a USA - Washington D.C. - Wamo cam
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video3.earthcam.com/fecnetwork/7132.flv/playlist.m3u8:Webcam%3a USA - Washington D.C. - Wamo cam
 #DESCRIPTION Webcam: USA - Washington D.C. - Wamo cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7322.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/dc/nationalmall/?cam=nationalmall:Webcam%3a USA - Washington D.C - National Mall Cam
+#DESCRIPTION Webcam: USA - Washington D.C - National Mall Cam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=6954.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/wyoming/jackson/:Jackson Hole Ca
+#DESCRIPTION Webcam: USA - Wyoming - Jackson Hole Ca
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Sonstige
 #DESCRIPTION Sonstige
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8:Webcam%3a NASA TV
