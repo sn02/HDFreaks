@@ -21,6 +21,8 @@
 #DESCRIPTION Mir TV 24 (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.88.196.138%3a8081/dumska/dumska-abr/dumska/dumska/chunks.m3u8:Dumska TV HD (720p)
 #DESCRIPTION Dumska TV HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vt.freeslynet.online/ch/4knemp/ydfv:1 Wetter
+#DESCRIPTION 1 Wetter
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//volgogradtv1.cdnvideo.ru/volgogradtv1/volgogradtv1.sdp/playlist.m3u8:Volgograd TV 1 (560p)
 #DESCRIPTION Volgograd TV 1 (560p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.237.40.215%3a8000/play/a023:TV1000 MegahitTV (1080p)
