@@ -1,4 +1,6 @@
 #NAME IPTV Russia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vt.freeslynet.online/ch/4knemp/vw72:Das Erste (576p)
+#DESCRIPTION Das Erste (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//149.255.152.110/russia1/index.m3u8:Russia 1 (576p)
 #DESCRIPTION Russia1 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//149.255.152.110/russia24/index.m3u8:Russia 24 (576p)
