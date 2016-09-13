@@ -33,7 +33,7 @@
 #DESCRIPTION TV1000 ComedyTV (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.237.40.215%3a8000/play/a02b:TV1000 PremiumTV (1080p)
 #DESCRIPTION TV1000 PremiumTV (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/russkiyextrim/track_1/playlist.m3u8:Russian Extreme Sports (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vt.freeslynet.online/ch/4knemp/39oe:Russian Extreme Sports (576p)
 #DESCRIPTION Russian Extreme Sports (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sochi-strk.ru%3a1936/strk/43Kanal.stream/playlist.m3u8:Kanal 43 HD (720p)
 #DESCRIPTION Kanal 43 HD (720p)
