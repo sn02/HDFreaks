@@ -309,10 +309,6 @@
 #DESCRIPTION Gold TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nodeb.gocaster.net%3a1935/CGL/_definst_/mp4%3aTODAYFM_TEST2/live.m3u8:Top Music-CityTV 18+ (288p)
 #DESCRIPTION Top Music-CityTV 18+ (288p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//84.43.207.130/mtv/mtv.m3u8:MTV Music Bulgaria(576p)
-#DESCRIPTION MTV Music Bulgaria (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.46.210.28%3a80/hls/239.0.0.200/stream.m3u8:MTV HD (720p)
-#DESCRIPTION MTV HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vt.freeslynet.online/ch/4knemp/ifgw:MTV Rocks
 #DESCRIPTION MTV MTV Rocks(578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.115.8%3a8080/live/y9wBLcRW6q/CdlIe5ToDI/2.m3u8:MTV Dance (578p)
