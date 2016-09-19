@@ -21,7 +21,7 @@
 #DESCRIPTION Djing Underground HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//us.djing.com/tv/d-04.m3u8:Djing Ibiza HD (540p)
 #DESCRIPTION Djing Ibiza HD (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//http://102793ooyala-lh.akamaihd.net/i/depers02_delivery@381748/master.m3u8:QMusicNL (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//102793ooyala-lh.akamaihd.net/i/depers02_delivery@381748/master.m3u8:QMusicNL (720p)
 #DESCRIPTION QMusic NL (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls2.slamfm.nl/content/slamtv/slamtv_0.m3u8:Slam!TV (720p)
 #DESCRIPTION Slam!TV (720p)
