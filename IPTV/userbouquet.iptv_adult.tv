@@ -7,14 +7,6 @@
 #DESCRIPTION PornTV 1 HD(480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/012/chunks.m3u8:PornTV 2HD(480p)
 #DESCRIPTION PornTV 2 HD(480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s02.bossna-caffe.com%3a80/live?channelId=119&uid=7140&deviceUser=19darko2&devicePass=19darko2:Redlight HD(480p)
-#DESCRIPTION Redlight HD(1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s02.bossna-caffe.com%3a80/live?channelId=304&uid=7140&deviceUser=19darko2&devicePass=19darko2:Hustler HD(480p)
-#DESCRIPTION Hustler HD(1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s02.bossna-caffe.com%3a80/live?channelId=303&uid=7140&deviceUser=19darko2&devicePass=19darko2:DorcelHD(480p)
-#DESCRIPTION Dorcel HD(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s02.bossna-caffe.com%3a80/live?channelId=68&uid=7140&deviceUser=19darko2&devicePass=19darko2:Brazzer(480p)
-#DESCRIPTION Brazzer(480p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
 #SERVICE 4097:0:3:0:0:0:0:0:0:0:http%3a//exclusives.harmonyvision.com/Slam_It_In_A_Young_Whore-Priva.mp4
