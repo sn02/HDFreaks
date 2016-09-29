@@ -1,9 +1,9 @@
 #NAME IPTV Russia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vt.freeslynet.online/ch/4knemp/vw72:Das Erste (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.200.1/stream.m3u8:Das Erste (576p)
 #DESCRIPTION Das Erste (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//149.255.152.110/russia1/index.m3u8:Russia 1 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3arhd.smil/chunklist_b1600000.m3u8:Russia 1 (576p)
 #DESCRIPTION Russia1 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//149.255.152.110/russia24/index.m3u8:Russia 24 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3ar24.smil/chunklist_b800000.m3u8:Russia 24 (576p)
 #DESCRIPTION Russia 24 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.200.157.43/hls/1tvcrimea.m3u8:Krim 1 HD (1080p)
 #DESCRIPTION Krim 1 HD (1080p)
