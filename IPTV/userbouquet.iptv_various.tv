@@ -61,7 +61,7 @@
 #DESCRIPTION Bursa Spor (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//meridelive02-lh.akamaihd.net/i/idmantv_1@319873/index_1_av-b.m3u8?sd=10&rebase=on:Idman TV (576p)
 #DESCRIPTION Idman TV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rbtvdiglinear-i.akamaihd.net/hls/live/241719/ATfallback/master_fb3360.m3u8:Red Bull TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//elementaldelta.redbull.tv/19_5.m3u8:Red Bull TV (720p)
 #DESCRIPTION Red Bull TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge02.dcarsat.com.ar%3a1935/DXTV/DXTV/master.m3u8:DXTX Argentina (432p)
 #DESCRIPTION DXTX Argentina (432p)
