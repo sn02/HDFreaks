@@ -65,6 +65,10 @@
 #DESCRIPTION Gulli(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/10:TiJi(576p)
 #DESCRIPTION TiJi(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/251%3a1122:TV1000 Megahit HD
+#DESCRIPTION TV1000 Megahit HD (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/252%3a1122:TV1000 Premium HD
+#DESCRIPTION TV1000 Premium HD (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//volgogradtv1.cdnvideo.ru/volgogradtv1/volgogradtv1.sdp/playlist.m3u8:Volgograd TV 1 (560p)
 #DESCRIPTION Volgograd TV 1 (560p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru%3a9090/btv/russkiyextrim/type/user/devname/LG-SmartTV/devid/LG-1469279376/eol/20200101T0000/hash/c2eb79e9fa394373dc84741528d14359c573820f/playlist.m3u8:Russian Extreme Sports (576p)
