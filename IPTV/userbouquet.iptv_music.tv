@@ -87,6 +87,8 @@
 #DESCRIPTION MusicBox UA (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.rmg.cdnvideo.ru/rmg/rmg1.sdp/playlist.m3u8:HITV Music (576p)
 #DESCRIPTION HITV Music (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.shansontv.cdnvideo.ru/shansontv/shansontv.smil/playlist.m3u8:Chanson TV (576p)
+#DESCRIPTION Chanson TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/chunklist.m3u8:O2 TV (480p)
 #DESCRIPTION O2 TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.europaplus.cdnvideo.ru/sg1/hires_eptv_main.sdp/playlist.m3u8:EuropaPlus (540p)
