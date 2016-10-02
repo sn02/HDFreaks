@@ -7,7 +7,7 @@
 #DESCRIPTION PornTV 1 HD(480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/015/chunks.m3u8:PornTV 2HD(480p)
 #DESCRIPTION PornTV 2 HD(480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.strah.tv%3a/strah/xxx/playlist.m3u8:PornTV Russia (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.strah.tv%3a666/strah/xxx/playlist.m3u8:PornTV Russia (720p)
 #DESCRIPTION PornTV Russia (720p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
