@@ -37,8 +37,6 @@
 #DESCRIPTION Pac12 Mountain (72​0p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//208.92.36.158/ipad/live/nba_ipad_1240.m3u8:NHL US (360p)
 #DESCRIPTION NHL US (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.174.2.135%3a4120:ExtremSport (570p)
-#DESCRIPTION ExtremSport (570p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_71.m3u8:Eurosport 1 (720p)
 #DESCRIPTION Eurosport 1 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_1460.m3u8:Eurosport 2 (720p)
