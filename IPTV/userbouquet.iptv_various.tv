@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION update 16.10.2016
+#DESCRIPTION update 17.10.2016
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
@@ -73,6 +73,8 @@
 #DESCRIPTION FOX Sport Motor (544p)
 #SERVICE 1:64:23:0:0:0:0:0:0:0:
 #DESCRIPTION World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.158.80.100%3a9000/play/ch_227_1:Fashion Films (720p)
+#DESCRIPTION Fashion Films (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhdeu/playlist.m3u8:Worldfashion Europa (720p)
 #DESCRIPTION Worldfashion Europa (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8:Worldfashion Russland (720p)
