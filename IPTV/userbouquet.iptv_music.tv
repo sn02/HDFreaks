@@ -158,7 +158,7 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza.no-ip.org%3a1935/tv/smil%3abox.smil/playlist.m3u8:BOX Music (576p)
 #DESCRIPTION BOX Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//audiohostingecuador.com%3a1935/radioamericaquito/radioamericaquito/playlist.m3u8:Americaquito (340p)
-#DESCRIPTION  Americaquito (340p)
+#DESCRIPTION Americaquito (340p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//univ-i.akamaihd.net/hls/live/222631/group1/playlist.m3u8:Real Jamaica TV (480p)
 #DESCRIPTION Real Jamaica TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zouglahd-f.akamaihd.net/i/zougla_1@56341/index_700_av-b.m3u8:Zougla Music (360p)
