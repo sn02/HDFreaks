@@ -53,8 +53,6 @@
 #DESCRIPTION ZDF Neo (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Info (720p)
 #DESCRIPTION ZDF Info (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de11_v1@392881/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Kultur (720p)
-#DESCRIPTION ZDF Kultur (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/index_3776_av-p.m3u8?sd=10&rebase=on:NDR Fernsehen HD (720p)
 #DESCRIPTION NDR Fernsehen HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mdr_sa_hls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@106901/index_1728_av-b.m3u8?sd=10&rebase=on:MDR Fernsehen (540p)

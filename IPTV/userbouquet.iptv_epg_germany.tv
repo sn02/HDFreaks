@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch mit EPG
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 16.10.2016
+#DESCRIPTION Update 22.10.2016
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:6DCA:44D:1:C00000:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_2692_av-b.m3u8?sd=10&rebase=on:Das Erste (540p)
@@ -15,8 +15,6 @@
 #DESCRIPTION ZDF Info (720p)
 #SERVICE 4097:0:1:6D6E:437:1:C00000:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3056_av-b.m3u8?sd=10&rebase=on:ZDF Neo (720p)
 #DESCRIPTION ZDF Neo (720p)
-#SERVICE 4097:0:1:6D70:437:1:C00000:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de11_v1@392881/index_3056_av-b.m3u8?sd=10&rebase=on:ZDF Kultur (720p)
-#DESCRIPTION ZDF Kultur (720p)
 #SERVICE 4097:0:1:6F78:457:1:C00000:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR (720p)
 #DESCRIPTION WDR (720p)
 #SERVICE 4097:0:1:6E41:431:1:C00000:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/index_3776_av-b.m3u8?sd=10&rebase=on:NDR Fernsehen (720p)
