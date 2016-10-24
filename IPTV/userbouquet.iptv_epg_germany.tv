@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch mit EPG
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 22.10.2016
+#DESCRIPTION Update 24.10.2016
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:6DCA:44D:1:C00000:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_2692_av-b.m3u8?sd=10&rebase=on:Das Erste (540p)
@@ -11,6 +11,8 @@
 #DESCRIPTION 3sat (480p)
 #SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_5_av-p.m3u8?sd=10&rebase=on:ARTE (720p)
 #DESCRIPTION ARTE (720p)
+#SERVICE 4097:0:1:7032:41B:1:C00000:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE (720p)
+#DESCRIPTION ONE (720p)
 #SERVICE 4097:0:1:6D6B:437:1:C00000:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3056_av-b.m3u8?sd=10&rebase=on:ZDF Info (720p)
 #DESCRIPTION ZDF Info (720p)
 #SERVICE 4097:0:1:6D6E:437:1:C00000:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3056_av-b.m3u8?sd=10&rebase=on:ZDF Neo (720p)
