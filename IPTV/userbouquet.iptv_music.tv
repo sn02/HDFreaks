@@ -163,7 +163,7 @@
 #DESCRIPTION Dange TV (578p
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//144.76.2.213%3a1935/live/livestream/playlist.m3u8:MAD Music (578p
 #DESCRIPTION MAD Music (578p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza.no-ip.org%3a1935/tv/smil%3abox.smil/playlist.m3u8:BOX Music (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza.no-ip.org%3a1935/tv/smil%3abox.smil/master.m3u8:BOX Music (576p)
 #DESCRIPTION BOX Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//univ-i.akamaihd.net/hls/live/222631/group1/playlist.m3u8:Real Jamaica TV (480p)
 #DESCRIPTION Real Jamaica TV (480p
