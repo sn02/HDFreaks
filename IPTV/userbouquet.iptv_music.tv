@@ -199,6 +199,8 @@
 #DESCRIPTION ALBMusic HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_1/CMCC swfUrl=http%3a//http.vitalstreamcdn.com/flashskins/InapOSMFPlugin.swf live=1 pageUrl=http%3a//www.cmc-tv.com
 #DESCRIPTION CMC California(720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU swfUrl=http%3a//http.vitalstreamcdn.com/flashskins/InapOSMFPlugin.swf live=1 pageUrl=http%3a//www.cmctvusa.com
+#DESCRIPTION CMC Country California(720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//95.128.236.80%3a1935/kaltura/smil%3acmc.smil/playlist.m3u8:CMC Music (432p)
 #DESCRIPTION CMC Music (432p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=215&key_ott=5f7690fd0bd330afafb91f331adc46dd:A one (360p)
