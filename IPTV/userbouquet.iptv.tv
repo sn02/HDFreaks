@@ -615,9 +615,11 @@
 #DESCRIPTION Glazella 3D (1080p)
 #SERVICE 1:64:10:0:0:0:0:0:0:0:
 #DESCRIPTION Chech
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel031_p4.stream/DVR.m3u8:O 1 (360p)
-#DESCRIPTION O 1 (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel032_p4.stream/DVR.m3u8:O 2 (360p)
-#DESCRIPTION O 2 (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel033_p4.stream/DVR.m3u8:O 24 (360p)
-#DESCRIPTION O 24 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_zoom/playlist/cze/live_hq.m3u8:Prima ZOOM (540p)
+#DESCRIPTION Prima ZOOM (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_love/playlist/cze/live_hq.m3u8:Prima LOVE (540p)
+#DESCRIPTION Prima LOVE (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_family/playlist/cze/live_hq.m3u8:Prima FAMILIA (540p)
+#DESCRIPTION Prima FAMILIA (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_cool/playlist/cze/live_hq.m3u8:Prima COOL (540p)
+#DESCRIPTION Prima COOL (540p)
