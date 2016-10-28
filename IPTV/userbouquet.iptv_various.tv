@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 17.10.2016
+#DESCRIPTION Update 28.10.2016
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
@@ -107,6 +107,20 @@
 #DESCRIPTION Om5-tv (480p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Chech
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_4.m3u8:CTV 24 (400p)
+#DESCRIPTION CTV 24 (400p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_190.m3u8:CTV 1 HD (720p)
+#DESCRIPTION CTV 1 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_925.m3u8:CTV 2 HD (720p)
+#DESCRIPTION CTV 2 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_190.m3u8:CTV 1 HD (720p)
+#DESCRIPTION CTV 1 HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_187.m3u8:CTV Sport HD (720p)
+#DESCRIPTION CTV Sport HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_4470.m3u8:Praha TV (400p)
+#DESCRIPTION Praha TV (400p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_4471.m3u8:Polar (400p)
+#DESCRIPTION Polar (400p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_zoom/playlist/cze/live_hq.m3u8:Prima ZOOM (540p)
 #DESCRIPTION Prima ZOOM (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_love/playlist/cze/live_hq.m3u8:Prima LOVE (540p)
