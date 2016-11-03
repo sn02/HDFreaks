@@ -35,8 +35,10 @@
 #DESCRIPTION Mühlviertel TV (432p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//d2jk87psbjrjdz.cloudfront.net/livehttporigin/okto/chunklist.m3u8:OKTO (720p)
 #DESCRIPTION OKTO (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.237.191.228%3a1935/live/_definst_/Melodie/chunklist_w1575760825.m3u8:Melodie Express (468p)
-#DESCRIPTION Melodie Express (468p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//origin.hd-livestream.de/live/melodie/master.m3u8:Melodie Express (576p)
+#DESCRIPTION Melodie Express (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//185.85.29.16/oe3sd/orf.sdp/rtmp%3a//185.85.29.16%3a1935/oe3sd/orf.sdp:OE3 Musik (360p)
+#DESCRIPTION OE3 Musik (360p)
 #SERVICE 1:64:2:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (540p)
