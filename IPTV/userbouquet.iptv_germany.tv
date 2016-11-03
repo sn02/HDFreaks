@@ -99,8 +99,6 @@
 #DESCRIPTION OKTO (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//origin.hd-livestream.de/live/melodie/master.m3u8:Melodie Express (576p)
 #DESCRIPTION Melodie Express (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//185.85.29.16/oe3sd/orf.sdp/rtmp%3a//185.85.29.16%3a1935/oe3sd/orf.sdp:OE3 Musik (360p)
-#DESCRIPTION OE3 Musik (360p)
 #SERVICE 1:64:2:0:0:0:0:0:0:0:
 #DESCRIPTION Swiss
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/livesd2/chunklist_w798831857.m3u8:Kanal9 (720p)
