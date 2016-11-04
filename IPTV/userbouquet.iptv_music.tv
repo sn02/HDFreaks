@@ -213,7 +213,7 @@
 #DESCRIPTION TeveMusica (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.101.21.42%3a8081/live/live2/playlist.m3u8:Vibee TV (540p)
 #DESCRIPTION Vibee TV (540p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.chaula.tv/hls/live/playlist.m3u8:Chaula.tv (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.chaula.tv/hls/live/playlist.m3u8:Chaula.tv (720p)
 #DESCRIPTION Chaula.tv (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8:Radio Capital TV (360p)
 #DESCRIPTION Radio Capital TV (360p)
