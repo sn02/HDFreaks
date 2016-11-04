@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 01.11.2016
+#DESCRIPTION Update 04.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -167,10 +167,8 @@
 #DESCRIPTION Americaquito (340p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zouglahd-f.akamaihd.net/i/zougla_1@56341/index_700_av-b.m3u8:Zougla Music (360p)
 #DESCRIPTION Zougla Music (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//93.87.85.71/PLTV/88888888/224/3221226595/04.m3u8:VH1 (360p)
-#DESCRIPTION VH1 (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//93.87.85.71/PLTV/88888888/224/3221226771/04.m3u8:VH1Classic (578p)
-#DESCRIPTION VH1 Classic(578p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.92.76.135%3a1935/jayzee/livestream/master.m3u8:JAYZEE (320p)
+#DESCRIPTION JAYZEE (320p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//server10.streaming-pro.com%3a1937/live/ibgtvlive/playlist.m3u8:IBIZA Global (480p)
 #DESCRIPTION IBIZA Global Music TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.135.22/gospeltv/livestream/playlist.m3u8:Gospel Music TV (1080p)
