@@ -401,6 +401,8 @@
 #DESCRIPTION Kanal 7 HD (400p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.netd.com.tr/S2/HLS_LIVE/tv2/1000/prog_index.m3u8:TV2 (576p)
 #DESCRIPTION TV2 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//canli2.tvnet.tv.tr/live/smil%3atvnet.smil/master.m3u8:TVNET (360p)
+#DESCRIPTION TVNET (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/index_1500_av-b.m3u8?sd=10&rebase=on:TRT Haber (576p)
 #DESCRIPTION TRT Haber (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_haber/tgrt1/chunklist_w1549600606.m3u8:TGRT Haber (1080p)
