@@ -153,7 +153,7 @@
 #DESCRIPTION MTV Hits (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_19.m3u8:MTV CS(578p)
 #DESCRIPTION MTV CS(578p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18:9072:VH1 Classic (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18:9072%3aVH1 Classic (480p)
 #DESCRIPTION VH1 Classic (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_2189.m3u8:Rebell CS(578p)
 #DESCRIPTION Rebell CS(578p)
