@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 04.11.2016
+#DESCRIPTION Update 05.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9051:Soft Ru (576p)
@@ -21,8 +21,8 @@
 #DESCRIPTION Hustler HD (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.189.27.191%3a81//udp/239.255.3.93%3a1234:Redlight HD (1080p)
 #DESCRIPTION Redlight HD (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9248:Pornoclub RU (576p)
-#DESCRIPTION Pornoclub RU (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.46.64.13%3a1935/tv3/myStream/master.m3u8:PornoTV3 (576p)
+#DESCRIPTION PornoTV3(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9100:Frenchlover (576p)
 #DESCRIPTION Frenchlover (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_1017.m3u8:Playboy (576p)
