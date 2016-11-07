@@ -55,8 +55,8 @@
 #DESCRIPTION World Travel Channel (320p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/index_1500_av-b.m3u8?sd=10&rebase=on:TRT Belgesel (576p)
 #DESCRIPTION TRT Belgesel (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_belgesel/amlst%3alive-30/chunklist_w1696307907_b233.m3u8:TGRT Belgesel (288p)
-#DESCRIPTION TGRT Belgesel (288p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_belgesel/tgrt1/master.m3u8:TGRT Belgesel (576p)
+#DESCRIPTION TGRT Belgesel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Okul (576p)
 #DESCRIPTION TRT Okul (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/live1/yabantv/chunklist_w785852069.m3u8:Yaban TV (576p)
@@ -73,6 +73,12 @@
 #DESCRIPTION TRT Türk (576p)
 #SERVICE 1:64:3:0:0:0:0:0:0:0::SPOR
 #DESCRIPTION SPOR
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//9.streamgo1.stream%3a1935/edge/ch104/master.m3u8:LIG TV 1 (360p)
+#DESCRIPTION LIG TV 1 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//9.streamgo1.stream%3a1935/edge/ch105/master.m3u8:LIG TV 2 (360p)
+#DESCRIPTION LIG TV 2 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//9.streamgo1.stream%3a1935/edge/ch106/master.m3u8:LIG TV 3 (360p)
+#DESCRIPTION LIG TV 3 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Spor HD (720p)
 #DESCRIPTION TRT Spor HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
