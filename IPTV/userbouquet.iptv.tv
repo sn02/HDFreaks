@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 07.11.2016
+#DESCRIPTION Update 08.11.2016
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orf1_cache/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -75,8 +75,6 @@
 #DESCRIPTION Kika HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
 #DESCRIPTION RIC (396p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/index_2528_av-p.m3u8?sd=10&rebase=on&time=1451946826672:JOIZ (720p)
-#DESCRIPTION JOIZ (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtl2ingest1-i.akamaihd.net/hls/live/225448/cbcyoumain/cbcyoumainstream1_.m3u8:RTL 2 You (720p)
 #DESCRIPTION RTL 2 You (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//donautv.iptv-playoutcenter.de%3a1935/donautv/donautv.stream_2:Donau TV (576p)
@@ -103,8 +101,6 @@
 #DESCRIPTION DAF (288p)
 #SERVICE 1:64:3:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//208.53.180.218/ctv swfUrl=http%3a//www.carolineoliveira.com.br/swf/player.swf live=1 pageUrl=http%3a//carolineoliveira.com.br/tvamigos/tomejerry.html playpath=tom:Tom Jerry (360p)
-#DESCRIPTION Tom Jerry (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (576p)
 #DESCRIPTION Cartoon Network (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id33_KTR_SG--CartoonNetwork/04/plst.m3u8:Cartoon Network (480p)
