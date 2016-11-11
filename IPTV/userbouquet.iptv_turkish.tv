@@ -1,6 +1,6 @@
 #NAME IPTV Turkish
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 06.11.2016
+#DESCRIPTION Update 11.11.2016
 #SERVICE 1:64:0:0:0:0:0:0:0:0::GENEL
 #DESCRIPTION GENEL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
@@ -79,7 +79,7 @@
 #DESCRIPTION LIG TV 2 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//9.streamgo1.stream%3a1935/edge/ch106/master.m3u8:LIG TV 3 (360p)
 #DESCRIPTION LIG TV 3 (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Spor HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8:TRT Spor HD (720p)
 #DESCRIPTION TRT Spor HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
 #DESCRIPTION Sports Canli TV (488p)

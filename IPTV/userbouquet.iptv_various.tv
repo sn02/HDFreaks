@@ -49,8 +49,8 @@
 #DESCRIPTION NOVASport2 (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.100.31.242%3a8183/hls/xz3125/index.m3u8:Super Tennis Italia (540p)
 #DESCRIPTION Super Tennis Italia (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Spor HD (576p)
-#DESCRIPTION TRT Spor HD (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8:TRT Spor HD (720p)
+#DESCRIPTION TRT Spor HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
 #DESCRIPTION Sports Canli TV (488p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.yayindayiz.biz/Bursaspor/bursaspor/chunklist.m3u8:Bursa Spor (480p)
@@ -73,8 +73,6 @@
 #DESCRIPTION FOX Sport Motor (544p)
 #SERVICE 1:64:23:0:0:0:0:0:0:0:
 #DESCRIPTION World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.158.80.100%3a9000/play/ch_227_1:Fashion Films (720p)
-#DESCRIPTION Fashion Films (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhdeu/playlist.m3u8:Worldfashion Europa (720p)
 #DESCRIPTION Worldfashion Europa (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//win.cdn.bonus-tv.ru/TVB8/wfhd/playlist.m3u8:Worldfashion Russland (720p)
