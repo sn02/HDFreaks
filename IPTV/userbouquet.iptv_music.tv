@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 13.11.2016
+#DESCRIPTION Update 15.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -145,8 +145,6 @@
 #DESCRIPTION M1 (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.158.80.100%3a9000/play/ch_120_1:M2 (578p)
 #DESCRIPTION M2 (578p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.78.244.206%3a9898/udp/224.11.4.17%3a1234:MTV (1080)
-#DESCRIPTION MTV HD (1080)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.158.80.100%3a9000/play/ch_264_1:MTV Dance (576p)
 #DESCRIPTION MTV Dance (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.158.80.100%3a9000/play/ch_266_1:MTV Hits (576p)
