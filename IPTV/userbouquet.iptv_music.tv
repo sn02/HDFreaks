@@ -163,8 +163,6 @@
 #DESCRIPTION Mezzo (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_19.m3u8:MTV CS(578p)
 #DESCRIPTION MTV CS(578p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (576p)
-#DESCRIPTION VH1 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9072:VH1 Classic (480p)
 #DESCRIPTION VH1 Classic (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn0.4network.tv/master_2189.m3u8:Rebell CS(578p)
