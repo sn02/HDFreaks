@@ -217,3 +217,15 @@
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
+#SERVICE 1:64:1:0:0:0:0:0:0:0:
+#DESCRIPTION Radiosender
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.saw-musikwelt.de/saw/mp3-128/stream.saw-musikwelt.de:Radio SAW
+#DESCRIPTION Radio SAW
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.ibizaglobalradio.com/player/balanceador.php:IBIZA Global Radio
+#DESCRIPTION IBIZA Global Radio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ice.abradio.cz/hitpoprock128.mp3:Hitradio PopRock
+#DESCRIPTION Hitradio PopRock
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ice.abradio.cz/hit80128.mp3:Hitradio 80
+#DESCRIPTION Hitradio 80
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ice.abradio.cz/hit90128.mp3:Hitradio 90
+#DESCRIPTION Hitradio 90 
