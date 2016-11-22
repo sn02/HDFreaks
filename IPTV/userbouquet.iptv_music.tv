@@ -1,14 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 18.11.2016
-#SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Die ersten Drei mit Tonproblemen bei einigen Boxen !!
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.201.122.6%3a80/s/843/c/139/u/23578/RT4DqPdnXmE6EwsSQLVHbzdQ5v49mX:Trace Urban (1080p)
-#DESCRIPTION Trace Urban (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.201.122.6%3a80/s/843/c/126/u/23578/RT4DqPdnXmE6EwsSQLVHbzdQ5v49mX:MTV Live HD (1080p)
-#DESCRIPTION MTV Live HD (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.201.122.6%3a80/s/843/c/302/u/23578/RT4DqPdnXmE6EwsSQLVHbzdQ5v49mX:TuneBox HD (1080p)
-#DESCRIPTION TuneBox HD (1080p)
+#DESCRIPTION Update 22.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
