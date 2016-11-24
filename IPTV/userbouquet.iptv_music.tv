@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 22.11.2016
+#DESCRIPTION Update 24.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -11,8 +11,8 @@
 #DESCRIPTION Kronehit (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/beats_1/playlist.m3u8:Beatz HD (720p)
 #DESCRIPTION Beatz HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//flash3.ipercast.net/deluxemusic.tv-live/smil%3adeluxe.smil/master.m3u8:Deluxe Music (406p)
-#DESCRIPTION Deluxe Music (406p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wpc.3DF98.phicdn.net/243DF98/deluxemusic/very_high.m3u8:Deluxe Music (576p)
+#DESCRIPTION Deluxe Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.djing.com/tv/04.m3u8:Djing E-Music HD (540p)
 #DESCRIPTION Djing E-Music HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.djing.com/tv/a-04.m3u8:Djing Trick HD (540p)
@@ -47,6 +47,12 @@
 #DESCRIPTION Electrosound HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//5.154.185.153/live/live:Atomic (480p)
 #DESCRIPTION Atomic (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8:Stars Disco TV (720p)
+#DESCRIPTION Stars Disco TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dcs-188-64-85-40.atmcdn.pl/hls/mm/multimedia/live/amazing/live.livx/playlist.m3u8?stream=2:Amazing Music (578p)
+#DESCRIPTION Amazing Music (578p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.246.169.19/ttv_hls/live_720p/index.m3u8:TWOJA Rock TV (720p)
+#DESCRIPTION TWOJA Rock TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smcloud.net/tv/best/best_720p/playlist.m3u8:ESKA Best Music TV (720p)
 #DESCRIPTION ESKA Best Music TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smcloud.net/tv/eska_party/eska_party_720p/playlist.m3u8:ESKA Party TV (720p)
