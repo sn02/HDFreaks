@@ -125,5 +125,5 @@
 #DESCRIPTION AlB BUK(720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.138.17.8%3a1935/albuk/albukplus.stream/playlist.m3u8:AlB Movie HD(720p)
 #DESCRIPTION AlB Movie HD(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.138.17.8%3a1935/albuk/albuk/albmus.stream/playlist.m3u8:AlB Music HD(720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.138.17.8%3a1935/albuk/albmus.stream/playlist.m3u8:AlB Music HD(720p)
 #DESCRIPTION AlB Music HD(720p)
