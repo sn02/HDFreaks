@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 24.11.2016
+#DESCRIPTION Update 26.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -147,6 +147,18 @@
 #DESCRIPTION Top Music-CityTV 18+ (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9072:VH1 Classic (480p)
 #DESCRIPTION VH1 Classic (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.120.119.93%3a805/49/index.m3u8:MCM TOP (575p)
+#DESCRIPTION MCM TOP (575p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.120.119.93%3a805/3/index.m3u8:EU Music (575p)
+#DESCRIPTION EU Music HD (575p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.120.119.93%3a805/103/index.m3u8:M1 (575p)
+#DESCRIPTION M1 (575p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.118.98.146%3a80/mezzo/index.m3u8:Mezzo (575p)
+#DESCRIPTION Mezzo (575p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.10/hls/CH_STVEN/variant.m3u8?version=2:STV Music (576)
+#DESCRIPTION STV Music (576)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//phone.pik-tv.com/live/piktv3pik3tv/playlist.m3u8:PIK TV Music (720p)
+#DESCRIPTION PIK TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.31.226.78%3a1935/standbytvlive/stream1.sdp/playlist.m3u8:Standby TV (576p)
 #DESCRIPTION Standby TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.vsnw.net%3a8081/interradio/720i.m3u8:RTI Music (576p)

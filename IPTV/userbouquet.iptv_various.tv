@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 25.11.2016
+#DESCRIPTION Update 26.11.2016
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (576p)
@@ -41,10 +41,14 @@
 #DESCRIPTION NHL US (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1800.m3u8:Eurosport 1 (720p)
 #DESCRIPTION Eurosport 1 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.100.31.242%3a8183/hls/xz3125/index.m3u8:Super Tennis Italia (540p)
-#DESCRIPTION Super Tennis Italia (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8:TRT Spor HD (720p)
-#DESCRIPTION TRT Spor HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.206.253.157%3a8001/eurosport2hd:Eurosport 2 HD (1080p)
+#DESCRIPTION Eurosport 2 HD (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.7.13.162/hls/ss1/index.m3u8:SuperSport 1 (720p)
+#DESCRIPTION SuperSport 1 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.7.13.162/hls/ss2/index.m3u8:SuperSport 2 (720p)
+#DESCRIPTION SuperSport 2 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.7.13.162/hls/ss3/index.m3u8:SuperSport 3 (720p)
+#DESCRIPTION SuperSport 3 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
 #DESCRIPTION Sports Canli TV (488p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.yayindayiz.biz/Bursaspor/bursaspor/chunklist.m3u8:Bursa Spor (480p)
