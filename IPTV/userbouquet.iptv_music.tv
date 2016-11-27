@@ -205,7 +205,7 @@
 #DESCRIPTION A one (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.68.190.192%3a1935/WEB_JuceTV/JuceTV.stream/playlist.m3u8:JuceTV Music (720p)
 #DESCRIPTION JuceTV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126:80/utvedge/utvlive/master.m3u8:UTV Music(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126%3a80/utvedge/utvlive/master.m3u8:UTV Music(576p)
 #DESCRIPTION UTV Music(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hd.worldkast.com%3a1935/8436/8436/chunklist_w464302864.m3u8:Si TV (426p)
 #DESCRIPTION Si TV (426p)
