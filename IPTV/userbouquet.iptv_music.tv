@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 26.11.2016
+#DESCRIPTION Update 27.11.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -197,15 +197,15 @@
 #DESCRIPTION Number One TV (270p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.138.17.8%3a1935/albuk/albmus.stream/master.m3u8:ALBMusic HD (720p)
 #DESCRIPTION ALBMusic HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCC/CCURstream.m3u8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCC/CCURstream.m3u8:CMC California(720p)
 #DESCRIPTION CMC California(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU/CCURstream.m3u8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU/CCURstream.m3u8:CMC Country California(720p)
 #DESCRIPTION CMC Country California(720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=215&key_ott=5f7690fd0bd330afafb91f331adc46dd:A one (360p)
 #DESCRIPTION A one (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.68.190.192%3a1935/WEB_JuceTV/JuceTV.stream/playlist.m3u8:JuceTV Music (720p)
 #DESCRIPTION JuceTV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//81.196.0.126%3a80/utvedge//utvlive swfUrl=http%3a//www.utv.ro/player/jwplayer/jwplayer.flash.swf pageUrl=http%3a//www.utv.ro/live:UTV Music(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126:80/utvedge/utvlive/master.m3u8:UTV Music(576p)
 #DESCRIPTION UTV Music(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hd.worldkast.com%3a1935/8436/8436/chunklist_w464302864.m3u8:Si TV (426p)
 #DESCRIPTION Si TV (426p)
