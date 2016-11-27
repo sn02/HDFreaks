@@ -197,9 +197,9 @@
 #DESCRIPTION Number One TV (270p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.138.17.8%3a1935/albuk/albmus.stream/master.m3u8:ALBMusic HD (720p)
 #DESCRIPTION ALBMusic HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_1/CMCC swfUrl=http%3a//http.vitalstreamcdn.com/flashskins/InapOSMFPlugin.swf live=1 pageUrl=http%3a//www.cmc-tv.com
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCC/CCURstream.m3u8
 #DESCRIPTION CMC California(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cmctv.flash.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU swfUrl=http%3a//http.vitalstreamcdn.com/flashskins/InapOSMFPlugin.swf live=1 pageUrl=http%3a//www.cmctvusa.com
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU/CCURstream.m3u8
 #DESCRIPTION CMC Country California(720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=215&key_ott=5f7690fd0bd330afafb91f331adc46dd:A one (360p)
 #DESCRIPTION A one (360p)
