@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 26.11.2016
+#DESCRIPTION Update 30.11.2016
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (576p)
@@ -139,9 +139,9 @@
 #DESCRIPTION dar21 Music(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:TooT Music(720p)
 #DESCRIPTION TooT Music
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:ATV(720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/atv.m3u8:ATV(720p)
 #DESCRIPTION ATV(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/dar21.m3u8:ararat(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/ararat.m3u8:ararat(576p)
 #DESCRIPTION ararat(576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/shant.m3u8:Shant(720p)
 #DESCRIPTION Shant(720p)
