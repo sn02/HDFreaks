@@ -225,12 +225,23 @@
 #DESCRIPTION MKK WEB TV (360p)Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p)Brasil
 #DESCRIPTION MixTV Music (360p)Brasil
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8:Radio Capital TV (360p)
-#DESCRIPTION Radio Capital TV (360p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
+#DESCRIPTION Muzzone 480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8:Stars.TV (720p)
 #DESCRIPTION Stars.TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/ngrp%3a8FM_all/playlist.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/mcm_top/index.m3u8?token=bc29faad25bb947d392702d028d96533:MCMTop (576p)
+#DESCRIPTION MCMTop (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/vh1/index.m3u8?token=bc29faad25bb947d392702d028d96533:VH1 (576p)
+#DESCRIPTION VH1 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/vh1clas/index.m3u8?token=bc29faad25bb947d392702d028d96533:VH1 Classic (576p)
+#DESCRIPTION VH1 Classic (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/mtvhits/index.m3u8?token=bc29faad25bb947d392702d028d96533:MTV Hits (576p)
+#DESCRIPTION MTV Hits (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/mtvdance/index.m3u8?token=bc29faad25bb947d392702d028d96533:MTV Dance (576p)
+#DESCRIPTION MTV Dance (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//50.7.141.130%3a49555/m1/index.m3u8?token=bc29faad25bb947d392702d028d96533:M1 (576p)
+#DESCRIPTION M1 (576p)
