@@ -75,6 +75,8 @@
 #DESCRIPTION ORF Sport+ HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD AT (720p)
 #DESCRIPTION SERVUS TV HD AT (720p)
+#SERVICE 4097:0:19:0:0:0:0:0:0:0:http%3a//91.222.53.72%3a8081/live_4490_profile1.m3u8:ATV2
+#DESCRIPTION ATV2 (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/chunklist_b1900000.m3u8:OE24TV (1080p)
 #DESCRIPTION OE24TV (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streaming.austria24.tv/live/stream_360p:Austria24 TV (360p)
