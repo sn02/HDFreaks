@@ -99,7 +99,7 @@
 #DESCRIPTION Mooz HD (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//telekomtv.ro.edgesuite.net/shls/LIVE$MoozRoSD/6.m3u8/Level(545259)?start=LIVE&end=END:Mooz RO! (360p)
 #DESCRIPTION Mooz RO! (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.europaplus.cdnvideo.ru/sg1/hires_eptv_main.sdp/playlist.m3u8:EuropaPlus (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_EUROPAPLUSTV/variant.m3u8:EuropaPlus (540p)
 #DESCRIPTION EuropaPlus (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.250.191.10%3a1935/live/livestream3/playlist.m3u8:1HD Music Television  (720p)
 #DESCRIPTION 1HD Music Television  (720p)
