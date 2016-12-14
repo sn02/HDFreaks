@@ -239,8 +239,8 @@
 #DESCRIPTION Webcam: Zinnowitz
 #SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
 #DESCRIPTION Europa
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Czechrepublic - Cieszyn
-#DESCRIPTION Webcam: Czechrepublic - Cieszyn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Polska - Cieszyn
+#DESCRIPTION Webcam: Polska - Cieszyn
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Webcam%3a Czechrepublic - Jablunkov
 #DESCRIPTION Webcam: Czechrepublic - Jablunkov
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4162.flv/playlist.m3u8:Webcam%3a Czechrepublic - Prague
