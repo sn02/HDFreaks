@@ -161,6 +161,8 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=417&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:MTV Dance (576p)
 #DESCRIPTION MTV Dance (576p)
+#SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/mtvlivehd:MTV live HD (1080p)
+#DESCRIPTION MTV live HD (1080p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=414&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:MTV Hits (576p)
 #DESCRIPTION MTV Hits (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//ott2.odessa.tv%3a7321/index.php?channel=418&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:MTV Rocks (576p)
