@@ -81,7 +81,7 @@
 #DESCRIPTION Ocko Expres (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.one.by%3a2300:HD ONE RU Music (1080p)
 #DESCRIPTION HD ONE RU Music (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//musicbox.cdnvideo.ru/musicbox/musicboxtv.sdp/playlist.m3u8:MusicBox (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/music-box:MusicBox (576p)
 #DESCRIPTION MusicBox (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.26.132.86/hls/mb_ua.m3u8:MusicBox UA (360p)
 #DESCRIPTION MusicBox UA (360p)
