@@ -246,7 +246,7 @@
 #DESCRIPTION MixTV Music (360p)Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
 #DESCRIPTION Muzzone 480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.4net.tv%3a8081/live_951_profile1.m3u8:Retro Music (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.222.53.72%3a8081/live_951_profile1.m3u8:Retro Music (404p)
 #DESCRIPTION Retro Music (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8:Stars.TV (720p)
 #DESCRIPTION Stars.TV (720p)
