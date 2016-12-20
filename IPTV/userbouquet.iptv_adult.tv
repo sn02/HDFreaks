@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 13.12.2016
+#DESCRIPTION Update 21.12.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -19,8 +19,6 @@
 #DESCRIPTION Plaboy (576p) KrasTV
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/brazzers:Brazzer (576p)
 #DESCRIPTION Brazzer (576p) KrasTV
-#SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/nclub:Pornoclub (576p)
-#DESCRIPTION Pornoclub (576p) KrasTV
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/hustlerhd:Hustler HD (720p)
 #DESCRIPTION Hustler HD (720p) KrasTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/021/chunks.m3u8:PornTV 1HD(480p)
@@ -31,10 +29,6 @@
 #DESCRIPTION PornTV Russia (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9100:Frenchlover (576p)
 #DESCRIPTION Frenchlover (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.99.168.4%3a9981/stream/channelid/680224864?ticket=FC12BA030F27380E24E9719BC7C791B244E3F9A2&profile=pass:Bizarre TV (575p)
-#DESCRIPTION Bizarre TV (575p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.99.168.4%3a9981/stream/channelid/1513536308?ticket=07C4559EA64923A8997A7D23DF6D718A5DC05EEF&profile=pass:Bunga Bunga (576p)
-#DESCRIPTION Bunga Bunga (576p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
 #SERVICE 4097:0:3:0:0:0:0:0:0:0:http%3a//exclusives.harmonyvision.com/Slam_It_In_A_Young_Whore-Priva.mp4
