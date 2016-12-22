@@ -25,8 +25,8 @@
 #DESCRIPTION TMC (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6017/main
 #DESCRIPTION C Star(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6016/main
-#DESCRIPTION I Tele (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6009/main
+#DESCRIPTION W9 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6015/main
 #DESCRIPTION BFM (720p)
 #SERVICE 1:64:22:0:0:0:0:0:0:0:
