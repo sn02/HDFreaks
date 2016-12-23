@@ -8,28 +8,6 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id33_KTR_SG--CartoonNetwork/04/plst.m3u8:Cartoon Network (480p)
 #DESCRIPTION Cartoon Network (480p)
 #SERVICE 1:64:22:0:0:0:0:0:0:0:
-#DESCRIPTION France
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6002/main
-#DESCRIPTION France2 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6003/main
-#DESCRIPTION France3 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6014/main
-#DESCRIPTION France4 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6005/main
-#DESCRIPTION France5 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6006/main
-#DESCRIPTION M6 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6004/main
-#DESCRIPTION LCI (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6010/main
-#DESCRIPTION TMC (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6017/main
-#DESCRIPTION C Star(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6009/main
-#DESCRIPTION W9 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6015/main
-#DESCRIPTION BFM (720p)
-#SERVICE 1:64:22:0:0:0:0:0:0:0:
 #DESCRIPTION Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on:Real Madrid TV (404p)
 #DESCRIPTION Real Madrid TV (404p)

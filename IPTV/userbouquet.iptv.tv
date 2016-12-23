@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 18.12.2016
+#DESCRIPTION Update 23.12.2016
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -473,16 +473,24 @@
 #DESCRIPTION TVO (404p)
 #SERVICE 1:64:8:0:0:0:0:0:0:0:
 #DESCRIPTION Italy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream14.rai.it/italy/rai1_1200/chunklist.m3u8:Rai 1 (352p)
-#DESCRIPTION Rai 1 (352p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream13.rai.it%3a1935/italy/rai2.smil/chunklist_b1200000.m3u8:Rai 2 (352p)
-#DESCRIPTION Rai 2 (352p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream14.rai.it/italy/rai3_1200/chunklist.m3u8:Rai 3 (352p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.65%3a1234:Rai News (576p)
+#DESCRIPTION Rai News (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.36%3a1234:Rai 1 (576p)
+#DESCRIPTION Rai 1 (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.37%3a1234:Rai 2 (576p)
+#DESCRIPTION Rai 2 (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.77%3a1234:Rai 3 (352p)
 #DESCRIPTION Rai 3 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream12.rai.it/italy/rai4.smil/chunklist_b1200000.m3u8:Rai 4 (352p)
 #DESCRIPTION Rai 4 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream12.rai.it/live/rai5.smil/chunklist_b1200000.m3u8:Rai 5 (352p)
 #DESCRIPTION Rai 5 (352p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.176%3a1234:Mediaset Italia (576p)
+#DESCRIPTION Mediaset Italia (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.97%3a1234:CanalD  (576p)
+#DESCRIPTION CanalD (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/239.2.57.248%3a1234:Italia DA   (576p)
+#DESCRIPTION Italia DA (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/index_1200_av-p.m3u8?sd=10&rebase=on:Rai Movie (576p)
 #DESCRIPTION Rai Movie (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/index_1200_av-b.m3u8?sd=10&rebase=on:Rai Premium (352p)
@@ -493,8 +501,6 @@
 #DESCRIPTION Rai YoYo (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream6.rai.it/italy/smil%3araiscuola.smil/chunklist_b900000.m3u8:Rai Scuola (360p)
 #DESCRIPTION Rai Scuola (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1200_av-p.m3u8?sd=10&rebase=on:Rai News 24 (352p)
-#DESCRIPTION Rai News 24 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//skyianywhere2-i.akamaihd.net%3a80/hls/live/200275/tg24/stream6/streamPlaylist.m3u8:Sky TG24 (720p)
 #DESCRIPTION Sky TG24 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/teleticinolive/chunklist_w490907423.m3u8:TeleTicino (360p)
@@ -523,6 +529,28 @@
 #DESCRIPTION Canale 21 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/Rete55/R55.stream_source/chunklist_w1589253402.m3u8:Rete 55 (576p)
 #DESCRIPTION Rete 55 (576p)
+#SERVICE 1:64:22:0:0:0:0:0:0:0:
+#DESCRIPTION France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6002/main
+#DESCRIPTION France2 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6003/main
+#DESCRIPTION France3 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6014/main
+#DESCRIPTION France4 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6005/main
+#DESCRIPTION France5 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6006/main
+#DESCRIPTION M6 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6004/main
+#DESCRIPTION LCI (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6010/main
+#DESCRIPTION TMC (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6017/main
+#DESCRIPTION C Star(720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6009/main
+#DESCRIPTION W9 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6015/main
+#DESCRIPTION BFM (720p)
 #SERVICE 1:64:9:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.200.1/stream.m3u8:Das Erste (576p)
