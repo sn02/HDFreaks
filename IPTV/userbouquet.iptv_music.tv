@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 28.12.2016
+#DESCRIPTION Update 28/2.12.2016
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
@@ -149,12 +149,6 @@
 #DESCRIPTION Clubbing Music TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nodeb.gocaster.net%3a1935/CGL/_definst_/mp4%3aTODAYFM_TEST2/live.m3u8:Top Music-CityTV 18+ (288p)
 #DESCRIPTION Top Music-CityTV 18+ (288p)
-#SERVICE 1:0:16:0:0:0:0:0:0:0:http%3a//iptv.akado-ural.ru%3a11135:Brigde (576p)
-#DESCRIPTION Brigde (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//iptv.akado-ural.ru%3a11118:Brigde (576p)
-#DESCRIPTION Brigde Classic (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//iptv.akado-ural.ru%3a11172:Brigde (576p)
-#DESCRIPTION Brigde Dance (576p)
 #SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mcm_top/playlist.m3u8:MCM TOP (576p)
 #DESCRIPTION MCM TOP (576p)
 #SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/vh1_classic/playlist.m3u8:VH1 Classic(576p)
@@ -189,8 +183,6 @@
 #DESCRIPTION RTI Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru/btv/tntmusic/type/user/devname/LG-SmartTV/devid/LG-1469013493/eol/20200101T0000/hash/31f1cdfc91072d63a48690432c5baf7c6163c352/playlist.m3u8:THT Music (578p)
 #DESCRIPTION THT Music (578p)
-#SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//193.151.192.18%3a9187: Dange TV (578p
-#DESCRIPTION Dange TV (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//144.76.2.213%3a1935/live/livestream/playlist.m3u8:MAD Music (578p
 #DESCRIPTION MAD Music (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza.no-ip.org%3a1935/tv/smil%3abox.smil/playlist.m3u8:BOX Music (576p)
