@@ -163,7 +163,7 @@
 #DESCRIPTION Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream007.gotv.at%3a1935/live/gotvlive_576p/chunklist_w588571373.m3u8:GoTV (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
 #DESCRIPTION GoTV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//highvolume03.streampartner.nl/vleugels_hd6/livestream/chunklist_w1167602799.m3u8:XITE DE (1080p)
 #DESCRIPTION XITE DE (1080p)
