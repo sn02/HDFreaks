@@ -149,7 +149,6 @@
 #DESCRIPTION Clubbing Music TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nodeb.gocaster.net%3a1935/CGL/_definst_/mp4%3aTODAYFM_TEST2/live.m3u8:Top Music-CityTV 18+ (288p)
 #DESCRIPTION Top Music-CityTV 18+ (288p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mcm_top/master.m3u8:MCM TOP (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//155.4.160.181%3a1935/fjwebb/live/playlist.m3u8:14TV Music Schweden (720p)
 #DESCRIPTION 14TV Music Schweden (720p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mcm_top/chunks.m3u8:MCMTop (576p)
