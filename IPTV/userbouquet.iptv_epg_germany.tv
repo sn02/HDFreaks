@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch mit EPG
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 22.12.2016
+#DESCRIPTION Update 01.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:6DCA:44D:1:C00000:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_2692_av-b.m3u8?sd=10&rebase=on:Das Erste (540p)
@@ -41,7 +41,7 @@
 #DESCRIPTION RIC (396p)
 #SERVICE 4097:0:1:3336:45B:1:C00000:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
-#SERVICE 4097:0:1:332F:45B:1:C00000:0:0:0:http%3a//www.iptvsaga.com/play/tv3/0123.m3u8:Welt der Wunder (480p)
+#SERVICE 4097:0:1:332F:45B:1:C00000:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w2091944134.m3u8:Welt der Wunder (480p)
 #DESCRIPTION Welt der Wunder (480p)
 #SERVICE 4097:0:1:7035:41B:1:C00000:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1456_av-b.m3u8?sd=10&dw=0&rebase=on:Phoenix (480p)
 #DESCRIPTION Phoenix (480p)

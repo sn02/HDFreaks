@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 23.12.2016
+#DESCRIPTION Update 01.01.2017
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -81,7 +81,7 @@
 #DESCRIPTION NRW.TV (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tectime.iptv-playoutcenter.de%3a1935/tectime/tectime.stream_hbb/playlist.m3u8:Tectime TV (720p)
 #DESCRIPTION Tectime TV (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.iptvsaga.com/play/tv3/0123.m3u8:Welt der Wunder (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w2091944134.m3u8:Welt der Wunder (480p)
 #DESCRIPTION Welt der Wunder (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
