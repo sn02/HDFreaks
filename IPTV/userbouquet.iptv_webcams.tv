@@ -507,7 +507,7 @@
 #DESCRIPTION Webcam: Slovenien - HE Krsko
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//cdn-01.whatsupcams.com/live/si_mostnasoci:Webcam%3a Slowenien - Most na Soči - Pogled na jezero
 #DESCRIPTION Webcam: Slowenien - Most na Soči - Pogled na jezero
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video5.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
 #DESCRIPTION Webcam: VAE - Dubai Palme-Skyline
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Tiere - Natur
 #DESCRIPTION Tiere - Natur
