@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 01.01.2017
+#DESCRIPTION Update 03.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -19,15 +19,15 @@
 #DESCRIPTION Brazzer (576p) KrasTV
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/hustlerhd:Hustler HD (720p)
 #DESCRIPTION Hustler HD (720p) KrasTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/026/chunks.m3u8:PornTV 1HD(480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/027/chunks.m3u8:PornTV 1HD(480p)
 #DESCRIPTION PornTV 1 HD(480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/026/chunks.m3u8:PornTV 2HD(480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/027/chunks.m3u8:PornTV 2HD(480p)
 #DESCRIPTION PornTV 2 HD(480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3026/chunks.m3u8:PornTV 2HD(480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3027/chunks.m3u8:PornTV 2HD(480p)
 #DESCRIPTION PornTV 3 HD(480p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7373/171/master.m3u8:Hustler (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7373/171/playlist.m3u8:Hustler (576p)
 #DESCRIPTION Hustler (576p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7373/152/master.m3u8:Brazzer Europa (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7373/152/playlist.m3u8:Brazzer Europa (576p)
 #DESCRIPTION Brazzer Europa (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:PornTV Russia (720p)
 #DESCRIPTION PornTV Russia (720p)
