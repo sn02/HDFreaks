@@ -517,31 +517,4 @@
 #DESCRIPTION Webcam: Vogelcam - Kakk
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas/playlist.m3u8:Webcam%3a Vogelcam - Kalakotkas
 #DESCRIPTION Webcam: Vogelcam - Kalakotkas
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kalakotkas2/playlist.m3u8:Webcam%3a Vogelcam - Kalakotkas2
-#DESCRIPTION Webcam: Vogelcam - Kalakotkas2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/merikotkas/playlist.m3u8:Webcam%3a Vogelcam - Merikotkas
-#DESCRIPTION Webcam: Vogelcam - Merikotkas
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/must-toonekurg/playlist.m3u8:Webcam%3a Vogelcam - Must-Toonekurg
-#DESCRIPTION Webcam: Vogelcam - Must-Toonekurg
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/hyljes/playlist.m3u8:Webcam%3a Hyljes
-#DESCRIPTION Webcam: Hyljes
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/kasmu/playlist.m3u8:Webcam%3a Kasmu
-#DESCRIPTION Webcam: Kasmu
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//193.40.133.138/live/mager/playlist.m3u8:Webcam%3a Mager
-#DESCRIPTION Webcam: Mager
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3awil-safari-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 1
-#DESCRIPTION Webcam: Afrika - SAFARI TV 1
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//209.95.38.34%3a1935/rtsp-distribution/mp4%3aart-cam-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 2
-#DESCRIPTION Webcam: Afrika - SAFARI TV 2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/id/id.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 3
-#DESCRIPTION Webcam: Afrika - SAFARI TV 3
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/nk/nk.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 4
-#DESCRIPTION Webcam: Afrika - SAFARI TV 4
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/tm/tm.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 5
-#DESCRIPTION Webcam: Afrika - SAFARI TV 5
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/na/na.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 6
-#DESCRIPTION Webcam: Afrika - SAFARI TV 6
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.africam.com/rc/rc.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 7
-#DESCRIPTION Webcam: Afrika - SAFARI TV 7
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3atau-lodge-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 8
-#DESCRIPTION Webcam: Afrika - SAFARI TV 8
+
