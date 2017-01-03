@@ -1,6 +1,6 @@
 #NAME IPTV Turkish
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 11.11.2016
+#DESCRIPTION Update 03.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::GENEL
 #DESCRIPTION GENEL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
@@ -68,7 +68,7 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/live/tarimturktv/chunklist_w1187159501.m3u8:Tarim Turk TV (272p)
 #DESCRIPTION Tarim Turk TV (272p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ms.n1.tvkur.noccdn.com/cdn/540ea58191866/playlist.m3u8:Ziraat TV (480P)
-#DESCRIPTION Ziraat TV (480P)
+#DESCRIPTION Ziraat TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Türk (576p)
 #DESCRIPTION TRT Türk (576p)
 #SERVICE 1:64:3:0:0:0:0:0:0:0::SPOR
