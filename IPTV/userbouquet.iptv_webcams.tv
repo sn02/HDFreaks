@@ -1,6 +1,6 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 16.10.2016
+#DESCRIPTION Update 03.01.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live: Ö3 Live (Geduld - dauert etwas)
@@ -545,9 +545,3 @@
 #DESCRIPTION Webcam: Afrika - SAFARI TV 7
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//206.190.152.218%3a1935/rtsp-distribution/mp4%3atau-lodge-01.stream/playlist.m3u8:Webcam%3a Afrika - SAFARI TV 8
 #DESCRIPTION Webcam: Afrika - SAFARI TV 8
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv78_720p.stream:Webcam%3a Zürich - Zoo Cam 1
-#DESCRIPTION Webcam: Zürich - Zoo Cam 1
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv78b_720p.stream:Webcam%3a Zürich - Zoo Cam 2
-#DESCRIPTION Webcam: Zürich - Zoo Cam 2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.livespotting.tv/windit-edge/vv23_720p.stream:Webcam%3a Zürich - Zoo Cam 3
-#DESCRIPTION Webcam: Zürich - Zoo Cam 3
