@@ -159,7 +159,7 @@
 #DESCRIPTION VH1 (576p)
 #SERVICE 4097:0:19:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7373/628/master.m3u8:Mezzo HD(576p)
 #DESCRIPTION Mezzo HD (1080p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/fashion/master.m3u8:Fashion Films (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.118.116.84%3a80/fasiontv/index.m3u8:Fashion Films (576p)
 #DESCRIPTION Fashion Films (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mtv_russia/master.m3u8:MTV RUS (576p)
 #DESCRIPTION MTV RUS (576p)
