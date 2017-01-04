@@ -1,16 +1,18 @@
 #NAME IPTV Deutsch
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 01.01.2017
+#DESCRIPTION Update 04.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/master.m3u8:Sky Sport News (720p)
+#DESCRIPTION Sky Sport News (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (540p)
 #DESCRIPTION Das Erste (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF HD (720p)
 #DESCRIPTION ZDF HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR HD (720p)
 #DESCRIPTION WDR HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_5_av-p.m3u8?sd=10&rebase=on:ARTE HD (720p)
-#DESCRIPTION ARTE HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_2_av-b.m3u8:ARTE HD (720p)
+#DESCRIPTION ARTE HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1056_av-p.m3u8?sd=10&rebase=on:3sat (480p)
 #DESCRIPTION 3sat (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE HD (720p)
