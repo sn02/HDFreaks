@@ -568,7 +568,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=7322.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/dc/nationalmall/?cam=nationalmall:Webcam%3a USA - Washington D.C - National Mall Cam
 #DESCRIPTION Webcam: USA - Washington D.C - National Mall Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=6954.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/wyoming/jackson/:Webcam%3a USA - Wyoming - Jackson Hole Ca
-#DESCRIPTION Webcam: USA - Wyoming - Jackson Hole Ca
+#DESCRIPTION Webcam: USA - Wyoming - Jackson Hole
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Sonstige
 #DESCRIPTION Sonstige
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8:Webcam%3a NASA TV
@@ -621,10 +621,6 @@
 #DESCRIPTION Webcam: NL - Amersfoort Tierpark 3
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtsp%3a//streaming3.webcam.nl%3a1935/amersfoort4/amersfoort4.stream:Webcam%3a NL - Amersfoort Tierpark 4
 #DESCRIPTION Webcam: NL - Amersfoort Tierpark 4
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//193.40.133.138/live playpath=kasmu swfUrl=http%3a//www.eenet.ee/EENet/assets/site/player.swf pageUrl=http%3a//www.eenet.ee/EENet/kasmu.html :Webcam%3a Estland - Kasmu
-#DESCRIPTION Webcam: Estland - Kasmu
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//193.40.133.138/live playpath=kasmu swfUrl=http%3a//www.eenet.ee/EENet/assets/site/player.swf pageUrl=http%3a//www.eenet.ee/EENet/kasmu.html live=1:Webcam%3a Estland - Kasmu - Ostseekueste
-#DESCRIPTION Webcam: Estland - Kasmu - Ostseekueste
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee/tlnzoo playpath=cam1286 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/oja.html:Webcam%3a Estland - Tallinn - Zoo Amur-Leopard I
 #DESCRIPTION Webcam: Estland - Tallinn - Zoo Amur-Leopard I
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee%3a80/tlnzoo playpath=cam7626 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/kannu.html:Webcam%3a Estland - Tallinn - Zoo Amur-Leopard II
@@ -632,7 +628,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee/tlnzoo2 playpath=cam8189 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/lume1.html:Webcam%3a Estland - Tallinn - Zoo Schneeleopard I
 #DESCRIPTION Webcam: Estland - Tallinn - Zoo Schneeleopard I
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee/tlnzoo2 playpath=cam2937 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/lume2.html:Webcam%3a Estalnd - Tallinn - Zoo Schneeleopard II
-#DESCRIPTION Webcam: Estalnd - Tallinn - Zoo Schneeleopard II
+#DESCRIPTION Webcam: Estland - Tallinn - Zoo Schneeleopard II
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee/tlnzoo2 playpath=cam1618 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/lume3.html:Webcam%3a Estland - Tallinn - Zoo Schneeleopard III 
 #DESCRIPTION Webcam: Estland - Tallinn - Zoo Schneeleopard III 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp1.digisilm.ee/tlnzoo3 playpath=cam4880 swfUrl=http%3a//www.interactivezoo.eu/player.swf pageUrl=http%3a//www.interactivezoo.eu/elevant1.html:Webcam%3a Estland - Tallinn - Zoo Elephant I
