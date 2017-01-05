@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 01.01.2017
+#DESCRIPTION Update 05.01.2017
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -43,8 +43,8 @@
 #DESCRIPTION ZDF HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR HD (720p) 
 #DESCRIPTION WDR HD (720p) 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_2_av-b.m3u8:ARTE HD (720p)
-#DESCRIPTION ARTE HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_2_av-b.m3u8:ARTE HD (540p)
+#DESCRIPTION ARTE HD (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1056_av-p.m3u8?sd=10&rebase=on:3sat (480p)
 #DESCRIPTION 3sat (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE HD (720p)
