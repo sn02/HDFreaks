@@ -9,24 +9,30 @@
 #DESCRIPTION KANAL D (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//foxtv-i.mncdn.com/foxtv/foxtv3/playlist.m3u8:Fox Turk TV (720p)
 #DESCRIPTION Fox HD TV (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.gostream.nl/kanal7hq/kanal7hq.m3u8:Kanal 7 HD (400p)
-#DESCRIPTION Kanal 7 HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.netd.com.tr/S2/HLS_LIVE/tv2/playlist.m3u8:TV2 (576p)
 #DESCRIPTION TV2 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.77.2.236%3a1935/beyaz/beyaz.stream/playlist.m3u8:Beyaz TV (360p)
 #DESCRIPTION Beyaz TV (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//184.173.181.2%3a1935/8158/8158/chunklist_w1108112917.m3u8:Flash TV (240p)
-#DESCRIPTION Flash TV (560p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//kanal-avrupalivefs.fplive.net/kanal-avrupalive-live/_definst_/stream1:Kanal Avrupa (576p)
-#DESCRIPTION Kanal Avrupa (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tvem.netmedya.org%3a1935/tvem/smil%3atvem.smil/chunklist_w752772889_b540000_sleng.m3u8:TV Em (360p)
-#DESCRIPTION TV Em (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/index_1500_av-b.m3u8:TRT Haber (576p)
+#DESCRIPTION TRT Haber (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/index_1500_av-p.m3u8:TRT Belgesel (576p)
+#DESCRIPTION TRT Belgesel (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/index_1000_av-b.m3u8:TRT Okul (576p)
+#DESCRIPTION TRT Okul (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/index_1000_av-b.m3u8:TRT Türk (576p)
+#DESCRIPTION TRT Türk (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1500_av-p.m3u8:TRT Spor HD (720p)
+#DESCRIPTION TRT Spor HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/index_1000_av-b.m3u8:TRT Cocuk (576p)
+#DESCRIPTION TRT Cocuk (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/index_1000_av-b.m3u8:TRT Müzik (576p)
+#DESCRIPTION TRT Müzik (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTDIYANET_1@182344/index_1200_av-b.m3u8?sd=10&rebase=on:TRT Diyanet (576p)
+#DESCRIPTION TRT Diyanet (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.77.2.236%3a1935/ucak/ucak.stream/playlist.m3u8:Ucankus (240p)
 #DESCRIPTION Ucankus (1080p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0::HABER
 #DESCRIPTION HABER
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/index_1500_av-b.m3u8?sd=10&rebase=on:TRT Haber (576p)
-#DESCRIPTION TRT Haber (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_haber/tgrt1/chunklist_w1549600606.m3u8:TGRT Haber (1080p)
 #DESCRIPTION TGRT Haber (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8:CNN Turk (576p)
@@ -43,12 +49,8 @@
 #DESCRIPTION Istanbul TV (720p)
 #SERVICE 1:64:2:0:0:0:0:0:0:0::BELGESEL
 #DESCRIPTION BELGESEL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/index_1500_av-p.m3u8:TRT Belgesel (576p)
-#DESCRIPTION TRT Belgesel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_belgesel/tgrt1/master.m3u8:TGRT Belgesel (576p)
 #DESCRIPTION TGRT Belgesel (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTOKUL_1@182245/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Okul (576p)
-#DESCRIPTION TRT Okul (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/live1/yabantv/chunklist_w785852069.m3u8:Yaban TV (576p)
 #DESCRIPTION Yaban TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.arkumedia.com%3a1935/avtv/avtv/chunklist_w996075910.m3u8:AV TV (480p)
@@ -57,12 +59,8 @@
 #DESCRIPTION Bereket TV (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ms.n1.tvkur.noccdn.com/cdn/540ea58191866/playlist.m3u8:Ziraat TV (480P)
 #DESCRIPTION Ziraat TV (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Türk (576p)
-#DESCRIPTION TRT Türk (576p)
 #SERVICE 1:64:3:0:0:0:0:0:0:0::SPOR
 #DESCRIPTION SPOR
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/index_1500_av-p.m3u8:TRT Spor HD (720p)
-#DESCRIPTION TRT Spor HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.sportstv.com.tr/sportstv/SportsTV3/chunklist_w827652523.m3u8:Sports Canli TV (488p)
 #DESCRIPTION Sports Canli TV (488p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.yayindayiz.biz/Bursaspor/bursaspor/chunklist.m3u8:Bursa Spor (480p)
@@ -75,8 +73,6 @@
 #DESCRIPTION TJK TV (576p)
 #SERVICE 1:64:4:0:0:0:0:0:0:0::COCUK
 #DESCRIPTION COCUK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Cocuk (576p)
-#DESCRIPTION TRT Cocuk (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/canlitv/disney/chunklist_w895596308.m3u8?hash=ed5dfe748049be021915038dac0f4088:Disney Channel (256p)
 #DESCRIPTION Disney Channel (256p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//yayin3.canlitv.com%3a1935/canlitv/minikacocuk/chunklist_w66617662.m3u8?hash=ed5dfe748049be021915038dac0f4088:Minika Cocuk (576p)
@@ -87,8 +83,6 @@
 #DESCRIPTION Kanal 4 (360p)
 #SERVICE 1:64:5:0:0:0:0:0:0:0::MÜZIK
 #DESCRIPTION MÜZIK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/index_1000_av-b.m3u8?sd=10&rebase=on:TRT Müzik (576p)
-#DESCRIPTION TRT Müzik (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kraldigital.radyotvonline.com/kraldigital/smil%3aakustiktv.smil/playlist.m3u8?token=28f874b6b348bd9ece56f263d7515b9620e6c9baf355d178:KRAL AKUSTIK TV (360p)
 #DESCRIPTION KRAL AKUSTIK TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kraldigital.radyotvonline.com/kraldigital/smil%3akonsertv.smil/playlist.m3u8?token=340278454773acfaa15c381f575b0fee30af0daf0fc1bfee:KRAL POP KONSER TV (360p)
@@ -113,8 +107,6 @@
 #DESCRIPTION Number One TV (270p)
 #SERVICE 1:64:6:0:0:0:0:0:0:0::DINI
 #DESCRIPTION DINI
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTDIYANET_1@182344/index_1200_av-b.m3u8?sd=10&rebase=on:TRT Diyanet (576p)
-#DESCRIPTION TRT Diyanet (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//semerkandglb.mediatriple.net%3a1935/semerkandliveedge/semerkand1/HasBahCa.m3u8:Semerkand (360p)
 #DESCRIPTION Semerkand (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//yayin.dosttv.com/dosttv/dosttv2:Dost TV (240p)
