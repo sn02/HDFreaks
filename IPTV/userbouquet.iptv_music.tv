@@ -153,6 +153,8 @@
 #DESCRIPTION 14TV Music Schweden (720p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mcm_top/track_2_1500/playlist.m3u8:MCMTop (576p)
 #DESCRIPTION MCMTop (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//85.1.247.100%3a9000/play/a07a:MCM POP (576p)
+#DESCRIPTION MCM POP (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/vh1_classic/track_2_1500/playlist.m3u8:VH1 Classic (576p)
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7575/104/playlist.m3u8:VH1  (576p)
