@@ -1,12 +1,22 @@
 #NAME IPTV Russia
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 03.01.2017 
+#DESCRIPTION Update 10.01.2017
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//freestream.c3p0.website/hls/first.m3u8:das Erste (400p)
+#DESCRIPTION Das Erste (400p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3arhd.smil/chunklist_b1600000.m3u8:Russia 1 (576p)
 #DESCRIPTION Russia 1 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3ar24.smil/chunklist_b800000.m3u8:Russia 24 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.kaban.tv/hls/rus24.m3u8:Russia 24 (576p)
 #DESCRIPTION Russia 24 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_ROSSIAK/variant.m3u8?version=2:Russia Kultura (576p)
 #DESCRIPTION Russia Kultura (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/k1/stream.m3u8:K1 (576p)
+#DESCRIPTION K1 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/k2/stream.m3u8:K2 (576p)
+#DESCRIPTION K2 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/football/stream.m3u8:Football (576p)
+#DESCRIPTION Football HD (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//iptv.maximuma.net/tonis:Tonis HD (576p)
+#DESCRIPTION Tonis (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000/variant.m3u8?version=2:TV 1000(576p)
 #DESCRIPTION TV 1000 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000ACTION/variant.m3u8?version=2:TV 1000 Action(576p)
