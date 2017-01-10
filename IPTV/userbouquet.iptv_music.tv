@@ -151,6 +151,8 @@
 #DESCRIPTION Top Music-CityTV 18+ (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//155.4.160.181%3a1935/fjwebb/live/playlist.m3u8:14TV Music Schweden (720p)
 #DESCRIPTION 14TV Music Schweden (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.118.116.84%3a80/fasiontv/index.m3u8:Fashiom Films (578p)
+#DESCRIPTION Fashion Films (578p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//85.1.247.100%3a9000/play/a07a:MCM POP (576p)
 #DESCRIPTION MCM POP (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//37.235.251.38%3a81/udp/225.50.64.17%3a1234:MCM TOP(576p)
