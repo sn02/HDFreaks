@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 02.01.2017
+#DESCRIPTION Update 10.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -249,6 +249,8 @@
 #DESCRIPTION ZONA M Moldavia (576p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamer01.infoview.tv%3a8080/Trace_TV/index.m3u8:Trace Urban (576p)
+#DESCRIPTION Trace Urban (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:EU Music (576p)
 #DESCRIPTION EU Music(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=215&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:AONE (576p)
