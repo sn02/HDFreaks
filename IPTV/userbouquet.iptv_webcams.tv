@@ -237,7 +237,7 @@
 #DESCRIPTION Webcam: Wuppertal - Barmenia
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv70.stream/master.m3u8:Webcam%3a Würzburg - Hotel Alter Kranen
 #DESCRIPTION Webcam: Würzburg - Hotel Alter Kranen
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net%3a443/osltv3/zinnowitz.stream/master.m3u8:Webcam%3a Zinnowitz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//edge30.fms.stream24.net/osltv3/_definst_/mp4%3azinnowitz.stream/master.m3u8:Webcam%3a Zinnowitz
 #DESCRIPTION Webcam: Zinnowitz
 #SERVICE 1:64:E:0:0:0:0:0:0:0::Europa
 #DESCRIPTION Europa
