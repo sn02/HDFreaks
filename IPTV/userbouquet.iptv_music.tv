@@ -259,7 +259,7 @@
 #DESCRIPTION VH1 (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.196.149.76%3a80/m1/stream.m3u8:M1 (576p)
 #DESCRIPTION M1(576p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.196.149.76/m2%3a80/stream.m3u8:M2 (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.196.149.76%3a80/m2/stream.m3u8:M2 (576p)
 #DESCRIPTION M2(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
