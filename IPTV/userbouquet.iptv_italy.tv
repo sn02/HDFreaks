@@ -1,18 +1,24 @@
 #NAME IPTV Italy
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 05.01.2017
+#DESCRIPTION Update 13.01.2017
 #SERVICE 1:64:8:0:0:0:0:0:0:0:
 #DESCRIPTION Italy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1800_av-p.m3u8:Rai News (404p)
 #DESCRIPTION Rai News (404p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live02.cdn.web.tv/live/a3be8da5ba57ddb33ada9fa8fcd53a19/index.m3u8:Rai 1 (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream14.rai.it/italy/smil%3arai1.smil/chunklist_b1200000.m3u8:Rai 1 (404p)
 #DESCRIPTION Rai 1 (404p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live02.cdn.web.tv/live/84553722f218dda44aab91b4ae0c2d42/index.m3u8:Rai 2 (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream14.rai.it/italy/smil%3arai2.smil/chunklist_b1200000.m3u8:Rai 2 (404p)
 #DESCRIPTION Rai 2 (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream14.rai.it/italy/smil%3arai3.smil/chunklist_b1200000.m3u8:Rai 3 (404p)
+#DESCRIPTION Rai 3 (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream14.rai.it/italy/rai4new.smil/master.m3u8:Rai 4 (352p)
 #DESCRIPTION Rai 4 (352p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2.stream12.rai.it/live/rai5.smil/chunklist_b1200000.m3u8:Rai 5 (352p)
 #DESCRIPTION Rai 5 (352p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream12.rai.it/italy/raisport1_1200/chunklist.m3u8:Rai Sport1 (404p)
+#DESCRIPTION Rai Sport1 (404p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//originstream12.rai.it/italy/raisport2_1200/chunklist.m3u8:Rai Sport2 (404p)
+#DESCRIPTION Rai Sport2 (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/index_1200_av-p.m3u8?sd=10&rebase=on:Rai Movie (576p)
 #DESCRIPTION Rai Movie (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/index_1200_av-b.m3u8?sd=10&rebase=on:Rai Premium (352p)
