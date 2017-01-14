@@ -11,7 +11,7 @@
 #DESCRIPTION Kronehit (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/beats_1/playlist.m3u8:Beatz HD (720p)
 #DESCRIPTION Beatz HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-02.mivitec.net/live/smil%3atest.smil/chunklist_w628323399_b1740814_slDE.m3u8:Deluxe Music (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-02.mivitec.net/live/smil%3atest.smil/chunklist_w902181293_b879931_slDE.m3u8:Deluxe Music (576p)
 #DESCRIPTION Deluxe Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.djing.com/tv/04.m3u8:Djing E-Music HD (540p)
 #DESCRIPTION Djing E-Music HD (540p)
