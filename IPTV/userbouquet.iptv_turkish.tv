@@ -1,6 +1,6 @@
 #NAME IPTV Turkish
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 07.01.2017
+#DESCRIPTION Update 16.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::GENEL
 #DESCRIPTION GENEL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
@@ -11,8 +11,6 @@
 #DESCRIPTION Star TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.132.81.184%3a8080/atv/index.m3u8:ATV (576p)
 #DESCRIPTION ATV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.arkumedia.com%3a1935/biattv/biattv/chunklist_w1640982985.m3u8:Biat TV (720p)
-#DESCRIPTION Biat TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//foxtv-i.mncdn.com/foxtv/foxtv3/playlist.m3u8:Fox Turk TV (720p)
 #DESCRIPTION Fox HD TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/index_1500_av-b.m3u8:TRT Haber (576p)
@@ -53,6 +51,8 @@
 #DESCRIPTION Es TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.netd.com.tr/S2/HLS_LIVE/tv2/playlist.m3u8:TV2 (576p)
 #DESCRIPTION TV2 (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.arkumedia.com%3a1935/biattv/biattv/chunklist_w1640982985.m3u8:Biat TV (720p)
+#DESCRIPTION Biat TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.77.2.236%3a1935/beyaz/beyaz.stream/playlist.m3u8:Beyaz TV (360p)
 #DESCRIPTION Beyaz TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream2.taksimbilisim.com%3a1935/drt/smil%3adrt.smil/iptvdelisi.m3u8:Denizli (360p)
