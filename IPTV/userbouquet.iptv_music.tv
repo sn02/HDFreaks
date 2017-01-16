@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 14.01.2017
+#DESCRIPTION Update 15.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -253,15 +253,11 @@
 #DESCRIPTION M1(576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
 #DESCRIPTION M2(576p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.226.137.176%3a8080/MTVMUSIC/mpegts:MTV Music (578p)
-#DESCRIPTION MTV Music (578p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.226.137.176%3a8080/MTVHITS/mpegts:MTV Hits (578p)
-#DESCRIPTION MTV Hits (578p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.226.137.176%3a8080/MTVROCKS/mpegts:MTV Rocks (578p)
-#DESCRIPTION MTV Rocks (578p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.226.137.176%3a8080/MTVDANCE/mpegts:MTV Dance (578p)
-#DESCRIPTION MTV Dance (578p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.226.137.176%3a8080/VH1/mpegts:VH1 (578p)
-#DESCRIPTION VH1 (578p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//84.227.62.211%3a9000/play/a033:MCM POP (576p)
+#DESCRIPTION MCM POP (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//84.227.62.211%3a9000/play/a01a:Trace Urban (576p)
+#DESCRIPTION Trace Urban (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//93.91.240.195%3a1234/udp/239.196.0.111%3a1234:Rebell (576p)
+#DESCRIPTION Rebell (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
