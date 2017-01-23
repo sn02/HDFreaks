@@ -1,6 +1,6 @@
 #NAME IPTV Turkish
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 16.01.2017
+#DESCRIPTION Update 23.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::GENEL
 #DESCRIPTION GENEL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
@@ -59,6 +59,16 @@
 #DESCRIPTION Denizli (270p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.77.2.236%3a1935/ucak/ucak.stream/playlist.m3u8:Ucankus (240p)
 #DESCRIPTION Ucankus (1080p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//win8.yayin.com.tr/haber61tv/smil%3ahaber61tv.smil/playlist.m3u8:haber61tv (1080p)
+#DESCRIPTION Haber 61tv (1080p) 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.linuxhosting.gen.tr%3a1935/metrotv/metrotv/master.m3u8:Metro (380)
+#DESCRIPTION Metro (380)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//184.173.181.2%3a1935/8158/8158/playlist.m3u8:Flash Tv (800p)
+#DESCRIPTION Flash Tv (500p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//1.rtmp.org/tv117/yayin.stream/playlist.m3u8:Fortuna TV (720p)
+#DESCRIPTION Fortuna TV (720p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.135.142.60%3a1935/tv10/xetero/master.m3u8:TV10 (720p)
+#DESCRIPTION TV10 (720p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0::HABER
 #DESCRIPTION HABER
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.streamencoding.com%3a1935/tgrt_haber/tgrt1/chunklist_w1549600606.m3u8:TGRT Haber (1080p)
