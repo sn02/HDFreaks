@@ -249,6 +249,8 @@
 #DESCRIPTION AONE(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//46.172.110.57%3a8082/BridgeTV/mpegts:Bridge (576p)
 #DESCRIPTION Bridge (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a37.235.171.201%3a81/udp/225.50.64.26%3a1234:Bridge Dange (576p)
+#DESCRIPTION Bridge Dange (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=87:M1 (576p)
 #DESCRIPTION M1(576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
