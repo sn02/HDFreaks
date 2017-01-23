@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 15.01.2017
+#DESCRIPTION Update 23.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -229,8 +229,8 @@
 #DESCRIPTION MixTV Music (360p)Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
 #DESCRIPTION Muzzone 480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.222.53.72/master_951.m3u8:Retro Music (480p)
-#DESCRIPTION Retro Music (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.79.96.134%3a8018:Retro Music (576p)
+#DESCRIPTION Retro Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//archlinux.frigola.cat%3a8080/mola/directe.m3u8:Mola MusicTV (720p)
