@@ -229,7 +229,7 @@
 #DESCRIPTION MixTV Music (360p)Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
 #DESCRIPTION Muzzone 480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.79.96.134%3a8018:Retro Music (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//212.79.96.134%3a8018:Retro Music (576p)
 #DESCRIPTION Retro Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
