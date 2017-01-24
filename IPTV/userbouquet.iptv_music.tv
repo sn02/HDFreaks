@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 23.01.2017
+#DESCRIPTION Update 24.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -239,6 +239,18 @@
 #DESCRIPTION Outdoor TV (1080p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:rtmp%3a//tv.simpalsmedia.com/playmd/d2dae479-149c-4762-8e8b-056872f441f6:ZONA M Moldavia (576p)
 #DESCRIPTION ZONA M Moldavia (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8:TIGOMusic (720p)
+#DESCRIPTION TIGOMusic (720p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TREN/tu1_1.m3u8:Trendy (480p)
+#DESCRIPTION Trendy (480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.streaming507.com%3a1935/TVBlast/TVBlast/master.m3u8:BlastTV (480p)
+#DESCRIPTION BlastTV (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/CANT/tu1_1.m3u8:Cantinazo (480p)
+#DESCRIPTION Cantinazo (480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8:Radio Capital TV (360p)
+#DESCRIPTION Radio Capital TV (360p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server5.stweb.tv/radioone/live/playlist.m3u8:ONE (720p)
+#DESCRIPTION ONE (720p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361:EU Music (576p)
@@ -255,6 +267,8 @@
 #DESCRIPTION M1(576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
 #DESCRIPTION M2(576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.58.139.65%3a8888/MTVDance:MTV Dance (576p)
+#DESCRIPTION MTV Dance (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//62.210.101.62%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (578p)
 #DESCRIPTION MTV Hits (578p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//62.210.101.62%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
