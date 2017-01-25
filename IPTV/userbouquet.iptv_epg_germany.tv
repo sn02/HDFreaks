@@ -9,7 +9,7 @@
 #DESCRIPTION ZDF (720p)
 #SERVICE 4097:0:1:6D67:437:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1496_av-b.m3u8:3sat (480p)
 #DESCRIPTION 3sat (480p)
-#SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:https%3a//artelivessl-i.akamaihd.net/hls/live/262216/artelive_de/master_720.m3u8:ARTE (540p)
+#SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8 (540p)
 #DESCRIPTION ARTE (540p)
 #SERVICE 4097:0:1:7032:41B:1:C00000:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE (720p)
 #DESCRIPTION ONE (720p)
@@ -67,4 +67,3 @@
 #DESCRIPTION SERVUS TV HD AT (720p)
 #SERVICE 4097:0:1:33A7:3EB:1:C00000:0:0:0:http%3a//91.222.53.72/master_4490.m3u8:ATV2 (404p)
 #DESCRIPTION ATV2 (404p)
-

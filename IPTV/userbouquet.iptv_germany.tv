@@ -13,8 +13,8 @@
 #DESCRIPTION WDR HD (720p)
 #SERVICE 4097:0:1:6D67:437:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1496_av-b.m3u8:3sat (480p)
 #DESCRIPTION 3sat (480p)
-#SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:https%3a//artelivessl-i.akamaihd.net/hls/live/262216/artelive_de/master_720.m3u8:ARTE (540p)
-#DESCRIPTION ARTE (540p)
+#SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8:arte
+#DESCRIPTION ARTE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE HD (720p)
 #DESCRIPTION ONE HD (720p)
 #SERVICE 4097:0:1:6D6B:437:1:C00000:0:0:0:https%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-b.m3u8:ZDF Info (720p)
@@ -113,4 +113,3 @@
 #DESCRIPTION TeleBärn (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/tvo/chunklist_w1834948505.m3u8:TVO (404p)
 #DESCRIPTION TVO (404p)
-
