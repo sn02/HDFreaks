@@ -255,6 +255,8 @@
 #DESCRIPTION 4 Music (280p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//178.165.93.160%3a34040/udp/239.2.1.43%3a1234:Fashion Music (576p)
+#DESCRIPTION Fashion Music (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361:EU Music (576p)
 #DESCRIPTION EU Music(576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=103:OTV (576p)
