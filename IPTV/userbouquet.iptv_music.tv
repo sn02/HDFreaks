@@ -251,6 +251,10 @@
 #DESCRIPTION Radio Capital TV (360p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server5.stweb.tv/radioone/live/playlist.m3u8:ONE (720p)
 #DESCRIPTION ONE (720p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream01.yamgo.com/iPhone/HLS_TS/mptslive/clubbingtv-mobile.3gp.m3u8:clubbingtv (720p)
+#DESCRIPTION ClubbingTv (720p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream01.yamgo.com/iPhone/HLS_TS/mptslive/4_music-mobile.3gp.m3u8:4 Music (280p)
+#DESCRIPTION 4 Music (280p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361:EU Music (576p)
