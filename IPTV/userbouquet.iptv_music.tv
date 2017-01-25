@@ -145,8 +145,6 @@
 #DESCRIPTION Indies-live Music (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wse.planeta-online.tv%3a1935/live/channel_4/master.m3u8:Fresh TV Music (352p)
 #DESCRIPTION Fresh TV Music (352p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream01.yamgo.com/iPhone/HLS_TS/mptslive/clubbingtv-mobile.3gp.m3u8:Clubbing Music (720p)
-#DESCRIPTION Clubbing Music TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nodeb.gocaster.net%3a1935/CGL/_definst_/mp4%3aTODAYFM_TEST2/live.m3u8:Top Music-CityTV 18+ (288p)
 #DESCRIPTION Top Music-CityTV 18+ (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//155.4.160.181%3a1935/fjwebb/live/playlist.m3u8:14TV Music Schweden (720p)
@@ -281,3 +279,4 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
+
