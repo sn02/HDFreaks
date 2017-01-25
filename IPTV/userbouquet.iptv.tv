@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 08.01.2017
+#DESCRIPTION Update 25.01.2017
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -39,19 +39,19 @@
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (540p)
 #DESCRIPTION Das Erste (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8:ZDF (720p)
 #DESCRIPTION ZDF HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR HD (720p) 
 #DESCRIPTION WDR HD (720p) 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_2_av-b.m3u8:ARTE HD (540p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//artelivessl-i.akamaihd.net/hls/live/262216/artelive_de/master_720.m3u8:ARTE (540p)
 #DESCRIPTION ARTE HD (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1056_av-p.m3u8?sd=10&rebase=on:3sat (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1496_av-b.m3u8:3sat (480p)
 #DESCRIPTION 3sat (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE HD (720p)
 #DESCRIPTION ONE HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Neo (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8:ZDF Neo (720p)
 #DESCRIPTION ZDF Neo (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3056_av-p.m3u8?sd=10&rebase=on:ZDF Info (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-b.m3u8:ZDF Info (720p)
 #DESCRIPTION ZDF Info (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/index_3776_av-p.m3u8?sd=10&rebase=on:NDR Fernsehen HD (720p)
 #DESCRIPTION NDR Fernsehen HD (720p)
@@ -87,7 +87,7 @@
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8:Tagesschau 24 HD (720p)
 #DESCRIPTION Tagesschau 24 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1456_av-p.m3u8?sd=10&dw=0&rebase=on:Phoenix (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1496_av-b.m3u8:Phoenix (480p)
 #DESCRIPTION Phoenix (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bsn246u6-i.akamaihd.net/hls/live/237201/Live2N24CMS/01.m3u8:N24 (360p)
 #DESCRIPTION N24 (360p)
