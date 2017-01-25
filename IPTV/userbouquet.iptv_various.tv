@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 03.01.2017
+#DESCRIPTION Update 25.01.2017
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (576p)
@@ -103,6 +103,30 @@
 #DESCRIPTION Enorme-tv (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ec.playmedia.fr%3a1935/om5-tv/live/master.m3u8:Om5-tv (480p)
 #DESCRIPTION Om5-tv (480p)
+#SERVICE 1:64:0:0:0:0:0:0:0:0:GREEG
+#DESCRIPTION GREEG
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//178.62.176.153%3a1935/TV100/myStream/chunklist_w2009393837.m3u8:tv100 (288p)
+#DESCRIPTION TV100 (288p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//136.243.200.184%3a1935/live/tvlive/chunklist_w1038259198.m3u8:4 Music (404p)
+#DESCRIPTION Blue Sky (404p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s2.greekelitetv.com%3a1935/alpha_sat/alpha_sat.stream/chunklist_w754813073.m3u8:AlphaSat (480p)
+#DESCRIPTION AlphaSat (480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//antglantennatv-lh.akamaihd.net/i/live_1@421307/index_1000_av-b.m3u8:ANT(720p)
+#DESCRIPTION ANT (720p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//anglantennalive5-lh.akamaihd.net/i/live_1@424766/index_700_av-p.m3u8:M.HD (720p)
+#DESCRIPTION M.HD (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s2.greekelitetv.com%3a1935/mega_cosmos/mega_cosmos.stream/chunklist_w1283227944.m3u8:MEGA Cosmos(480p)
+#DESCRIPTION MEGA Cosmos (480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//81.171.14.113/hlive/abr/l1/m1/chunks.m3u8?nimblesessionid=28088&wmsAuthSign=c2VydmVyX3RpbWU9MS8yNS8yMDE3IDg6MzM6MDcgQU0maGFzaF92YWx1ZT1tb2ZJTzRmQ2NWRmJyZ0prcDFsVFJBPT0mdmFsaWRtaW51dGVzPTY2MA==:MEGA ONE (576p)
+#DESCRIPTION MEGA ONE (432p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.ssh101.com%3a1935/live/nickelteamgreece/chunklist.m3u8:Nickelodeon (360p)
+#DESCRIPTION Nickelodeon (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//138.201.57.212%3a1935/best/myStream/chunklist_w659591430.m3u8:BEST (720p)
+#DESCRIPTION BEST (480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//zouglahd-f.akamaihd.net/i/zougla_1@56341/index_700_av-p.m3u8?sd=10&rebase=on:Zougla  (576p)
+#DESCRIPTION Zougla (360p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//euronews-live-b-cdn.hexaglobe.net/9c533ba81db8f5fac6cc3d33ce5c41c0/588851bb/euronews/ewnslivebkp_gre.smil/ewnslivebkp_gre_540p.m3u8:Euronews (576p)
+#DESCRIPTION Euronews Greeg (576p)
 #SERVICE 1:64:24:0:0:0:0:0:0:0:
 #DESCRIPTION Chech
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_zoom/playlist/cze/live_hq.m3u8:Prima ZOOM (540p)
