@@ -3,10 +3,18 @@
 #DESCRIPTION Update 25.01.2017
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.105.158%3a9000/play/a00b:Cartoon Network (576p)
-#DESCRIPTION Cartoon Network (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id33_KTR_SG--CartoonNetwork/04/plst.m3u8:Cartoon Network (480p)
-#DESCRIPTION Cartoon Network (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_TIJI/variant.m3u8?version=2:TIJI (576p)
+#DESCRIPTION TIJI (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_GULLI/variant.m3u8?version=2:GulliGirl (576p)
+#DESCRIPTION GulliGirl (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=409:DuckTV  (576p)
+#DESCRIPTION DuckTV  (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=177:Malatko TV (576p)
+#DESCRIPTION Malatko TV (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=122:PlockPlock (576p)
+#DESCRIPTION PlockPlock (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11/hls/CH_MULTIMANIYA/variant.m3u8?version=2:Multimania (576p)
+#DESCRIPTION Multimania (576p)
 #SERVICE 1:64:22:0:0:0:0:0:0:0:
 #DESCRIPTION Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on:Real Madrid TV (404p)
@@ -175,4 +183,3 @@
 #DESCRIPTION usarmenia (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/erkir.m3u8:Erkir (576p)
 #DESCRIPTION Erkir (576p)
-
