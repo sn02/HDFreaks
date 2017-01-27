@@ -183,10 +183,8 @@
 #DESCRIPTION TVM3 (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/onefmhd/playlist.m3u8:OneFM HD Music (720p)
 #DESCRIPTION OneFM HD Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//68.71.42.179/live/livestream1/playlist.m3u8:Cinestream TV Music (720p)
-#DESCRIPTION Cinestream TV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ec.playmedia.fr/mfmtv/live/master.m3u8:MFM TV Music (480p)
-#DESCRIPTION MFM TV Music (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//o98d0njv.blue.onyxservers.com/hls-live/livepkgr/_definst_/liveevent/EllinikosFM.m3u8:EllinikosFM(540p)
+#DESCRIPTION EllinikosFM (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MMHD/tu1_1.m3u8:MIMUSICA HD  (720p)
 #DESCRIPTION MIMUSICA HD  (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-l.mncdn.com/birnumaramedya_live/nr1tv.sdp/master.m3u8?sd=10&rebase=on:Number One TV (270p)
@@ -283,3 +281,4 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
+
