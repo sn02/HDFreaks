@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 28.01.2017
+#DESCRIPTION Update 29.01.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
@@ -39,6 +39,8 @@
 #DESCRIPTION RBB Berlin (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/index_3776_av-b.m3u8?sd=10&rebase=on:Kika HD (720p)
 #DESCRIPTION Kika HD (720p)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//delivestream-lh.akamaihd.net/i/live_1@320996/master.m3u8:DisneyChannel (576p)
+#DESCRIPTION DisneyChannel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
 #DESCRIPTION RIC (396p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtl2ingest1-i.akamaihd.net/hls/live/225448/playertest_ar/playertest_arstream2_.m3u8:RTL2 You (720p)
@@ -57,8 +59,8 @@
 #DESCRIPTION Tagesschau 24 HD (720p)
 #SERVICE 4097:0:1:7035:41B:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1496_av-b.m3u8:Phoenix (480p)
 #DESCRIPTION Phoenix (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/hls-live/ntvlive/ntvlive_1500.m3u8:n-tv (540p)
-#DESCRIPTION n-tv (540p)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
+#DESCRIPTION n-tv (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
