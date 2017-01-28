@@ -225,8 +225,8 @@
 #DESCRIPTION MixTV Music (360p)Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
 #DESCRIPTION Muzzone 480p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//212.79.96.134%3a8018:Retro Music (576p)
-#DESCRIPTION Retro Music (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.mediawork.cz/retrotv/retrotvHQ1:Retro Music (360p)
+#DESCRIPTION Retro Music (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//archlinux.frigola.cat%3a8080/mola/directe.m3u8:Mola MusicTV (720p)
@@ -281,4 +281,3 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
-
