@@ -275,6 +275,8 @@
 #DESCRIPTION MTV Rocks (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//91.149.172.134%3a8000/udp/239.0.0.22%3a8000:MTV Dance (576p)
 #DESCRIPTION MTV Dance (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//134.0.117.5%3a8030/1:MTV Hits (576p)
+#DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//62.210.101.62%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (578p)
 #DESCRIPTION 365 Music (578p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//62.210.101.62%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
@@ -283,3 +285,4 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
+
