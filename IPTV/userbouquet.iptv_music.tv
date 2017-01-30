@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 28.01.2017
+#DESCRIPTION Update 30.01.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -11,6 +11,8 @@
 #DESCRIPTION Kronehit (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/beats_1/playlist.m3u8:Beatz HD (720p)
 #DESCRIPTION Beatz HD (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/tvm3/PAZ.m3u8:TVM3(1080p)
+#DESCRIPTION TVM3 (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-02.mivitec.net/live/smil%3atest.smil/chunklist_w1073861416_b879931_slDE.m3u8:Deluxe Music (360p)
 #DESCRIPTION Deluxe Music (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.djing.com/tv/04.m3u8:Djing E-Music HD (540p)
@@ -285,4 +287,3 @@
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
-
