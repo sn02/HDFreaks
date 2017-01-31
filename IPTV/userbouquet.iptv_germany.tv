@@ -57,7 +57,7 @@
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8:Tagesschau 24 HD (720p)
 #DESCRIPTION Tagesschau 24 HD (720p)
-#SERVICE 4097:0:1:7035:41B:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1496_av-b.m3u8:Phoenix (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1496_av-b.m3u8:Phoenix (480p)
 #DESCRIPTION Phoenix (480p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
 #DESCRIPTION n-tv (720p)

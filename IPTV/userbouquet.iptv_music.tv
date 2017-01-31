@@ -83,8 +83,8 @@
 #DESCRIPTION Ocko Expres (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.one.by%3a2300:HD ONE RU Music (1080p)
 #DESCRIPTION HD ONE RU Music (1080p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//93.171.230.144/musicbox/musicboxtv.sdp/chunklist_w908031190.m3u8:MusicBox  (576p)
-#DESCRIPTION MusicBox  (576p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//93.171.230.144/musicbox/musicboxtv.sdp/chunklist_w908031190.m3u8:MusicBox (576p)
+#DESCRIPTION MusicBox (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//109.201.156.21/musicbox/musicbox.sdp/chunklist_w526292636.m3u8:MusicBox RU (576p)
 #DESCRIPTION MusicBox RU (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//212.26.132.86/hls/mb_ua_2500.m3u8:MusicBox UA (576p)
@@ -151,8 +151,8 @@
 #DESCRIPTION Top Music-CityTV 18+ (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//155.4.160.181%3a1935/fjwebb/live/playlist.m3u8:14TV Music Schweden (720p)
 #DESCRIPTION 14TV Music Schweden (720p)
-#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//37.235.171.201%3a81/udp/225.50.64.17%3a1234:MCM TOP(576p)
-#DESCRIPTION MCM TOP(576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//37.235.171.201%3a81/udp/225.50.64.17%3a1234:MCM TOP (576p)
+#DESCRIPTION MCM TOP (576p)
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/mtvlivehd:MTV live HD (1080p)
 #DESCRIPTION MTV live HD (1080p) KrasTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:TooT Music(720p)
@@ -201,32 +201,32 @@
 #DESCRIPTION A one (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.68.190.192%3a1935/WEB_JuceTV/JuceTV.stream/playlist.m3u8:JuceTV Music (720p)
 #DESCRIPTION JuceTV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126%3a80/utvedge/utvlive/master.m3u8:UTV Music(576p)
-#DESCRIPTION UTV Music(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126%3a80/utvedge/utvlive/master.m3u8:UTV Music (576p)
+#DESCRIPTION UTV Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hd.worldkast.com%3a1935/8436/8436/chunklist_w464302864.m3u8:Si TV (426p)
 #DESCRIPTION Si TV (426p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.96.163.139%3a8020/1-tv-pc/924.m3u8:Slusnej Rock Kanal TV (576p)
-#DESCRIPTION Slusnej Rock Kanal TV  (576p)
+#DESCRIPTION Slusnej Rock Kanal TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lcdn.une.net.co%3a80/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8:TIGO MUSIC (480p)
 #DESCRIPTION TIGO MUSIC (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ss6.domint.net%3a2086/tmtv_str/musica/playlist.m3u8:TeveMusica (720p)
 #DESCRIPTION TeveMusica (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.101.21.42%3a8081/live/live2/playlist.m3u8:Vibee TV (540p)
 #DESCRIPTION Vibee TV (540p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/gmusic/gmusic/live.m3u8:Gospel Television (480p)Brasil
-#DESCRIPTION Gospel Television (480p)Brasil
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.rbm.tv/rightbrainmedia-live-109/_definst_//mp4%3aradioutv1/chunklist_w1182659521.m3u8:Radio UTV (720p)
 #DESCRIPTION Radio UTV (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv1.hostgs.net/jtvmilk/jtvmilk/playlist.m3u8:MilkTV (360p)Brasil
-#DESCRIPTION MilkTV (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/bruno4119/bruno4119/live.m3u8:YEEAH! (290p)Brasil
-#DESCRIPTION YEEAH! (290p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p)Brasil
-#DESCRIPTION MKK WEB TV (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p)Brasil
-#DESCRIPTION MixTV Music (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
-#DESCRIPTION Muzzone 480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/gmusic/gmusic/live.m3u8:Gospel Television (480p) Brasil
+#DESCRIPTION Gospel Television (480p) Brasil
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv1.hostgs.net/jtvmilk/jtvmilk/playlist.m3u8:MilkTV (360p) Brasil
+#DESCRIPTION MilkTV (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/bruno4119/bruno4119/live.m3u8:YEEAH! (290p) Brasil
+#DESCRIPTION YEEAH! (290p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p) Brasil
+#DESCRIPTION MKK WEB TV (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p) Brasil
+#DESCRIPTION MixTV Music (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone (480p)
+#DESCRIPTION Muzzone (480p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.mediawork.cz/retrotv/retrotvHQ1:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
@@ -268,11 +268,11 @@
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//37.235.171.201%3a81/udp/225.50.64.26%3a1234:Bridge Dange (576p)
 #DESCRIPTION Bridge Dange (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=87:M1 (576p)
-#DESCRIPTION M1(576p)
+#DESCRIPTION M1 (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
-#DESCRIPTION M2(576p)
+#DESCRIPTION M2 (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//91.149.172.134%3a8000/udp/239.0.0.72%3a8000:MTV RU (576p)
-#DESCRIPTION MTV RU
+#DESCRIPTION MTV RU (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//185.63.196.22%3a8001/play/a02z:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//91.149.172.134%3a8000/udp/239.0.0.22%3a8000:MTV Dance (576p)

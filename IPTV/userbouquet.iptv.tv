@@ -10,7 +10,7 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf3/q8c.sdp/chunklist.m3u8:ORF 3 HD (720p)
 #DESCRIPTION ORF 3 HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orfs_cache/q8c.sdp/chunklist.m3u8:ORF Sport+ HD (720p)
-#DESCRIPTION ORF Sport+ HD (720p)nur Austria
+#DESCRIPTION ORF Sport+ HD (720p) nur Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD AT (720p)
 #DESCRIPTION SERVUS TV HD AT (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/chunklist_b1900000.m3u8:OE24TV (1080p)
@@ -332,7 +332,7 @@
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7575/59/master.m3u8:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/mtvlivehd:MTV live HD (1080p)
-#DESCRIPTION MTV live HD (1080p) KrasTV
+#DESCRIPTION MTV live HD (1080p)
 #SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//83.219.141.242%3a7676/mtv_live_hd/master.m3u8:MTV live HD (720p)
 #DESCRIPTION MTV live HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:TooT Music(720p)
@@ -385,32 +385,32 @@
 #DESCRIPTION A one (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.68.190.192%3a1935/WEB_JuceTV/JuceTV.stream/playlist.m3u8:JuceTV Music (720p)
 #DESCRIPTION JuceTV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126%3a80/utvedge/utvlive/master.m3u8:UTV Music(576p)
-#DESCRIPTION UTV Music(576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.196.0.126%3a80/utvedge/utvlive/master.m3u8:UTV Music (576p)
+#DESCRIPTION UTV Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hd.worldkast.com%3a1935/8436/8436/chunklist_w464302864.m3u8:Si TV (426p)
 #DESCRIPTION Si TV (426p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.96.163.139%3a8020/1-tv-pc/924.m3u8:Slusnej Rock Kanal TV (576p)
-#DESCRIPTION Slusnej Rock Kanal TV  (576p)
+#DESCRIPTION Slusnej Rock Kanal TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lcdn.une.net.co%3a80/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8:TIGO MUSIC (480p)
 #DESCRIPTION TIGO MUSIC (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ss6.domint.net%3a2086/tmtv_str/musica/playlist.m3u8:TeveMusica (720p)
 #DESCRIPTION TeveMusica (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.101.21.42%3a8081/live/live2/playlist.m3u8:Vibee TV (540p)
 #DESCRIPTION Vibee TV (540p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/gmusic/gmusic/live.m3u8:Gospel Television (480p)Brasil
-#DESCRIPTION Gospel Television (480p)Brasil
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.rbm.tv/rightbrainmedia-live-109/_definst_//mp4%3aradioutv1/chunklist_w1182659521.m3u8:Radio UTV (720p)
 #DESCRIPTION Radio UTV (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv1.hostgs.net/jtvmilk/jtvmilk/playlist.m3u8:MilkTV (360p)Brasil
-#DESCRIPTION MilkTV (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/bruno4119/bruno4119/live.m3u8:YEEAH! (290p)Brasil
-#DESCRIPTION YEEAH! (290p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p)Brasil
-#DESCRIPTION MKK WEB TV (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p)Brasil
-#DESCRIPTION MixTV Music (360p)Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone 480p)
-#DESCRIPTION Muzzone 480p)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/gmusic/gmusic/live.m3u8:Gospel Television (480p) Brasil
+#DESCRIPTION Gospel Television (480p) Brasil
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv1.hostgs.net/jtvmilk/jtvmilk/playlist.m3u8:MilkTV (360p) Brasil
+#DESCRIPTION MilkTV (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/bruno4119/bruno4119/live.m3u8:YEEAH! (290p) Brasil
+#DESCRIPTION YEEAH! (290p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p) Brasil
+#DESCRIPTION MKK WEB TV (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p) Brasil
+#DESCRIPTION MixTV Music (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone (480p)
+#DESCRIPTION Muzzone (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.222.53.72/master_951.m3u8:Retro Music (480p)
 #DESCRIPTION Retro Music (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//starstv.live.e55-po.insyscd.net/starstvhd.smil/chunklist_b1100000.m3u8:Stars.TV (720p)
@@ -426,13 +426,13 @@
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:EU Music (576p)
-#DESCRIPTION EU Music(576p)
+#DESCRIPTION EU Music (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=215&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:AONE (576p)
-#DESCRIPTION AONE(576p)
+#DESCRIPTION AONE (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//91.196.148.6/m1:M1 (576p)
-#DESCRIPTION M1(576p)
+#DESCRIPTION M1 (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//91.196.148.6/m2:M2 (576p)
-#DESCRIPTION M2(576p)
+#DESCRIPTION M2 (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197&amp;amp;key_ott=5f7690fd0bd330afafb91f331adc46dd:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
 #SERVICE 1:64:6:0:0:0:0:0:0:0:
@@ -608,9 +608,9 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.88.196.138%3a8081/dumska/dumska-abr/dumska/dumska/chunks.m3u8:Dumska TV HD (720p)
 #DESCRIPTION Dumska TV HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.230%3a8000/6:FOX (576p)
-#DESCRIPTION FOX(576p)
+#DESCRIPTION FOX (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.230%3a8000/5:FOX Life (576p)
-#DESCRIPTION FOX Life(576p)
+#DESCRIPTION FOX Life (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.shansontv.cdnvideo.ru/shansontv/shansontv.smil/playlist.m3u8:Chanson TV (576p)
 #DESCRIPTION Chanson TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sochi-strk.ru%3a1936/strk/strk.stream/playlist.m3u8:CTPK (720p)
@@ -625,33 +625,33 @@
 #DESCRIPTION Live78 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.238.112.40%3a8810/hls_sec/239.33.16.32-.m3u8:100%News (480p)
 #DESCRIPTION 100%News (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.113.32.169%3a1935/live/kratutv/playlist.m3u8:KratuTV  (576p)
-#DESCRIPTION KratuTV  (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.113.32.169%3a1935/live/kratutv/playlist.m3u8:KratuTV (576p)
+#DESCRIPTION KratuTV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamer.antenna.com.ua/hls/antenna.m3u8:Antenne Plus (480p)
 #DESCRIPTION Antenne Plus (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/1:Detskiy(576p)
-#DESCRIPTION Detskiy(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/2:Nickelodeon(576p)
-#DESCRIPTION Nickelodeon(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/3:DaVinchi(576p)
-#DESCRIPTION DaVinchi(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/4:BabyTV(576p)
-#DESCRIPTION BabyTV(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/5:Multimania(576p)
-#DESCRIPTION Multimania(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/6:Boomerang(576p)
-#DESCRIPTION Boomerang(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/7:JimJam(576p)
-#DESCRIPTION JimJam(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/8:Nick Jr(576p)
-#DESCRIPTION Nick Jr(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/9:Gulli(576p)
-#DESCRIPTION Gulli(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/10:TiJi(576p)
-#DESCRIPTION TiJi(576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/251%3a1122:TV1000 Megahit HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/1:Detskiy (576p)
+#DESCRIPTION Detskiy (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/2:Nickelodeon (576p)
+#DESCRIPTION Nickelodeon (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/3:DaVinchi (576p)
+#DESCRIPTION DaVinchi (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/4:BabyTV (576p)
+#DESCRIPTION BabyTV (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/5:Multimania (576p)
+#DESCRIPTION Multimania (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/6:Boomerang (576p)
+#DESCRIPTION Boomerang (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/7:JimJam (576p)
+#DESCRIPTION JimJam (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/8:Nick Jr (576p)
+#DESCRIPTION Nick Jr (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/9:Gulli (576p)
+#DESCRIPTION Gulli (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.120.118.233%3a8000/10:TiJi (576p)
+#DESCRIPTION TiJi (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/251%3a1122:TV1000 Megahit HD (1080p)
 #DESCRIPTION TV1000 Megahit HD (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/252%3a1122:TV1000 Premium HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ns1.telehouse-ua.net%3a19123/ott/252%3a1122:TV1000 Premium HD (1080p)
 #DESCRIPTION TV1000 Premium HD (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//volgogradtv1.cdnvideo.ru/volgogradtv1/volgogradtv1.sdp/playlist.m3u8:Volgograd TV 1 (560p)
 #DESCRIPTION Volgograd TV 1 (560p)
@@ -705,4 +705,3 @@
 #DESCRIPTION Prima FAMILIA (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//prima-ott-live-sec.service.cdn.cra.cz/channels/prima_cool/playlist/cze/live_hq.m3u8:Prima COOL (540p)
 #DESCRIPTION Prima COOL (540p)
-
