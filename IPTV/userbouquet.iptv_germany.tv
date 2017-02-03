@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 29.01.2017
+#DESCRIPTION Update 03.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
@@ -54,9 +54,9 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w818079807.m3u8:Welt der Wunder (480p)
 #DESCRIPTION Welt der Wunder (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//secure.cdn.itvmedia.c.addvideo.de/blizztvhttp/BLIZZTVHTTP_HQ-480p.stream/chunklist.m3u8?f288e0847469026378515dffcdc86f7893ffb4607b16429f59834b71505aff7b0bdb6eb0c335f8358436a37b6ce3790c86bb5a8551f33e54574420caf44a2340ac3daee10d8e319fe2b6864d
-#DESCRIPTION BLIZZ TV
+#DESCRIPTION BLIZZ TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//secure.cdn.itvmedia.c.addvideo.de/familytvhttp/FAMILYTVHTTP_HQ-480p.stream/chunklist.m3u8?f288b289517e042a9670ab55ce955eacca13770f4a96f0f874d16a4d219639162508395dc77374a62c9d77c512262953a03dd59819412f85b7e1dc3adcc8031f07c05ffa43e2c47ae3efa677248f2e41
-#DESCRIPTION FAMILY TV
+#DESCRIPTION FAMILY TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8:Tagesschau 24 HD (720p)
@@ -74,9 +74,9 @@
 #SERVICE 4097:0:16:0:0:0:0:0:0:0:rtmp%3a//fms.daf.tmt.de%3a1935/live/dafstream100:Daf(360p)
 #DESCRIPTION DAF (360p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1
-#DESCRIPTION Parlamentsfernsehen 1
+#DESCRIPTION Parlamentsfernsehen 1 (480p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x4177pfs2c13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/4177pf_s2/live_de_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 2
-#DESCRIPTION Parlamentsfernsehen 2
+#DESCRIPTION Parlamentsfernsehen 2 (480p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orf1_cache/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
