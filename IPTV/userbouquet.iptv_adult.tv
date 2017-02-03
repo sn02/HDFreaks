@@ -37,11 +37,11 @@
 #DESCRIPTION Brazzer (576p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/playboy:Playboy(576p)
 #DESCRIPTION Playboy (576p) KrasTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/028/chunks.m3u8:PornTV 1HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/030/chunks.m3u8:PornTV 1HD (480p)
 #DESCRIPTION PornTV 1 HD (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/028/chunks.m3u8:PornTV 2HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/030/chunks.m3u8:PornTV 2HD (480p)
 #DESCRIPTION PornTV 2 HD (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3028/chunks.m3u8:PornTV 2HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3030/chunks.m3u8:PornTV 2HD (480p)
 #DESCRIPTION PornTV 3 HD (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:PornTV Russia (720p)
 #DESCRIPTION PornTV Russia (720p)
