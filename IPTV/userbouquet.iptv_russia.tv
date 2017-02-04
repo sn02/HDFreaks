@@ -1,91 +1,267 @@
 #NAME IPTV Russia
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 12.01.2017
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//freestream.c3p0.website/hls/first.m3u8:das Erste (400p)
-#DESCRIPTION Das Erste (400p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3arhd.smil/chunklist_b1600000.m3u8:Russia 1 (576p)
-#DESCRIPTION Russia 1 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.kaban.tv/hls/rus24.m3u8:Russia 24 (576p)
-#DESCRIPTION Russia 24 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_ROSSIAK/variant.m3u8?version=2:Russia Kultura (576p)
-#DESCRIPTION Russia Kultura (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/k1/stream.m3u8:K1 (576p)
-#DESCRIPTION K1 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/k2/stream.m3u8:K2 (576p)
-#DESCRIPTION K2 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/football/stream.m3u8:Football (576p)
-#DESCRIPTION Football 1 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.196.149.76/tonis/stream.m3u8:Tonis HD (1080p)
-#DESCRIPTION Tonis (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000/variant.m3u8?version=2:TV 1000(576p)
-#DESCRIPTION TV 1000 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000ACTION/variant.m3u8?version=2:TV 1000 Action(576p)
-#DESCRIPTION TV 1000 Action (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000COMEDYHD/variant.m3u8?version=2:TV 1000 Comedy (576p)
-#DESCRIPTION TV 1000 Comedy (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_TV1000RUSSKOEKINO/variant.m3u8?version=2:TV 1000 RU(576p)
-#DESCRIPTION TV 1000 RU (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_VIASATNATURE/variant.m3u8?version=2:Viasat Nature(576p)
-#DESCRIPTION Viasat Nature (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_VIASATEXPLORER/variant.m3u8?version=2:Viasat Explorer (576p)
-#DESCRIPTION Viasat Explorer (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_VIASATHISTORY/variant.m3u8?version=2:Viasat History (576p)
-#DESCRIPTION Viasat History (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_HISTORY/variant.m3u8?version=2:History Chanel(576p)
-#DESCRIPTION History Chanel (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_RUSEXTREME/variant.m3u8?version=2:RU Extrem (576p)
-#DESCRIPTION RU Extrem (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//testlivestream.rfn.ru/live/smil%3am24.smil/chunklist_b1600000.m3u8:Moskau 24 (560p)
-#DESCRIPTION Moskau 24 (560p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.life.ru/lifetv/720p/index.m3u8:Live 1 HD (720p)
-#DESCRIPTION Live 1 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamvideol1.luxnet.ua/news24/smil%3anews24.stream.smil/chunklist_b2600000.m3u8:News 24 HD (720p)
-#DESCRIPTION News 24 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_800/playlist.m3u8:Mir TV (540p)
-#DESCRIPTION Mir TV (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_800/playlist.m3u8:Mir TV +3 (540p)
-#DESCRIPTION Mir TV +3 (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_800/playlist.m3u8:Mir TV 24 (540p)
-#DESCRIPTION Mir TV 24 (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.shansontv.cdnvideo.ru/shansontv/shansontv.smil/playlist.m3u8:Chanson TV (576p)
-#DESCRIPTION Chanson TV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sochi-strk.ru%3a1936/strk/strk.stream/playlist.m3u8:CTPK (720p)
-#DESCRIPTION CTPK (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//93.125.30.18%3a1935/ctv/live.stream/manifest.m3u8:CTV (288)
-#DESCRIPTION CTV (288p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xrudanax.api.channel.livestream.com/3.0/playlist.m3u8:Rudana Kriwoj Rog (540p)
-#DESCRIPTION Rudana Kriwoj Rog (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ziktv.cdnvideo.ru/ziktv/ziktv.sdp/playlist.m3u8:ZIK TV (480p)
-#DESCRIPTION ZIK TV (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv78.life.ru/lifetv/720p/index.m3u8:Live78 (720p)
-#DESCRIPTION Live78 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.113.32.169%3a1935/live/kratutv/playlist.m3u8:KratuTV  (576p)
-#DESCRIPTION KratuTV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamer.antenna.com.ua/hls/antenna.m3u8:Antenne Plus (480p)
-#DESCRIPTION Antenne Plus (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//volgogradtv1.cdnvideo.ru/volgogradtv1/volgogradtv1.sdp/playlist.m3u8:Volgograd TV 1 (560p)
-#DESCRIPTION Volgograd TV 1 (560p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru%3a9090/btv/russkiyextrim/type/user/devname/LG-SmartTV/devid/LG-1469279376/eol/20200101T0000/hash/c2eb79e9fa394373dc84741528d14359c573820f/playlist.m3u8:Russian Extreme Sports (576p)
-#DESCRIPTION Russian Extreme Sports (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sochi-strk.ru%3a1936/strk/43Kanal.stream/playlist.m3u8:Kanal 43 HD (720p)
-#DESCRIPTION Kanal 43 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.one.by%3a2300:HD ONE RU Music (1080p)
-#DESCRIPTION HD ONE RU Music (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.26.132.86/hls/mb_ua.m3u8:MusicBox UA (360p)
-#DESCRIPTION MusicBox UA (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.rmg.cdnvideo.ru/rmg/rmg1.sdp/playlist.m3u8:HITV Music (576p)
-#DESCRIPTION HITV Music (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/chunklist.m3u8:O2 TV (480p)
-#DESCRIPTION O2 TV (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.europaplus.cdnvideo.ru/sg1/hires_eptv_main.sdp/playlist.m3u8:EuropaPlus (540p)
-#DESCRIPTION EuropaPlus (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.250.191.10%3a1935/live/livestream3/playlist.m3u8:1HD Music Television  (720p)
-#DESCRIPTION 1HD Music Television  (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//rtmp.one.by/HD/1muz:HD ONE Music (720p)
-#DESCRIPTION HD ONE Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.nebiset.tv/nebiset.m3u8:Nebiset Music (576p)
-#DESCRIPTION Nebiset Music (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hithd.camsh.orsk.ru/hls/hithd.m3u8:Hit Music (720p)
-#DESCRIPTION Hit Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.76.26.81%3a8081/hdmedia/hdmedia_3d/playlist.m3u8:HD Media 3D (720p)
-#DESCRIPTION HD Media 3D (720p)
+#DESCRIPTION Update 04.02.2017
+#SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.1/stream.m3u8:OTP
+#DESCRIPTION OTP
+#SERVICE 4097:0:1:4:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.2/stream.m3u8:mojoplaneta
+#DESCRIPTION mojoplaneta
+#SERVICE 4097:0:1:6:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.3/stream.m3u8:Multimania
+#DESCRIPTION Multimania
+#SERVICE 4097:0:1:8:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.4/stream.m3u8:2x2
+#DESCRIPTION 2x2
+#SERVICE 4097:0:1:10:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.5/stream.m3u8:MUS
+#DESCRIPTION MUS
+#SERVICE 4097:0:1:12:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.6/stream.m3u8:Mylpt
+#DESCRIPTION Mylpt
+#SERVICE 4097:0:1:14:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.7/stream.m3u8:MAMA
+#DESCRIPTION MAMA
+#SERVICE 4097:0:1:16:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.8/stream.m3u8:Europaplus
+#DESCRIPTION Europaplus
+#SERVICE 4097:0:1:18:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.9/stream.m3u8:Rusong
+#DESCRIPTION Rusong
+#SERVICE 4097:0:1:20:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.10/stream.m3u8:H
+#DESCRIPTION H
+#SERVICE 4097:0:1:22:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.11/stream.m3u8:Mir 24
+#DESCRIPTION Mir 24
+#SERVICE 4097:0:1:24:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.12/stream.m3u8:Strana
+#DESCRIPTION Strana
+#SERVICE 4097:0:1:26:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.13/stream.m3u8:AFto24
+#DESCRIPTION AFto24
+#SERVICE 4097:0:1:28:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.14/stream.m3u8:Das Erste
+#DESCRIPTION Das Erste
+#SERVICE 4097:0:1:30:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.16/stream.m3u8:THT
+#DESCRIPTION THT
+#SERVICE 4097:0:1:32:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.17/stream.m3u8:Russia 1
+#DESCRIPTION Russia 1
+#SERVICE 4097:0:1:34:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.18/stream.m3u8:CTC Mir
+#DESCRIPTION CTC Mir
+#SERVICE 4097:0:1:36:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.19/stream.m3u8:HTB
+#DESCRIPTION HTB
+#SERVICE 4097:0:1:38:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.20/stream.m3u8:PEH4
+#DESCRIPTION PEH4
+#SERVICE 4097:0:1:40:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.21/stream.m3u8:PTRT4
+#DESCRIPTION PTRT4
+#SERVICE 4097:0:1:42:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.22/stream.m3u8:euronews
+#DESCRIPTION euronews
+#SERVICE 4097:0:1:44:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.23/stream.m3u8:O
+#DESCRIPTION O
+#SERVICE 4097:0:1:46:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.25/stream.m3u8:TBU
+#DESCRIPTION TBU
+#SERVICE 4097:0:1:48:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.26/stream.m3u8:??
+#DESCRIPTION ??
+#SERVICE 4097:0:1:50:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.27/stream.m3u8:Match
+#DESCRIPTION Match
+#SERVICE 4097:0:1:52:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.28/stream.m3u8:HCK49
+#DESCRIPTION HCK49
+#SERVICE 4097:0:1:54:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.29/stream.m3u8:+o
+#DESCRIPTION +o
+#SERVICE 4097:0:1:56:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.30/stream.m3u8:Niceledeon
+#DESCRIPTION Niceledeon
+#SERVICE 4097:0:1:58:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.31/stream.m3u8:SternKino
+#DESCRIPTION SternKino
+#SERVICE 4097:0:1:60:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.32/stream.m3u8:RUTV
+#DESCRIPTION RUTV
+#SERVICE 4097:0:1:62:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.33/stream.m3u8:Russia Today
+#DESCRIPTION Russia Today
+#SERVICE 4097:0:1:64:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.34/stream.m3u8:Animal Planet
+#DESCRIPTION Animal Planet
+#SERVICE 4097:0:1:66:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.35/stream.m3u8:Arena
+#DESCRIPTION Arena
+#SERVICE 4097:0:1:68:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.36/stream.m3u8:Discovery
+#DESCRIPTION Discovery
+#SERVICE 4097:0:1:70:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.37/stream.m3u8:TLC
+#DESCRIPTION TLC
+#SERVICE 4097:0:1:72:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.38/stream.m3u8:Nasche TV
+#DESCRIPTION Nasche TV
+#SERVICE 4097:0:1:74:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.39/stream.m3u8:Galaxy
+#DESCRIPTION Galaxy
+#SERVICE 4097:0:1:76:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.40/stream.m3u8:National Geographik
+#DESCRIPTION National Geographik
+#SERVICE 4097:0:1:78:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.41/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:80:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.42/stream.m3u8:Nat Geo Wild
+#DESCRIPTION Nat Geo Wild
+#SERVICE 4097:0:1:82:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.43/stream.m3u8:Tiji
+#DESCRIPTION Tiji
+#SERVICE 4097:0:1:84:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.44/stream.m3u8:Boxsport
+#DESCRIPTION Boxsport
+#SERVICE 4097:0:1:86:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.45/stream.m3u8:T24
+#DESCRIPTION T24
+#SERVICE 4097:0:1:88:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.46/stream.m3u8:Boprocy
+#DESCRIPTION Boprocy
+#SERVICE 4097:0:1:90:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.47/stream.m3u8:EX
+#DESCRIPTION EX
+#SERVICE 4097:0:1:92:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.48/stream.m3u8:KPX
+#DESCRIPTION KPX
+#SERVICE 4097:0:1:94:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.49/stream.m3u8:RTG TV
+#DESCRIPTION RTG TV
+#SERVICE 4097:0:1:96:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.51/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:98:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.52/stream.m3u8:MIR
+#DESCRIPTION MIR
+#SERVICE 4097:0:1:100:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.53/stream.m3u8:BRIDGE TV
+#DESCRIPTION BRIDGE TV
+#SERVICE 4097:0:1:102:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.54/stream.m3u8:Myschkoi
+#DESCRIPTION Myschkoi
+#SERVICE 4097:0:1:104:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.55/stream.m3u8:Istoria
+#DESCRIPTION Istoria
+#SERVICE 4097:0:1:106:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.56/stream.m3u8:COYOUS
+#DESCRIPTION COYOUS
+#SERVICE 4097:0:1:108:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.57/stream.m3u8:ZOOPark
+#DESCRIPTION ZOOPark
+#SERVICE 4097:0:1:110:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.58/stream.m3u8:Retro
+#DESCRIPTION Retro
+#SERVICE 4097:0:1:112:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.59/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:114:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.60/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:116:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.61/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:118:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.62/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:120:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.63/stream.m3u8:cartoon network
+#DESCRIPTION cartoon network
+#SERVICE 4097:0:1:122:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.64/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:124:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.65/stream.m3u8:Domashne
+#DESCRIPTION Domashne
+#SERVICE 4097:0:1:126:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.66/stream.m3u8:karucel
+#DESCRIPTION karucel
+#SERVICE 4097:0:1:128:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.67/stream.m3u8:24DOC
+#DESCRIPTION 24DOC
+#SERVICE 4097:0:1:130:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.68/stream.m3u8:THT4
+#DESCRIPTION THT4
+#SERVICE 4097:0:1:132:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.69/stream.m3u8:Demckuu
+#DESCRIPTION Demckuu
+#SERVICE 4097:0:1:134:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.70/stream.m3u8:MCK
+#DESCRIPTION MCK
+#SERVICE 4097:0:1:136:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.71/stream.m3u8:PTRTNija
+#DESCRIPTION PTRTNija
+#SERVICE 4097:0:1:138:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.72/stream.m3u8:M Kino
+#DESCRIPTION M Kino
+#SERVICE 4097:0:1:140:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.73/stream.m3u8:paromounr komödy
+#DESCRIPTION paromounr komödy
+#SERVICE 4097:0:1:142:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.74/stream.m3u8:THT Music
+#DESCRIPTION THT Music
+#SERVICE 4097:0:1:144:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.75/stream.m3u8:H1
+#DESCRIPTION H1
+#SERVICE 4097:0:1:146:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.78/stream.m3u8:Chanson
+#DESCRIPTION Chanson
+#SERVICE 4097:0:1:148:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.79/stream.m3u8:XXT
+#DESCRIPTION XXT
+#SERVICE 4097:0:1:150:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.80/stream.m3u8:Demskuu MUR
+#DESCRIPTION Demskuu MUR
+#SERVICE 4097:0:1:152:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.81/stream.m3u8:KINO
+#DESCRIPTION KINO
+#SERVICE 4097:0:1:154:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.82/stream.m3u8:@2
+#DESCRIPTION @2
+#SERVICE 4097:0:1:156:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.83/stream.m3u8:MusicBox
+#DESCRIPTION MusicBox
+#SERVICE 4097:0:1:158:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.84/stream.m3u8:ZEETV
+#DESCRIPTION ZEETV
+#SERVICE 4097:0:1:160:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.85/stream.m3u8:MusicBox Russian
+#DESCRIPTION MusicBox Russian
+#SERVICE 4097:0:1:162:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.86/stream.m3u8:KINO TW
+#DESCRIPTION KINO TW
+#SERVICE 4097:0:1:164:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.87/stream.m3u8:Humor
+#DESCRIPTION Humor
+#SERVICE 4097:0:1:166:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.88/stream.m3u8:Russkii Illosion
+#DESCRIPTION Russkii Illosion
+#SERVICE 4097:0:1:168:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.89/stream.m3u8:U Illosion
+#DESCRIPTION U Illosion
+#SERVICE 4097:0:1:170:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.90/stream.m3u8:EbriKino
+#DESCRIPTION EbriKino
+#SERVICE 4097:0:1:172:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.91/stream.m3u8:FOX
+#DESCRIPTION FOX
+#SERVICE 4097:0:1:174:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.92/stream.m3u8:FOX Life
+#DESCRIPTION FOX Life
+#SERVICE 4097:0:1:176:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.93/stream.m3u8:TV5
+#DESCRIPTION TV5
+#SERVICE 4097:0:1:178:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.94/stream.m3u8:Ympennuu Koffe
+#DESCRIPTION Ympennuu Koffe
+#SERVICE 4097:0:1:180:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.97/stream.m3u8:Carafan
+#DESCRIPTION Carafan
+#SERVICE 4097:0:1:182:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.98/stream.m3u8:ANI
+#DESCRIPTION ANI
+#SERVICE 4097:0:1:184:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.99/stream.m3u8:CTC love
+#DESCRIPTION CTC love
+#SERVICE 4097:0:1:186:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.100/stream.m3u8:YE
+#DESCRIPTION YE
+#SERVICE 4097:0:1:188:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.101/stream.m3u8:Probisnec
+#DESCRIPTION Probisnec
+#SERVICE 4097:0:1:190:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.102/stream.m3u8:CNAC
+#DESCRIPTION CNAC
+#SERVICE 4097:0:1:192:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.103/stream.m3u8:L1
+#DESCRIPTION L1
+#SERVICE 4097:0:1:194:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.104/stream.m3u8:OUT
+#DESCRIPTION OUT
+#SERVICE 4097:0:1:196:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.105/stream.m3u8:???
+#DESCRIPTION ???
+#SERVICE 4097:0:1:198:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.106/stream.m3u8:CINEMA
+#DESCRIPTION CINEMA
+#SERVICE 4097:0:1:200:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.107/stream.m3u8:HCT
+#DESCRIPTION HCT
+#SERVICE 4097:0:1:202:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.108/stream.m3u8:Telekanal Fussball
+#DESCRIPTION Telekanal Fussball
+#SERVICE 4097:0:1:204:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.109/stream.m3u8:Y TV
+#DESCRIPTION Y TV
+#SERVICE 4097:0:1:206:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.110/stream.m3u8:TT
+#DESCRIPTION TT
+#SERVICE 4097:0:1:208:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.111/stream.m3u8:THT4
+#DESCRIPTION THT4
+#SERVICE 4097:0:1:210:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.112/stream.m3u8:Musicclips
+#DESCRIPTION Musicclips
+#SERVICE 4097:0:1:212:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.113/stream.m3u8:Twoy Dom
+#DESCRIPTION Twoy Dom
+#SERVICE 4097:0:1:214:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.115/stream.m3u8:Eurosport1
+#DESCRIPTION Eurosport1
+#SERVICE 4097:0:1:216:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.116/stream.m3u8:K Kino
+#DESCRIPTION K Kino
+#SERVICE 4097:0:1:218:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.117/stream.m3u8:TMB Ru
+#DESCRIPTION TMB Ru
+#SERVICE 4097:0:1:220:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.118/stream.m3u8:Moskwa 24
+#DESCRIPTION Moskwa 24
+#SERVICE 4097:0:1:222:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.119/stream.m3u8:Moskwa
+#DESCRIPTION Moskwa
+#SERVICE 4097:0:1:224:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.120/stream.m3u8:ORuschie
+#DESCRIPTION ORuschie
+#SERVICE 4097:0:1:226:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.121/stream.m3u8:promoi
+#DESCRIPTION promoi
+#SERVICE 4097:0:1:228:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.122/stream.m3u8:Russia K
+#DESCRIPTION Russia K
+#SERVICE 4097:0:1:230:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.123/stream.m3u8:game Shuw
+#DESCRIPTION game Shuw
+#SERVICE 4097:0:1:232:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.124/stream.m3u8:Top Shop
+#DESCRIPTION Top Shop
+#SERVICE 4097:0:1:234:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.125/stream.m3u8:Kranaja Linia
+#DESCRIPTION Kranaja Linia
+#SERVICE 4097:0:1:236:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.126/stream.m3u8:Fashion Films
+#DESCRIPTION Fashion Films
+#SERVICE 4097:0:1:238:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.127/stream.m3u8:Shop
+#DESCRIPTION Shop
+#SERVICE 4097:0:1:240:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.128/stream.m3u8:InterAZ
+#DESCRIPTION InterAZ
+#SERVICE 4097:0:1:242:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.130/stream.m3u8:Kucina TV
+#DESCRIPTION Kucina TV
+#SERVICE 4097:0:1:244:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.131/stream.m3u8:24 belaruss
+#DESCRIPTION 24 belaruss
+#SERVICE 4097:0:1:246:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.132/stream.m3u8:lapt TV
+#DESCRIPTION lapt TV
+#SERVICE 4097:0:1:248:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.133/stream.m3u8:THW Planeta
+#DESCRIPTION THW Planeta
+#SERVICE 4097:0:1:250:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.134/stream.m3u8:CTB
+#DESCRIPTION CTB
+#SERVICE 4097:0:1:252:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.138/stream.m3u8:365
+#DESCRIPTION 365
+#SERVICE 4097:0:1:254:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.139/stream.m3u8:Kinokomödie
+#DESCRIPTION Kinokomödie
+#SERVICE 4097:0:1:256:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.150/stream.m3u8:TW3
+#DESCRIPTION TW3
+#SERVICE 4097:0:1:258:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.170/stream.m3u8:Fussball
+#DESCRIPTION Fussball
+#SERVICE 4097:0:1:260:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.171/stream.m3u8:AHD
+#DESCRIPTION AHD
+#SERVICE 4097:0:1:262:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.177/stream.m3u8:8 Shop
+#DESCRIPTION 8 Shop
+#SERVICE 4097:0:1:264:0:0:0:0:0:0:http%3a//hlstv.nsk.211.ru/239.211.211.195/stream.m3u8:Russia 24
+#DESCRIPTION Russia 24
