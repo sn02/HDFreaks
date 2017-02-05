@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 04.02.2017
+#DESCRIPTION Update 05.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -49,13 +49,13 @@
 #DESCRIPTION Frenchlover (576p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0471.wmv:Tokio Hot1 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0471.wmv:Tokio Hot1 (720p)
 #DESCRIPTION Tokio Hot1 (720p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0576.wmv:Tokio Hot2 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0576.wmv:Tokio Hot2 (720p)
 #DESCRIPTION Tokio Hot2 (720p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0579.wmv:Tokio Hot3 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0579.wmv:Tokio Hot3 (720p)
 #DESCRIPTION Tokio Hot3 (720p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0600.wmv:Tokio Hot4 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0600.wmv:Tokio Hot4 (720p)
 #DESCRIPTION Tokio Hot4 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/skyhd027.mkv:Sky Angel Blue (720p)
 #DESCRIPTION Sky Angel Blue (720p)
