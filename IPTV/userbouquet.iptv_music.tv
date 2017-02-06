@@ -227,7 +227,7 @@
 #DESCRIPTION MixTV Music (360p) Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone (480p)
 #DESCRIPTION Muzzone (480p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:rtmp%3a//stream.mediawork.cz/retrotv/retrotvHQ1:Retro Music (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
 #DESCRIPTION OTTO 8 FM (540p)
@@ -261,7 +261,7 @@
 #DESCRIPTION EU Music(576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=103:OTV (576p)
 #DESCRIPTION OTV (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=215:AONE (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//176.120.119.93%3a6085/udp/239.0.1.32%3a4000:AONE (576p)
 #DESCRIPTION AONE(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//46.172.110.57%3a8082/BridgeTV/mpegts:Bridge (576p)
 #DESCRIPTION Bridge (576p)
