@@ -223,7 +223,7 @@
 #DESCRIPTION YEEAH! (290p) Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p) Brasil
 #DESCRIPTION MKK WEB TV (360p) Brasil
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stmv1.euroti.com.br%3a1935/mixtv/mixtv/live.m3u8:MixTV Music (360p) Brasil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//abr.mixtv.upx.net.br/1352/myStream.sdp/chunklist_w1315310710.m3u8:MixTV Music (360p) Brasil
 #DESCRIPTION MixTV Music (360p) Brasil
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vs7.cdn.ott.otautv.kz/dtv/id27_KTR_SG--Muzzone/03/plst.m3u8:Muzzone (480p)
 #DESCRIPTION Muzzone (480p)
