@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 05.02.2017
+#DESCRIPTION Update 09.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -29,8 +29,6 @@
 #DESCRIPTION Pink Erotic8 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
 #DESCRIPTION Sexysat (270p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//178.163.101.171%3a4022/udp/232.0.0.4%3a2001:Frenchlover (576p)
-#DESCRIPTION Frenchlover (576p)
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/hustlerhd:Hustler HD (720p)
 #DESCRIPTION Hustler HD (720p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/brazzers:Brazzer(576p)
@@ -45,7 +43,7 @@
 #DESCRIPTION PornTV 3 HD (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:PornTV Russia (720p)
 #DESCRIPTION PornTV Russia (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.163.101.171%3a4022/udp/232.0.0.4%3a2001:Frenchlover (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bit.ly/2ces8hC:Frenchlover (576p)
 #DESCRIPTION Frenchlover (576p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
