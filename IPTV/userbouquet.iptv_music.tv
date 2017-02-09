@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 08.02.2017-2
+#DESCRIPTION Update 09.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -271,19 +271,17 @@
 #DESCRIPTION M1 (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
 #DESCRIPTION M2 (576p)
-#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//37.205.94.97%3a81/udp/239.54.5.85%3a1224:MTV RU (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.84%3a5050 :MTV RU (576p)
 #DESCRIPTION MTV RU (576p)
-#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//185.63.196.22%3a8001/play/a02z:MTV Rocks (576p)
+#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
-#SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//37.192.93.20%3a81/udp/239.1.8.15%3a1234:MTV Dance (576p)
-#DESCRIPTION MTV Dance (576p)
 #SERVICE 1:0:2:0:0:0:0:0:0:0:http%3a//134.0.117.5%3a8030/1:MTV Hits (576p)
 #DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (578p)
 #DESCRIPTION MTV (578p)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
 #DESCRIPTION VH1 (578p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//185.63.196.22%3a8001/play/a030:VH1 Classic (576p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.87%3a5050:VH1 Classic (576p)
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
