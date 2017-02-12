@@ -1,6 +1,60 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 09.02.2017
+#DESCRIPTION Update 12.02.2017
+#SERVICE 1:64:0:0:0:0:0:0:0:0::Music Choise
+#DESCRIPTION Music Choise
+#SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
+#DESCRIPTION Alternative (540p)
+#SERVICE 4097:0:1:4:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/143/chunklist.m3u8:Brits + Hits1
+#DESCRIPTION Brits + Hits1 (540p)
+#SERVICE 4097:0:1:6:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/127/chunklist.m3u8:Brits + Hits2
+#DESCRIPTION Brits + Hits2 (540p)
+#SERVICE 4097:0:1:8:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/127/chunklist.m3u8:Dance/EDM
+#DESCRIPTION Dance/EDM (540p)
+#SERVICE 4097:0:1:10:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/106/chunklist.m3u8:Hip-Hop And R&B
+#DESCRIPTION Hip-Hop And R&B
+#SERVICE 4097:0:1:12:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/100/chunklist.m3u8:Hit List
+#DESCRIPTION Hit List (540p)
+#SERVICE 4097:0:1:14:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/129/chunklist.m3u8:Indie
+#DESCRIPTION Indie (540p)
+#SERVICE 4097:0:1:16:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/139/chunklist.m3u8:Metal
+#DESCRIPTION Metal (540p)
+#SERVICE 4097:0:1:18:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/132/chunklist.m3u8:Pop & Country
+#DESCRIPTION Pop & Country (540p)
+#SERVICE 4097:0:1:20:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/133/chunklist.m3u8:Pop Hits
+#DESCRIPTION Pop Hits (540p)
+#SERVICE 4097:0:1:22:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/124/chunklist.m3u8:R&B Soul
+#DESCRIPTION R&B Soul (540p)
+#SERVICE 4097:0:1:24:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/125/chunklist.m3u8:Rap
+#DESCRIPTION Rap (540p)
+#SERVICE 4097:0:1:26:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/141/chunklist.m3u8:Rap 2K
+#DESCRIPTION Rap 2K (540p)
+#SERVICE 4097:0:1:28:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/138/chunklist.m3u8:Rock
+#DESCRIPTION Rock (540p)
+#SERVICE 4097:0:1:30:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/118/chunklist.m3u8:Teen Beats
+#DESCRIPTION Teen Beats (540p)
+#SERVICE 4097:0:1:32:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/121/chunklist.m3u8:Today’s Country
+#DESCRIPTION Today’s Country
+#SERVICE 4097:0:1:34:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/140/chunklist.m3u8:90s
+#DESCRIPTION 90s (540p)
+#SERVICE 4097:0:1:36:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/142/chunklist.m3u8:Throwback Jamz
+#DESCRIPTION Throwback Jamz
+#SERVICE 4097:0:1:38:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/145/chunklist.m3u8:Y2K
+#DESCRIPTION Y2K (540p)
+#SERVICE 4097:0:1:40:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/131/chunklist.m3u8:Mexicana
+#DESCRIPTION Mexicana (540p)
+#SERVICE 4097:0:1:42:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/128/chunklist.m3u8:Musica Urbana
+#DESCRIPTION Musica Urbana (540p)
+#SERVICE 4097:0:1:44:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/123/chunklist.m3u8:Pop Latino
+#DESCRIPTION Pop Latino (540p)
+#SERVICE 4097:0:1:46:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/137/chunklist.m3u8:Tropicales
+#DESCRIPTION Tropicales (540p)
+#SERVICE 4097:0:1:48:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/130/chunklist.m3u8:Kidz Only!
+#DESCRIPTION Kidz Only! (540p)
+#SERVICE 4097:0:1:50:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/144/chunklist.m3u8:Toddler Tunes
+#DESCRIPTION Toddler Tunes (540p)
+#SERVICE 4097:0:1:52:0:0:0:0:0:0:http%3a//edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8:MC Play
+#DESCRIPTION MC Play (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
