@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 29.01.2017
+#DESCRIPTION Update 12.02.2017
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/orf1/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
@@ -93,12 +93,16 @@
 #DESCRIPTION Phoenix (480p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
 #DESCRIPTION n-tv (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8?sd=10&rebase=on:N24 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/index_4_av-b.m3u8?sd=10&rebase=on:N24 News (540p)
+#DESCRIPTION N24 News (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
 #DESCRIPTION Euronews (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
 #DESCRIPTION Deutsche Welle (400p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0::http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
+#DESCRIPTION Sky Sport News (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge-h.daf.tmt.de/ios-live/daf-ios-live-livetv.stream/chunklist_w1422058425.m3u8:DAF (288p)
 #DESCRIPTION DAF (288p)
 #SERVICE 1:64:3:0:0:0:0:0:0:0:

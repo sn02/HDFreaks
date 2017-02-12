@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 03.02.2017
+#DESCRIPTION Update 12.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
@@ -65,13 +65,17 @@
 #DESCRIPTION Phoenix (480p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
 #DESCRIPTION n-tv (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8?sd=10&rebase=on:N24 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/index_4_av-b.m3u8?sd=10&rebase=on:N24 News (540p)
+#DESCRIPTION N24 News (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
 #DESCRIPTION Euronews (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
 #DESCRIPTION Deutsche Welle (400p)
-#SERVICE 4097:0:16:0:0:0:0:0:0:0:rtmp%3a//fms.daf.tmt.de%3a1935/live/dafstream100:Daf(360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0::http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
+#DESCRIPTION Sky Sport News (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//fms.daf.tmt.de%3a1935/live/dafstream100:Daf(360p)
 #DESCRIPTION DAF (360p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1
 #DESCRIPTION Parlamentsfernsehen 1 (480p)
