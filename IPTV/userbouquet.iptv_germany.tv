@@ -53,10 +53,6 @@
 #DESCRIPTION Tectime TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w818079807.m3u8:Welt der Wunder (480p)
 #DESCRIPTION Welt der Wunder (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//secure.cdn.itvmedia.c.addvideo.de/blizztvhttp/BLIZZTVHTTP_HQ-480p.stream/chunklist.m3u8?f288e0847469026378515dffcdc86f7893ffb4607b16429f59834b71505aff7b0bdb6eb0c335f8358436a37b6ce3790c86bb5a8551f33e54574420caf44a2340ac3daee10d8e319fe2b6864d
-#DESCRIPTION BLIZZ TV (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//secure.cdn.itvmedia.c.addvideo.de/familytvhttp/FAMILYTVHTTP_HQ-480p.stream/chunklist.m3u8?f288b289517e042a9670ab55ce955eacca13770f4a96f0f874d16a4d219639162508395dc77374a62c9d77c512262953a03dd59819412f85b7e1dc3adcc8031f07c05ffa43e2c47ae3efa677248f2e41
-#DESCRIPTION FAMILY TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8:Tagesschau 24 HD (720p)
