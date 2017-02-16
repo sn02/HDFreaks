@@ -209,6 +209,12 @@
 #DESCRIPTION MCM TOP (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/mtvlivehd:MTV live HD (1080p)
 #DESCRIPTION MTV live HD (1080p) KrasTV
+#SERVICE 4097:0:1:45:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=221:MTV live HD
+#DESCRIPTION MTV live HD (1080p)
+#SERVICE 4097:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=217:Mezzo HD
+#DESCRIPTION Mezzo HD (1080p)
+#SERVICE 4097:0:1:73:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=235:Trace Urban HD
+#DESCRIPTION Trace Urban HD (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:TooT Music(720p)
 #DESCRIPTION TooT Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.10/hls/CH_STVEN/variant.m3u8?version=2:STV Music (576)
@@ -315,14 +321,12 @@
 #DESCRIPTION ClubbingTv (720p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=358:Fashion Music (576p)
+#SERVICE 4097:0:1:95:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=729:Fashion Music (576p)
 #DESCRIPTION Fashion Music (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=361:EU Music (576p)
 #DESCRIPTION EU Music(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=103:OTV (576p)
 #DESCRIPTION OTV (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//176.120.119.93%3a6085/udp/239.0.1.32%3a4000:AONE (576p)
-#DESCRIPTION AONE(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//46.172.110.57%3a8082/BridgeTV/mpegts:Bridge (576p)
 #DESCRIPTION Bridge (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//37.235.171.201%3a81/udp/225.50.64.26%3a1234:Bridge Dange (576p)
@@ -331,14 +335,12 @@
 #DESCRIPTION M1 (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=124:M2 (576p)
 #DESCRIPTION M2 (576p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.84%3a5050 :MTV RU (576p)
+#SERVICE 4097:0:1:95:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=142:MTV RU (576p)
 #DESCRIPTION MTV RU (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//134.0.117.5%3a8030/1:MTV Hits (576p)
-#DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (578p)
-#DESCRIPTION MTV (578p)
+#DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
 #DESCRIPTION VH1 (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.87%3a5050:VH1 Classic (576p)

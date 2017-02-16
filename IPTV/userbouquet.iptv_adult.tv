@@ -29,8 +29,12 @@
 #DESCRIPTION Pink Erotic8 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
 #DESCRIPTION Sexysat (270p)
+#SERVICE 4097:0:1:95:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA (576p)
+#DESCRIPTION OLALA (576p)
+#SERVICE 4097:0:1:87:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=663:Hustler HD
+#DESCRIPTION Hustler HD (1080p)
 #SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/hustlerhd:Hustler HD (720p)
-#DESCRIPTION Hustler HD (720p) KrasTV
+#DESCRIPTION Hustler HD (1080p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/brazzers:Brazzer(576p)
 #DESCRIPTION Brazzer (576p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/playboy:Playboy(576p)
