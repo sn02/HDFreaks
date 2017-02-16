@@ -831,16 +831,12 @@
 #DESCRIPTION KLX HD
 #SERVICE 4097:0:1:33:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=216:NatGeo Wild HD
 #DESCRIPTION NatGeo Wild HD
-#SERVICE 4097:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=217:Mezzo HD
-#DESCRIPTION Mezzo HD
 #SERVICE 4097:0:1:37:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=218:ANIMAL Planet HD
 #DESCRIPTION ANIMAL Planet HD
 #SERVICE 4097:0:1:39:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=219:Fox HD
 #DESCRIPTION Fox HD
-#SERVICE 4097:0:1:41:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&amp;ch=657:Fox live HD
+#SERVICE 4097:0:1:41:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=657:Fox live HD
 #DESCRIPTION Fox live HD
-#SERVICE 4097:0:1:45:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=221:MTV live HD
-#DESCRIPTION MTV live HD
 #SERVICE 4097:0:1:49:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=223:Nikelodeon HD
 #DESCRIPTION Nikelodeon HD
 #SERVICE 4097:0:1:51:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=224:Kinozeit HD
@@ -865,8 +861,7 @@
 #DESCRIPTION TRAVEL Channel HD
 #SERVICE 4097:0:1:71:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=234:Trace Sport Stars HD
 #DESCRIPTION Trace Sport Stars HD
-#SERVICE 4097:0:1:73:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=235:Trace Urban HD
-#DESCRIPTION Trace Urban HD
+#SERVICE 1:64:6:0:0:0:0:0:0:0:
 #DESCRIPTION Turkish
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/index_1500_av-b.m3u8?sd=10&rebase=on:TRT 1 (720p)
 #DESCRIPTION TRT 1 (720p)
