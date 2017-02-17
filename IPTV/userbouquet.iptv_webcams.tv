@@ -665,4 +665,18 @@
 #DESCRIPTION Webcam: Afrika - Idube Game Reserve - Mpumalanga
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream.africam.com/be playpath=be.stream swfUrl=http%3a//www.africam.com/wildlife/files/flowplayer/flowplayer.commercial-3.2.7.swf pageUrl=http%3a//www.africam.com/wildlife/black_eagle_webcam:Webcam%3a Afrika - Johannesburg - Walter Sisulu Botanical Garden
 #DESCRIPTION Webcam: Afrika - Johannesburg - Walter Sisulu Botanical Garden
+#SERVICE 1:64:0:0:0:0:0:0:0:0::daba1983
+#DESCRIPTION Wunsch von daba1983
+#SERVICE 4097:0:1:6:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live/greenparrot1-audio.stream/chunklist_w2069811398.m3u8:Key West - Green Parrot Bar
+#DESCRIPTION Key West - Green Parrot Bar
+#SERVICE 4097:0:1:8:0:0:0:0:0:0:rtmp%3a//wowza.floridakeysmedia.com%3a8090/smokintunastagehd//mp4%3asmokintunastagehd.stream:Smokin Tuna Salon
+#DESCRIPTION Smokin Tuna Salon
+#SERVICE 4097:0:1:10:0:0:0:0:0:0:https%3a//56eaaf2a94c81.streamlock.net/sloppyjoesbar/sloppyjoesbar.stream/chunklist_w953854233.m3u8:Streaming Bar Cam
+#DESCRIPTION Streaming Bar Cam
+#SERVICE 4097:0:1:12:0:0:0:0:0:0:https%3a//56e51b0079975.streamlock.net/crowdcam/crowdcam.stream/chunklist_w264404254.m3u8:Crowd Cam
+#DESCRIPTION Crowd Cam
+#SERVICE 4097:0:1:14:0:0:0:0:0:0:http%3a//wowza2.floridakeysmedia.com%3a1935/liveduvalstreet/liveduvalstreet.stream/chunklist_w508587867.m3u8:Live Duval Street
+#DESCRIPTION Live Duval Street
+#SERVICE 4097:0:1:16:0:0:0:0:0:0:https%3a//56eaaf2a94c81.streamlock.net/sloppyjoes/sloppyjoes.stream/chunklist_w303351097.m3u8:live Stage Cam
+#DESCRIPTION live Stage Cam
 
