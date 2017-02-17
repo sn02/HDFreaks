@@ -191,7 +191,7 @@
 #DESCRIPTION ANIMAL Planet HD
 #SERVICE 4097:0:1:39:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=219:Fox HD
 #DESCRIPTION Fox HD
-#SERVICE 4097:0:1:41:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&;ch=657:Fox live HD
+#SERVICE 4097:0:1:41:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=920:Fox live HD
 #DESCRIPTION Fox live HD
 #SERVICE 4097:0:1:43:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=220:Nasche Fussball HD
 #DESCRIPTION Nasche Fussball HD
