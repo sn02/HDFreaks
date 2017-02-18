@@ -33,6 +33,8 @@
 #DESCRIPTION Hustler HD (1080p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/brazzers:Brazzer(576p)
 #DESCRIPTION Brazzer (576p) KrasTV
+#SERVICE 4097:0:1:5:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=910:Brazzer
+#DESCRIPTION Brazzer Europa (576p)
 #SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=526:Egoist TV
 #DESCRIPTION Egoist TV (576p)
 #SERVICE 4097:0:1:5:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=527:Playboy
