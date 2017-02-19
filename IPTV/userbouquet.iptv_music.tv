@@ -211,9 +211,9 @@
 #DESCRIPTION MTV live HD (1080p) KrasTV
 #SERVICE 4097:0:1:45:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=221:MTV live HD
 #DESCRIPTION MTV live HD (1080p)
-#SERVICE 4097:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=217:Mezzo HD
+#SERVICE 5002:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=217:Mezzo HD
 #DESCRIPTION Mezzo HD (1080p)
-#SERVICE 4097:0:1:73:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=235:Trace Urban HD
+#SERVICE 5002:0:1:73:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=235:Trace Urban HD
 #DESCRIPTION Trace Urban HD (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv89.gisher.org/tv/toot.m3u8:TooT Music(720p)
 #DESCRIPTION TooT Music (720p)
