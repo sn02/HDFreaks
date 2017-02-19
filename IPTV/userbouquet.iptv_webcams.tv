@@ -1,6 +1,6 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:1:0:0:0:0:0:0:0::Update 05.01.2017
-#DESCRIPTION Update 19.02.01.2017-1
+#DESCRIPTION Update 19.02.01.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam%3a Ö3 Live (Geduld - dauert etwas)
