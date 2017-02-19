@@ -397,7 +397,7 @@
 #DESCRIPTION Webcam: Ukraine - Poltawa  - Strasse der Oktoberrevolution
 #SERVICE 1:64:F:0:0:0:0:0:0:0::Australien
 #DESCRIPTION Australien
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp://23.227.163.183/live/kirribilli.stream:Sidney
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//23.227.163.183/live/kirribilli.stream:Sidney
 #DESCRIPTION Webcam: Australien - - Sydney
 #SERVICE 1:64:F:0:0:0:0:0:0:0::USA
 #DESCRIPTION USA
