@@ -1,7 +1,7 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 17.02.2017
-#SERVICE 1:64:0:0:0:0:0:0:0:0::Music Choise
+#DESCRIPTION Update 19.02.2017
+#SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choise
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
 #DESCRIPTION Alternative (540p)
@@ -55,6 +55,8 @@
 #DESCRIPTION Toddler Tunes (540p)
 #SERVICE 4097:0:1:52:0:0:0:0:0:0:http%3a//edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8:MC Play
 #DESCRIPTION MC Play (540p)
+#SERVICE 1:64:0:0:0:0:0:0:0:0:
+#DESCRIPTION MusicStreams
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sporttimelive1.content-cdn.net/livechannel1/smil%3aswitch1.smil/chunklist_b3174400.m3u8:Sports Music (720p)
 #DESCRIPTION Sports Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nstream17.gotv.at%3a1936/live/gotvlive_576p/chunklist_w970788537.m3u8:GoTV (576p)
@@ -209,7 +211,7 @@
 #DESCRIPTION MCM TOP (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@t.kraslan.ru/mtvlivehd:MTV live HD (1080p)
 #DESCRIPTION MTV live HD (1080p) KrasTV
-#SERVICE 4097:0:1:45:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=221:MTV live HD
+#SERVICE 5002:0:1:45:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=221:MTV live HD
 #DESCRIPTION MTV live HD (1080p)
 #SERVICE 5002:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=217:Mezzo HD
 #DESCRIPTION Mezzo HD (1080p)
