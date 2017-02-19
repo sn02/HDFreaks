@@ -395,6 +395,10 @@
 #DESCRIPTION Webcam: Ukraine - Odessa  - Catherine Square
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//85.90.192.233/rtplive2 playpath=veltonMedium53.stream swfUrl=http%3a//velton.ua/ru/webcams/VeltonPlayerWideNew.swf pageUrl=http%3a%3a//velton.ua/ru/webcams/Wide3HQ.shtml%3aPoltawa:Webcam%3a Ukraine - Poltawa  - Strasse der Oktoberrevolution
 #DESCRIPTION Webcam: Ukraine - Poltawa  - Strasse der Oktoberrevolution
+#SERVICE 1:64:F:0:0:0:0:0:0:0::Australien
+#DESCRIPTION Australien
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp://23.227.163.183/live/kirribilli.stream:Sidney
+#DESCRIPTION Webcam: Australien - - Sydney
 #SERVICE 1:64:F:0:0:0:0:0:0:0::USA
 #DESCRIPTION USA
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8620.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/arizona/sedona/gateway/:Webcam%3a USA - Arizona - Sedona Gateway Cam
@@ -543,8 +547,6 @@
 #DESCRIPTION Webcam: USA - North Dakota - City of Cavalier Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//208.43.68.139/surfchex playpath=fishy-super swfUrl=http%3a//www.surfchex.com/player.swf pageUrl=http%3a//www.surfchex.com/fishy-fishy-web-cam.php:Webcam%3a USA - NC - Southport - Fishy Fishy Cafe
 #DESCRIPTION Webcam: USA - NC - Southport - Fishy Fishy Cafe
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp://23.227.163.183/live/kirribilli.stream:Sidney
-#DESCRIPTION Webcam: USA - Ohio - Sidney
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a80/fecnetwork playpath=8471.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/oklahoma/vinita/?cam=route66east:Webcam%3a USA - Oklahoma - Route 66 Cam - East View
 #DESCRIPTION Webcam: USA - Oklahoma - Route 66 Cam - East View
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8470.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/oklahoma/vinita/?cam=route66west:Webcam%3a USA - Oklahoma - Route 66 Cam - WestView
