@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 12.02.2017
+#DESCRIPTION Update 20.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
@@ -63,8 +63,6 @@
 #DESCRIPTION n-tv (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/index_4_av-b.m3u8?sd=10&rebase=on:N24 News (540p)
-#DESCRIPTION N24 News (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
 #DESCRIPTION Euronews (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
@@ -79,22 +77,12 @@
 #DESCRIPTION Parlamentsfernsehen 2 (480p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orf1_cache/q8c.sdp/chunklist.m3u8:ORF eins HD (540p)
-#DESCRIPTION ORF eins HD (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orf2_cache/q8c.sdp/chunklist.m3u8:ORF 2 HD (720p)
-#DESCRIPTION ORF 2 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orf3_cache/q8c.sdp/chunklist.m3u8:ORF 3 HD (720p)
-#DESCRIPTION ORF 3 HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//orf2.orf.cdn.ors.at/orfs_cache/q8c.sdp/chunklist.m3u8:ORF Sport+ HD (720p)
-#DESCRIPTION ORF Sport+ HD (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD AT (720p)
 #DESCRIPTION SERVUS TV HD AT (720p)
-#SERVICE 4097:0:19:0:0:0:0:0:0:0:http%3a//91.222.53.72/master_4490.m3u8:ATV2
-#DESCRIPTION ATV2 (404p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//apasfoe24l.sf.apa.at/ipad/oe24-live1/oe24.sdp/chunklist_b1900000.m3u8:OE24TV (1080p)
 #DESCRIPTION OE24TV (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streaming.austria24.tv/live/stream_360p:Austria24 TV (360p)
-#DESCRIPTION Austria24 TV (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.austria24.tv/live/mp4%3astream_720p/chunklist_w44462967.m3u8:Austria24 TV (360p)
+#DESCRIPTION Austria24 TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.hd-livestream.de%3a1935/live/TirolTV/chunklist_w1178744335.m3u8:Tirol TV (406p)
 #DESCRIPTION Tirol TV (406p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//ms01.w24.at%3a1935/livepkgr/livestream2:W 24 (360p)

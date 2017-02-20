@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch mit EPG
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 16.02.2017
+#DESCRIPTION Update 20.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:6DCA:44D:1:C00000:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_2692_av-b.m3u8?sd=10&rebase=on:Das Erste (540p)
@@ -51,8 +51,6 @@
 #DESCRIPTION n-tv (720p)
 #SERVICE 4097:0:1:445F:453:1:C00000:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-b.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
-#SERVICE 4097:0:1:445F:453:1:C00000:0:0:0:https%3a//news2weltcms-lh.akamaihd.net/i/News2WeltCMS_1@425444/index_4_av-b.m3u8?sd=10&rebase=on:N24 News (540p)
-#DESCRIPTION N24 News (540p)
 #SERVICE 4097:0:1:79F4:443:1:C00000:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
 #DESCRIPTION Euronews (720p)
 #SERVICE 4097:0:1:114E:404:1:C00000:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
