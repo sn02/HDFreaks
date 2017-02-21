@@ -35,7 +35,9 @@
 #DESCRIPTION Brazzer (576p) KrasTV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=910:Brazzer
 #DESCRIPTION Brazzer Europa (576p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/XDREAM/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/HUSTLER/stream_wifi_1200k.m3u8?u=n1info#User-Agent="AppleCoreMedia
+#DESCRIPTION Hustler(360)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/DORCEL/stream_wifi_1200k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION Hustler(360)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=527:Playboy
 #DESCRIPTION Playboy (576p)
