@@ -7,14 +7,8 @@
 #DESCRIPTION Alternative (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/143/chunklist.m3u8:Brits + Hits1
 #DESCRIPTION Brits + Hits1 (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/127/chunklist.m3u8:Brits + Hits2
-#DESCRIPTION Brits + Hits2 (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/127/chunklist.m3u8:Dance/EDM
-#DESCRIPTION Dance/EDM (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/106/chunklist.m3u8:Hip-Hop And R&B
 #DESCRIPTION Hip-Hop And R&B (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/100/chunklist.m3u8:Hit List
-#DESCRIPTION Hit List (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/129/chunklist.m3u8:Indie
 #DESCRIPTION Indie (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina2.top.comcast.net/VideoChannels/139/chunklist.m3u8:Metal
