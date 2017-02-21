@@ -71,16 +71,16 @@
 #DESCRIPTION Sky Sport News (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//fms.daf.tmt.de%3a1935/live/dafstream100:Daf(360p)
 #DESCRIPTION DAF (360p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/Pro7/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
-#DESCRIPTION Pro7 (360p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/SAT1/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
-#DESCRIPTION Sat1 (360p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/RTL/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION RTL (360p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/RTL2/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
-#DESCRIPTION RTL2 (360p)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/SAT1/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
+#DESCRIPTION Sat1 (360p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/VOX/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION VOX (360p)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/Pro7/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
+#DESCRIPTION Pro7 (360p)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/RTL2/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
+#DESCRIPTION RTL2 (360p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/DSF/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION Sport1 (360p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1
