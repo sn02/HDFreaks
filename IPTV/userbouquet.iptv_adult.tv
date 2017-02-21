@@ -1,11 +1,11 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 19.02.2017-1
+#DESCRIPTION Update 21.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
 #DESCRIPTION Miami Mexico (720p)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru/btv/candy/type/user/devname/LG-SmartTV/devid/LG-1469816054/eol/20200101T0000/hash/e822f177cb4785c93f7b0a50a3534432478f512b/track_2_1000/playlist.m3u8:Candy 18+ (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru/btv/candy/type/user/devname/LG-SmartTV/devid/LG-1469816054/eol/20200101T0000/hash/e822f177cb4785c93f7b0a50a3534432478f512b/track_2_1000/playlist.m3u8:Candy 18+ (576p)
 #DESCRIPTION Candy 18+ (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_NYARTTV/variant.m3u8?version=2:NUART (576p)
 #DESCRIPTION NUART (576p)
@@ -33,13 +33,13 @@
 #DESCRIPTION Hustler HD (1080p) KrasTV
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/brazzers:Brazzer(576p)
 #DESCRIPTION Brazzer (576p) KrasTV
-#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=910:Brazzer
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=910:Brazzer
 #DESCRIPTION Brazzer Europa (576p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/XDREAM/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION Hustler(360)
-#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=527:Playboy
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=527:Playboy
 #DESCRIPTION Playboy (576p)
-#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
 #DESCRIPTION OLALA (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/playboy:Playboy(576p)
 #DESCRIPTION Playboy (576p) KrasTV
