@@ -3,23 +3,21 @@
 #DESCRIPTION Update 20.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Germany
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
-#DESCRIPTION Sky Sport News (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_1992_av-p.m3u8?sd=10&rebase=on:Das Erste (540p)
 #DESCRIPTION Das Erste (540p)
-#SERVICE 4097:0:1:6D66:437:1:C00000:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8:ZDF (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8:ZDF (720p)
 #DESCRIPTION ZDF (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/index_3776_av-b.m3u8:WDR HD (720p)
 #DESCRIPTION WDR HD (720p)
-#SERVICE 4097:0:1:6D67:437:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1496_av-b.m3u8:3sat (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/index_1496_av-b.m3u8:3sat (480p)
 #DESCRIPTION 3sat (480p)
-#SERVICE 4097:0:1:7034:41B:1:C00000:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8:arte
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-p.m3u8:arte
 #DESCRIPTION ARTE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/index_7_av-b.m3u8:ONE HD (720p)
 #DESCRIPTION ONE HD (720p)
-#SERVICE 4097:0:1:6D6B:437:1:C00000:0:0:0:https%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-b.m3u8:ZDF Info (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-b.m3u8:ZDF Info (720p)
 #DESCRIPTION ZDF Info (720p)
-#SERVICE 4097:0:1:6D6E:437:1:C00000:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8:ZDF Neo (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8:ZDF Neo (720p)
 #DESCRIPTION ZDF Neo (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/index_3776_av-p.m3u8?sd=10&rebase=on:NDR Fernsehen HD (720p)
 #DESCRIPTION NDR Fernsehen HD (720p)
@@ -83,6 +81,8 @@
 #DESCRIPTION RTL2 (360p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/DSF/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION Sport1 (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
+#DESCRIPTION Sky Sport News (720p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1
 #DESCRIPTION Parlamentsfernsehen 1 (480p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x4177pfs2c13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/4177pf_s2/live_de_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 2
