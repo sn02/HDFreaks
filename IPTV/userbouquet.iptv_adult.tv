@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 21.02.2017
+#DESCRIPTION Update 22.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -11,40 +11,14 @@
 #DESCRIPTION NUART (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_RUSSKAYANOCH/variant.m3u8?version=2:SOFT (576p)
 #DESCRIPTION SOFT (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9050:Pink (576p)
-#DESCRIPTION Pink Erotic (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9051:Pink (576p)
-#DESCRIPTION Pink Erotic2 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9052:Pink (576p)
-#DESCRIPTION Pink Erotic3 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9053:Pink (576p)
-#DESCRIPTION Pink Erotic4 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9090:Pink (576p)
-#DESCRIPTION Pink Erotic5 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9091:Pink (576p)
-#DESCRIPTION Pink Erotic6 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9092:Pink (576p)
-#DESCRIPTION Pink Erotic7 (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//87.255.53.72%3a9093:Pink (576p)
-#DESCRIPTION Pink Erotic8 (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
 #DESCRIPTION Sexysat (270p)
-#SERVICE 1:0:19:0:0:0:0:0:0:0:http%3a//0E9B00ECD326CCAC%3a@5.159.96.170/hustlerhd:Hustler HD (720p)
-#DESCRIPTION Hustler HD (1080p) KrasTV
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/brazzers:Brazzer(576p)
-#DESCRIPTION Brazzer (576p) KrasTV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=910:Brazzer
-#DESCRIPTION Brazzer Europa (576p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/HUSTLER/stream_wifi_1200k.m3u8?u=n1info#User-Agent="AppleCoreMedia
-#DESCRIPTION Hustler(360)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/DORCEL/stream_wifi_1200k.m3u8?u=n1info#User-Agent="AppleCoreMedia
-#DESCRIPTION Dorcel(360)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/FLASH-TV/playlist.m3u8?ch=527:Playboy
-#DESCRIPTION Playboy (576p)
+#SERVICE 4097:0:1:87:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=663:Hustler HD
+#DESCRIPTION Hustler HD (1080p)
+#SERVICE 4097:0:1:83:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=437:Pornoclub
+#DESCRIPTION Pornoclub (576p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
 #DESCRIPTION OLALA (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/playboy:Playboy(576p)
-#DESCRIPTION Playboy (576p) KrasTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/030/chunks.m3u8:PornTV 1HD (480p)
 #DESCRIPTION PornTV 1 HD (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/030/chunks.m3u8:PornTV 2HD (480p)
