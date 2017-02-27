@@ -1,14 +1,14 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 22.02.2017
+#DESCRIPTION Update 27.02.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
 #DESCRIPTION Miami Mexico (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-01.bonus-tv.ru/btv/candy/type/user/devname/LG-SmartTV/devid/LG-1469816054/eol/20200101T0000/hash/e822f177cb4785c93f7b0a50a3534432478f512b/track_2_1000/playlist.m3u8:Candy 18+ (576p)
-#DESCRIPTION Candy 18+ (576p)
-#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candy/tracks-v1a1/index-1487723874-now.m3u8:Candy 2
-#DESCRIPTION Candy 2 (720p)
+#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candyman/tracks-v1a1/index-1486315790-now.m3u8:Candyman
+#DESCRIPTION Candyman (720p)
+#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candy/tracks-v1a1/index-1487723874-now.m3u8:Candy
+#DESCRIPTION Candy (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_NYARTTV/variant.m3u8?version=2:NUART (576p)
 #DESCRIPTION NUART (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_RUSSKAYANOCH/variant.m3u8?version=2:SOFT (576p)
