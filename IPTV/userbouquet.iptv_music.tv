@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 21.02.2017-2
+#DESCRIPTION Update 27.02.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choise
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
@@ -167,6 +167,8 @@
 #DESCRIPTION HD ONE Music (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.one.by%3a2300:HD ONE Music RU (1080p)
 #DESCRIPTION HD ONE Music RU (1080p)
+#SERVICE 4097:0:1:109:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=421:EU Music DH
+#DESCRIPTION EU Music HD(1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.nebiset.tv/nebiset.m3u8:Nebiset Music (576p)
 #DESCRIPTION Nebiset Music (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hithd.camsh.orsk.ru/hls/hithd.m3u8:Hit Music (720p)
@@ -345,5 +347,7 @@
 #DESCRIPTION VH1 (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.87%3a5050:VH1 Classic (576p)
 #DESCRIPTION VH1 Classic (576p)
+#SERVICE 4097:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=164:Mezzo HD
+#DESCRIPTION Mezzo HD (1080p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=197:Mezzo (576p)
 #DESCRIPTION Mezzo (576p)
