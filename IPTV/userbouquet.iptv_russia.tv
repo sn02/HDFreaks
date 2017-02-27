@@ -1,6 +1,6 @@
 #NAME IPTV Russia
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 23.02.2017 teilweis bis 6 Sekunden Verbindungsdauer
+#DESCRIPTION Update 27.02.2017 teilweis bis 6 Sekunden Verbindungsdauer
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.1%3a5050:Eurosport SD
 #DESCRIPTION Eurosport SD
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.2%3a5050:2x2
@@ -149,11 +149,11 @@
 #DESCRIPTION Amedia2 SD
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.202%3a5050:TNT-Comedy
 #DESCRIPTION TNT-Comedy
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.203%3a5050:NasheTV
-#DESCRIPTION NasheTV 
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=616:Fussball 1 HD
-#DESCRIPTION Fussball 1
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=617:Fussball 2 HD
-#DESCRIPTION Fussball 2
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=618:Fussball 3 HD
-#DESCRIPTION Fussball 3
+#SERVICE 4097:0:16:43:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=665:Nasche Fussball HD
+#DESCRIPTION Nasche Fussball HD
+#SERVICE 4097:0:16:47:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=616:Fussball 1 HD
+#DESCRIPTION Fussball 1 HD
+#SERVICE 4097:0:16:23:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=617:Fussball 2 HD
+#DESCRIPTION Fussball 2 HD
+#SERVICE 4097:0:16:13:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=618:Fussball 3 HD
+#DESCRIPTION Fussball 3 HD
