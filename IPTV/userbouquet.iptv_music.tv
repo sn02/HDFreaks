@@ -339,7 +339,7 @@
 #DESCRIPTION MTV Dance (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (578p)
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//212.55.70.81%3a9999/udp/239.255.250.77%3a1234:MTV Hits (578p)
 #DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
 #DESCRIPTION VH1 (578p)
