@@ -19,11 +19,9 @@
 #DESCRIPTION Hustler(360)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/LIVE/DORCEL/stream_wifi_1200k.m3u8?u=n1info#User-Agent=AppleCoreMedia
 #DESCRIPTION Dorcel(360)
-#SERVICE 1:0:1:1:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/hustlerhd:Hustler HD (1080p)
-#DESCRIPTION Hustler HD (1080p)
-#SERVICE 1:0:1:3:0:0:0:0:0:0:http%3a//4BA9EBDB07C05883%3a@5.159.96.170/playboy:Playboy TV (576p)
-#DESCRIPTION Playboy TV (576p)
-#SERVICE 4097:0:1:87:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=663:Hustler HD
+#SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//89.38.8.131%3a39527:xxx Hustler HD
+#DESCRIPTION xxx Hustler HD
+#SERVICE 4097:0:16:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=663:Hustler HD
 #DESCRIPTION Hustler HD (1080p)
 #SERVICE 4097:0:1:83:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=437:Pornoclub
 #DESCRIPTION Pornoclub (576p)
