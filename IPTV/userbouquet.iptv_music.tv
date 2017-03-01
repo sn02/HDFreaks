@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 27.02.2017
+#DESCRIPTION Update 01.03.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choise
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
@@ -144,9 +144,7 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.201.156.21/musicbox/musicbox.sdp/chunklist_w526292636.m3u8:MusicBox RU (576p)
 #DESCRIPTION MusicBox RU (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.26.132.86/hls/mb_ua_2500.m3u8:MusicBox UA (576p)
-#DESCRIPTION MusicBox UA (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.rmg.cdnvideo.ru/rmg/rmg1.sdp/playlist.m3u8:HITV Music (576p)
-#DESCRIPTION HITV Music (576p)
+#DESCRIPTION MusicBox UA (576p))
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.shansontv.cdnvideo.ru/shansontv/shansontv.smil/playlist.m3u8:Chanson TV (576p)
 #DESCRIPTION Chanson TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/chunklist.m3u8:O2 TV (480p)
@@ -259,18 +257,12 @@
 #DESCRIPTION Si TV (426p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.96.163.139%3a8020/1-tv-pc/924.m3u8:Slusnej Rock Kanal TV (576p)
 #DESCRIPTION Slusnej Rock Kanal TV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lcdn.une.net.co%3a80/v1/AUTH_HLSLIVE/MESH/tu1_1.m3u8:TIGO MUSIC (480p)
-#DESCRIPTION TIGO MUSIC (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ss6.domint.net%3a2086/tmtv_str/musica/playlist.m3u8:TeveMusica (720p)
-#DESCRIPTION TeveMusica (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.101.21.42%3a8081/live/live2/playlist.m3u8:Vibee TV (540p)
 #DESCRIPTION Vibee TV (540p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.rbm.tv/rightbrainmedia-live-109/_definst_//mp4%3aradioutv1/chunklist_w1182659521.m3u8:Radio UTV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-live-egress.rbmtv.com/rightbrainmedia-live-109/mp4%3aradioutv_all/rightbrainmedia-live-109/radioutv1/chunks.m3u8:Radio UTV (720p)
 #DESCRIPTION Radio UTV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv2.euroti.com.br%3a1935/gmusic/gmusic/live.m3u8:Gospel Television (480p) Brasil
 #DESCRIPTION Gospel Television (480p) Brasil
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stmv1.hostgs.net/jtvmilk/jtvmilk/playlist.m3u8:MilkTV (360p) Brasil
-#DESCRIPTION MilkTV (360p) Brasil
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_hits_hls_aes/m6_music_hits_hls_aes_856.m3u8:M6 (240p)
 #DESCRIPTION M6 (240p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wsemedia.com%3a1935/marcoaurelio84/marcoaurelio84/live.m3u8:MKK WEB TV (360p) Brasil
@@ -343,7 +335,7 @@
 #DESCRIPTION MTV Dance (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//212.55.70.81%3a9999/udp/239.255.250.77%3a1234:MTV Hits (578p)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/127.m3u8:MTV Hits (576p)
 #DESCRIPTION MTV Hits (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/fytfiugiohvrexrtyf78tyfygjgb/125.m3u8:VH1 (578p)
 #DESCRIPTION VH1 (578p)
