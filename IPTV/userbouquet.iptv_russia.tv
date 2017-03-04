@@ -43,22 +43,14 @@
 #DESCRIPTION Vremya
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.30%3a5050:Detsky
 #DESCRIPTION Detsky
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/disney.m3u8:Disney
-#DESCRIPTION Disney
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.33%3a5050:Dom Kino
 #DESCRIPTION Dom Kino
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.34%3a5050:Domashniy
 #DESCRIPTION Domashniy
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.35%3a5050:Drive
 #DESCRIPTION Drive
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/zvezda.m3u8:Zvezda
-#DESCRIPTION Zvezda
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/first.m3u8:Perviy
-#DESCRIPTION Perviy
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.38%3a5050:Illuzion+
 #DESCRIPTION Illuzion+
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/karusel.m3u8:Karusel
-#DESCRIPTION Karusel
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.43%3a5050:Yuvelirochka
 #DESCRIPTION Yuvelirochka
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.44%3a5050:Mir24
@@ -69,12 +61,6 @@
 #DESCRIPTION MuzTV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.47%3a5050:Muzika Pervogo
 #DESCRIPTION Muzika Pervogo
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/match.m3u8:Match
-#DESCRIPTION Match
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/ntv.m3u8:NTV
-#DESCRIPTION NTV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/otr.m3u8:ObTV
-#DESCRIPTION ObTV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.54%3a5050:Ohota i ribalka
 #DESCRIPTION Ohota i ribalka
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.58%3a5050:Pyatnica
@@ -93,24 +79,12 @@
 #DESCRIPTION RusskiyIlluzionTV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.68%3a5050:MusicBoxRU
 #DESCRIPTION MusicBoxRU
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/rus1.m3u8:Rossiya
-#DESCRIPTION Rossiya
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/kultura.m3u8:Rossiya K
-#DESCRIPTION Rossiya K
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/rus24.m3u8:Rossiya 24 Region
-#DESCRIPTION Rossiya 24
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/5kanal.m3u8:5 Channel
-#DESCRIPTION 5 Channel
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.76%3a5050:Telecafe
 #DESCRIPTION Telecafe
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.77%3a5050:Tatarstan NV
-#DESCRIPTION Tatarstan NV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/tnt.m3u8:THT
 #DESCRIPTION THT
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.79%3a5050:Usadba
 #DESCRIPTION Usadba
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st2.lapti.tv/hls/u.m3u8:U
-#DESCRIPTION U
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.85%3a5050:Nick Jr
 #DESCRIPTION Nick Jr
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks
@@ -139,8 +113,6 @@
 #DESCRIPTION TiJi
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.127%3a5050:Russkiy Ekstrim
 #DESCRIPTION Russkiy Ekstrim
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//st3.lapti.tv/hls/sts.m3u8:STS
-#DESCRIPTION STS
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.138%3a5050:DW Euro
 #DESCRIPTION DW Euro
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.159%3a5050:Mir
