@@ -59,7 +59,7 @@
 #DESCRIPTION Phoenix (480p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
 #DESCRIPTION n-tv (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8?sd=10&rebase=on:N24 (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_2_av-p.m3u8?sd=10&rebase=on:N24 (720p)
 #DESCRIPTION N24 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews (360p)
 #DESCRIPTION Euronews (360p)
