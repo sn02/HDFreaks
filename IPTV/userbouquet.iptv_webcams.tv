@@ -1,10 +1,10 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:1:0:0:0:0:0:0:0::Update 19.02.2017
-#DESCRIPTION Update 19.02.2017
+#DESCRIPTION Update 06.03.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:mms%3a//apasf.apa.at/oe3_live:Webcam%3a Ö3 Live (Geduld - dauert etwas)
-#DESCRIPTION Webcam: Ö3 Live (Geduld - dauert etwas)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/oe3sd/orf.sdp/master.m3u8:Webcam%3a Ö3
+#DESCRIPTION Webcam: Ö3 Live 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//linz.it-wms.com/clip_current_720p.mp4:Webcam%3a Linz, Donaulände
 #DESCRIPTION Webcam: Linz, Donaulände
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv157.stream/master.m3u8:Webcam%3a Ischgl - Pardatschgrat Seilbahn
