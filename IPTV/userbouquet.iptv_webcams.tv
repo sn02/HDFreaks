@@ -1,5 +1,5 @@
 #NAME IPTV Webcams
-#SERVICE 1:64:1:0:0:0:0:0:0:0::Update 19.02.2017
+#SERVICE 1:64:1:0:0:0:0:0:0:0::
 #DESCRIPTION Update 06.03.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
