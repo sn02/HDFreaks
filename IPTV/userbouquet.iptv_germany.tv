@@ -87,6 +87,36 @@
 #DESCRIPTION Parlamentsfernsehen 1 (480p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x4177pfs2c13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/4177pf_s2/live_de_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 2
 #DESCRIPTION Parlamentsfernsehen 2 (480p)
+#SERVICE 1:64:0:0:0:0:0:0:0:0::Regional
+#DESCRIPTION RegionalTV Sachsenanhalt
+#SERVICE 4097:0:1:7:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/punktum_high/playlist.m3u8:PUNKTum
+#DESCRIPTION PUNKTum
+#SERVICE 4097:0:1:9:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/mdf1_high/playlist.m3u8:MDF.1
+#DESCRIPTION MDF.1
+#SERVICE 4097:0:1:11:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/RFH_high/playlist.m3u8:RFH
+#DESCRIPTION RFHarz
+#SERVICE 4097:0:1:13:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/rbw_high/master.m3u8:RBW
+#DESCRIPTION RBWittenberg
+#SERVICE 4097:0:1:15:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ran1_high/master.m3u8:Ran1 Dessau
+#DESCRIPTION RAN 1
+#SERVICE 4097:0:1:17:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-dessau_high/master.m3u8:OK Dessau
+#DESCRIPTION OK Dessau
+#SERVICE 4097:0:1:19:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-magdeburg_high/master.m3u8:OK Magedeburg
+#DESCRIPTION OK Magedeburg
+#SERVICE 4097:0:1:21:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-merseburg_high/master.m3u8:OK Merseburg
+#DESCRIPTION OK Merseburg
+#SERVICE 4097:0:1:23:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-salzwedel_high/master.m3u8:OK Salzwedel
+#DESCRIPTION OK Salzwedel
+#SERVICE 4097:0:1:25:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-stendal_high/master.m3u8:OK Stendal
+#DESCRIPTION OK Stendal
+#SERVICE 4097:0:1:27:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/ok-wernigerode_high/master.m3u8:OK Wernigerode
+#DESCRIPTION OK Wernigerode
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/BLKonline_high/master.m3u8:Burgenlandkreis Regional TV
+#DESCRIPTION Burgenlandkreis Regional TV
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/elbe_high/master.m3u8:Elbekanal Schönebeck
+#DESCRIPTION Elbekanal Schönebeck
+#SERVICE 4097:0:1:5:0:0:0:0:0:0:http%3a//62.113.210.250/medienasa-live/tvhalle_high/master.m3u8:Halle TV
+#DESCRIPTION Halle TV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/ORF1/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
