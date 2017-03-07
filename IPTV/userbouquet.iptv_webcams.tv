@@ -1,6 +1,6 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:1:0:0:0:0:0:0:0::
-#DESCRIPTION Update 06.03.2017
+#DESCRIPTION Update 07.03.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/oe3sd/orf.sdp/master.m3u8:Webcam%3a Ö3
@@ -358,15 +358,15 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam%3a Portugal - Praia Santa Cruz
 #DESCRIPTION Webcam: Portugal - Praia Santa Cruz
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=k109.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?362 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_gdansk_glowne_miasto live=1:Webcam%3a RU - Gdansk - Glowne Miasto
-#DESCRIPTION Webcam: RU - Gdansk - Glowne Miasto
+#DESCRIPTION Webcam: Polska - Gdansk - Glowne Miasto
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=molo.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?550 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_sopot_molo live=1:Webcam%3a RU - Sopot - Molo
+#DESCRIPTION Webcam: Polska - Sopot - Molo
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//80.78.116.125/rtplive/ playpath=5goda_hd.stream swfUrl=http%3a//myttk.ru/media/webcam/uppod/uppod.swf pageUrl=http%3a//myttk.ru/media/webcam/cathedral_square/ live=1:Webcam%3a RU - Jekaterinburg - 1905 Square 
 #DESCRIPTION Webcam: RU - Jekaterinburg - 1905 Square 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//80.78.116.125/rtplive/ playpath=plot_hd.stream swfUrl=http%3a//myttk.ru/media/webcam/uppod/uppod.swf pageUrl=http%3a//myttk.ru/media/webcam/cathedral_square/ live=1:Webcam%3a RU - Jekaterinburg - Prospect Lenina & Plotinka
 #DESCRIPTION Webcam: RU - Jekaterinburg - Prospect Lenina & Plotinka
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//mediasrv.uralttk.ru%3a1935/rtplive playpath=solikamsk_hd.stream swfUrl=http%3a//myttk.ru/media/webcam/uppod/uppod.swf pageUrl=http%3a//myttk.ru/media/webcam/cathedral_square/ live=1:Webcam%3a RU - Solikamsk - Cathedral Square
 #DESCRIPTION Webcam: RU - Solikamsk - Cathedral Square
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=molo.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?550 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_sopot_molo live=1:Webcam%3a RU - Sopot - Molo
-#DESCRIPTION Webcam: RU - Sopot - Molo
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.livespotting.tv/windit-edge/vv124_720p.stream/.m3u8:Webcam%3a Schweiz - Baden - Hotel Magnetberg
 #DESCRIPTION Webcam: Schweiz - Baden - Hotel Magnetberg
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//rtmp.infomaniak.ch/livecast/webcam05luganoch:Webcam%3a Schweiz - Lugano - Lido
