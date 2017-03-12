@@ -45,8 +45,18 @@
 #DESCRIPTION Pac12 Los Angeles (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xrxs.net/video/live-p12oreg-2328.m3u8:Pac12 Oregon (720p)
 #DESCRIPTION Pac12 Oregon(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//208.92.36.158/ipad/live/nba_ipad_1240.m3u8:NHL US (360p)
-#DESCRIPTION NHL US (360p)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//50.7.69.42%3a8899/GB/UK/BOXNATION/index.m3u8
+#DESCRIPTION Boxnation (576p)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/FTYFUbtuy7ukgiukbvCRTYFGKftfjHNDY/150.m3u8
+#DESCRIPTION Boxsport TV (576p)
+#SERVICE 1:0:1:277:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/239.2.57.214%3a1234:Dolce Sport1
+#DESCRIPTION Dolce Sport1 HD
+#SERVICE 1:0:1:279:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/239.2.57.215%3a1234:Dolce Sport2
+#DESCRIPTION Dolce Sport2 HD
+#SERVICE 1:0:1:281:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/239.2.57.216%3a1234:Dolce Sport3
+#DESCRIPTION Dolce Sport3 HD
+#SERVICE 1:0:1:283:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/239.2.57.217%3a1234:Dolce Sport4
+#DESCRIPTION Dolce Sport4 HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1800.m3u8:Eurosport 1 (720p)
 #DESCRIPTION Eurosport 1 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.206.253.157%3a8001/eurosport2hd:Eurosport 2 HD (1080p)
@@ -65,14 +75,10 @@
 #DESCRIPTION Red Bull TV 2 (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//edge02.dcarsat.com.ar%3a1935/DXTV/DXTV/master.m3u8:DXTX Argentina (432p)
 #DESCRIPTION DXTX Argentina (432p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//goltv.exabytetv.info%3a80/hls2/amlst%3a30001_ios/master.m3u8: GolTV Argentina (480p)
-#DESCRIPTION GolTV Argentina (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//univ-i.akamaihd.net/hls/live/222635/HLS12/chunklist.m3u8:TVJ SPORTS JAMAICA (360p)
-#DESCRIPTION TVJ SPORTS JAMAICA (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rm-edge-1.cdn2.streamago.tv%3a1935/streamagoedge/39648/36567/live.m3u8:RETE SPORT 8 (360p)
-#DESCRIPTION RETE SPORT 8 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//173.236.10.10%3a1935/dgrau/dgrau/live.m3u8:TV ALL SPORT (720p)
 #DESCRIPTION TV ALL SPORT (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//149.255.152.113/3977238/mono.m3u8:Idman (576p)
+#DESCRIPTION Idman (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//motorsport.hopto.org%3a8080: FOX Sport (544p)
 #DESCRIPTION FOX Sport Motor (544p)
 #SERVICE 1:64:23:0:0:0:0:0:0:0:
