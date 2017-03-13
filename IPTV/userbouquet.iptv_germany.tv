@@ -21,7 +21,7 @@
 #DESCRIPTION ZDF Neo (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/index_3776_av-p.m3u8?sd=10&rebase=on:NDR Fernsehen HD (720p)
 #DESCRIPTION NDR Fernsehen HD (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetvsachsenanhalt.mdr.de/i/livetvmdrsachsenanhalt_de@106901/index_3776_av-p.m3u8?sd=10&rebase=on:MDR Fernsehen (7200p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mdr_sachsen_hls-lh.akamaihd.net/i/livetvmdrsachsen_de@106902/index_3871_av-b.m3u8:MDR Fernsehen (720p)
 #DESCRIPTION MDR Fernsehen (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live2_sr-lh.akamaihd.net/i/sr_universal02@107595/index_1662_av-p.m3u8?sd=10&rebase=on:SR Fernsehen HD (544p)
 #DESCRIPTION SR Fernsehen HD (544p)
