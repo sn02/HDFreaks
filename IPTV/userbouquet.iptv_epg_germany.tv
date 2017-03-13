@@ -55,7 +55,7 @@
 #DESCRIPTION Euronews (720p)
 #SERVICE 4097:0:1:114E:404:1:C00000:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
 #DESCRIPTION Deutsche Welle (400p)
-#SERVICE 4097:0:1:C6:C:85:C00000:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
+#SERVICE 4097:0:1:25:F:85:C00000:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
 #DESCRIPTION Sky Sport News (720p)
 #SERVICE 5002:0:1:2FC:5:85:C00000:0:0:0:http%3a//video1.anixehd.tv%3a8080/Apple/wifistream.m3u8:Anixe (360p)
 #DESCRIPTION Anixe (360p)
