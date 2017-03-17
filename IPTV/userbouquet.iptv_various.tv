@@ -47,7 +47,7 @@
 #DESCRIPTION Pac12 Oregon(720p)
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//50.7.69.42%3a8899/GB/UK/BOXNATION/index.m3u8
 #DESCRIPTION Boxnation (576p)
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//eter.noip.me%3a8080/live/only-in-moskvatv.com/FTYFUbtuy7ukgiukbvCRTYFGKftfjHNDY/150.m3u8
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=581
 #DESCRIPTION Boxsport TV (576p)
 #SERVICE 4097:0:1:75:0:0:0:0:0:0:http%3a//89.38.8.130%3a39441:DOLCE SPORT 1
 #DESCRIPTION DOLCE SPORT 1
