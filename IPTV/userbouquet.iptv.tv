@@ -1,6 +1,6 @@
 #NAME IPTV
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 16.02.2017
+#DESCRIPTION Update 17.03.2017
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Austria
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/ts/ORF1/stream_wifi_840k.m3u8?u=n1info#User-Agent="AppleCoreMedia
@@ -25,8 +25,6 @@
 #DESCRIPTION Ländle TV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dorf.openplayout.org/hls/dorf_high/index.m3u8:Dorf tv (576p)
 #DESCRIPTION Dorf tv (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:mms%3a//wmsstream22.v4.mytv.ris.at/live/stream_149:Mühlviertel TV (432p)
-#DESCRIPTION Mühlviertel TV (432p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//d2jk87psbjrjdz.cloudfront.net/livehttporigin/okto/chunklist.m3u8:OKTO (720p)
 #DESCRIPTION OKTO (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//origin.hd-livestream.de/live/melodie/master.m3u8:Melodie Express (576p)
