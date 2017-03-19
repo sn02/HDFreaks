@@ -270,7 +270,7 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/ameland/ameland.stream swfUrl=http%3a//hdtv.webcam.nl/website/page1/page7/player.swf pageUrl=http%3a//hdtv.webcam.nl/website/page1/page7/live_ameland_webcam_II.html:Webcam%3a NL - Ameland strand
 #DESCRIPTION Webcam: NL - Ameland strand
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video4.earthcam.com/fecnetwork/4098.flv/playlist.m3u8:Webcam%3a Netherlands - Amsterdam Cam
-#DESCRIPTION Webcam: Netherlands - Amsterdam Cam
+#DESCRIPTION Webcam: NL - Amsterdam Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/artesis/artesis.stream swfUrl=http%3a//bouw.webcam.nl/artesis/player.swf pageUrl=http%3a//bouw.webcam.nl/artesis/:Webcam%3a NL - Antwerpen - Artesis Campus Noord
 #DESCRIPTION Webcam: NL - Antwerpen - Artesis Campus Noord
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/sealife/sealife.stream swfUrl=http%3a//hdtv.webcam.nl/sealife/player.swf pageUrl=http%3a//hdtv.webcam.nl/sealife/:Webcam%3a NL - Blankenberge - Sealife 1
