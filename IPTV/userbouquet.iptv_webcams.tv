@@ -1,6 +1,6 @@
 #NAME IPTV Webcams
 #SERVICE 1:64:1:0:0:0:0:0:0:0::
-#DESCRIPTION Update 07.03.2017
+#DESCRIPTION Update 19.03.2017
 #SERVICE 1:64:C:0:0:0:0:0:0:0::Österreich
 #DESCRIPTION Österreich
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.85.28.19/oe3sd/orf.sdp/master.m3u8:Webcam%3a Ö3
@@ -243,22 +243,22 @@
 #DESCRIPTION Europa
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Webcam%3a Czech - Jablunkov
 #DESCRIPTION Webcam: Czech - Jablunkov
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam9.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf?17013 pageUrl=http%3a//www.luhacovice.cz/5289-webova-kamera-nam.-28.-rijna:Webcam%3a Czech - Luhacovice - Centrum
-#DESCRIPTION Webcam: Czech - Luhacovice - Centrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam6.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/495040-webova-kamera-na-krizovatce-tr-t.-bati-a-ul-osvobozeni-ve-zline:Webcam%3a Czech - Zlin - Ulice Osvobozeni
+#DESCRIPTION Webcam: Czech - Holesov
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam1.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf?17000 pageUrl=http%3a//www.luhacovice.cz/24796-webova-kamera-lazenske-namesti:Webcam%3a Czech - Luhacovice - Hotel Miramar (Lazenske) - Czech Repu
-#DESCRIPTION Webcam: Czech - Luhacovice - Hotel Miramar (Lazenske) - Czech Repu
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam4.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/495020-webova-kamera-otrokovice-travniky:Webcam%3a Czech - Otrokovice - Sidliste Travniky
-#DESCRIPTION Webcam: Czech - Otrokovice - Sidliste Travniky
+#DESCRIPTION Webcam: Czech - Luhacovice - Hotel Miramar (Lazenske)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam8.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/495067-webova-kamera-vizovice:Webcam%3a Czech - Vizovice
-#DESCRIPTION Webcam: Czech - Vizovice
+#DESCRIPTION Webcam: Czech - Luhacovice - Zentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam2.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/74950-webova-kamera-zlin-kvitkova-ulice:Webcam%3a Czech - Zlin - Ulice Kvitkova
+#DESCRIPTION Webcam: Czech - Otrokovice
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam9.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf?17013 pageUrl=http%3a//www.luhacovice.cz/5289-webova-kamera-nam.-28.-rijna:Webcam%3a Czech - Luhacovice - Centrum
+#DESCRIPTION Webcam: Czech - Zlin - Zentrum
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam4.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/495020-webova-kamera-otrokovice-travniky:Webcam%3a Czech - Otrokovice - Sidliste Travniky
+#DESCRIPTION Webcam: Czech - Zlin
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam3.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/74979-webova-kamera-zlin-namesti-miru:Webcam%3a Czech - Zlin - Friedensplatz 
 #DESCRIPTION Webcam: Czech - Zlin - Friedensplatz 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam5.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/494988-webova-kamera-zlin-namesti-prace:Webcam%3a Czech - Zlin - Prace
 #DESCRIPTION Webcam: Czech - Zlin - Prace
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam2.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/74950-webova-kamera-zlin-kvitkova-ulice:Webcam%3a Czech - Zlin - Ulice Kvitkova
-#DESCRIPTION Webcam: Czech - Zlin - Ulice Kvitkova
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam6.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/495040-webova-kamera-na-krizovatce-tr-t.-bati-a-ul-osvobozeni-ve-zline:Webcam%3a Czech - Zlin - Ulice Osvobozeni
-#DESCRIPTION Webcam: Czech - Zlin - Ulice Osvobozeni
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video2.earthcam.com/fecnetwork/eiffelcamHD.flv.flv pageUrl=http%3a//www.earthcam.com swfUrl=http%3a//www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20120504_a live=1:Parijs
 #DESCRIPTION Webcam: Frankreich - Paris - Eiffelturm
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/vvv-ameland/vvv-ameland.stream swfUrl=http%3a//hdtv.webcam.nl/vvv-ameland/player.swf pageUrl=http%3a//www.vvvameland.nl/webcam-vvv-ameland/webcam-1:Webcam%3a NL - Ameland 
