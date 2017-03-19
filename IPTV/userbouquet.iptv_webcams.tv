@@ -261,6 +261,10 @@
 #DESCRIPTION Webcam: Czech - Zlin - Prace
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam3.stream/playlist.m3u8
 #DESCRIPTION Webcam: Frankreich - Paris - Eiffelturm
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam1.stream/playlist.m3u8
+#DESCRIPTION Webcam: Frankreich - Paris 1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam4.stream/playlist.m3u8
+#DESCRIPTION Webcam: Frankreich - Paris 4
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/vvv-ameland/vvv-ameland.stream swfUrl=http%3a//hdtv.webcam.nl/vvv-ameland/player.swf pageUrl=http%3a//www.vvvameland.nl/webcam-vvv-ameland/webcam-1:Webcam%3a NL - Ameland 
 #DESCRIPTION Webcam: NL - Ameland 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/ameland/ameland.stream swfUrl=http%3a//hdtv.webcam.nl/website/page1/page7/player.swf pageUrl=http%3a//hdtv.webcam.nl/website/page1/page7/live_ameland_webcam_II.html:Webcam%3a NL - Ameland strand
