@@ -598,25 +598,25 @@
 #SERVICE 1:64:10:0:0:0:0:0:0:0::Tiere - Natur
 #DESCRIPTION Tiere - Natur
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Bijen_Binnen.stream/playlist.m3u8:Webcam%3a NL - Bienen - innen
-#DESCRIPTION Webcam: NL - Bienen - innen
+#DESCRIPTION Webcam: NL - Bienen 1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Bijen_Buiten.stream/playlist.m3u8:Webcam%3a NL - Bienen - aussen 
-#DESCRIPTION Webcam: NL - Bienen - aussen 
+#DESCRIPTION Webcam: NL - Bienen 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Koolmees2.stream/playlist.m3u8:Webcam%3a NL - Kohlmeise 1
 #DESCRIPTION Webcam: NL - Kohlmeise 1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Koolmees4.stream/playlist.m3u8:Webcam%3a NL - Kohlmeise 2
 #DESCRIPTION Webcam: NL - Kohlmeise 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Kerkuil1Binnen.stream/playlist.m3u8:Webcam%3a NL - Schleiereule - innen
-#DESCRIPTION Webcam: NL - Schleiereule - innen
+#DESCRIPTION Webcam: NL - Schleiereule 1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Kerkuil1Buiten.stream/playlist.m3u8:Webcam%3a NL - Schleiereule - aussen
-#DESCRIPTION Webcam: NL - Schleiereule - aussen
+#DESCRIPTION Webcam: NL - Schleiereule 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Steenuil2Buiten.stream/playlist.m3u8:Webcam%3a NL - Steinkauz - innen
-#DESCRIPTION Webcam: NL - Steinkauz - innen
+#DESCRIPTION Webcam: NL - Steinkauz 1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Steenuil2Binnen.stream/playlist.m3u8:Webcam%3a NL - Steinkauz - aussen
-#DESCRIPTION Webcam: NL - Steinkauz - aussen
+#DESCRIPTION Webcam: NL - Steinkauz 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Spreeuw2Binnen.stream/playlist.m3u8:Webcam%3a NL - Star - innen
-#DESCRIPTION Webcam: NL - Star - innen
+#DESCRIPTION Webcam: NL - Star 1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Spreeuw2Buiten.stream/playlist.m3u8:Webcam%3a NL - Star - aussen
-#DESCRIPTION Webcam: NL - Star - aussen
+#DESCRIPTION Webcam: NL - Star 2
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Torenvalk2.stream/playlist.m3u8:Webcam%3a NL - Turmfalke
 #DESCRIPTION Webcam: NL - Turmfalke
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Slechtvalk1Buiten.stream/playlist.m3u8:Webcam%3a NL - Wanderfalke
