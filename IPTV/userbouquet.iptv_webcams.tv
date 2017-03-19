@@ -259,7 +259,7 @@
 #DESCRIPTION Webcam: Czech - Zlin - Friedensplatz 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam5.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/494988-webova-kamera-zlin-namesti-prace:Webcam%3a Czech - Zlin - Prace
 #DESCRIPTION Webcam: Czech - Zlin - Prace
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//video2.earthcam.com/fecnetwork/eiffelcamHD.flv.flv pageUrl=http%3a//www.earthcam.com swfUrl=http%3a//www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20120504_a live=1:Parijs
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam3.stream/playlist.m3u8
 #DESCRIPTION Webcam: Frankreich - Paris - Eiffelturm
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//streaming3.webcam.nl/vvv-ameland/vvv-ameland.stream swfUrl=http%3a//hdtv.webcam.nl/vvv-ameland/player.swf pageUrl=http%3a//www.vvvameland.nl/webcam-vvv-ameland/webcam-1:Webcam%3a NL - Ameland 
 #DESCRIPTION Webcam: NL - Ameland 
