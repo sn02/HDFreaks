@@ -259,6 +259,8 @@
 #DESCRIPTION Webcam: Czech - Zlin - Friedensplatz 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//stream2.mediawork.cz/avonet playpath=kam5.stream swfUrl=http%3a//playlist.mediawork.cz/zlin/playerCisty.swf pageUrl=http%3a//www.zlin.cz/494988-webova-kamera-zlin-namesti-prace:Webcam%3a Czech - Zlin - Prace
 #DESCRIPTION Webcam: Czech - Zlin - Prace
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam2.stream/playlist.m3u8
+#DESCRIPTION Webcam: Frankreich - Paris - Seine
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam3.stream/playlist.m3u8
 #DESCRIPTION Webcam: Frankreich - Paris - Eiffelturm
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.webcam-hd.fr/64connections/Pariscam1.stream/playlist.m3u8
