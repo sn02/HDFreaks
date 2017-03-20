@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 17.03.2017
+#DESCRIPTION Update 20.03.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
@@ -9,9 +9,7 @@
 #DESCRIPTION Candyman (720p)
 #SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candy/tracks-v1a1/index-1487723874-now.m3u8:Candy
 #DESCRIPTION Candy (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_NYARTTV/variant.m3u8?version=2:NUART (576p)
-#DESCRIPTION NUART (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_RUSSKAYANOCH/variant.m3u8?version=2:SOFT (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=706:SOFT (576p)
 #DESCRIPTION SOFT (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
 #DESCRIPTION Sexysat (270p)
@@ -25,7 +23,7 @@
 #DESCRIPTION Hustler HD (1080p)
 #SERVICE 4097:0:1:83:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=437:Pornoclub
 #DESCRIPTION Pornoclub (576p)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
 #DESCRIPTION OLALA (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/032/chunks.m3u8:PornTV 1HD (480p)
 #DESCRIPTION PornTV 1 HD (480p)
@@ -35,8 +33,6 @@
 #DESCRIPTION PornTV 3 HD (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:PornTV Russia (720p)
 #DESCRIPTION PornTV Russia (720p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//80.86.107.224%3a49999/udp/224.5.0.143%3a1234:Private (576p)
-#DESCRIPTION Private (576p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uncensored.akibafeed.com/n0471.wmv:Tokio Hot1 (720p)
