@@ -309,7 +309,7 @@
 #DESCRIPTION EU Music(576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=103:OTV (576p)
 #DESCRIPTION OTV (576p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=192:Bridge (576p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=192:Bridge (576p)
 #DESCRIPTION Bridge (576p)
 #SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//78.26.128.94%3a7321/index.php?channel=87:M1 (576p)
 #DESCRIPTION M1 (576p)
