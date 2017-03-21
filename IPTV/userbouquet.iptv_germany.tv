@@ -1,0 +1,131 @@
+#NAME Stabil_20.03.17_by_moudi23
+#SERVICE 4097:0:1:8:0:0:0:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8:Das Erste
+#DESCRIPTION Das Erste
+#SERVICE 4097:0:1:10:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8:ZDF
+#DESCRIPTION ZDF
+#SERVICE 4097:0:1:12:0:0:0:0:0:0:http%3a//zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8?dw=0:3sat
+#DESCRIPTION 3sat
+#SERVICE 4097:0:1:14:0:0:0:0:0:0:http%3a//artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8:arte
+#DESCRIPTION arte
+#SERVICE 4097:0:1:16:0:0:0:0:0:0:http%3a//rbb_live-lh.akamaihd.net/i/rbb_brandenburg@107638/master.m3u8:RBB
+#DESCRIPTION RBB
+#SERVICE 4097:0:1:18:0:0:0:0:0:0:http%3a//ndr_fs-lh.akamaihd.net/i/ndrfs_nds@119224/master.m3u8:NDR
+#DESCRIPTION NDR
+#SERVICE 4097:0:1:20:0:0:0:0:0:0:http%3a//mdr_sachsen_hls-lh.akamaihd.net/i/livetvmdrsachsen_de@106902/master.m3u8:MDR
+#DESCRIPTION MDR
+#SERVICE 4097:0:1:22:0:0:0:0:0:0:http%3a//live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8:HR
+#DESCRIPTION HR
+#SERVICE 4097:0:1:24:0:0:0:0:0:0:http%3a//livestream.sr-online.de/live.m3u8:SR
+#DESCRIPTION SR
+#SERVICE 4097:0:1:26:0:0:0:0:0:0:http%3a//wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/master.m3u8:WDR
+#DESCRIPTION WDR
+#SERVICE 4097:0:1:28:0:0:0:0:0:0:http%3a//livestreams.br.de/i/bfsnord_germany@119898/master.m3u8:BR
+#DESCRIPTION BR
+#SERVICE 4097:0:1:30:0:0:0:0:0:0:http%3a//fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8:Euronews
+#DESCRIPTION Euronews
+#SERVICE 4097:0:1:32:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/master.m3u8:Sky Sport News
+#DESCRIPTION Sky Sport News
+#SERVICE 4097:0:1:34:0:0:0:0:0:0:http%3a//p.live.akamai.n-tv.de/hls-live/ntvlive/ntvlive_1500.m3u8:n-tv
+#DESCRIPTION n-tv
+#SERVICE 4097:0:1:36:0:0:0:0:0:0:https%3a//live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8:N24
+#DESCRIPTION N24
+#SERVICE 4097:0:1:38:0:0:0:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/master.m3u8:SERVUS TV
+#DESCRIPTION SERVUS TV
+#SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8:ZDFinfo
+#DESCRIPTION ZDFinfo
+#SERVICE 4097:0:1:4:0:0:0:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8:Phoenix
+#DESCRIPTION Phoenix
+#SERVICE 4097:0:1:6:0:0:0:0:0:0:http%3a//zdf1314-lh.akamaihd.net/i/de13_v1@392877/master.m3u8:ZDFneo
+#DESCRIPTION ZDFneo
+#SERVICE 4097:0:1:40:0:0:0:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/playlist.m3u8:Welt der Wunder
+#DESCRIPTION Welt der Wunder
+#SERVICE 4097:0:1:64:0:0:0:0:0:0:http%3a//84.22.46.188/play/a018:VOX
+#DESCRIPTION VOX
+#SERVICE 4097:0:1:66:0:0:0:0:0:0:http%3a//84.22.46.188/play/a016:RTL
+#DESCRIPTION RTL
+#SERVICE 4097:0:1:68:0:0:0:0:0:0:http%3a//84.22.46.188/play/a017:RTL2
+#DESCRIPTION RTL2
+#SERVICE 4097:0:1:70:0:0:0:0:0:0:http%3a//rtl2ingest1-i.akamaihd.net/hls/live/225448/cbcyoumain/cbcyoumainstream1_.m3u8:RTL2 you
+#DESCRIPTION RTL2 you
+#SERVICE 4097:0:1:72:0:0:0:0:0:0:http%3a//84.22.46.188/play/a013:Super RTL
+#DESCRIPTION Super RTL
+#SERVICE 4097:0:1:74:0:0:0:0:0:0:http%3a//84.22.46.188/play/a01c:Eurosport1
+#DESCRIPTION Eurosport1
+#SERVICE 4097:0:1:76:0:0:0:0:0:0:http%3a//89.38.8.131%3a39554:AUTO MOTOR SPORT
+#DESCRIPTION AUTO MOTOR SPORT
+#SERVICE 4097:0:1:78:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00j:Motorvision
+#DESCRIPTION Motorvision
+#SERVICE 4097:0:1:80:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00q:FOX
+#DESCRIPTION FOX
+#SERVICE 4097:0:1:82:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00u:SyFy
+#DESCRIPTION SyFy
+#SERVICE 4097:0:1:84:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01o:RTL Crime
+#DESCRIPTION RTL Crime
+#SERVICE 4097:0:1:86:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00w:13Street
+#DESCRIPTION 13Street
+#SERVICE 4097:0:1:88:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01n:Krimi
+#DESCRIPTION Krimi
+#SERVICE 4097:0:1:90:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01p:RTL Passion
+#DESCRIPTION RTL Passion
+#SERVICE 4097:0:1:92:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01q:Atlantic
+#DESCRIPTION Atlantic
+#SERVICE 4097:0:1:94:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00y:Spiegel Geschichte
+#DESCRIPTION Spiegel Geschichte
+#SERVICE 4097:0:1:96:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01j:National_Geographic
+#DESCRIPTION National_Geographic
+#SERVICE 4097:0:1:98:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00p:National_Geographic_Wild
+#DESCRIPTION National_Geographic_Wild
+#SERVICE 4097:0:1:100:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01k:Discovery
+#DESCRIPTION Discovery
+#SERVICE 4097:0:1:102:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a004:Cinema
+#DESCRIPTION Cinema
+#SERVICE 4097:0:1:104:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00v:Cinema Hits
+#DESCRIPTION Cinema Hits
+#SERVICE 4097:0:1:106:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a003:Action
+#DESCRIPTION Action
+#SERVICE 4097:0:1:108:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00s:Cinemagic
+#DESCRIPTION Cinemagic
+#SERVICE 4097:0:1:110:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01m:Emotion
+#DESCRIPTION Emotion
+#SERVICE 4097:0:1:112:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01u:Family
+#DESCRIPTION Family
+#SERVICE 4097:0:1:114:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a002:Comedy
+#DESCRIPTION Comedy
+#SERVICE 4097:0:1:116:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00r:Heimatkanal
+#DESCRIPTION Heimatkanal
+#SERVICE 4097:0:1:118:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01w:Nostalgie
+#DESCRIPTION Nostalgie
+#SERVICE 4097:0:1:120:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a017:TNT Film
+#DESCRIPTION TNT Film
+#SERVICE 4097:0:1:122:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01t:Kinowelt TV
+#DESCRIPTION Kinowelt TV
+#SERVICE 4097:0:1:124:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01r:Sport 1
+#DESCRIPTION Sport 1
+#SERVICE 4097:0:1:126:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00z:Sport 2
+#DESCRIPTION Sport 2
+#SERVICE 4097:0:1:128:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a01s:Bundesliga 1
+#DESCRIPTION Bundesliga 1
+#SERVICE 4097:0:1:130:0:0:0:0:0:0:http%3a//178.196.220.26%3a9981/play/a00t:Sport Austria
+#DESCRIPTION Sport Austria
+#SERVICE 4097:0:1:238:0:0:0:0:0:0:http%3a//n-3-17.dcs.redcdn.pl/hls/o2/redefine/nlive/vh1_1/10255/0/tv-ss/live.isml/playlist.m3u8?stream=0&bandwidth=1:vh1 
+#DESCRIPTION vh1 
+#SERVICE 4097:0:1:240:0:0:0:0:0:0:http%3a//n-3-12.dcs.redcdn.pl/hls/o2/redefine/nlive/vh1_classic_1/11752/0/tv-ss/live.isml/playlist.m3u8?stream=0&bandwidth=1http%3a//192.99.149.14%3a25461/get.php?username=tim1&password=1980&type=m3u:vh1 classic
+#DESCRIPTION vh1 classic
+#SERVICE 4097:0:1:242:0:0:0:0:0:0:http%3a//r.dcs.redcdn.pl/hls/o2/redefine/nlive/mtv_polska__1/10253/0/tv-ss/live.isml/playlist.m3u8:MTV Polska
+#DESCRIPTION MTV
+#SERVICE 4097:0:1:244:0:0:0:0:0:0:http%3a//r.dcs.redcdn.pl/hls/o2/redefine/nlive/mtv_live_hd_1/10254/0/tv-ss/live.isml/playlist.m3u8:MTV Live
+#DESCRIPTION MTV Live
+#SERVICE 4097:0:1:246:0:0:0:0:0:0:http%3a//r.dcs.redcdn.pl/hls/o2/redefine/nlive/mtv_hits_1/10256/0/tv-ss/live.isml/playlist.m3u8:MTV Hits
+#DESCRIPTION MTV Hits
+#SERVICE 4097:0:1:248:0:0:0:0:0:0:http%3a//r.dcs.redcdn.pl/hls/o2/redefine/nlive/mtv_rocks_1/11309/0/tv-ss/live.isml/playlist.m3u8:MTV Rocks
+#DESCRIPTION MTV Rocks
+#SERVICE 4097:0:1:362:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:XXX 01
+#DESCRIPTION XXX 01
+#SERVICE 4097:0:1:364:0:0:0:0:0:0:http%3a//91.211.143.214%3a3333/play/a006:XXX 02
+#DESCRIPTION XXX 02
+#SERVICE 4097:0:1:366:0:0:0:0:0:0:http%3a//89.38.8.131%3a39527:XXX 03
+#DESCRIPTION XXX 03
+#SERVICE 4097:0:1:368:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:XXX 04
+#DESCRIPTION XXX 04
+#SERVICE 4097:0:1:370:0:0:0:0:0:0:rtmp%3a//edge1.everyon.tv/etv1sb//phd10765:XXX 05
+#DESCRIPTION XXX 05
