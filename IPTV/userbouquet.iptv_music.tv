@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 20.03.2017
+#DESCRIPTION Update 22.03.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choice
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
@@ -301,6 +301,10 @@
 #DESCRIPTION ONE (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream01.yamgo.com/iPhone/HLS_TS/mptslive/clubbingtv-mobile.3gp.m3u8:clubbingtv (720p)
 #DESCRIPTION ClubbingTv (720p)
+#SERVICE 4097:0:3:13:0:0:0:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-b.m3u8:MTV Deutschland 
+#DESCRIPTION MTV Deutschland (720p)
+#SERVICE 4097:0:3:13:0:0:0:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/index_3500_av-b.m3u8:MTV Norwegen
+#DESCRIPTION MTV Norwegen (720p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Laufen nicht immer
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=729:Fashion Music (576p)
