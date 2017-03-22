@@ -119,13 +119,3 @@
 #DESCRIPTION MTV Hits
 #SERVICE 4097:0:1:248:0:0:0:0:0:0:http%3a//r.dcs.redcdn.pl/hls/o2/redefine/nlive/mtv_rocks_1/11309/0/tv-ss/live.isml/playlist.m3u8:MTV Rocks
 #DESCRIPTION MTV Rocks
-#SERVICE 4097:0:1:362:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlist.m3u8:XXX 01
-#DESCRIPTION XXX 01
-#SERVICE 4097:0:1:364:0:0:0:0:0:0:http%3a//91.211.143.214%3a3333/play/a006:XXX 02
-#DESCRIPTION XXX 02
-#SERVICE 4097:0:1:366:0:0:0:0:0:0:http%3a//89.38.8.131%3a39527:XXX 03
-#DESCRIPTION XXX 03
-#SERVICE 4097:0:1:368:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:XXX 04
-#DESCRIPTION XXX 04
-#SERVICE 4097:0:1:370:0:0:0:0:0:0:rtmp%3a//edge1.everyon.tv/etv1sb//phd10765:XXX 05
-#DESCRIPTION XXX 05
