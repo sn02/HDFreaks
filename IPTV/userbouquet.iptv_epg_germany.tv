@@ -53,8 +53,8 @@
 #DESCRIPTION DisneyChannel (576p)
 #SERVICE 4097:0:1:32DB:45D:1:C00000:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
 #DESCRIPTION RIC (396p)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8:Nikelodeon Deutschland
-#DESCRIPTION Nikelodeon Deutschland (720p)
+#SERVICE 4097:0:1:7008:436:1:C00000:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8:Nickelodeon (720p)
+#DESCRIPTION Nickelodeon (720p)
 #SERVICE 4097:0:1:3336:45B:1:C00000:0:0:0:http%3a//hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/index_2592_av-p.m3u8?sd=10&rebase=on:SERVUS TV HD DE (720p)
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:332F:45B:1:C00000:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w818079807.m3u8:Welt der Wunder (480p)
