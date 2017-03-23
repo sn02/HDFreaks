@@ -45,8 +45,8 @@
 #DESCRIPTION Bayerisches Fernsehen (720p)
 #SERVICE 4097:0:1:6F47:445:1:C00000:0:0:0:http%3a//livestreams.br.de/i/bralpha_germany@119899/index_3776_av-b.m3u8?sd=10&rebase=on:BR Alpha (720p)
 #DESCRIPTION BR Alpha (720p)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-b.m3u8:MTV Deutschland 
-#DESCRIPTION MTV Deutschland (720p)
+#SERVICE 4097:0:1:7002:436:1:C00000:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-b.m3u8:MTV DE (720p) 
+#DESCRIPTION MTV DE (720p)
 #SERVICE 4097:0:1:6D68:437:1:C00000:0:0:0:http%3a//kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/index_3776_av-b.m3u8?sd=10&rebase=on:Kika (720p)
 #DESCRIPTION Kika (720p)
 #SERVICE 5002:0:1:701:5:85:C00000:0:0:0:https%3a//delivestream-lh.akamaihd.net/i/live_1@320996/master.m3u8:DisneyChannel (576p)
