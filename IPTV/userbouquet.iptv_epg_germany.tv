@@ -59,6 +59,8 @@
 #DESCRIPTION SERVUS TV HD DE (720p)
 #SERVICE 4097:0:1:332F:45B:1:C00000:0:0:0:http%3a//live.vidoo.de/live/weltderwunder/chunklist_w818079807.m3u8:Welt der Wunder (480p)
 #DESCRIPTION Welt der Wunder (480p)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//cdn-europe.smartcast.de%3a1935/eotv/eotvhd/playlist.m3u8:EOTV (404p)
+#DESCRIPTION EOTV (404p)
 #SERVICE 4097:0:1:7035:41B:1:C00000:0:0:0:https%3a//zdf0910-lh.akamaihd.net/i/de09_v1@392871/index_1496_av-b.m3u8:Phoenix (480p)
 #DESCRIPTION Phoenix (480p)
 #SERVICE 5002:0:1:2F3A:441:1:C00000:0:0:0:http%3a//p.live.akamai.n-tv.de/playlists/ntvlive-ipadakamai.m3u8:n-tv (720p)
