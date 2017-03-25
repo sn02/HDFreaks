@@ -93,8 +93,6 @@
 #DESCRIPTION Klipklar TV Music (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//cdn15.streampartner.nl%3a80/streektv/livestream:STREEK Radio TV Music (720p)
 #DESCRIPTION STREEK Radio TV Music (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//kippingmultimediaal.nl%3a1935/live/ZFM1:ZMF1 Music Holland (1080p)
-#DESCRIPTION ZMF1 Music Holland (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.17.80.132%3a1935/radionorbatv/norbatv_source.stream/live.m3u8:Radio Norba Music TV (560p)
 #DESCRIPTION Radio Norba Music TV (560p) 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//fms.105.net/live/105Test1:Radio 105 (432p)
