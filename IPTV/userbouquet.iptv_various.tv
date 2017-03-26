@@ -151,6 +151,8 @@
 #DESCRIPTION TLC HD (720p)
 #SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//dnordichlslive04-i.akamaihd.net/hls/live/223842/DSWSD/master.m3u8:Discovery HD
 #DESCRIPTION Discovery HD (720p)
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//tv4events3-lh.akamaihd.net/i/EXTRAEVENT14_1@324065/master.m3u8:TV4-Event
+#SERVICE TV4-Event (720p)
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Daenemark
 #DESCRIPTION Daenemark
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//dr01-lh.akamaihd.net/i/dr01_0@147054/master.m3u8?u=n1info#X-Forwarded-For=78.157.96.0
