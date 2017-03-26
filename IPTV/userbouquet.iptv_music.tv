@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 22.03.2017
+#DESCRIPTION Update 26.03.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choice
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
@@ -149,7 +149,9 @@
 #DESCRIPTION Mooz HD (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//telekomtv.ro.edgesuite.net/shls/LIVE$MoozRoSD/6.m3u8/Level(545259)?start=LIVE&end=END:Mooz RO! (360p)
 #DESCRIPTION Mooz RO! (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.11%3a80/hls/CH_EUROPAPLUSTV/variant.m3u8:EuropaPlus (540p)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//hls.mycdn0633430096.cdnvideo.ru/mycdn0633430096/stream1_sd.sdp/playlist.m3u8:O!2
+#DESCRIPTION O!2 (480p)
+#SERVICE 4097:0:1:349:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=422:Europaplus
 #DESCRIPTION EuropaPlus (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.250.191.10%3a1935/live/livestream3/playlist.m3u8:1HD Music Television  (720p)
 #DESCRIPTION 1HD Music Television  (720p)
@@ -203,8 +205,6 @@
 #DESCRIPTION MCM TOP (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.nebiset.tv/nebiset_2000/index.m3u8:TooT Music(720p)
 #DESCRIPTION Nebiset Music (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.10/hls/CH_STVEN/variant.m3u8?version=2:STV Music (576)
-#DESCRIPTION STV Music (576)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//phone.pik-tv.com/live/piktv3pik3tv/playlist.m3u8:PIK TV Music (720p)
 #DESCRIPTION PIK TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.31.226.78%3a1935/standbytvlive/stream1.sdp/playlist.m3u8:Standby TV (576p)
@@ -265,8 +265,6 @@
 #DESCRIPTION Muzzone (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w1578211004.m3u8:OTTO 8 FM (540p)
-#DESCRIPTION OTTO 8 FM (540p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//archlinux.frigola.cat%3a8080/mola/directe.m3u8:Mola MusicTV (720p)
 #DESCRIPTION Mola MusicTV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.232.128.68/bks.m3u8:Outdoor TV (1080p)
@@ -323,10 +321,12 @@
 #DESCRIPTION RU.TV (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.86%3a5050:MTV Rocks (576p)
 #DESCRIPTION MTV Rocks (576p)
+#SERVICE 1:0:1:41:0:0:0:0:0:0:http%3a//94.74.65.100%3a19123/ott/68%3a1122:MTV Rocks
+#DESCRIPTION MTV Rocks (576p)
 #SERVICE 4097:0:1:9:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=416:Vh1 (576p)
 #DESCRIPTION Vh1 (576p)
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//50.7.69.42%3a8899/GB/UK/VH1/index.m3u8
-#DESCRIPTION VH1 UK (576p)
+#SERVICE 1:0:1:39:0:0:0:0:0:0:http%3a//94.74.65.100%3a19123/ott/64%3a1122:MTV Hits
+#DESCRIPTION MTV Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.87%3a5050:VH1 Classic (576p)
 #DESCRIPTION VH1 Classic (576p)
 #SERVICE 4097:0:1:35:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=164:Mezzo HD
