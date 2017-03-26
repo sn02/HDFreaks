@@ -1,6 +1,6 @@
 #NAME IPTV Various
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 21.03.2017
+#DESCRIPTION Update 26.03.2017
 #SERVICE 1:64:21:0:0:0:0:0:0:0:
 #DESCRIPTION Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.124.183.15/hls/CH_TIJI/variant.m3u8?version=2:TIJI (576p)
@@ -47,6 +47,18 @@
 #DESCRIPTION Pac12 Oregon(720p)
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=581
 #DESCRIPTION Boxsport TV (576p)
+#SERVICE 4097:0:1:63:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=145:Russia Extrem (576p)
+#DESCRIPTION Russia Extrem (576p)
+#SERVICE 4097:0:1:17:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=102:Nasche Sport (576p)
+#DESCRIPTION Nasche Sport (576p)
+#SERVICE 4097:0:1:631:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=661:Eishockey HD
+#DESCRIPTION Eishockey HD
+#SERVICE 4097:0:1:457:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=533:Igra Match
+#DESCRIPTION Igra Match
+#SERVICE 4097:0:1:459:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=534:Arena Match
+#DESCRIPTION Arena Match
+#SERVICE 4097:0:1:451:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=526:Telekanal Fussball
+#DESCRIPTION Telekanal Fussball
 #SERVICE 4097:0:1:75:0:0:0:0:0:0:http%3a//89.38.8.130%3a39441:DOLCE SPORT 1
 #DESCRIPTION DOLCE SPORT 1
 #SERVICE 4097:0:1:91:0:0:0:0:0:0:http%3a//89.38.8.130%3a39442:DOLCE SPORT 2
