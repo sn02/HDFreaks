@@ -342,9 +342,13 @@
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//538hls.lswcdn.triple-it.nl/content/538webcam/538webcam.m3u8:Webcam%3a NL - 538 Radio
 #DESCRIPTION Webcam: NL - 538 Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/cieszyn.m3u8:Webcam%3a Polska - Cieszyn
-#DESCRIPTION Webcam: Polska - Cieszyn
+#DESCRIPTION Webcam: Polen - Cieszyn
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=k109.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?362 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_gdansk_glowne_miasto live=1:Webcam%3a RU - Gdansk - Glowne Miasto
+#DESCRIPTION Webcam: Polen - Gdansk - Glowne Miasto
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=k015.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?213 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_gdynia_skwer_kosciuszki live=1:Webcam%3a Polen - Gdynia - Hafen
 #DESCRIPTION Webcam: Polen - Gdynia - Hafen
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=molo.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?550 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_sopot_molo live=1:Webcam%3a RU - Sopot - Molo
+#DESCRIPTION Webcam: Polen - Sopot - Molo
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/espinho.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Espinho
 #DESCRIPTION Webcam: Portugal - Praia de Espinho
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/saotorpes.stream/livestream.m3u8:Webcam%3a Portugal - Praia de Sao Torpes
@@ -363,10 +367,6 @@
 #DESCRIPTION Webcam: Portugal - Praia Ribeira
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//213.13.26.11%3a1935/live/santacruz.stream/livestream.m3u8:Webcam%3a Portugal - Praia Santa Cruz
 #DESCRIPTION Webcam: Portugal - Praia Santa Cruz
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=k109.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?362 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_gdansk_glowne_miasto live=1:Webcam%3a RU - Gdansk - Glowne Miasto
-#DESCRIPTION Webcam: Polska - Gdansk - Glowne Miasto
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//kamera.task.gda.pl/rtplive playpath=molo.sdp swfUrl=http%3a//task.gda.pl/tech/uslugi/stream/kamera_player/player.swf?550 pageUrl=http%3a//www.task.gda.pl/uslugi/stream/kamera_sopot_molo live=1:Webcam%3a RU - Sopot - Molo
-#DESCRIPTION Webcam: Polska - Sopot - Molo
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//80.78.116.125/rtplive/ playpath=5goda_hd.stream swfUrl=http%3a//myttk.ru/media/webcam/uppod/uppod.swf pageUrl=http%3a//myttk.ru/media/webcam/cathedral_square/ live=1:Webcam%3a RU - Jekaterinburg - 1905 Square 
 #DESCRIPTION Webcam: RU - Jekaterinburg - 1905 Square 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//80.78.116.125/rtplive/ playpath=plot_hd.stream swfUrl=http%3a//myttk.ru/media/webcam/uppod/uppod.swf pageUrl=http%3a//myttk.ru/media/webcam/cathedral_square/ live=1:Webcam%3a RU - Jekaterinburg - Prospect Lenina & Plotinka
@@ -392,7 +392,7 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streamer1.borsodweb.hu/rtplive playpath=minor1 swfUrl=http%3a//webcam.minorita.hu/flowplayer-3.2.7.swf pageUrl=http%3a//webcam.minorita.hu/oltar/:Eger - Minoritenkirche -  Hungary
 #DESCRIPTION Webcam: Ungarn - Eger - Minoritenkirche
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video2.earthcam.com/fecnetwork/AbbeyRoadHD1.flv.flv pageUrl=http%3a//earthcam.com swfUrl=http%3a//earthcam.com/swf/cam_player_v2/abbeyroad_player.swf?20120504_a live=1:Webcam%3a UK - Londen - Abbey Road
-#DESCRIPTION Webcam: UK - Londen - Abbey Road
+#DESCRIPTION Webcam: UK - London - Abbey Road
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//85.90.192.233/rtplive2 playpath=veltonMedium49.stream swfUrl=http%3a//velton.ua/ru/webcams/VeltonKhSquareNew.swf pageUrl=http%3a//velton.ua/ru/webcams/Wide1HQ.shtml:Webcam%3a Ukraine - Charkow - Platz der Freiheit
 #DESCRIPTION Webcam: Ukraine - Charkow - Platz der Freiheit
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//77.122.171.152%3a8080/tv playpath=tv swfUrl=http%3a//www.kdtro.com.ua/play/player.swf pageUrl=http%3a//www.kdtro.com.ua/online/onlinetv:Webcam%3a Ukraine - Krywyi Rih - Hotel Reikartz Aurora
@@ -401,11 +401,17 @@
 #DESCRIPTION Webcam: Ukraine - Odessa  - Catherine Square
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//85.90.192.233/rtplive2 playpath=veltonMedium53.stream swfUrl=http%3a//velton.ua/ru/webcams/VeltonPlayerWideNew.swf pageUrl=http%3a%3a//velton.ua/ru/webcams/Wide3HQ.shtml%3aPoltawa:Webcam%3a Ukraine - Poltawa  - Strasse der Oktoberrevolution
 #DESCRIPTION Webcam: Ukraine - Poltawa  - Strasse der Oktoberrevolution
-#SERVICE 1:64:F:0:0:0:0:0:0:0::Australien
+#SERVICE 1:64:F:0:0:0:0:0:0:0::Asien
+#DESCRIPTION Asien
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam%3a Israel - Klagemauer
+#DESCRIPTION Webcam: Israel - Klagemauer
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video5.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
+#DESCRIPTION Webcam: VAE - Dubai Palme-Skyline
+#SERVICE 1:64:G:0:0:0:0:0:0:0::Australien
 #DESCRIPTION Australien
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//23.227.163.183/live/kirribilli.stream:Sidney
 #DESCRIPTION Webcam: Australien - - Sydney
-#SERVICE 1:64:F:0:0:0:0:0:0:0::USA
+#SERVICE 1:64:G:0:0:0:0:0:0:0::USA
 #DESCRIPTION USA
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=8620.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/arizona/sedona/gateway/:Webcam%3a USA - Arizona - Sedona Gateway Cam
 #DESCRIPTION Webcam: USA - Arizona - Sedona Gateway Cam
@@ -579,7 +585,15 @@
 #DESCRIPTION Webcam: USA - Washington D.C - National Mall Cam
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video3.earthcam.com%3a1935/fecnetwork playpath=6954.flv swfUrl=http%3a//static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20160420 pageUrl=http%3a//www.earthcam.com/usa/wyoming/jackson/:Webcam%3a USA - Wyoming - Jackson Hole Ca
 #DESCRIPTION Webcam: USA - Wyoming - Jackson Hole
-#SERVICE 1:64:10:0:0:0:0:0:0:0::Sonstige
+#SERVICE 1:64:H:0:0:0:0:0:0:0::
+#DESCRIPTION Mittel- und Südamerika
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal5.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
+#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal6.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
+#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video2.earthcam.com/fecnetwork/4369.flv.flv pageUrl=http%3a//www.earthcam.com swfUrl=http%3a//www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20120504_a live=1:Webcam%3a Jamaica - Ricks Cafe (Negril)
+#DESCRIPTION Webcam: Jamaica - Ricks Cafe (Negril)
+#SERVICE 1:64:H:0:0:0:0:0:0:0::Sonstige
 #DESCRIPTION Sonstige
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8:Webcam%3a NASA TV
 #DESCRIPTION Webcam: NASA TV
@@ -587,17 +601,7 @@
 #DESCRIPTION Webcam: NASA ISS1
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iphone-streaming.ustream.tv/uhls/17074538/streams/live/playlist.m3u8:Webcam%3a NASA ISS2 
 #DESCRIPTION Webcam: NASA ISS2 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal5.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
-#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - ALTAR CENTRAL
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.46.0.170%3a1935/santuario_aparecida/canal6.stream/live.m3u8:Webcam%3a Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
-#DESCRIPTION Webcam: Brasilien - SANTUARIO DE APARECIDA - SANTUARIO NACIONAL
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//EU40.cast-tv.com%3a1935/23595_LIVE_Kotel_Live/23595_LIVE_Kotel_Live:Webcam%3a Israel - Klagemauer
-#DESCRIPTION Webcam: Israel - Klagemauer
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//video2.earthcam.com/fecnetwork/4369.flv.flv pageUrl=http%3a//www.earthcam.com swfUrl=http%3a//www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20120504_a live=1:Webcam%3a Jamaica - Ricks Cafe (Negril)
-#DESCRIPTION Webcam: Jamaica - Ricks Cafe (Negril)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//video5.earthcam.com/fecnetwork/5868.flv/playlist.m3u8:Webcam%3a VAE - Dubai Palme-Skyline
-#DESCRIPTION Webcam: VAE - Dubai Palme-Skyline
-#SERVICE 1:64:10:0:0:0:0:0:0:0::Tiere - Natur
+#SERVICE 1:64:I:0:0:0:0:0:0:0::Tiere - Natur
 #DESCRIPTION Tiere - Natur
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.nestkastlive.nl%3a1935/live/Bijen_Binnen.stream/playlist.m3u8:Webcam%3a NL - Bienen - innen
 #DESCRIPTION Webcam: NL - Bienen 1
