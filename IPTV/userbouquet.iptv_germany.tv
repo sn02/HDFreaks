@@ -91,8 +91,6 @@
 #DESCRIPTION DAF (360p)
 #SERVICE 5002:0:1:1:0:0:0:0:0:0:http%3a//video1.anixehd.tv%3a8080/Apple/wifistream.m3u8:Anixe (360p)
 #DESCRIPTION Anixe (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
-#DESCRIPTION Sky Sport News (720p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1
 #DESCRIPTION Parlamentsfernsehen 1 (480p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x4177pfs2c13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/4177pf_s2/live_de_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 2
