@@ -3,21 +3,21 @@
 #DESCRIPTION Update 27.03.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
-#DESCRIPTION Miami Mexico (720p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/c_124841 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/redlight
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/n87416 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/hallo-tv_online/ -live
+#DESCRIPTION Private /272p)
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/c_124841 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/redlight_online/ -live
 #DESCRIPTION PasseXXX (576p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/n94542 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/xxl
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/n94542 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/xxl-tv/ -live
 #DESCRIPTION XXL (576p)
-#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.200.228%3a1939/live/n37541 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/dorceltv
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.200.228%3a1939/live/n37541 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/dorceltv/ -live
 #DESCRIPTION Dorcel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/chunklist_w1185450278.m3u8:PornTV Russia (720p)
 #DESCRIPTION Sexstation (576p)
-#SERVICE 5002:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.72/1183_1/1183_1.m3u8?q=a3dJaXZBY2d6bGpid3lyWE5Jdys1WXQ2Rk92WFZER2NZV2dlakVQK0FJUE4xM1N3T1VseFNsWTdiZTYvbHFLcUxIT2RTRkNteUNwWlQrME1YdlgyRTJNeU5PZ29FSGJaTjVuNi9YVlFTM0RlMGRFOVZRPT0
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.72/1183_1/1183_1.m3u8?q=a3dJaXZBY2d6bGpid3lyWE5Jdys1WXQ2Rk92WFZER2NZV2dlakVQK0FJUE4xM1N3T1VseFNsWTdiZTYvbHFLcUxIT2RTRkNteUNwWlQrME1YdlgyRTJNeU5PZ29FSGJaTjVuNi9YVlFTM0RlMGRFOVZRPT0
 #DESCRIPTION Brazzer
-#SERVICE 5002:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.72/913_1/913_1.m3u8?q=VWdBS21IM2p3MWhaa0xsTCtXTXJmQmxaekNuL09nSUVUM3c5NnI5cUJJR0g4cTU2SFVLdnZpSUNxVGtNaXB3N0JuMVAwZDgrOUtaSFZaV3J4SUl5WFM0TkJPYXRuU0hmS2xTZEpKZkNpcERLUVdlNQ
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.72/913_1/913_1.m3u8?q=VWdBS21IM2p3MWhaa0xsTCtXTXJmQmxaekNuL09nSUVUM3c5NnI5cUJJR0g4cTU2SFVLdnZpSUNxVGtNaXB3N0JuMVAwZDgrOUtaSFZaV3J4SUl5WFM0TkJPYXRuU0hmS2xTZEpKZkNpcERLUVdlNQ
 #DESCRIPTION Redlight HD
-#SERVICE 5002:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.69/1173_1/1173_1.m3u8?q=aFFETy9uemp3MWpFc1hoUFFrTk82OHVkbkdoN21LcXkraVZuUHo4YVN3VnFKT3huWis1K1dTaGFYejl2Sm84UmdTVWtVU2Q0Nk4xbnFVNnhFc0tpY05DN0o4czBBeXBCVVVOR3A4QUNNLy9LSGU3WHRBPT0
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//185.74.220.69/1173_1/1173_1.m3u8?q=aFFETy9uemp3MWpFc1hoUFFrTk82OHVkbkdoN21LcXkraVZuUHo4YVN3VnFKT3huWis1K1dTaGFYejl2Sm84UmdTVWtVU2Q0Nk4xbnFVNnhFc0tpY05DN0o4czBBeXBCVVVOR3A4QUNNLy9LSGU3WHRBPT0
 #DESCRIPTION Sundrive
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=706:SOFT (576p)
 #DESCRIPTION SOFT (576p)
