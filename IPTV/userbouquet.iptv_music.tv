@@ -1,6 +1,6 @@
 #NAME IPTV Music
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 26.03.2017
+#DESCRIPTION Update 27.03.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0:
 #DESCRIPTION Music Choice
 #SERVICE 4097:0:1:2:0:0:0:0:0:0:http%3a//edge.music-choice-vc-chaina1.top.comcast.net/VideoChannels/122/chunklist.m3u8:Alternative
@@ -267,6 +267,8 @@
 #DESCRIPTION Muzzone (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8:Retro Music (360p)
 #DESCRIPTION Retro Music (360p)
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/8FM/8FM/chunklist_w905034725.m3u8:Otto FM (480p)
+#DESCRIPTION Otto FM (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//archlinux.frigola.cat%3a8080/mola/directe.m3u8:Mola MusicTV (720p)
 #DESCRIPTION Mola MusicTV (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.232.128.68/bks.m3u8:Outdoor TV (1080p)
