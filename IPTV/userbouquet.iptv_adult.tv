@@ -5,8 +5,8 @@
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mexicoserver.miamitvchannel.com/miamitv/smil%3amiamitvmexico/master.m3u8:Miami Mexico (720p)
 #DESCRIPTION Miami Mexico (720p)
-#SERVICE 5002:0:1:5:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candy/tracks-v1a1/index-1487723874-now.m3u8:Candy
-#DESCRIPTION Candy (720p)
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live//n94542 swfUrl=http%3a//ero-tv.org/uppod/uppod_u.swf pageUrl=http%3a//ero-tv.org/xxl
+#DESCRIPTION XXL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=706:SOFT (576p)
 #DESCRIPTION SOFT (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
