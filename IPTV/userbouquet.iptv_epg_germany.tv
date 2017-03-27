@@ -1,6 +1,6 @@
 #NAME IPTV Deutsch mit EPG
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 23.03.2017
+#DESCRIPTION Update 27.03.2017
 #SERVICE 1:64:0:0:0:0:0:0:0:0::Germany
 #DESCRIPTION Germany
 #SERVICE 4097:0:1:6DCA:44D:1:C00000:0:0:0:http%3a//daserste_live-lh.akamaihd.net/i/daserste_de@91204/index_2692_av-b.m3u8?sd=10&rebase=on:Das Erste (540p)
@@ -71,7 +71,7 @@
 #DESCRIPTION Euronews (720p)
 #SERVICE 4097:0:1:114E:404:1:C00000:0:0:0:http%3a//dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/index_1_av-p.m3u8?sd=10&rebase=on:Deutsche Welle (400p)
 #DESCRIPTION Deutsche Welle (400p)
-#SERVICE 4097:0:1:25:F:85:C00000:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/index_3400_av-p.m3u8:Sky Sport News (720p)
+#SERVICE 4097:0:1:25:F:85:C00000:0:0:0:http%3a//event_rtmp-lh.akamaihd.net/i/ssnhd_1@433299/master.m3u8:Sky Sport News (720p)
 #DESCRIPTION Sky Sport News (720p)
 #SERVICE 5002:0:1:384:21:85:C00000:0:0:0:http%3a//cdn.iptv.amis.net/ts/DSF/stream_wifi_1200k.m3u8?u=n1info#User-Agent="AppleCoreMedia
 #DESCRIPTION Sport1 (360p)
