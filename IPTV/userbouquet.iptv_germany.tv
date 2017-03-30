@@ -89,6 +89,8 @@
 #DESCRIPTION Folks TV (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//fms.daf.tmt.de%3a1935/live/dafstream100:Daf(360p)
 #DESCRIPTION DAF (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mf.bibeltv.c.nmdn.net%3a1935/bibeltv_live/BIBEL_TV_HQ-480p.stream/master.m3u8:Bibel TV
+#DESCRIPTION Bibel TV (480p)
 #SERVICE 5002:0:1:1:0:0:0:0:0:0:http%3a//video1.anixehd.tv%3a8080/Apple/wifistream.m3u8:Anixe (360p)
 #DESCRIPTION Anixe (360p)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//x3777parlac13014.f.l.f.lb.core-cdn.net%3a1935/13014bundestag playpath=live/3777parlamentsfernsehen/live_1000 swfUrl=http%3a//webtv.bundestag.de/iptv/swf/xflv/showIt3_10.swf pageUrl=http%3a//www.bundestag.de/Mediathek/index.jsp?action=tv live=1:Parlamentsfernsehen 1

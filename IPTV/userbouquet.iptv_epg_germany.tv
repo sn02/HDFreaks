@@ -79,6 +79,8 @@
 #DESCRIPTION Family TV (1080p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//familytvblizz-lh.akamaihd.net/i/familytv_1@458351/index_500_av-p.m3u8:Blizz (576p)
 #DESCRIPTION Blitz TV (720p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mf.bibeltv.c.nmdn.net%3a1935/bibeltv_live/BIBEL_TV_HQ-480p.stream/master.m3u8:Bibel TV
+#DESCRIPTION Bibel TV (480p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.101.244.86%3a8081/folx-abr/live-abr/fle/fle1/chunks.m3u8:FolksTV
 #DESCRIPTION Folks TV (360p)
 #SERVICE 5002:0:1:2FC:5:85:C00000:0:0:0:http%3a//video1.anixehd.tv%3a8080/Apple/wifistream.m3u8:Anixe (360p)
