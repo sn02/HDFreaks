@@ -51,7 +51,7 @@
 #DESCRIPTION Kika (720p)
 #SERVICE 5002:0:1:701:5:85:C00000:0:0:0:https%3a//delivestream-lh.akamaihd.net/i/live_1@320996/master.m3u8:DisneyChannel (576p)
 #DESCRIPTION DisneyChannel (576p)
-#SERVICE 4097:0:1:32DB:45D:1:C00000:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
+#SERVICE 4097:0:1:32DB:45D:1:C00000:0:0:0:https%3a//5845e42425cc9.streamlock.net/live/rictv/chunklist_w168570109.m3u8:RIC (396p)
 #DESCRIPTION RIC (396p)
 #SERVICE 4097:0:1:7008:436:1:C00000:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8:Nickelodeon (720p)
 #DESCRIPTION Nickelodeon (720p)

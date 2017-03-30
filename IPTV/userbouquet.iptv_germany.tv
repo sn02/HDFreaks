@@ -51,7 +51,7 @@
 #DESCRIPTION DisneyChannel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8:Nickelodeon (720p)
 #DESCRIPTION Nickelodeon (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.169.58.36/live/sdf%3a3fb1c9c9-09c8-404a-8c0f-56b27617ab89/master.m3u8:RIC (396p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5845e42425cc9.streamlock.net/live/rictv/chunklist_w168570109.m3u8:RIC (396p)
 #DESCRIPTION RIC (396p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtl2ingest1-i.akamaihd.net/hls/live/225448/playertest_ar/playertest_arstream2_.m3u8:RTL2 You (720p)
 #DESCRIPTION RTL2 You (720p)
