@@ -633,28 +633,6 @@
 #DESCRIPTION Canale 21 (360p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.youiptv.ch%3a1935/Rete55/R55.stream_source/chunklist_w1589253402.m3u8:Rete 55 (576p)
 #DESCRIPTION Rete 55 (576p)
-#SERVICE 1:64:22:0:0:0:0:0:0:0:
-#DESCRIPTION France
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6002/main
-#DESCRIPTION France2 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6003/main
-#DESCRIPTION France3 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6014/main
-#DESCRIPTION France4 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6005/main
-#DESCRIPTION France5 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6006/main
-#DESCRIPTION M6 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6004/main
-#DESCRIPTION LCI (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6010/main
-#DESCRIPTION TMC (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6017/main
-#DESCRIPTION C Star(720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6009/main
-#DESCRIPTION W9 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bhartie.getmyip.com%3a6015/main
-#DESCRIPTION BFM (720p)
 #SERVICE 1:64:9:0:0:0:0:0:0:0:
 #DESCRIPTION Russia
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=659:Pervuj 1 HD
@@ -679,9 +657,3 @@
 #DESCRIPTION FOX HD (1080p)
 #SERVICE 4097:0:1:21:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=657:FOX live HD
 #DESCRIPTION FOX live HD (1080p)
-#SERVICE 4097:0:1:29:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=616:Fussball 1
-#DESCRIPTION Fussball 1 (1080p)
-#SERVICE 4097:0:1:31:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=617:Fussball 2
-#DESCRIPTION Fussball 2 (1080p)
-#SERVICE 4097:0:1:33:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=618:Fussball 3
-#DESCRIPTION Fussball 3 (1080p)
