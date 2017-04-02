@@ -1,6 +1,6 @@
 #NAME IPTV Adult
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
-#DESCRIPTION Update 28.03.2017
+#DESCRIPTION Update 02.04.2017
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.71.162.112%3a1935/live/sd.jasminchannel.stream/media_w852484650_6656.m3u8:Jasmin (720p)
 #DESCRIPTION Jasmin (720p)
 #SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//media.platinumstream.ru/candy/tracks-v2a1/index-1486694848-now.m3u8
@@ -25,11 +25,11 @@
 #DESCRIPTION Pornoclub (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=713:OLALA
 #DESCRIPTION OLALA (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/034/chunks.m3u8:PornTV 1HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/035/chunks.m3u8:PornTV 1HD (480p)
 #DESCRIPTION PornTV 1 HD (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/034/chunks.m3u8:PornTV 2HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live2/035/chunks.m3u8:PornTV 2HD (480p)
 #DESCRIPTION PornTV 2 HD (480p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3034/chunks.m3u8:PornTV 2HD (480p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//188.165.220.116%3a8081/live/3035/chunks.m3u8:PornTV 2HD (480p)
 #DESCRIPTION PornTV 3 HD (480p)
 #SERVICE 1:64:1:0:0:0:0:0:0:0:
 #DESCRIPTION Video On Demand (VOD)
