@@ -213,8 +213,8 @@
 #DESCRIPTION PIK TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.vsnw.net%3a8081/interradio/720i.m3u8:RTI Music (576p)
 #DESCRIPTION RTI Music (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.200.127.58%3a8080/udp/233.12.144.3%3a5050:THT Music (578p)
-#DESCRIPTION THT Music (578p)
+#SERVICE 4097:0:1:89:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=675:THT Music
+#DESCRIPTION THT Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//144.76.2.213%3a1935/live/livestream/playlist.m3u8:MAD Music (578p
 #DESCRIPTION MAD Music (578p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//audiohostingecuador.com%3a1935/radioamericaquito/radioamericaquito/playlist.m3u8:Americaquito (340p)
