@@ -9,6 +9,14 @@
 #DESCRIPTION Sexstation (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=706:SOFT (576p)
 #DESCRIPTION SOFT (576p)
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//91.211.143.214%3a3333/play/a006
+#DESCRIPTION Frenchlover (576p)
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/c_124841 swfUrl=http%3a//ero-tv.org/uppod/uppod_u.swf pageUrl=http%3a//ero-tv.org/redlight_online/
+#DESCRIPTION PasseXXX (576p)
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.189.39/live/n94542 swfUrl=http%3a//ero-tv.org/uppod/uppod_u.swf pageUrl=http%3a//ero-tv.org/xxl-tv-live/
+#DESCRIPTION XXL (576p)
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:rtmp%3a//5.196.200.228%3a1939/live/n37541 swfUrl=http%3a//ero-tv.org/uppod/uppod32.swf pageUrl=http%3a//ero-tv.org/dorceltv_live/
+#DESCRIPTION Dorcel (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.89.48.215%3a1935/xyz666wkz/xy6/chunklist.m3u8:Sexysat HD (270p)
 #DESCRIPTION Sexysat (270p)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//cdn.iptv.amis.net/LIVE/HUSTLER/stream_wifi_1200k.m3u8?u=n1info#User-Agent=AppleCoreMedia
