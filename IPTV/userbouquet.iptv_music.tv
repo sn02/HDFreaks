@@ -203,16 +203,10 @@
 #DESCRIPTION Top Music-CityTV 18+ (288p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//155.4.160.181%3a1935/fjwebb/live/playlist.m3u8:14TV Music Schweden (720p)
 #DESCRIPTION 14TV Music Schweden (720p)
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//37.235.171.201%3a81/udp/225.50.64.17%3a1234:MCM TOP (576p)
-#DESCRIPTION MCM TOP (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.nebiset.tv/nebiset_2000/index.m3u8:TooT Music(720p)
 #DESCRIPTION Nebiset Music (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//phone.pik-tv.com/live/piktv3pik3tv/playlist.m3u8:PIK TV Music (720p)
-#DESCRIPTION PIK TV Music (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.31.226.78%3a1935/standbytvlive/stream1.sdp/playlist.m3u8:Standby TV (576p)
-#DESCRIPTION Standby TV (576p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tvm10.gcdn.co/piktv/ngrp%3apiktv_all/chunklist_b3200000.m3u8:PIK TV Music (720p)
-#DESCRIPTION PIK TV Music (720p)
+#DESCRIPTION Standby TV (576p
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.vsnw.net%3a8081/interradio/720i.m3u8:RTI Music (576p)
 #DESCRIPTION RTI Music (576p)
 #SERVICE 4097:0:1:89:0:0:0:0:0:0:http%3a//51.254.39.37/TV/RUS/flashstream.m3u8?sr=6&ch=675:THT Music
